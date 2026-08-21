@@ -21,6 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 PDF_DIR = DATA_DIR / "innebandy_pdfs"
 EVENT_FILE = DATA_DIR / "events.json"
+NATIONAL_TEAMS_FILE = DATA_DIR / "floorball_national_teams.json"
 
 SPORT = "Innebandy"
 SEASON = "2026/27"
@@ -545,6 +546,34 @@ def skapa_event_id(match_id):
 
 
 # ============================================================
+# NATIONELLA LAGLISTOR
+# ============================================================
+
+def load_national_team_map():
+
+    if not NATIONAL_TEAMS_FILE.exists():
+        return {}
+
+    try:
+        data = json.loads(
+            NATIONAL_TEAMS_FILE.read_text(
+                encoding="utf-8"
+            )
+        )
+
+        if isinstance(data, dict):
+            return data
+
+    except Exception as error:
+        print(
+            "Kunde inte läsa nationell lagkatalog:",
+            error,
+        )
+
+    return {}
+
+
+# ============================================================
 # PDF-PARSER
 # ============================================================
 def parse_schedule_lines(
@@ -597,10 +626,18 @@ def parse_schedule_lines(
         ],
     }
 
+    national_team_map = load_national_team_map()
+
     teams = TEAM_MAP.get(
         serie,
         []
     )
+
+    if not teams:
+        teams = national_team_map.get(
+            serie,
+            []
+        )
 
     for raw_line in lines:
 

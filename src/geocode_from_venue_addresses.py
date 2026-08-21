@@ -107,7 +107,10 @@ def main():
     for event in events:
         if (
             event.get("source_type")
-            != "district_competition_full_schedule"
+            not in (
+                "district_competition_full_schedule",
+                "officiellt_spelschema_pdf",
+            )
         ):
             continue
 
@@ -245,7 +248,10 @@ def main():
     for event in events:
         if (
             event.get("source_type")
-            != "district_competition_full_schedule"
+            not in (
+                "district_competition_full_schedule",
+                "officiellt_spelschema_pdf",
+            )
         ):
             continue
 

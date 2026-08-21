@@ -244,10 +244,17 @@ def main():
 
             catalog = {}
 
+            event_venue_ids = {
+                int(event.get("venue_id"))
+                for event in events
+                if event.get("venue_id")
+            }
+
             venue_ids = sorted(
                 set(
                     arena_to_venue_id.values()
                 )
+                | event_venue_ids
             )
 
             print()
@@ -312,11 +319,13 @@ def main():
     updated_venue_id = 0
 
     for event in events:
-        if (
-            event.get(
-                "source_type"
-            )
-            != "district_competition_full_schedule"
+        source_type = event.get(
+            "source_type"
+        )
+
+        if source_type not in (
+            "district_competition_full_schedule",
+            "officiellt_spelschema_pdf",
         ):
             continue
 
@@ -324,23 +333,26 @@ def main():
             "arena"
         )
 
-        if not arena:
-            continue
-
-        venue_id = (
-            arena_to_venue_id.get(
-                arena
-            )
+        venue_id = event.get(
+            "venue_id"
         )
+
+        if not venue_id and arena:
+            venue_id = (
+                arena_to_venue_id.get(
+                    arena
+                )
+            )
+
+            if venue_id:
+                event[
+                    "venue_id"
+                ] = venue_id
+
+                updated_venue_id += 1
 
         if not venue_id:
             continue
-
-        event[
-            "venue_id"
-        ] = venue_id
-
-        updated_venue_id += 1
 
         venue = catalog.get(
             str(venue_id),
