@@ -18,3 +18,21 @@ data/innebandy_pdfs/
 .DS_Store
 *.swp
 *~
+
+# Eventfinder - genererade backupfiler
+data/events_before_*.json
+
+# Eventfinder - cachefiler
+data/*_cache.json
+data/*_cache_pass2.json
+
+# Eventfinder - debugdata
+data/*_debug/
+data/*_debug.json
+
+# Eventfinder - genererade rapporter
+data/arenas_missing_coordinates.json
+data/smart_remaining_geocode_report.json
+
+# Lokala backupfiler
+*.backup

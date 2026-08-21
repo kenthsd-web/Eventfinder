@@ -1,0 +1,78 @@
+{
+  "AllOffice Arena": {
+    "ort": "Karlstad",
+    "adress": "Stadionvägen 1, 653 40 Karlstad"
+  },
+  "Lyckeby Sporthall": {
+    "ort": "Vendelsö",
+    "adress": "Skomakarvägen 24, 136 70 Vendelsö"
+  },
+  "Nolia Arena": {
+    "ort": "Umeå",
+    "adress": "Remontstråket 1, Umeå"
+  },
+  "Campushallen-Ebbepark": {
+    "ort": "Linköping",
+    "adress": "Ebbegatan 11, 582 16 Linköping"
+  },
+  "Lerbäckshallen A": {
+    "ort": "Lund",
+    "adress": "Lerbäckshallen, Lund"
+  },
+  "Mälarenergi Arena A": {
+    "ort": "Västerås",
+    "adress": "Mälarenergi Arena, Västerås"
+  },
+  "Stavsborgs sporthall": {
+    "ort": "Älta",
+    "adress": "Almvägen 2, Älta"
+  },
+  "Oskarshamns Sporthall A-hall": {
+    "ort": "Oskarshamn",
+    "adress": "Döderhultsvägen 5, 572 31 Oskarshamn"
+  },
+  "Västertorpshallen": {
+    "ort": "Stockholm",
+    "adress": "Personnevägen 90, Stockholm"
+  },
+  "Arena Åstorp": {
+    "ort": "Åstorp",
+    "adress": "Trädgårdsgatan 59, 265 36 Åstorp"
+  },
+  "Smedsgärdshallen": {
+    "ort": "Upplands Väsby",
+    "adress": "Holmvägen 23, 194 35 Upplands Väsby"
+  },
+  "Tellusborgshallen 1": {
+    "ort": "Stockholm",
+    "adress": "Herbariegränd 15, Stockholm"
+  },
+  "Boxholm Sporthall": {
+    "ort": "Boxholm",
+    "adress": "Skolgatan 2, 595 71 Boxholm"
+  },
+  "Viksjö Sporthall": {
+    "ort": "Järfälla",
+    "adress": "Agrargränd 4, 175 44 Järfälla"
+  },
+  "Skjulstahallen A": {
+    "ort": "Eskilstuna",
+    "adress": "Sättargatan 3, Eskilstuna"
+  },
+  "Huskvarna Sportcenter Sporthall": {
+    "ort": "Huskvarna",
+    "adress": "Alfred Dalinvägen 2, 561 31 Huskvarna"
+  },
+  "Vedeby Sporthall A": {
+    "ort": "Lyckeby",
+    "adress": "Videvägen 1, 371 60 Lyckeby"
+  },
+  "Rosendalsskolan Norra Sporthall": {
+    "ort": "Vallentuna",
+    "adress": "Ekebyvägen 2, 186 34 Vallentuna"
+  },
+  "Bökensved Sporthall": {
+    "ort": "Västervik",
+    "adress": "Lektor Berlins väg 1, 593 50 Västervik"
+  }
+}

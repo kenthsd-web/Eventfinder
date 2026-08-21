@@ -1,0 +1,177 @@
+{
+  "season": "2026/27",
+  "district_count": 19,
+  "districts": [
+    {
+      "district": "Dalarna",
+      "slug": "dalarna",
+      "status": "verified",
+      "forbund_id": "18",
+      "livematches_url": "https://stats.innebandy.se/forbund/18/livematches",
+      "source_page": "https://www.innebandy.se/dalarna",
+      "selected_text": "Matcher och resultat"
+    },
+    {
+      "district": "Gotland",
+      "slug": "gotland",
+      "status": "verified",
+      "forbund_id": "19",
+      "livematches_url": "https://stats.innebandy.se/forbund/19/livematches",
+      "source_page": "https://www.innebandy.se/gotland",
+      "selected_text": "Matcher och resultat"
+    },
+    {
+      "district": "Gävleborg",
+      "slug": "gavleborg",
+      "status": "verified",
+      "forbund_id": "20",
+      "livematches_url": "https://stats.innebandy.se/forbund/20/livematches",
+      "source_page": "https://www.innebandy.se/gavleborg",
+      "selected_text": "Matcher och resultat"
+    },
+    {
+      "district": "Halland",
+      "slug": "halland",
+      "status": "verified",
+      "forbund_id": "22",
+      "livematches_url": "https://stats.innebandy.se/forbund/22/livematches",
+      "source_page": "https://www.innebandy.se/halland",
+      "selected_text": "Matcher och resultat"
+    },
+    {
+      "district": "Jämtland-Härjedalen",
+      "slug": "jamtland-harjedalen",
+      "status": "verified",
+      "forbund_id": "24",
+      "livematches_url": "https://stats.innebandy.se/forbund/24/livematches",
+      "source_page": "https://www.innebandy.se/jamtland-harjedalen",
+      "selected_text": "Matcher och resultat"
+    },
+    {
+      "district": "Norrbotten",
+      "slug": "norrbotten",
+      "status": "verified_fallback",
+      "forbund_id": "4",
+      "livematches_url": "https://stats.innebandy.se/forbund/4/livematches",
+      "source_page": null,
+      "selected_text": null
+    },
+    {
+      "district": "Skåne",
+      "slug": "skane",
+      "status": "verified",
+      "forbund_id": "6",
+      "livematches_url": "https://stats.innebandy.se/forbund/6/livematches",
+      "source_page": "https://www.innebandy.se/skane",
+      "selected_text": "Resultat och tabeller"
+    },
+    {
+      "district": "Småland-Blekinge",
+      "slug": "smaland-blekinge",
+      "status": "verified",
+      "forbund_id": "7",
+      "livematches_url": "https://stats.innebandy.se/forbund/7/livematches",
+      "source_page": "https://www.innebandy.se/smaland-blekinge",
+      "selected_text": "Matcher och resultat"
+    },
+    {
+      "district": "Stockholm",
+      "slug": "stockholm",
+      "status": "verified",
+      "forbund_id": "8",
+      "livematches_url": "https://stats.innebandy.se/forbund/8/livematches",
+      "source_page": "https://www.innebandy.se/stockholm",
+      "selected_text": "Dagens matcher"
+    },
+    {
+      "district": "Södermanland",
+      "slug": "sodermanland",
+      "status": "verified",
+      "forbund_id": "9",
+      "livematches_url": "https://stats.innebandy.se/forbund/9/livematches",
+      "source_page": "https://www.innebandy.se/sodermanland",
+      "selected_text": "Matcher och resultat"
+    },
+    {
+      "district": "Uppland",
+      "slug": "uppland",
+      "status": "verified",
+      "forbund_id": "10",
+      "livematches_url": "https://stats.innebandy.se/forbund/10/livematches",
+      "source_page": "https://www.innebandy.se/uppland",
+      "selected_text": "Matcher och resultat"
+    },
+    {
+      "district": "Värmland",
+      "slug": "varmland",
+      "status": "verified",
+      "forbund_id": "11",
+      "livematches_url": "https://stats.innebandy.se/forbund/11/livematches",
+      "source_page": "https://www.innebandy.se/varmland",
+      "selected_text": "Matcher, tabeller & spelschema"
+    },
+    {
+      "district": "Västerbotten",
+      "slug": "vasterbotten",
+      "status": "verified",
+      "forbund_id": "12",
+      "livematches_url": "https://stats.innebandy.se/forbund/12/livematches",
+      "source_page": "https://www.innebandy.se/vasterbotten",
+      "selected_text": "Matcher och resultat"
+    },
+    {
+      "district": "Västergötland",
+      "slug": "vastergotland",
+      "status": "verified_fallback",
+      "forbund_id": "23",
+      "livematches_url": "https://stats.innebandy.se/forbund/23/livematches",
+      "source_page": null,
+      "selected_text": null
+    },
+    {
+      "district": "Västernorrland",
+      "slug": "vasternorrland",
+      "status": "verified",
+      "forbund_id": "17",
+      "livematches_url": "https://stats.innebandy.se/forbund/17/livematches",
+      "source_page": "https://www.innebandy.se/vasternorrland",
+      "selected_text": "Matcher och resultat"
+    },
+    {
+      "district": "Västmanland",
+      "slug": "vastmanland",
+      "status": "verified",
+      "forbund_id": "15",
+      "livematches_url": "https://stats.innebandy.se/forbund/15/livematches",
+      "source_page": "https://www.innebandy.se/vastmanland",
+      "selected_text": "Matcher och resultat"
+    },
+    {
+      "district": "Västsvenska",
+      "slug": "vastsvenska",
+      "status": "verified",
+      "forbund_id": "21",
+      "livematches_url": "https://stats.innebandy.se/forbund/21/livematches",
+      "source_page": "https://www.innebandy.se/vastsvenska",
+      "selected_text": "Dagens matcher"
+    },
+    {
+      "district": "Örebro Län",
+      "slug": "orebro-lan",
+      "status": "verified_fallback",
+      "forbund_id": "5",
+      "livematches_url": "https://stats.innebandy.se/forbund/5/livematches",
+      "source_page": null,
+      "selected_text": null
+    },
+    {
+      "district": "Östergötland",
+      "slug": "ostergotland",
+      "status": "verified",
+      "forbund_id": "16",
+      "livematches_url": "https://stats.innebandy.se/forbund/16/livematches",
+      "source_page": "https://www.innebandy.se/ostergotland",
+      "selected_text": "Matcher och resultat"
+    }
+  ]
+}
