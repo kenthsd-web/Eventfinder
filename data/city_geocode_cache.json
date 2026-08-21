@@ -1,0 +1,202 @@
+{
+  "Arjeplog": {
+    "lat": 66.416667,
+    "lon": 17.0,
+    "display_name": "Arjeplogs kommun, Norrbottens län, Sverige"
+  },
+  "Bankeryd": {
+    "lat": 57.8631423,
+    "lon": 14.1278533,
+    "display_name": "Bankeryd, Jönköpings kommun, Jönköpings län, 564 31, Sverige"
+  },
+  "Blomstermåla": {
+    "lat": 56.9845703,
+    "lon": 16.3286835,
+    "display_name": "Blomstermåla, Mönsterås kommun, Kalmar län, 384 30, Sverige"
+  },
+  "Eslöv": {
+    "lat": 55.8374959,
+    "lon": 13.3036265,
+    "display_name": "Eslöv, Eslövs kommun, Skåne län, 241 30, Sverige"
+  },
+  "Fjugesta": {
+    "lat": 59.1734088,
+    "lon": 14.8709494,
+    "display_name": "Fjugesta, Lekebergs kommun, Örebro län, 716 81, Sverige"
+  },
+  "Forserum": {
+    "lat": 57.699733,
+    "lon": 14.4723521,
+    "display_name": "Forserum, Nässjö kommun, Jönköpings län, 571 03, Sverige"
+  },
+  "Forsheda": {
+    "lat": 57.1678551,
+    "lon": 13.8301364,
+    "display_name": "Forsheda, Värnamo kommun, Jönköpings län, 330 12, Sverige"
+  },
+  "Gislaved": {
+    "lat": 57.25,
+    "lon": 13.45,
+    "display_name": "Gislaveds kommun, Jönköpings län, Sverige"
+  },
+  "Gränna": {
+    "lat": 58.0250583,
+    "lon": 14.4673146,
+    "display_name": "Gränna, Jönköpings kommun, Jönköpings län, 563 31, Sverige"
+  },
+  "Gårdby": {
+    "lat": 56.6043533,
+    "lon": 16.6425597,
+    "display_name": "Gårdby, Mörbylånga kommun, Kalmar län, 386 92, Sverige"
+  },
+  "Jönköping": {
+    "lat": 57.7825634,
+    "lon": 14.165719,
+    "display_name": "Jönköping, Jönköpings kommun, Jönköpings län, 551 86, Sverige"
+  },
+  "Kristianstad": {
+    "lat": 56.0293778,
+    "lon": 14.1566859,
+    "display_name": "Kristianstad, Kristianstads kommun, Skåne län, 291 22, Sverige"
+  },
+  "Kungsör": {
+    "lat": 59.433333,
+    "lon": 16.1,
+    "display_name": "Kungsörs kommun, Västmanlands län, Sverige"
+  },
+  "Linköping": {
+    "lat": 58.4098135,
+    "lon": 15.6245252,
+    "display_name": "Linköping, Linköpings kommun, Östergötlands län, 582 19, Sverige"
+  },
+  "Ljungby": {
+    "lat": 56.8325886,
+    "lon": 13.9359916,
+    "display_name": "Ljungby, Ljungby kommun, Kronobergs län, 341 43, Sverige"
+  },
+  "Ljungbyholm": {
+    "lat": 56.6339754,
+    "lon": 16.1683753,
+    "display_name": "Ljungbyholm, Kalmar kommun, Kalmar län, 388 32, Sverige"
+  },
+  "Luleå": {
+    "lat": 65.5831187,
+    "lon": 22.1459535,
+    "display_name": "Luleå, Luleå kommun, Norrbottens län, 971 28, Sverige"
+  },
+  "Löddeköpinge": {
+    "lat": 55.7632132,
+    "lon": 13.0003944,
+    "display_name": "Löddeköpinge, Kävlinge kommun, Skåne län, 246 43, Sverige"
+  },
+  "Malmbäck": {
+    "lat": 57.5812266,
+    "lon": 14.4586279,
+    "display_name": "Malmbäck, Nässjö kommun, Jönköpings län, Sverige"
+  },
+  "Mantorp": {
+    "lat": 58.3543146,
+    "lon": 15.2884932,
+    "display_name": "Mantorp, Mjölby kommun, Östergötlands län, 595 57, Sverige"
+  },
+  "Mörlunda": {
+    "lat": 57.3233025,
+    "lon": 15.8653134,
+    "display_name": "Mörlunda, Hultsfreds kommun, Kalmar län, 577 75, Sverige"
+  },
+  "Oskarshamn": {
+    "lat": 57.2632811,
+    "lon": 16.4443478,
+    "display_name": "Oskarshamn, Oskarshamns kommun, Kalmar län, 572 42, Sverige"
+  },
+  "Pajala": {
+    "lat": 67.25,
+    "lon": 23.0,
+    "display_name": "Pajala kommun, Norrbottens län, Sverige"
+  },
+  "Ryd": {
+    "lat": 56.4632182,
+    "lon": 14.694239,
+    "display_name": "Ryd, Tingsryds kommun, Kronobergs län, 362 96, Sverige"
+  },
+  "Rönninge": {
+    "lat": 59.1935249,
+    "lon": 17.7503302,
+    "display_name": "Rönninge, Garnuddsvägen, Rönninge, Salems kommun, Stockholms län, 144 61, Sverige"
+  },
+  "Skurup": {
+    "lat": 55.4815088,
+    "lon": 13.554477,
+    "display_name": "Skurups kommun, Skåne län, Sverige"
+  },
+  "Surahammar": {
+    "lat": 59.75,
+    "lon": 16.15,
+    "display_name": "Surahammars kommun, Västmanlands län, Sverige"
+  },
+  "Tollarp": {
+    "lat": 55.9340622,
+    "lon": 13.9751411,
+    "display_name": "Tollarp, Kristianstads kommun, Skåne län, 298 32, Sverige"
+  },
+  "Tranås": {
+    "lat": 58.0341073,
+    "lon": 14.9756413,
+    "display_name": "Tranås, Tranås kommun, Jönköpings län, 573 01, Sverige"
+  },
+  "Tullinge": {
+    "lat": 59.2067468,
+    "lon": 17.9051873,
+    "display_name": "Tullinge, Botkyrka kommun, Stockholms län, 146 30, Sverige"
+  },
+  "UPPSALA": {
+    "lat": 59.8586126,
+    "lon": 17.6387436,
+    "display_name": "Uppsala, Uppsala kommun, Uppsala län, 753 20, Sverige"
+  },
+  "Vaxholm": {
+    "lat": 59.40406,
+    "lon": 18.331331,
+    "display_name": "Vaxholm, Vaxholms kommun, Stockholms län, 185 34, Sverige"
+  },
+  "Vellinge": {
+    "lat": 55.466667,
+    "lon": 13.033333,
+    "display_name": "Vellinge kommun, Skåne län, Sverige"
+  },
+  "Vetlanda": {
+    "lat": 57.365574,
+    "lon": 15.1677901,
+    "display_name": "Vetlanda kommun, Jönköpings län, Sverige"
+  },
+  "Vittsjö": {
+    "lat": 56.3419237,
+    "lon": 13.6654927,
+    "display_name": "Vittsjö, Hässleholms kommun, Skåne län, 282 67, Sverige"
+  },
+  "Västervik": {
+    "lat": 57.7594186,
+    "lon": 16.6385035,
+    "display_name": "Västervik, Västerviks kommun, Kalmar län, 593 30, Sverige"
+  },
+  "Växjö": {
+    "lat": 56.8787183,
+    "lon": 14.8094385,
+    "display_name": "Växjö, Växjö kommun, Kronobergs län, 352 30, Sverige"
+  },
+  "ÄLVKARLEBY": {
+    "lat": 60.583333,
+    "lon": 17.416667,
+    "display_name": "Älvkarleby kommun, Uppsala län, Sverige"
+  },
+  "Åstorp": {
+    "lat": 56.1303701,
+    "lon": 12.9928538,
+    "display_name": "Åstorps kommun, Skåne län, Sverige"
+  },
+  "Örkelljunga": {
+    "lat": 56.2827878,
+    "lon": 13.2828212,
+    "display_name": "Örkelljunga kommun, Skåne län, Sverige"
+  }
+}
