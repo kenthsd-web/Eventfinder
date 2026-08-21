@@ -1,0 +1,536 @@
+{
+  "Aggarpsvägen 20-34 233 93 Svedala": {
+    "lat": 55.4924481,
+    "lon": 13.2380651,
+    "query": "Aggarpsvägen 20-34 233 93 Svedala, Sweden",
+    "display_name": "Aggarpsvägen, Aggarp, Svedala, Svedala kommun, Skåne län, 233 93, Sverige"
+  },
+  "Alfred Nobels väg 226 14648 Tullinge": {
+    "lat": null,
+    "lon": null,
+    "query": "Alfred Nobels väg 226 14648 Tullinge, Sweden",
+    "display_name": ""
+  },
+  "Alirgatan 23 82132 Bollnäs": {
+    "lat": 61.3512167,
+    "lon": 16.3828086,
+    "query": "Alirgatan 23 82132 Bollnäs, Sweden",
+    "display_name": "Alirgatan, Bollnäs, Bollnäs kommun, Gävleborgs län, 821 34, Sverige"
+  },
+  "Badhusvägen 2 HALLSTAVIK": {
+    "lat": 60.0533795,
+    "lon": 18.5994875,
+    "query": "Badhusvägen 2 HALLSTAVIK, Sweden",
+    "display_name": "Badhusvägen, Hallstalund, Hallstavik, Norrtälje kommun, Stockholms län, 763 21, Sverige"
+  },
+  "Banérsgatan 15 342 61 Moheda": {
+    "lat": 57.0008399,
+    "lon": 14.5794829,
+    "query": "Banérsgatan 15 342 61 Moheda, Sweden",
+    "display_name": "Banérsgatan, Ryd, Moheda, Alvesta kommun, Kronobergs län, 342 60, Sverige"
+  },
+  "Björkuddsvägen 100 17834 Ekerö": {
+    "lat": 59.2822914,
+    "lon": 17.8063388,
+    "query": "Björkuddsvägen 100 17834 Ekerö, Sweden",
+    "display_name": "Björkuddsvägen, Tappström, Parksidan, Ekerö kommun, Järfälla kommun, Stockholms län, 178 34, Sverige"
+  },
+  "Bokesliden 20 269 71 Förslöv": {
+    "lat": 56.3618818,
+    "lon": 12.8165268,
+    "query": "Bokesliden 20 269 71 Förslöv, Sweden",
+    "display_name": "Bokesliden, Bökesliden, Förslöv, Båstads kommun, Skåne län, 269 72, Sverige"
+  },
+  "Bondegatan 25 Mjölby": {
+    "lat": 58.3203831,
+    "lon": 15.1353561,
+    "query": "Bondegatan 25 Mjölby, Sweden",
+    "display_name": "Bondegatan, Mjölby, Mjölby kommun, Östergötlands län, 595 30, Sverige"
+  },
+  "Box 101 731 02 Kungsör": {
+    "lat": null,
+    "lon": null,
+    "query": "Box 101 731 02 Kungsör, Sweden",
+    "display_name": ""
+  },
+  "Bunnvägen 563 93 Gränna": {
+    "lat": null,
+    "lon": null,
+    "query": "Bunnvägen 563 93 Gränna, Sweden",
+    "display_name": ""
+  },
+  "Byleden Järfälla": {
+    "lat": 59.3985768,
+    "lon": 17.8514619,
+    "query": "Byleden Järfälla, Sweden",
+    "display_name": "Byleden, Skälby, Järfälla kommun, Sollentuna kommun, Stockholms län, 175 62, Sverige"
+  },
+  "Bökensved 59354 Västervik": {
+    "lat": null,
+    "lon": null,
+    "query": "Bökensved 59354 Västervik, Sweden",
+    "display_name": ""
+  },
+  "Campusgränd 7 18534 Vaxholm": {
+    "lat": null,
+    "lon": null,
+    "query": "Campusgränd 7 18534 Vaxholm, Sweden",
+    "display_name": ""
+  },
+  "Centrumvägen 16 c Vagnhärad": {
+    "lat": 58.9450044,
+    "lon": 17.483833,
+    "query": "Centrumvägen 16 c Vagnhärad, Sweden",
+    "display_name": "Centrumvägen, Vagnhärad, Trosa kommun, Södermanlands län, 610 72, Sverige"
+  },
+  "Djupadalsleden 2 555 94 Jönköping": {
+    "lat": 57.8075819,
+    "lon": 14.1422167,
+    "query": "Djupadalsleden 2 555 94 Jönköping, Sweden",
+    "display_name": "Djupadalsleden, Åbolid, Jönköping, Jönköpings kommun, Jönköpings län, 554 48, Sverige"
+  },
+  "Ebba Bååts torg 20 141 51 Huddinge": {
+    "lat": 59.2189231,
+    "lon": 17.9497146,
+    "query": "Ebba Bååts torg 20 141 51 Huddinge, Sweden",
+    "display_name": "Ebba Bååts torg, Visättra, Flemingsberg, Huddinge, Huddinge kommun, Stockholms län, 141 50, Sverige"
+  },
+  "Emmabodavägen 7 Nybro": {
+    "lat": 56.7411946,
+    "lon": 15.8965343,
+    "query": "Emmabodavägen 7 Nybro, Sweden",
+    "display_name": "Emmabodavägen, Industri område 1 & 2, Nybro, Nybro kommun, Kalmar län, 382 40, Sverige"
+  },
+  "Esplanaden 7 236 32 Höllviken": {
+    "lat": 55.4261983,
+    "lon": 12.9759594,
+    "query": "Esplanaden 7 236 32 Höllviken, Sweden",
+    "display_name": "7, Esplanaden, Stora Hammar, Höllviken, Vellinge kommun, Skåne län, 236 32, Sverige"
+  },
+  "Falkenbergsvägen 12 39244 Kalmar": {
+    "lat": 56.6631545,
+    "lon": 16.3279008,
+    "query": "Falkenbergsvägen 12 39244 Kalmar, Sweden",
+    "display_name": "12, Falkenbergsvägen, Johannesborg, Tegelviken, Kalmar, Kalmar kommun, Kalmar län, 392 44, Sverige"
+  },
+  "Farstaängsvägen 3 12346 Farsta": {
+    "lat": 59.2392046,
+    "lon": 18.0851304,
+    "query": "Farstaängsvägen 3 12346 Farsta, Sweden",
+    "display_name": "Farstahallen, 3, Farstaängsvägen, Farsta, Farsta stadsdelsområde, Stockholm, Stockholms kommun, Stockholms län, 123 32, Sverige"
+  },
+  "Folkhögskolan Mariannelund": {
+    "lat": 57.6153318,
+    "lon": 15.573928,
+    "query": "Folkhögskolan Mariannelund, Sweden",
+    "display_name": "Folkhögskolan, Centralgatan, Mariannelund, Eksjö kommun, Jönköpings län, 598 74, Sverige"
+  },
+  "Fortunagatan 15 64133 Katrineholm": {
+    "lat": 58.9903934,
+    "lon": 16.2243928,
+    "query": "Fortunagatan 15 64133 Katrineholm, Sweden",
+    "display_name": "Fortunagatan, Katrineholm, Katrineholms kommun, Södermanlands län, 641 49, Sverige"
+  },
+  "Frejavägen 2 57336 Tranås": {
+    "lat": 58.0319423,
+    "lon": 14.989422,
+    "query": "Frejavägen 2 57336 Tranås, Sweden",
+    "display_name": "Frejavägen, Ekmarksberg, Tranås, Tranås kommun, Jönköpings län, 573 37, Sverige"
+  },
+  "Friluftsvägen 11 243 30 Höör": {
+    "lat": 55.9363825,
+    "lon": 13.5518725,
+    "query": "Friluftsvägen 11 243 30 Höör, Sweden",
+    "display_name": "Friluftsvägen, Fogdaröd, Höör, Höörs kommun, Skåne län, 243 30, Sverige"
+  },
+  "Friluftsvägen 2 263 54 Lerberget": {
+    "lat": 56.1829609,
+    "lon": 12.5671767,
+    "query": "Friluftsvägen 2 263 54 Lerberget, Sweden",
+    "display_name": "Friluftsvägen, Lerberget, Höganäs kommun, Skåne län, 263 54, Sverige"
+  },
+  "Gamla Växjövägen 1 36044 Ingelstad": {
+    "lat": 56.7389797,
+    "lon": 14.9307901,
+    "query": "Gamla Växjövägen 1 36044 Ingelstad, Sweden",
+    "display_name": "Ingelstad förskola, 1, Gamla Växjövägen, Ingelstad, Växjö kommun, Kronobergs län, 360 44, Sverige"
+  },
+  "Hallonbergsplan 5-7 174 52 Sundbyberg": {
+    "lat": 59.375959,
+    "lon": 17.9683825,
+    "query": "Hallonbergsplan 5-7 174 52 Sundbyberg, Sweden",
+    "display_name": "Hallonbergsplan, Hallonbergen, Sundbybergs kommun, Stockholms län, 174 52, Sverige"
+  },
+  "Harekullevägen 36032 Gemla": {
+    "lat": 56.8652358,
+    "lon": 14.63856,
+    "query": "Harekullevägen 36032 Gemla, Sweden",
+    "display_name": "Harekullevägen, Getaskärv, Gemla, Växjö kommun, Kronobergs län, 355 73, Sverige"
+  },
+  "Havsgatan 5 261 61 Landskrona": {
+    "lat": 55.9001792,
+    "lon": 12.8103687,
+    "query": "Havsgatan 5 261 61 Landskrona, Sweden",
+    "display_name": "Havsgatan, Borstahusen, Landskrona, Landskrona kommun, Skåne län, 261 61, Sverige"
+  },
+  "Hejaregatan 5 Växjö": {
+    "lat": 56.8843339,
+    "lon": 14.7619229,
+    "query": "Hejaregatan 5 Växjö, Sweden",
+    "display_name": "Hejaregatan, Västra Mark, Växjö, Växjö kommun, Kronobergs län, 352 74, Sverige"
+  },
+  "Husarvägen 29 19479 Upplands Väsby": {
+    "lat": 59.5189175,
+    "lon": 17.9179271,
+    "query": "Husarvägen 29 19479 Upplands Väsby, Sweden",
+    "display_name": "Husarvägen, Vilunda, Upplands Väsby, Upplands Väsby kommun, Stockholms län, 194 78, Sverige"
+  },
+  "Huskvarnavägen 38 55454 Jönköping": {
+    "lat": 57.7849793,
+    "lon": 14.2278214,
+    "query": "Huskvarnavägen 38 55454 Jönköping, Sweden",
+    "display_name": "Huskvarnavägen, Kungsängen, Rosenlund, Jönköping, Jönköpings kommun, Jönköpings län, 554 54, Sverige"
+  },
+  "Hägnevägen 576 33 Sävsjö": {
+    "lat": 57.3899285,
+    "lon": 14.6758101,
+    "query": "Hägnevägen 576 33 Sävsjö, Sweden",
+    "display_name": "Hägnevägen, Hägneområdet, Vallsjö, Sävsjö distrikt, Sävsjö, Sävsjö kommun, Jönköpings län, 576 33, Sverige"
+  },
+  "Häradsvägen 8 73432 Hallstahammar": {
+    "lat": 59.6152496,
+    "lon": 16.2528386,
+    "query": "Häradsvägen 8 73432 Hallstahammar, Sweden",
+    "display_name": "Häradsvägen, Hallstahammar, Hallstahammars kommun, Västmanlands län, 734 32, Sverige"
+  },
+  "Kanngjutargränd 22 16257 Vällingby": {
+    "lat": 59.3600595,
+    "lon": 17.8666889,
+    "query": "Kanngjutargränd 22 16257 Vällingby, Sweden",
+    "display_name": "Kanngjutargränd, Vällingby, Hässelby-Vällingby stadsdelsområde, Stockholm, Stockholms kommun, Stockholms län, 162 57, Sverige"
+  },
+  "Katrinebergsvägen 71 146 48 Tullinge": {
+    "lat": 59.2225834,
+    "lon": 17.9158578,
+    "query": "Katrinebergsvägen 71 146 48 Tullinge, Sweden",
+    "display_name": "Katrinebergsvägen, Tullinge villastad, Tullinge, Botkyrka kommun, Stockholms län, 146 50, Sverige"
+  },
+  "Kungsgatan 10 264 51 Ljungbyhed": {
+    "lat": 56.0761471,
+    "lon": 13.2367668,
+    "query": "Kungsgatan 10 264 51 Ljungbyhed, Sweden",
+    "display_name": "Kungsgatan, Ljungbyhed, Klippans kommun, Skåne län, 264 52, Sverige"
+  },
+  "Kyrkbrogatan 19 94131 Piteå": {
+    "lat": 65.3192434,
+    "lon": 21.4882037,
+    "query": "Kyrkbrogatan 19 94131 Piteå, Sweden",
+    "display_name": "Bowlingarenan, 19, Kyrkbrogatan, Piteå, Piteå kommun, Norrbottens län, 941 31, Sverige"
+  },
+  "Köpingsvägen 13 73930 Skinnskatteberg": {
+    "lat": 59.8248324,
+    "lon": 15.69522,
+    "query": "Köpingsvägen 13 73930 Skinnskatteberg, Sweden",
+    "display_name": "Köpingsvägen, Sotvreten, Vätterskoga, Skinnskatteberg, Skinnskattebergs kommun, Västmanlands län, 739 31, Sverige"
+  },
+  "Lagermansgatan 4 551 16 Jönköping": {
+    "lat": 57.7816766,
+    "lon": 14.1544663,
+    "query": "Lagermansgatan 4 551 16 Jönköping, Sweden",
+    "display_name": "Lagermansgatan, Tändsticksområdet, Väster, Jönköping, Jönköpings kommun, Jönköpings län, 553 17, Sverige"
+  },
+  "Lansengatan 9 60209 Norrköping": {
+    "lat": 58.6081563,
+    "lon": 16.1212293,
+    "query": "Lansengatan 9 60209 Norrköping, Sweden",
+    "display_name": "Lansengatan, Norrköping, Norrköpings kommun, Östergötlands län, 602 10, Sverige"
+  },
+  "Linnégatan 14 333 32 Smålandsstenar": {
+    "lat": 57.1605405,
+    "lon": 13.407413,
+    "query": "Linnégatan 14 333 32 Smålandsstenar, Sweden",
+    "display_name": "Linnégatan, Smålandsstenar, Gislaveds kommun, Jönköpings län, 333 32, Sverige"
+  },
+  "Mastgatan 7 Kumla": {
+    "lat": 59.1438199,
+    "lon": 15.1342816,
+    "query": "Mastgatan 7 Kumla, Sweden",
+    "display_name": "Skogstorpsskolan, 7, Mastgatan, Kumla, Kumla kommun, Örebro län, 692 33, Sverige"
+  },
+  "Mellersta Stenbocksgatan 14 254 37 Helsingborg": {
+    "lat": 56.0529038,
+    "lon": 12.7047386,
+    "query": "Mellersta Stenbocksgatan 14 254 37 Helsingborg, Sweden",
+    "display_name": "14, Mellersta Stenbocksgatan, Olympia, Helsingborg, Helsingborgs kommun, Skåne län, 254 37, Sverige"
+  },
+  "Mjölnarvägen Järfälla": {
+    "lat": 59.418516,
+    "lon": 17.8255362,
+    "query": "Mjölnarvägen Järfälla, Sweden",
+    "display_name": "Mjölnarvägen, Jakobsberg, Västra Jakobsberg, Järfälla kommun, Stockholms län, 177 42, Sverige"
+  },
+  "Mosstorpsvägen Skärblacka": {
+    "lat": 58.5835795,
+    "lon": 15.9140349,
+    "query": "Mosstorpsvägen Skärblacka, Sweden",
+    "display_name": "Mosstorpsvägen, Skärblacka, Norrköpings kommun, Östergötlands län, 617 22, Sverige"
+  },
+  "Myrstadavägen Tenhult": {
+    "lat": 57.7064518,
+    "lon": 14.3202626,
+    "query": "Myrstadavägen Tenhult, Sweden",
+    "display_name": "Myrstadavägen, Tenhult, Jönköpings kommun, Jönköpings län, 560 29, Sverige"
+  },
+  "Norra Fäladsvägen 5 247 71 Genarp": {
+    "lat": 55.5981779,
+    "lon": 13.3964865,
+    "query": "Norra Fäladsvägen 5 247 71 Genarp, Sweden",
+    "display_name": "5, Norra Fäladsvägen, Gräntinge, Genarp, Lunds kommun, Skåne län, 247 70, Sverige"
+  },
+  "Näsvägen 4": {
+    "lat": 56.1165173,
+    "lon": 15.4644637,
+    "query": "Näsvägen 4, Sweden",
+    "display_name": "4, Näsvägen, Näset, Hasslö, Karlskrona kommun, Blekinge län, 373 66, Sverige"
+  },
+  "Odlingsvägen 36 14750 TUMBA": {
+    "lat": 59.1909671,
+    "lon": 17.8436824,
+    "query": "Odlingsvägen 36 14750 TUMBA, Sweden",
+    "display_name": "Storvretsskolan, 36, Odlingsvägen, Storvreten, Tumba, Botkyrka kommun, Stockholms län, 147 50, Sverige"
+  },
+  "Otto E Andersens gata 7 Örebro": {
+    "lat": 59.274243,
+    "lon": 15.1823248,
+    "query": "Otto E Andersens gata 7 Örebro, Sweden",
+    "display_name": "Rostaskolan, 7, Otto E Andersens gata, Rosta, Örebro, Örebro kommun, Örebro län, 703 44, Sverige"
+  },
+  "Palme Lydersgatan 27150 Ystad": {
+    "lat": 55.4321149,
+    "lon": 13.8063541,
+    "query": "Palme Lydersgatan 27150 Ystad, Sweden",
+    "display_name": "Palme Lydersgatan, Bellevue, Ystad, Ystads kommun, Skåne län, 271 50, Sverige"
+  },
+  "Paradisgatan 32 28232 Tyringe": {
+    "lat": 56.1542327,
+    "lon": 13.6023336,
+    "query": "Paradisgatan 32 28232 Tyringe, Sweden",
+    "display_name": "Paradisgatan, Kollinge, Tyringe, Hässleholms kommun, Skåne län, 282 33, Sverige"
+  },
+  "Parkgatan 570 20 Bodafors": {
+    "lat": 57.5075231,
+    "lon": 14.7014602,
+    "query": "Parkgatan 570 20 Bodafors, Sweden",
+    "display_name": "Parkgatan, Karsås, Norra Sandsjö distrikt, Bodafors, Nässjö kommun, Jönköpings län, 571 62, Sverige"
+  },
+  "Parkgatan Älvsbyn": {
+    "lat": 65.6750174,
+    "lon": 20.9945078,
+    "query": "Parkgatan Älvsbyn, Sweden",
+    "display_name": "Parkgatan, Älvsbyn, Älvsbyns kommun, Norrbottens län, 942 32, Sverige"
+  },
+  "Per Albin Hanssonsväg 102 21565 Malmö": {
+    "lat": 55.5684598,
+    "lon": 12.9965333,
+    "query": "Per Albin Hanssonsväg 102 21565 Malmö, Sweden",
+    "display_name": "Per Albin Hanssons väg, Kulladal, Väster, Malmö, Malmö kommun, Skåne län, 215 66, Sverige"
+  },
+  "Per Hörbergsleden 554 47 Jönköping": {
+    "lat": null,
+    "lon": null,
+    "query": "Per Hörbergsleden 554 47 Jönköping, Sweden",
+    "display_name": ""
+  },
+  "Per Josephssons väg 2 Bunkeflostrand": {
+    "lat": 55.5462006,
+    "lon": 12.929052,
+    "query": "Per Josephssons väg 2 Bunkeflostrand, Sweden",
+    "display_name": "Per Josephssons väg, Bunkeflostrand, Väster, Bunkeflostrand, Malmö kommun, Skåne län, 218 38, Sverige"
+  },
+  "Perongvägen Ljungbyholm": {
+    "lat": null,
+    "lon": null,
+    "query": "Perongvägen Ljungbyholm, Sweden",
+    "display_name": ""
+  },
+  "Regeringsvägen 14 61156 Nyköping": {
+    "lat": 58.7691808,
+    "lon": 16.9737616,
+    "query": "Regeringsvägen 14 61156 Nyköping, Sweden",
+    "display_name": "Oppebyskolan, 14C, Regeringsvägen, Hinzens krog, Nyköping, Nyköpings kommun, Södermanlands län, 611 56, Sverige"
+  },
+  "Ribbagårdsgränd 56331 Gränna": {
+    "lat": 58.0229648,
+    "lon": 14.465697,
+    "query": "Ribbagårdsgränd 56331 Gränna, Sweden",
+    "display_name": "Ribbagårdsgränd, Norra Boarp, Gränna, Jönköpings kommun, Jönköpings län, 563 31, Sverige"
+  },
+  "Ringgatan 16 73325 Sala": {
+    "lat": 59.9173654,
+    "lon": 16.6092909,
+    "query": "Ringgatan 16 73325 Sala, Sweden",
+    "display_name": "Ringgatan, Emaus, Kungsängen, Sala, Sala kommun, Västmanlands län, 733 31, Sverige"
+  },
+  "Skalbaggegatan 2 274 80 Skurup": {
+    "lat": null,
+    "lon": null,
+    "query": "Skalbaggegatan 2 274 80 Skurup, Sweden",
+    "display_name": ""
+  },
+  "Skolgatan 33 33027 Hestra": {
+    "lat": 57.448918,
+    "lon": 13.5965005,
+    "query": "Skolgatan 33 33027 Hestra, Sweden",
+    "display_name": "Skolgatan, Hestra, Gislaveds kommun, Jönköpings län, 335 71, Sverige"
+  },
+  "Skolgatan 36251 Väckelsång": {
+    "lat": 56.640851,
+    "lon": 14.9182792,
+    "query": "Skolgatan 36251 Väckelsång, Sweden",
+    "display_name": "Skolgatan, Väckelsång, Tingsryds kommun, Kronobergs län, 362 50, Sverige"
+  },
+  "Skolgatan 5 245 31 Staffanstorp": {
+    "lat": 55.6451879,
+    "lon": 13.2068253,
+    "query": "Skolgatan 5 245 31 Staffanstorp, Sweden",
+    "display_name": "Skolgatan, Staffanstorp, Staffanstorps kommun, Skåne län, 245 31, Sverige"
+  },
+  "Stadsötorget 2 B 95431 Gammelstad": {
+    "lat": 65.6430286,
+    "lon": 22.0101804,
+    "query": "Stadsötorget 2 B 95431 Gammelstad, Sweden",
+    "display_name": "Stadsötorget, Stadsön, Gammelstad, Luleå, Luleå kommun, Norrbottens län, 954 31, Sverige"
+  },
+  "Stengatan 2 386 34 Färjestaden": {
+    "lat": 56.6393686,
+    "lon": 16.4785996,
+    "query": "Stengatan 2 386 34 Färjestaden, Sweden",
+    "display_name": "Färjehallen, 2, Stengatan, Färjestaden, Mörbylånga kommun, Kalmar län, 386 34, Sverige"
+  },
+  "Stengatan 2 38634 Färjestaden": {
+    "lat": 56.6393686,
+    "lon": 16.4785996,
+    "query": "Stengatan 2 38634 Färjestaden, Sweden",
+    "display_name": "Färjehallen, 2, Stengatan, Färjestaden, Mörbylånga kommun, Kalmar län, 386 34, Sverige"
+  },
+  "Stockholmsvägen 49 19522 MÄRSTA": {
+    "lat": 59.6231715,
+    "lon": 17.851207,
+    "query": "Stockholmsvägen 49 19522 MÄRSTA, Sweden",
+    "display_name": "Stockholmsvägen, Steninge, Märsta, Sigtuna kommun, Stockholms län, 195 46, Sverige"
+  },
+  "Storgatan Skillingaryd": {
+    "lat": 57.4616187,
+    "lon": 14.094844,
+    "query": "Storgatan Skillingaryd, Sweden",
+    "display_name": "Storgatan, Skillingaryd, Vaggeryds kommun, Jönköpings län, 568 32, Sverige"
+  },
+  "Sveavägen 55 191 34 Sollentuna": {
+    "lat": 59.4201337,
+    "lon": 17.9350007,
+    "query": "Sveavägen 55 191 34 Sollentuna, Sweden",
+    "display_name": "Sveavägen, Töjnan, Tureberg, Sollentuna kommun, Stockholms län, 191 34, Sverige"
+  },
+  "Säbytorgsvägen 18-20, 14442 RÖNNINGE 14442 Rönninge": {
+    "lat": null,
+    "lon": null,
+    "query": "Säbytorgsvägen 18-20, 14442 RÖNNINGE 14442 Rönninge, Sweden",
+    "display_name": ""
+  },
+  "Tiansväg 73 29535 Bromölla": {
+    "lat": 56.0904762,
+    "lon": 14.4858776,
+    "query": "Tiansväg 73 29535 Bromölla, Sweden",
+    "display_name": "Tians väg, Nogesund, Bromölla, Bromölla kommun, Skåne län, 295 35, Sverige"
+  },
+  "Tolvåkersskolan Löddeköpinge": {
+    "lat": 55.7640693,
+    "lon": 13.0178345,
+    "query": "Tolvåkersskolan Löddeköpinge, Sweden",
+    "display_name": "Tolvåkersskolan, Bollvägen, Löddeköpinge, Kävlinge kommun, Skåne län, 246 30, Sverige"
+  },
+  "Trädgårdsvägen 23 155 32 Nykvarn": {
+    "lat": 59.1820237,
+    "lon": 17.4267041,
+    "query": "Trädgårdsvägen 23 155 32 Nykvarn, Sweden",
+    "display_name": "Trädgårdsvägen, Nykvarn, Nykvarns kommun, Stockholms län, 155 30, Sverige"
+  },
+  "Tungelstavägen 135 137 55 Tungelsta": {
+    "lat": 59.1158443,
+    "lon": 18.0612681,
+    "query": "Tungelstavägen 135 137 55 Tungelsta, Sweden",
+    "display_name": "Tungelstavägen, Solsäter, Skogsdal, Krigslida, Haninge kommun, Stockholms län, 137 55, Sverige"
+  },
+  "Vallgatan 18 56230 Norrahammar": {
+    "lat": 57.7035074,
+    "lon": 14.1233125,
+    "query": "Vallgatan 18 56230 Norrahammar, Sweden",
+    "display_name": "Vallgatan, Norrahammar, Jönköpings kommun, Jönköpings län, 562 31, Sverige"
+  },
+  "Vasagatan 75 72187 Västerås": {
+    "lat": 59.63136,
+    "lon": 16.53178,
+    "query": "Vasagatan 75 72187 Västerås, Sweden",
+    "display_name": "Vasagatan 75, Vasagatan, Vega, Västerås, Västerås kommun, Västmanlands län, 722 23, Sverige"
+  },
+  "Vega Allé 61 13657 Haninge": {
+    "lat": 59.1852368,
+    "lon": 18.1340279,
+    "query": "Vega Allé 61 13657 Haninge, Sweden",
+    "display_name": "61, Vega Allé, Mellanberg, Vega, Haninge kommun, Stockholms län, 136 57, Sverige"
+  },
+  "Villagatan 38 69235 Kumla": {
+    "lat": 59.1220468,
+    "lon": 15.1327081,
+    "query": "Villagatan 38 69235 Kumla, Sweden",
+    "display_name": "Kumlahallen, 38, Villagatan, Fylsta, Kumla, Kumla kommun, Örebro län, 692 35, Sverige"
+  },
+  "Västergatan 2-4 15145 Södertälje": {
+    "lat": 59.1831892,
+    "lon": 17.6171928,
+    "query": "Västergatan 2-4 15145 Södertälje, Sweden",
+    "display_name": "Västergatan, Mariekälla, Tälje, Södertälje, Södertälje kommun, Stockholms län, 151 45, Sverige"
+  },
+  "Västgötagatan 35 64136 Katrineholm": {
+    "lat": 58.9868537,
+    "lon": 16.1925925,
+    "query": "Västgötagatan 35 64136 Katrineholm, Sweden",
+    "display_name": "Västgötagatan, Nävertorp, Katrineholm, Katrineholms kommun, Södermanlands län, 641 36, Sverige"
+  },
+  "Västra Å 69045 Åsbro": {
+    "lat": 58.998518,
+    "lon": 15.0295864,
+    "query": "Västra Å 69045 Åsbro, Sweden",
+    "display_name": "Västra Å, Kull, Åsbro, Askersunds kommun, Örebro län, 694 60, Sverige"
+  },
+  "klockvägen 5 Kungsängen": {
+    "lat": 59.4808967,
+    "lon": 17.7341975,
+    "query": "klockvägen 5 Kungsängen, Sweden",
+    "display_name": "Klockvägen, Hovslagaren, Kungsängen, Upplands-Bro kommun, Stockholms län, 196 35, Sverige"
+  },
+  "kålgårdsgatan 9 57091 Kristdala": {
+    "lat": 57.4013137,
+    "lon": 16.1957666,
+    "query": "kålgårdsgatan 9 57091 Kristdala, Sweden",
+    "display_name": "Kålgårdsgatan, Stensö, Kristdala, Oskarshamns kommun, Kalmar län, 572 73, Sverige"
+  },
+  "Återbruksvägen 70353 Örebro": {
+    "lat": 59.3004874,
+    "lon": 15.1544558,
+    "query": "Återbruksvägen 70353 Örebro, Sweden",
+    "display_name": "Återbruksvägen, Södra Runnaby, Örebro, Örebro kommun, Örebro län, 703 53, Sverige"
+  },
+  "Östergårdsvägen 25 14138 Huddinge": {
+    "lat": 59.240312,
+    "lon": 18.0025873,
+    "query": "Östergårdsvägen 25 14138 Huddinge, Sweden",
+    "display_name": "Östergårdsvägen, Kynäs, Sjödalen, Huddinge, Huddinge kommun, Stockholms län, 141 48, Sverige"
+  },
+  "Östra Läraregatan 1 253 73 Gantofta": {
+    "lat": 55.9871929,
+    "lon": 12.8023362,
+    "query": "Östra Läraregatan 1 253 73 Gantofta, Sweden",
+    "display_name": "1, Östra Läraregatan, Gantofta, Helsingborgs kommun, Skåne län, 253 73, Sverige"
+  }
+}
