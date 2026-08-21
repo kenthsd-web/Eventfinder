@@ -74,6 +74,19 @@ def popup_html(event):
         event.get("sport", "")
     )
 
+    precision = event.get(
+        "location_precision",
+        ""
+    )
+
+    if precision == "city":
+        position_info = (
+            '<div><strong>Position:</strong> '
+            'Ungefärlig – placerad på orten</div>'
+        )
+    else:
+        position_info = ""
+
     return f"""
     <div class="event-popup">
         <div class="popup-sport">{sport}</div>
@@ -83,6 +96,7 @@ def popup_html(event):
         <div><strong>Tid:</strong> {tid}</div>
         <div><strong>Arena:</strong> {arena}</div>
         <div><strong>Kommun:</strong> {kommun}</div>
+        {position_info}
     </div>
     """
 
@@ -108,6 +122,10 @@ def build_js_events(events):
                 ),
                 "kommun": event.get(
                     "kommun",
+                    "",
+                ),
+                "location_precision": event.get(
+                    "location_precision",
                     "",
                 ),
                 "hemmalag": event.get(
