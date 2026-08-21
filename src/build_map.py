@@ -3,10 +3,6 @@ from html import escape
 from pathlib import Path
 
 
-# ============================================================
-# EVENTFINDER - INTERAKTIV EVENTKARTA
-# ============================================================
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = BASE_DIR / "output"
@@ -15,15 +11,9 @@ EVENT_FILE = DATA_DIR / "events.json"
 MAP_FILE = OUTPUT_DIR / "eventfinder_map.html"
 
 
-# ============================================================
-# DATA
-# ============================================================
-
 def load_events():
     if not EVENT_FILE.exists():
-        raise FileNotFoundError(
-            f"Saknar {EVENT_FILE}"
-        )
+        raise FileNotFoundError(f"Saknar {EVENT_FILE}")
 
     data = json.loads(
         EVENT_FILE.read_text(
@@ -39,91 +29,53 @@ def load_events():
     return data
 
 
-# ============================================================
-# FILTRERING
-# ============================================================
-
 def map_events(events):
-    result = []
+    return [
+        event
+        for event in events
+        if event.get("lat") is not None
+        and event.get("lon") is not None
+    ]
 
-    for event in events:
-        if event.get("lat") is None:
-            continue
-
-        if event.get("lon") is None:
-            continue
-
-        result.append(event)
-
-    return result
-
-
-# ============================================================
-# POPUP
-# ============================================================
 
 def popup_html(event):
     namn = escape(
-        event.get(
-            "namn",
-            "Event",
-        )
+        event.get("namn", "Event")
     )
 
     serie = escape(
-        event.get(
-            "serie",
-            "",
-        )
+        event.get("serie", "")
     )
 
     datum = escape(
-        event.get(
-            "datum",
-            "",
-        )
+        event.get("datum", "")
     )
 
     tid = escape(
-        event.get(
-            "tid",
-            "",
-        )
+        event.get("tid", "")
         or "Tid ej angiven"
     )
 
     arena = escape(
-        event.get(
-            "arena",
-            "",
-        )
-        or event.get(
-            "plats",
-            "",
-        )
+        event.get("arena", "")
+        or event.get("plats", "")
         or "Arena ej angiven"
     )
 
     kommun = escape(
-        event.get(
-            "kommun",
-            "",
-        )
+        event.get("kommun", "")
         or ""
     )
 
     sport = escape(
-        event.get(
-            "sport",
-            "",
-        )
+        event.get("sport", "")
     )
 
-    source_url = event.get(
-        "ssl_schedule_url"
-    ) or event.get(
-        "url"
-    ) or ""
+    source_url = (
+        event.get("ssl_schedule_url")
+        or event.get("url")
+        or ""
+    )
 
     source_link = ""
 
@@ -157,53 +109,35 @@ def popup_html(event):
     """
 
 
-# ============================================================
-# JAVASCRIPT-DATA
-# ============================================================
-
 def build_js_events(events):
     output = []
 
     for event in events:
         output.append(
             {
-                "id": event.get(
-                    "id",
-                    "",
-                ),
+                "id": event.get("id", ""),
                 "lat": event["lat"],
                 "lon": event["lon"],
-                "namn": event.get(
-                    "namn",
-                    "",
-                ),
-                "sport": event.get(
-                    "sport",
-                    "",
-                ),
-                "serie": event.get(
-                    "serie",
-                    "",
-                ),
-                "datum": event.get(
-                    "datum",
-                    "",
-                ),
-                "tid": event.get(
-                    "tid",
-                    "",
-                ),
+                "namn": event.get("namn", ""),
+                "sport": event.get("sport", ""),
+                "serie": event.get("serie", ""),
+                "datum": event.get("datum", ""),
+                "tid": event.get("tid", ""),
                 "arena": (
-                    event.get(
-                        "arena"
-                    )
-                    or event.get(
-                        "plats"
-                    )
+                    event.get("arena")
+                    or event.get("plats")
                     or ""
                 ),
                 "kommun": event.get(
                     "kommun",
+                    "",
+                ),
+                "hemmalag": event.get(
+                    "hemmalag",
+                    "",
+                ),
+                "bortalag": event.get(
+                    "bortalag",
                     "",
                 ),
                 "popup": popup_html(
@@ -217,10 +151,6 @@ def build_js_events(events):
         ensure_ascii=False,
     )
 
-
-# ============================================================
-# HTML
-# ============================================================
 
 def build_html(events):
     js_events = build_js_events(
@@ -251,8 +181,10 @@ def build_html(events):
             box-sizing: border-box;
         }}
 
+        html,
         body {{
             margin: 0;
+            height: 100%;
             font-family:
                 Arial,
                 Helvetica,
@@ -262,9 +194,9 @@ def build_html(events):
         }}
 
         .app {{
+            height: 100vh;
             display: flex;
             flex-direction: column;
-            height: 100vh;
         }}
 
         header {{
@@ -294,15 +226,16 @@ def build_html(events):
 
         .controls input,
         .controls select {{
-            min-height: 38px;
+            min-height: 40px;
             padding: 8px 10px;
             border: 1px solid #bbb;
-            border-radius: 6px;
+            border-radius: 7px;
             background: white;
+            font-size: 14px;
         }}
 
         .controls input {{
-            min-width: 220px;
+            min-width: 250px;
             flex: 1;
         }}
 
@@ -311,11 +244,94 @@ def build_html(events):
             align-items: center;
             padding: 0 8px;
             color: #555;
+            font-weight: bold;
+        }}
+
+        .main {{
+            flex: 1;
+            min-height: 0;
+            display: grid;
+            grid-template-columns:
+                minmax(0, 2fr)
+                minmax(320px, 1fr);
         }}
 
         #map {{
-            flex: 1;
             width: 100%;
+            height: 100%;
+            min-height: 0;
+        }}
+
+        .sidebar {{
+            background: white;
+            border-left: 1px solid #ddd;
+            min-height: 0;
+            display: flex;
+            flex-direction: column;
+        }}
+
+        .sidebar-header {{
+            padding: 14px;
+            border-bottom: 1px solid #ddd;
+        }}
+
+        .sidebar-header h2 {{
+            margin: 0;
+            font-size: 18px;
+        }}
+
+        #eventList {{
+            overflow-y: auto;
+            flex: 1;
+        }}
+
+        .event-card {{
+            padding: 14px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+            background: white;
+            transition:
+                background 0.15s ease,
+                transform 0.15s ease;
+        }}
+
+        .event-card:hover {{
+            background: #f7f7f7;
+        }}
+
+        .event-card.active {{
+            background: #eef5ff;
+        }}
+
+        .event-date {{
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 5px;
+        }}
+
+        .event-title {{
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }}
+
+        .event-meta {{
+            font-size: 13px;
+            line-height: 1.45;
+            color: #555;
+        }}
+
+        .event-series {{
+            display: inline-block;
+            font-size: 11px;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+            color: #666;
+        }}
+
+        .empty {{
+            padding: 20px;
+            color: #666;
         }}
 
         .event-popup {{
@@ -341,14 +357,22 @@ def build_html(events):
             margin-top: 10px;
         }}
 
-        .popup-source a {{
-            font-weight: bold;
+        .leaflet-popup-content {{
+            margin: 14px 16px;
         }}
 
-        .leaflet-popup-content {{
-            margin:
-                14px
-                16px;
+        @media (max-width: 900px) {{
+            .main {{
+                grid-template-columns: 1fr;
+                grid-template-rows:
+                    minmax(340px, 55vh)
+                    minmax(240px, 1fr);
+            }}
+
+            .sidebar {{
+                border-left: none;
+                border-top: 1px solid #ddd;
+            }}
         }}
 
         @media (max-width: 650px) {{
@@ -364,6 +388,12 @@ def build_html(events):
             .controls select {{
                 width: 100%;
                 min-width: 0;
+            }}
+
+            .main {{
+                grid-template-rows:
+                    50vh
+                    1fr;
             }}
         }}
     </style>
@@ -409,7 +439,21 @@ def build_html(events):
 
     </div>
 
-    <div id="map"></div>
+    <div class="main">
+
+        <div id="map"></div>
+
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+                <h2>Event</h2>
+            </div>
+
+            <div id="eventList"></div>
+
+        </aside>
+
+    </div>
 
 </div>
 
@@ -438,25 +482,37 @@ def build_html(events):
     ).addTo(map);
 
 
-    const markerLayer = L.layerGroup().addTo(
-        map
-    );
+    const markerLayer =
+        L.layerGroup().addTo(
+            map
+        );
 
-    const searchInput = document.getElementById(
-        "search"
-    );
+    const markersById = new Map();
 
-    const seriesFilter = document.getElementById(
-        "seriesFilter"
-    );
+    const searchInput =
+        document.getElementById(
+            "search"
+        );
 
-    const monthFilter = document.getElementById(
-        "monthFilter"
-    );
+    const seriesFilter =
+        document.getElementById(
+            "seriesFilter"
+        );
 
-    const counter = document.getElementById(
-        "counter"
-    );
+    const monthFilter =
+        document.getElementById(
+            "monthFilter"
+        );
+
+    const counter =
+        document.getElementById(
+            "counter"
+        );
+
+    const eventList =
+        document.getElementById(
+            "eventList"
+        );
 
 
     function populateFilters() {{
@@ -472,9 +528,10 @@ def build_html(events):
 
         series.forEach(
             serie => {{
-                const option = document.createElement(
-                    "option"
-                );
+                const option =
+                    document.createElement(
+                        "option"
+                    );
 
                 option.value = serie;
                 option.textContent = serie;
@@ -504,9 +561,10 @@ def build_html(events):
 
         months.forEach(
             month => {{
-                const option = document.createElement(
-                    "option"
-                );
+                const option =
+                    document.createElement(
+                        "option"
+                    );
 
                 option.value = month;
                 option.textContent = month;
@@ -525,7 +583,9 @@ def build_html(events):
             event.sport,
             event.serie,
             event.arena,
-            event.kommun
+            event.kommun,
+            event.hemmalag,
+            event.bortalag
         ]
             .join(" ")
             .toLowerCase();
@@ -540,15 +600,13 @@ def build_html(events):
             .trim()
             .toLowerCase();
 
-        const serie = (
+        const serie =
             seriesFilter.value
-            || ""
-        );
+            || "";
 
-        const month = (
+        const month =
             monthFilter.value
-            || ""
-        );
+            || "";
 
         return events.filter(
             event => {{
@@ -585,19 +643,151 @@ def build_html(events):
     }}
 
 
-    function renderMarkers() {{
-        markerLayer.clearLayers();
+    function clearActiveCards() {{
+        document
+            .querySelectorAll(
+                ".event-card.active"
+            )
+            .forEach(
+                card =>
+                    card.classList.remove(
+                        "active"
+                    )
+            );
+    }}
 
-        const visible = filteredEvents();
+
+    function focusEvent(event) {{
+        const marker =
+            markersById.get(
+                event.id
+            );
+
+        if (!marker) {{
+            return;
+        }}
+
+        map.setView(
+            [
+                event.lat,
+                event.lon
+            ],
+            14,
+            {{
+                animate: true
+            }}
+        );
+
+        marker.openPopup();
+
+        clearActiveCards();
+
+        const card =
+            document.querySelector(
+                `[data-event-id="${{event.id}}"]`
+            );
+
+        if (card) {{
+            card.classList.add(
+                "active"
+            );
+        }}
+    }}
+
+
+    function renderList(visible) {{
+        eventList.innerHTML = "";
+
+        if (
+            visible.length === 0
+        ) {{
+            const empty =
+                document.createElement(
+                    "div"
+                );
+
+            empty.className = "empty";
+            empty.textContent =
+                "Inga event matchar filtren.";
+
+            eventList.appendChild(
+                empty
+            );
+
+            return;
+        }}
 
         visible.forEach(
             event => {{
-                const marker = L.marker(
-                    [
-                        event.lat,
-                        event.lon
-                    ]
+                const card =
+                    document.createElement(
+                        "div"
+                    );
+
+                card.className =
+                    "event-card";
+
+                card.dataset.eventId =
+                    event.id;
+
+                const dateText =
+                    event.datum
+                    + (
+                        event.tid
+                        ? " · " + event.tid
+                        : ""
+                    );
+
+                card.innerHTML = `
+                    <div class="event-series">
+                        ${{event.serie || ""}}
+                    </div>
+
+                    <div class="event-date">
+                        ${{dateText}}
+                    </div>
+
+                    <div class="event-title">
+                        ${{event.namn}}
+                    </div>
+
+                    <div class="event-meta">
+                        ${{event.arena || "Arena ej angiven"}}
+                        ${{event.kommun ? " · " + event.kommun : ""}}
+                    </div>
+                `;
+
+                card.addEventListener(
+                    "click",
+                    () => focusEvent(
+                        event
+                    )
                 );
+
+                eventList.appendChild(
+                    card
+                );
+            }}
+        );
+    }}
+
+
+    function renderMarkers() {{
+        markerLayer.clearLayers();
+        markersById.clear();
+
+        const visible =
+            filteredEvents();
+
+        visible.forEach(
+            event => {{
+                const marker =
+                    L.marker(
+                        [
+                            event.lat,
+                            event.lon
+                        ]
+                    );
 
                 marker.bindPopup(
                     event.popup
@@ -606,6 +796,11 @@ def build_html(events):
                 marker.addTo(
                     markerLayer
                 );
+
+                markersById.set(
+                    event.id,
+                    marker
+                );
             }}
         );
 
@@ -613,17 +808,22 @@ def build_html(events):
             visible.length
             + " event";
 
+        renderList(
+            visible
+        );
+
         if (
             visible.length > 0
         ) {{
-            const bounds = L.latLngBounds(
-                visible.map(
-                    event => [
-                        event.lat,
-                        event.lon
-                    ]
-                )
-            );
+            const bounds =
+                L.latLngBounds(
+                    visible.map(
+                        event => [
+                            event.lat,
+                            event.lon
+                        ]
+                    )
+                );
 
             if (
                 bounds.isValid()
@@ -668,17 +868,13 @@ def build_html(events):
 """
 
 
-# ============================================================
-# MAIN
-# ============================================================
-
 def main():
     print()
     print(
         "============================================="
     )
     print(
-        " EVENTFINDER - BYGGER KARTA"
+        " EVENTFINDER - BYGGER KARTA + EVENTLISTA"
     )
     print(
         "============================================="
@@ -704,7 +900,7 @@ def main():
     if not mapped:
         print()
         print(
-            "Inga event kan visas på karta ännu."
+            "Inga event kan visas ännu."
         )
         return
 
@@ -729,11 +925,6 @@ def main():
 
     print(
         MAP_FILE
-    )
-
-    print()
-    print(
-        "Öppna filen i Chrome för att testa kartan."
     )
 
 
