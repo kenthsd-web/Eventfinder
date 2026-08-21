@@ -198,5 +198,90 @@
     "lat": 56.2827878,
     "lon": 13.2828212,
     "display_name": "Örkelljunga kommun, Skåne län, Sverige"
+  },
+  "Alvesta": {
+    "lat": 56.9166599,
+    "lon": 14.4998825,
+    "display_name": "Alvesta kommun, Kronobergs län, Sverige"
+  },
+  "Eskilstuna": {
+    "lat": 59.3717379,
+    "lon": 16.5051474,
+    "display_name": "Eskilstuna, Eskilstuna kommun, Södermanlands län, 632 20, Sverige"
+  },
+  "Huskvarna": {
+    "lat": 57.7918701,
+    "lon": 14.2739261,
+    "display_name": "Huskvarna, Jönköpings kommun, Jönköpings län, 561 30, Sverige"
+  },
+  "Iggesund": {
+    "lat": 61.6429635,
+    "lon": 17.0781216,
+    "display_name": "Iggesund, Hudiksvalls kommun, Gävleborgs län, 825 30, Sverige"
+  },
+  "Landvetter": {
+    "lat": 57.6886943,
+    "lon": 12.219017,
+    "display_name": "Landvetter, Härryda kommun, Västra Götalands län, 438 32, Sverige"
+  },
+  "Lidingö": {
+    "lat": 59.3669445,
+    "lon": 18.1820897,
+    "display_name": "Lidingö kommun, Stockholms län, Sverige"
+  },
+  "Listerby": {
+    "lat": 56.1964035,
+    "lon": 15.4022684,
+    "display_name": "Listerby, Ronneby kommun, Blekinge län, 372 74, Sverige"
+  },
+  "Motala": {
+    "lat": 58.5420395,
+    "lon": 15.041261,
+    "display_name": "Motala, Motala kommun, Östergötlands län, 591 35, Sverige"
+  },
+  "Månsarp": {
+    "lat": 57.6535457,
+    "lon": 14.0688219,
+    "display_name": "Månsarp, Jönköpings kommun, Jönköpings län, 562 50, Sverige"
+  },
+  "Norrköping": {
+    "lat": 58.5909124,
+    "lon": 16.1903511,
+    "display_name": "Norrköping, Norrköpings kommun, Östergötlands län, 602 27, Sverige"
+  },
+  "Sala": {
+    "lat": 59.9202268,
+    "lon": 16.6056444,
+    "display_name": "Sala, Sala kommun, Västmanlands län, 733 30, Sverige"
+  },
+  "Stockholm": {
+    "lat": 59.3251172,
+    "lon": 18.0710935,
+    "display_name": "Stockholm, Stockholms kommun, Stockholms län, 111 29, Sverige"
+  },
+  "Strängnäs": {
+    "lat": 59.3763155,
+    "lon": 17.0268194,
+    "display_name": "Strängnäs, Strängnäs kommun, Södermanlands län, 645 31, Sverige"
+  },
+  "Sturefors": {
+    "lat": 58.3367408,
+    "lon": 15.7211576,
+    "display_name": "Sturefors, Linköpings kommun, Östergötlands län, 589 63, Sverige"
+  },
+  "Södertälje": {
+    "lat": 59.1964289,
+    "lon": 17.6271663,
+    "display_name": "Södertälje, Södertälje kommun, Stockholms län, 151 72, Sverige"
+  },
+  "Västerås": {
+    "lat": 59.6110992,
+    "lon": 16.5463679,
+    "display_name": "Västerås, Västerås kommun, Västmanlands län, 721 01, Sverige"
+  },
+  "Örebro": {
+    "lat": 59.2747287,
+    "lon": 15.2151181,
+    "display_name": "Örebro, Örebro kommun, Örebro län, 703 61, Sverige"
   }
 }
