@@ -13,7 +13,9 @@ MAP_FILE = OUTPUT_DIR / "eventfinder_map.html"
 
 def load_events():
     if not EVENT_FILE.exists():
-        raise FileNotFoundError(f"Saknar {EVENT_FILE}")
+        raise FileNotFoundError(
+            f"Saknar {EVENT_FILE}"
+        )
 
     data = json.loads(
         EVENT_FILE.read_text(
@@ -35,6 +37,7 @@ def map_events(events):
         for event in events
         if event.get("lat") is not None
         and event.get("lon") is not None
+        and event.get("datum")
     ]
 
 
@@ -71,30 +74,6 @@ def popup_html(event):
         event.get("sport", "")
     )
 
-    source_url = (
-        event.get("ssl_schedule_url")
-        or event.get("url")
-        or ""
-    )
-
-    source_link = ""
-
-    if source_url:
-        safe_url = escape(
-            source_url,
-            quote=True,
-        )
-
-        source_link = (
-            f'<div class="popup-source">'
-            f'<a href="{safe_url}" '
-            f'target="_blank" '
-            f'rel="noopener noreferrer">'
-            f'Öppna källa'
-            f'</a>'
-            f'</div>'
-        )
-
     return f"""
     <div class="event-popup">
         <div class="popup-sport">{sport}</div>
@@ -104,7 +83,6 @@ def popup_html(event):
         <div><strong>Tid:</strong> {tid}</div>
         <div><strong>Arena:</strong> {arena}</div>
         <div><strong>Kommun:</strong> {kommun}</div>
-        {source_link}
     </div>
     """
 
@@ -225,7 +203,8 @@ def build_html(events):
         }}
 
         .controls input,
-        .controls select {{
+        .controls select,
+        .controls button {{
             min-height: 40px;
             padding: 8px 10px;
             border: 1px solid #bbb;
@@ -234,9 +213,33 @@ def build_html(events):
             font-size: 14px;
         }}
 
-        .controls input {{
-            min-width: 250px;
+        .controls input[type="search"] {{
+            min-width: 230px;
             flex: 1;
+        }}
+
+        .date-buttons {{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            width: 100%;
+        }}
+
+        .date-buttons button {{
+            cursor: pointer;
+        }}
+
+        .date-buttons button.active {{
+            background: #222;
+            color: white;
+            border-color: #222;
+        }}
+
+        .date-range {{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
         }}
 
         .counter {{
@@ -290,9 +293,6 @@ def build_html(events):
             border-bottom: 1px solid #eee;
             cursor: pointer;
             background: white;
-            transition:
-                background 0.15s ease,
-                transform 0.15s ease;
         }}
 
         .event-card:hover {{
@@ -329,36 +329,60 @@ def build_html(events):
             color: #666;
         }}
 
+        .arena-popup {{
+            min-width: 260px;
+            max-height: 320px;
+            overflow-y: auto;
+        }}
+
+        .arena-popup h3 {{
+            margin: 0 0 8px;
+        }}
+
+        .arena-popup-count {{
+            color: #666;
+            font-size: 13px;
+            margin-bottom: 10px;
+        }}
+
+        .arena-popup-event {{
+            padding: 8px 0;
+            border-top: 1px solid #eee;
+        }}
+
+        .arena-popup-event:first-of-type {{
+            border-top: none;
+        }}
+
+        .arena-popup-date {{
+            font-size: 12px;
+            color: #666;
+        }}
+
+        .arena-popup-title {{
+            font-weight: bold;
+            margin-top: 2px;
+        }}
+
+        .arena-marker {{
+            background: #202020;
+            color: white;
+            border-radius: 50%;
+            min-width: 32px;
+            height: 32px;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            border: 2px solid white;
+            box-shadow:
+                0 1px 5px rgba(0, 0, 0, 0.35);
+        }}
+
         .empty {{
             padding: 20px;
             color: #666;
-        }}
-
-        .event-popup {{
-            min-width: 220px;
-            line-height: 1.45;
-        }}
-
-        .event-popup h3 {{
-            margin:
-                4px
-                0
-                10px;
-            font-size: 17px;
-        }}
-
-        .popup-sport {{
-            font-size: 12px;
-            text-transform: uppercase;
-            color: #666;
-        }}
-
-        .popup-source {{
-            margin-top: 10px;
-        }}
-
-        .leaflet-popup-content {{
-            margin: 14px 16px;
         }}
 
         @media (max-width: 900px) {{
@@ -374,28 +398,6 @@ def build_html(events):
                 border-top: 1px solid #ddd;
             }}
         }}
-
-        @media (max-width: 650px) {{
-            header h1 {{
-                font-size: 20px;
-            }}
-
-            .controls {{
-                padding: 8px;
-            }}
-
-            .controls input,
-            .controls select {{
-                width: 100%;
-                min-width: 0;
-            }}
-
-            .main {{
-                grid-template-rows:
-                    50vh
-                    1fr;
-            }}
-        }}
     </style>
 </head>
 
@@ -406,7 +408,7 @@ def build_html(events):
     <header>
         <h1>Eventfinder</h1>
         <p>
-            Sportevent på karta ·
+            Hitta event efter plats och dag ·
             {total} event med koordinater
         </p>
     </header>
@@ -425,16 +427,68 @@ def build_html(events):
             </option>
         </select>
 
-        <select id="monthFilter">
-            <option value="">
-                Alla månader
-            </option>
-        </select>
-
         <div
             id="counter"
             class="counter"
-        >
+        ></div>
+
+        <div class="date-buttons">
+            <button
+                type="button"
+                data-period="all"
+                class="active"
+            >
+                Alla datum
+            </button>
+
+            <button
+                type="button"
+                data-period="today"
+            >
+                Idag
+            </button>
+
+            <button
+                type="button"
+                data-period="tomorrow"
+            >
+                Imorgon
+            </button>
+
+            <button
+                type="button"
+                data-period="weekend"
+            >
+                Helgen
+            </button>
+
+            <button
+                type="button"
+                data-period="7days"
+            >
+                Nästa 7 dagar
+            </button>
+        </div>
+
+        <div class="date-range">
+            <label>Från</label>
+            <input
+                id="dateFrom"
+                type="date"
+            >
+
+            <label>Till</label>
+            <input
+                id="dateTo"
+                type="date"
+            >
+
+            <button
+                id="clearDates"
+                type="button"
+            >
+                Rensa datum
+            </button>
         </div>
 
     </div>
@@ -487,7 +541,8 @@ def build_html(events):
             map
         );
 
-    const markersById = new Map();
+    const markersByEventId =
+        new Map();
 
     const searchInput =
         document.getElementById(
@@ -499,11 +554,6 @@ def build_html(events):
             "seriesFilter"
         );
 
-    const monthFilter =
-        document.getElementById(
-            "monthFilter"
-        );
-
     const counter =
         document.getElementById(
             "counter"
@@ -513,6 +563,173 @@ def build_html(events):
         document.getElementById(
             "eventList"
         );
+
+    const dateFrom =
+        document.getElementById(
+            "dateFrom"
+        );
+
+    const dateTo =
+        document.getElementById(
+            "dateTo"
+        );
+
+    const clearDates =
+        document.getElementById(
+            "clearDates"
+        );
+
+    const periodButtons =
+        document.querySelectorAll(
+            "[data-period]"
+        );
+
+
+    function localDateString(date) {{
+        const year =
+            date.getFullYear();
+
+        const month =
+            String(
+                date.getMonth() + 1
+            ).padStart(
+                2,
+                "0"
+            );
+
+        const day =
+            String(
+                date.getDate()
+            ).padStart(
+                2,
+                "0"
+            );
+
+        return `${{year}}-${{month}}-${{day}}`;
+    }}
+
+
+    function addDays(date, days) {{
+        const copy =
+            new Date(date);
+
+        copy.setDate(
+            copy.getDate() + days
+        );
+
+        return copy;
+    }}
+
+
+    function setPeriodButton(period) {{
+        periodButtons.forEach(
+            button => {{
+                button.classList.toggle(
+                    "active",
+                    button.dataset.period
+                    === period
+                );
+            }}
+        );
+    }}
+
+
+    function applyPeriod(period) {{
+        const today = new Date();
+
+        today.setHours(
+            0,
+            0,
+            0,
+            0
+        );
+
+        if (period === "all") {{
+            dateFrom.value = "";
+            dateTo.value = "";
+        }}
+
+        if (period === "today") {{
+            const value =
+                localDateString(
+                    today
+                );
+
+            dateFrom.value = value;
+            dateTo.value = value;
+        }}
+
+        if (period === "tomorrow") {{
+            const tomorrow =
+                addDays(
+                    today,
+                    1
+                );
+
+            const value =
+                localDateString(
+                    tomorrow
+                );
+
+            dateFrom.value = value;
+            dateTo.value = value;
+        }}
+
+        if (period === "7days") {{
+            dateFrom.value =
+                localDateString(
+                    today
+                );
+
+            dateTo.value =
+                localDateString(
+                    addDays(
+                        today,
+                        6
+                    )
+                );
+        }}
+
+        if (period === "weekend") {{
+            const day =
+                today.getDay();
+
+            let daysUntilSaturday =
+                (6 - day + 7) % 7;
+
+            if (day === 0) {{
+                daysUntilSaturday = -1;
+            }}
+
+            const saturday =
+                addDays(
+                    today,
+                    daysUntilSaturday
+                );
+
+            const sunday =
+                addDays(
+                    saturday,
+                    1
+                );
+
+            dateFrom.value =
+                localDateString(
+                    saturday
+                );
+
+            dateTo.value =
+                localDateString(
+                    sunday
+                );
+        }}
+
+        setPeriodButton(
+            period
+        );
+
+        render();
+    }}
 
 
     function populateFilters() {{
@@ -533,43 +750,13 @@ def build_html(events):
                         "option"
                     );
 
-                option.value = serie;
-                option.textContent = serie;
+                option.value =
+                    serie;
+
+                option.textContent =
+                    serie;
 
                 seriesFilter.appendChild(
-                    option
-                );
-            }}
-        );
-
-
-        const months = [
-            ...new Set(
-                events
-                    .map(
-                        event =>
-                            event.datum
-                                ? event.datum.substring(
-                                    0,
-                                    7
-                                )
-                                : ""
-                    )
-                    .filter(Boolean)
-            )
-        ].sort();
-
-        months.forEach(
-            month => {{
-                const option =
-                    document.createElement(
-                        "option"
-                    );
-
-                option.value = month;
-                option.textContent = month;
-
-                monthFilter.appendChild(
                     option
                 );
             }}
@@ -604,42 +791,142 @@ def build_html(events):
             seriesFilter.value
             || "";
 
-        const month =
-            monthFilter.value
+        const from =
+            dateFrom.value
             || "";
 
-        return events.filter(
-            event => {{
-                if (
-                    search
-                    && !searchableText(
-                        event
-                    ).includes(
+        const to =
+            dateTo.value
+            || "";
+
+        return events
+            .filter(
+                event => {{
+                    if (
                         search
-                    )
-                ) {{
-                    return false;
+                        && !searchableText(
+                            event
+                        ).includes(
+                            search
+                        )
+                    ) {{
+                        return false;
+                    }}
+
+                    if (
+                        serie
+                        && event.serie
+                        !== serie
+                    ) {{
+                        return false;
+                    }}
+
+                    if (
+                        from
+                        && event.datum
+                        < from
+                    ) {{
+                        return false;
+                    }}
+
+                    if (
+                        to
+                        && event.datum
+                        > to
+                    ) {{
+                        return false;
+                    }}
+
+                    return true;
+                }}
+            )
+            .sort(
+                (a, b) => {{
+                    const aKey =
+                        `${{a.datum}} ${{a.tid || "23:59"}}`;
+
+                    const bKey =
+                        `${{b.datum}} ${{b.tid || "23:59"}}`;
+
+                    return aKey.localeCompare(
+                        bKey
+                    );
+                }}
+            );
+    }}
+
+
+    function groupByLocation(visible) {{
+        const groups = new Map();
+
+        visible.forEach(
+            event => {{
+                const key =
+                    `${{event.lat.toFixed(6)}},${{event.lon.toFixed(6)}}`;
+
+                if (!groups.has(key)) {{
+                    groups.set(
+                        key,
+                        []
+                    );
                 }}
 
-                if (
-                    serie
-                    && event.serie !== serie
-                ) {{
-                    return false;
-                }}
-
-                if (
-                    month
-                    && !event.datum.startsWith(
-                        month
-                    )
-                ) {{
-                    return false;
-                }}
-
-                return true;
+                groups.get(
+                    key
+                ).push(
+                    event
+                );
             }}
         );
+
+        return groups;
+    }}
+
+
+    function groupPopup(eventsAtLocation) {{
+        const first =
+            eventsAtLocation[0];
+
+        const arena =
+            first.arena
+            || first.kommun
+            || "Plats";
+
+        const rows =
+            eventsAtLocation
+                .map(
+                    event => {{
+                        const time =
+                            event.tid
+                            ? " · " + event.tid
+                            : "";
+
+                        return `
+                            <div class="arena-popup-event">
+                                <div class="arena-popup-date">
+                                    ${{event.datum}}${{time}}
+                                </div>
+                                <div class="arena-popup-title">
+                                    ${{event.namn}}
+                                </div>
+                                <div>
+                                    ${{event.serie || ""}}
+                                </div>
+                            </div>
+                        `;
+                    }}
+                )
+                .join("");
+
+        return `
+            <div class="arena-popup">
+                <h3>${{arena}}</h3>
+                <div class="arena-popup-count">
+                    ${{eventsAtLocation.length}} event
+                </div>
+                ${{rows}}
+            </div>
+        `;
     }}
 
 
@@ -659,7 +946,7 @@ def build_html(events):
 
     function focusEvent(event) {{
         const marker =
-            markersById.get(
+            markersByEventId.get(
                 event.id
             );
 
@@ -706,9 +993,11 @@ def build_html(events):
                     "div"
                 );
 
-            empty.className = "empty";
+            empty.className =
+                "empty";
+
             empty.textContent =
-                "Inga event matchar filtren.";
+                "Inga event matchar dina filter.";
 
             eventList.appendChild(
                 empty
@@ -772,44 +1061,70 @@ def build_html(events):
     }}
 
 
-    function renderMarkers() {{
+    function renderMarkers(visible) {{
         markerLayer.clearLayers();
-        markersById.clear();
+        markersByEventId.clear();
 
-        const visible =
-            filteredEvents();
+        const groups =
+            groupByLocation(
+                visible
+            );
 
-        visible.forEach(
-            event => {{
+        groups.forEach(
+            eventsAtLocation => {{
+                const first =
+                    eventsAtLocation[0];
+
+                const count =
+                    eventsAtLocation.length;
+
+                const icon =
+                    L.divIcon(
+                        {{
+                            className: "",
+                            html:
+                                `<div class="arena-marker">${{count}}</div>`,
+                            iconSize: [
+                                36,
+                                36
+                            ],
+                            iconAnchor: [
+                                18,
+                                18
+                            ]
+                        }}
+                    );
+
                 const marker =
                     L.marker(
                         [
-                            event.lat,
-                            event.lon
-                        ]
+                            first.lat,
+                            first.lon
+                        ],
+                        {{
+                            icon: icon
+                        }}
                     );
 
                 marker.bindPopup(
-                    event.popup
+                    groupPopup(
+                        eventsAtLocation
+                    )
                 );
 
                 marker.addTo(
                     markerLayer
                 );
 
-                markersById.set(
-                    event.id,
-                    marker
+                eventsAtLocation.forEach(
+                    event => {{
+                        markersByEventId.set(
+                            event.id,
+                            marker
+                        );
+                    }}
                 );
             }}
-        );
-
-        counter.textContent =
-            visible.length
-            + " event";
-
-        renderList(
-            visible
         );
 
         if (
@@ -843,24 +1158,76 @@ def build_html(events):
     }}
 
 
+    function render() {{
+        const visible =
+            filteredEvents();
+
+        counter.textContent =
+            visible.length
+            + " event";
+
+        renderMarkers(
+            visible
+        );
+
+        renderList(
+            visible
+        );
+    }}
+
+
     searchInput.addEventListener(
         "input",
-        renderMarkers
+        render
     );
 
     seriesFilter.addEventListener(
         "change",
-        renderMarkers
+        render
     );
 
-    monthFilter.addEventListener(
+    dateFrom.addEventListener(
         "change",
-        renderMarkers
+        () => {{
+            setPeriodButton("");
+            render();
+        }}
+    );
+
+    dateTo.addEventListener(
+        "change",
+        () => {{
+            setPeriodButton("");
+            render();
+        }}
+    );
+
+    clearDates.addEventListener(
+        "click",
+        () => {{
+            dateFrom.value = "";
+            dateTo.value = "";
+            setPeriodButton(
+                "all"
+            );
+            render();
+        }}
+    );
+
+    periodButtons.forEach(
+        button => {{
+            button.addEventListener(
+                "click",
+                () => applyPeriod(
+                    button.dataset.period
+                )
+            );
+        }}
     );
 
 
     populateFilters();
-    renderMarkers();
+    render();
 </script>
 
 </body>
@@ -874,7 +1241,7 @@ def main():
         "============================================="
     )
     print(
-        " EVENTFINDER - BYGGER KARTA + EVENTLISTA"
+        " EVENTFINDER - KARTA MED ARENAGRUPPERING"
     )
     print(
         "============================================="
