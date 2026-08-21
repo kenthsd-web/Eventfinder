@@ -1038,7 +1038,305 @@ def show_examples(
 # ============================================================
 # HUVUDIMPORT
 # ============================================================
+# ============================================================
+# RENSNING AV GAMLA TESTEVENT
+# ============================================================
 
+TEST_EVENT_NAMES = {
+    "Exempelmatch",
+    "Exempelturnering",
+    "Mullsjö AIS - Visby IBK",
+    "AIK IBF - Nykvarns IBF",
+    "IBK Lund Elit - Pixbo IBK",
+    "IBF Falun - Växjö IBK",
+}
+
+
+def ar_gammalt_testevent(event):
+    """
+    Tar bort tidigare manuella testevent.
+
+    Riktiga importerade matcher har source_type
+    'officiellt_spelschema_pdf' och ett riktigt match_id.
+    """
+
+    source_type = event.get("source_type", "")
+    match_id = str(event.get("match_id", ""))
+
+    if source_type == "officiellt_spelschema_pdf":
+        return False
+
+    if match_id.startswith("58") and len(match_id) == 9:
+        return False
+
+    namn = event.get("namn", "")
+
+    if namn in TEST_EVENT_NAMES:
+        return True
+
+    if event.get("kalla") in (
+        "Manuellt exempel",
+        "Svenska Innebandyförbundet",
+    ):
+        # äldre manuella objekt saknar normalt sasong/source_type
+        if not event.get("sasong"):
+            return True
+
+    return False
+
+
+def rensa_testevent(events):
+
+    rena = []
+
+    borttagna = []
+
+    for event in events:
+
+        if ar_gammalt_testevent(event):
+            borttagna.append(event)
+        else:
+            rena.append(event)
+
+    return rena, borttagna
+
+
+# ============================================================
+# LAGENS HEMORTER / KOMMUNER
+# ============================================================
+#
+# Detta är INTE matcharena.
+# Det är lagets normala hemort och används bara som fallback
+# tills exakt matchplats finns.
+# ============================================================
+
+TEAM_LOCATIONS = {
+    # SSL Herr
+    "AIK IBF": {
+        "ort": "Solna",
+        "kommun": "Solna",
+    },
+    "FBC Kalmarsund": {
+        "ort": "Kalmar",
+        "kommun": "Kalmar",
+    },
+    "IBF Falun": {
+        "ort": "Falun",
+        "kommun": "Falun",
+    },
+    "IBK Dalen": {
+        "ort": "Umeå",
+        "kommun": "Umeå",
+    },
+    "IBK Lund Elit": {
+        "ort": "Lund",
+        "kommun": "Lund",
+    },
+    "Jönköpings IK": {
+        "ort": "Jönköping",
+        "kommun": "Jönköping",
+    },
+    "Linköping IBK": {
+        "ort": "Linköping",
+        "kommun": "Linköping",
+    },
+    "Mullsjö AIS": {
+        "ort": "Mullsjö",
+        "kommun": "Mullsjö",
+    },
+    "Nykvarns IBF": {
+        "ort": "Nykvarn",
+        "kommun": "Nykvarn",
+    },
+    "Pixbo IBK": {
+        "ort": "Mölnlycke",
+        "kommun": "Härryda",
+    },
+    "Storvreta IBK": {
+        "ort": "Uppsala",
+        "kommun": "Uppsala",
+    },
+    "Visby IBK": {
+        "ort": "Visby",
+        "kommun": "Gotland",
+    },
+    "Växjö IBK": {
+        "ort": "Växjö",
+        "kommun": "Växjö",
+    },
+    "Warberg IC": {
+        "ort": "Varberg",
+        "kommun": "Varberg",
+    },
+
+    # SSL Dam
+    "Endre IF": {
+        "ort": "Visby",
+        "kommun": "Gotland",
+    },
+    "IBK Lockerud Mariestad": {
+        "ort": "Mariestad",
+        "kommun": "Mariestad",
+    },
+    "KAIS Mora IF": {
+        "ort": "Mora",
+        "kommun": "Mora",
+    },
+    "Karlstad IBF": {
+        "ort": "Karlstad",
+        "kommun": "Karlstad",
+    },
+    "Malmö FBC": {
+        "ort": "Malmö",
+        "kommun": "Malmö",
+    },
+    "Thorengruppen IBK": {
+        "ort": "Umeå",
+        "kommun": "Umeå",
+    },
+    "Täby FC IBK": {
+        "ort": "Täby",
+        "kommun": "Täby",
+    },
+    "Västerås Rönnby IBK": {
+        "ort": "Västerås",
+        "kommun": "Västerås",
+    },
+}
+
+
+def komplettera_med_hemort(events):
+    """
+    Sätter hemort/kommun från hemmalaget när matchens
+    exakta arena och ort ännu inte är känd.
+
+    Fältet location_precision visar att detta är fallback-data.
+    """
+
+    antal = 0
+
+    for event in events:
+
+        if event.get("sport") != SPORT:
+            continue
+
+        hemmalag = event.get("hemmalag", "")
+
+        location = TEAM_LOCATIONS.get(
+            hemmalag
+        )
+
+        if not location:
+            continue
+
+        # Skriv inte över verifierad platsdata.
+        if not event.get("ort"):
+            event["ort"] = location["ort"]
+
+        if not event.get("kommun"):
+            event["kommun"] = location["kommun"]
+
+        if not event.get("arena"):
+            event["location_precision"] = "hemmalag_hemort"
+        else:
+            event["location_precision"] = "arena"
+
+        antal += 1
+
+    return antal
+
+
+# ============================================================
+# DATAKVALITET
+# ============================================================
+
+def data_quality_report(events):
+
+    total = len(events)
+
+    med_tid = 0
+    med_arena = 0
+    med_kommun = 0
+    med_geo = 0
+    exakta_datum = 0
+
+    for event in events:
+
+        if event.get("tid"):
+            med_tid += 1
+
+        if event.get("arena"):
+            med_arena += 1
+
+        if event.get("kommun"):
+            med_kommun += 1
+
+        if (
+            event.get("lat") is not None
+            and event.get("lon") is not None
+        ):
+            med_geo += 1
+
+        if event.get("datum_exakt"):
+            exakta_datum += 1
+
+    print()
+    print("Datakvalitet")
+    print("------------")
+
+    print(
+        f"Totalt: {total}"
+    )
+
+    print(
+        f"Exakt datum: {exakta_datum}"
+    )
+
+    print(
+        f"Exakt tid: {med_tid}"
+    )
+
+    print(
+        f"Arena: {med_arena}"
+    )
+
+    print(
+        f"Kommun/hemort: {med_kommun}"
+    )
+
+    print(
+        f"Koordinater: {med_geo}"
+    )
+
+
+# ============================================================
+# SLUTBEARBETNING
+# ============================================================
+
+def slutbearbeta_events(events):
+
+    events, borttagna = rensa_testevent(
+        events
+    )
+
+    if borttagna:
+
+        print()
+        print(
+            f"Rensade bort {len(borttagna)} "
+            f"gamla testevent."
+        )
+
+    location_count = komplettera_med_hemort(
+        events
+    )
+
+    print(
+        f"Kompletterade hemort/kommun "
+        f"för {location_count} event."
+    )
+
+    return events
 def main():
 
     print()
@@ -1168,17 +1466,28 @@ def main():
         return
 
     existing = load_existing()
-
     combined = merge_events(
         existing,
         imported,
+    )
+
+    combined = slutbearbeta_events(
+        combined
     )
 
     save_events(
         combined
     )
 
+    data_quality_report(
+        combined
+    )
+
     print_stats(
+        imported
+    )
+
+    show_examples(
         imported
     )
 
