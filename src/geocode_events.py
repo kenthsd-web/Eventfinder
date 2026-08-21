@@ -26,16 +26,7 @@ USER_AGENT = (
 
 
 # ============================================================
-# VERIFIERADE ARENOR / SÖKOVERRIDES
-# ============================================================
-#
-# Vissa arenanamn fungerar dåligt i OpenStreetMap-sökningen.
-# Därför kan vi här ange korrekt ort/kommun och en bättre
-# sökfråga.
-#
-# Om lat/lon anges används koordinaterna direkt.
-# Om bara search_query anges verifieras platsen fortfarande
-# via Nominatim.
+# VERIFIERADE / FÖRBÄTTRADE ARENAUPPGIFTER
 # ============================================================
 
 ARENA_OVERRIDES = {
@@ -44,6 +35,13 @@ ARENA_OVERRIDES = {
         "lon": 11.9865,
         "ort": "Göteborg",
         "kommun": "Göteborg",
+    },
+
+    "Lunds Idrottshall": {
+        "lat": 55.700561,
+        "lon": 13.184439,
+        "ort": "Lund",
+        "kommun": "Lund",
     },
 
     "Jakobsbergs Sporthall": {
@@ -82,39 +80,30 @@ ARENA_OVERRIDES = {
         ),
     },
 
-    "Umeå Energi Arena Vatten": {
-        "ort": "Umeå",
-        "kommun": "Umeå",
-        "search_query": (
-            "Umeå Energi Arena Vatten, "
-            "Gammlia, Umeå, Sweden"
-        ),
-    },
-
-    "Lunds Idrottshall": {
-        "ort": "Lund",
-        "kommun": "Lund",
-        "search_query": (
-            "Lunds Idrottshall, "
-            "Lund, Sweden"
-        ),
-    },
-
-    "Furuborghallen": {
-        "ort": "Nykvarn",
-        "kommun": "Nykvarn",
-        "search_query": (
-            "Furuborghallen, "
-            "Nykvarn, Sweden"
-        ),
-    },
-
     "Jönköpings Idrotthus Arenan": {
         "ort": "Jönköping",
         "kommun": "Jönköping",
         "search_query": (
-            "Jönköpings Idrottshus, "
-            "Jönköping, Sweden"
+            "Lagermansgatan 4, "
+            "553 18 Jönköping, Sweden"
+        ),
+    },
+
+    "Umeå Energi Arena Vatten": {
+        "ort": "Umeå",
+        "kommun": "Umeå",
+        "search_query": (
+            "Gammlia idrottscentrum, "
+            "Umeå, Sweden"
+        ),
+    },
+
+    "Nolia Arena": {
+        "ort": "Umeå",
+        "kommun": "Umeå",
+        "search_query": (
+            "Signalvägen 3, "
+            "Umeå, Sweden"
         ),
     },
 
@@ -127,11 +116,20 @@ ARENA_OVERRIDES = {
         ),
     },
 
+    "Furuborghallen": {
+        "ort": "Nykvarn",
+        "kommun": "Nykvarn",
+        "search_query": (
+            "Furuborghallen, "
+            "Nykvarn, Sweden"
+        ),
+    },
+
     "TTM hallen": {
         "ort": "Kalmar",
         "kommun": "Kalmar",
         "search_query": (
-            "TTM-hallen, "
+            "TTM hallen, "
             "Kalmar, Sweden"
         ),
     },
@@ -142,15 +140,6 @@ ARENA_OVERRIDES = {
         "search_query": (
             "Lerbäckshallen, "
             "Lund, Sweden"
-        ),
-    },
-
-    "Nolia Arena": {
-        "ort": "Umeå",
-        "kommun": "Umeå",
-        "search_query": (
-            "Nolia Arena, "
-            "Umeå, Sweden"
         ),
     },
 }
@@ -192,9 +181,6 @@ def save_events(events):
 
 
 def backup_events():
-    if not EVENT_FILE.exists():
-        return
-
     BACKUP_FILE.write_text(
         EVENT_FILE.read_text(
             encoding="utf-8"
@@ -239,69 +225,7 @@ def save_cache(cache):
 
 
 # ============================================================
-# NOMINATIM
-# ============================================================
-
-def geocode_query(query):
-    params = {
-        "q": query,
-        "format": "jsonv2",
-        "limit": 5,
-        "countrycodes": "se",
-        "addressdetails": 1,
-    }
-
-    url = (
-        NOMINATIM_URL
-        + "?"
-        + urlencode(params)
-    )
-
-    request = Request(
-        url,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Accept-Language": "sv-SE,sv;q=0.9",
-        },
-    )
-
-    try:
-        with urlopen(
-            request,
-            timeout=20,
-        ) as response:
-
-            return json.loads(
-                response.read().decode(
-                    "utf-8"
-                )
-            )
-
-    except HTTPError as error:
-        print(
-            f"  HTTP-fel {error.code}"
-        )
-
-    except URLError as error:
-        print(
-            f"  Nätverksfel: {error.reason}"
-        )
-
-    except TimeoutError:
-        print(
-            "  Timeout"
-        )
-
-    except Exception as error:
-        print(
-            f"  Geokodningsfel: {error}"
-        )
-
-    return []
-
-
-# ============================================================
-# ARENA / SÖKFRÅGOR
+# HJÄLPFUNKTIONER
 # ============================================================
 
 def get_arena(event):
@@ -311,6 +235,21 @@ def get_arena(event):
         or ""
     ).strip()
 
+
+def normalize(text):
+    return (
+        text.lower()
+        .replace("-", " ")
+        .replace(",", " ")
+        .replace("å", "a")
+        .replace("ä", "a")
+        .replace("ö", "o")
+    )
+
+
+# ============================================================
+# OVERRIDES
+# ============================================================
 
 def apply_override_metadata(event):
     arena = get_arena(event)
@@ -323,9 +262,7 @@ def apply_override_metadata(event):
         return None
 
     if override.get("ort"):
-        event["ort"] = (
-            override["ort"]
-        )
+        event["ort"] = override["ort"]
 
     if override.get("kommun"):
         event["kommun"] = (
@@ -357,16 +294,20 @@ def apply_direct_coordinates(event):
         override["lon"]
     )
 
-    event[
-        "geocode_source"
-    ] = "manual_override"
+    event["geocode_source"] = (
+        "verified_manual_override"
+    )
 
-    event[
-        "location_precision"
-    ] = "arena_verified"
+    event["location_precision"] = (
+        "arena_verified"
+    )
 
     return True
 
+
+# ============================================================
+# SÖKFRÅGOR
+# ============================================================
 
 def build_queries(event):
     arena = get_arena(event)
@@ -388,13 +329,9 @@ def build_queries(event):
 
     queries = []
 
-    override_query = override.get(
-        "search_query"
-    )
-
-    if override_query:
+    if override.get("search_query"):
         queries.append(
-            override_query
+            override["search_query"]
         )
 
     if arena:
@@ -416,51 +353,99 @@ def build_queries(event):
             f"{arena}, {kommun}, Sweden"
         )
 
-    # Ta bort dubletter utan att ändra ordningen.
     return list(
-        dict.fromkeys(
-            queries
+        dict.fromkeys(queries)
+    )
+
+
+# ============================================================
+# NOMINATIM
+# ============================================================
+
+def geocode_query(query):
+    params = {
+        "q": query,
+        "format": "jsonv2",
+        "limit": 5,
+        "countrycodes": "se",
+        "addressdetails": 1,
+    }
+
+    url = (
+        NOMINATIM_URL
+        + "?"
+        + urlencode(params)
+    )
+
+    request = Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept-Language":
+                "sv-SE,sv;q=0.9",
+        },
+    )
+
+    try:
+        with urlopen(
+            request,
+            timeout=20,
+        ) as response:
+
+            return json.loads(
+                response.read().decode(
+                    "utf-8"
+                )
+            )
+
+    except HTTPError as error:
+        print(
+            f"  HTTP-fel {error.code}"
         )
-    )
+
+    except URLError as error:
+        print(
+            f"  Nätverksfel: "
+            f"{error.reason}"
+        )
+
+    except TimeoutError:
+        print(
+            "  Timeout"
+        )
+
+    except Exception as error:
+        print(
+            f"  Fel: {error}"
+        )
+
+    return []
 
 
 # ============================================================
-# POÄNGSÄTT TRÄFFAR
+# BEDÖM TRÄFF
 # ============================================================
-
-def normalize_for_match(text):
-    text = (
-        text
-        .lower()
-        .replace("-", " ")
-        .replace(",", " ")
-    )
-
-    return " ".join(
-        text.split()
-    )
-
 
 def result_score(result, event):
-    display = normalize_for_match(
+    display = normalize(
         result.get(
             "display_name",
             ""
         )
     )
 
-    arena = normalize_for_match(
+    arena = normalize(
         get_arena(event)
     )
 
-    ort = normalize_for_match(
+    ort = normalize(
         event.get(
             "ort",
             "",
         )
     )
 
-    kommun = normalize_for_match(
+    kommun = normalize(
         event.get(
             "kommun",
             "",
@@ -469,32 +454,22 @@ def result_score(result, event):
 
     score = 0
 
-    # Arena
     arena_words = [
         word
         for word in arena.split()
         if len(word) >= 4
     ]
 
-    matched_arena_words = sum(
-        1
-        for word in arena_words
-        if word in display
-    )
+    for word in arena_words:
+        if word in display:
+            score += 3
 
-    score += (
-        matched_arena_words * 3
-    )
-
-    # Ort
     if ort and ort in display:
-        score += 4
+        score += 5
 
-    # Kommun
     if kommun and kommun in display:
-        score += 4
+        score += 5
 
-    # Sverige
     if (
         "sverige" in display
         or "sweden" in display
@@ -522,20 +497,17 @@ def choose_best_result(
 
     best = ranked[0]
 
-    best_score = result_score(
+    if result_score(
         best,
         event,
-    )
-
-    # Kräver mer än en väldigt svag träff.
-    if best_score < 4:
+    ) < 5:
         return None
 
     return best
 
 
 # ============================================================
-# VILKA EVENT SKA GEOKODAS?
+# GEOKODNING
 # ============================================================
 
 def needs_geocoding(event):
@@ -553,10 +525,6 @@ def needs_geocoding(event):
     )
 
 
-# ============================================================
-# GEOKODNING
-# ============================================================
-
 def geocode_events(events):
     cache = load_cache()
 
@@ -568,20 +536,14 @@ def geocode_events(events):
 
     arena_groups = {}
 
-    # --------------------------------------------------------
-    # Gruppera matcherna per arena
-    # --------------------------------------------------------
-
     for event in events:
         if not needs_geocoding(event):
             continue
 
-        # Lägg först på verifierad ort/kommun.
         apply_override_metadata(
             event
         )
 
-        # Har vi redan verifierade koordinater?
         if apply_direct_coordinates(
             event
         ):
@@ -594,19 +556,13 @@ def geocode_events(events):
         arena_groups.setdefault(
             arena,
             [],
-        ).append(
-            event
-        )
+        ).append(event)
 
     print()
     print(
         f"Unika arenor att geokoda: "
         f"{len(arena_groups)}"
     )
-
-    # --------------------------------------------------------
-    # Geokoda varje unik arena en gång
-    # --------------------------------------------------------
 
     for index, (
         arena,
@@ -616,9 +572,7 @@ def geocode_events(events):
         start=1,
     ):
 
-        sample_event = (
-            matching_events[0]
-        )
+        sample = matching_events[0]
 
         print()
         print(
@@ -626,19 +580,15 @@ def geocode_events(events):
             f"{arena}"
         )
 
-        queries = build_queries(
-            sample_event
-        )
-
-        best_result = None
+        best = None
         best_query = None
 
-        for query in queries:
-            if query in cache:
-                results = cache[
-                    query
-                ]
+        for query in build_queries(
+            sample
+        ):
 
+            if query in cache:
+                results = cache[query]
                 cached += 1
 
             else:
@@ -646,9 +596,7 @@ def geocode_events(events):
                     query
                 )
 
-                cache[
-                    query
-                ] = results
+                cache[query] = results
 
                 save_cache(
                     cache
@@ -656,40 +604,41 @@ def geocode_events(events):
 
                 searched += 1
 
-                # Nominatim:
-                # max ungefär ett anrop per sekund.
                 time.sleep(
                     1.1
                 )
 
-            candidate = choose_best_result(
-                results,
-                sample_event,
+            candidate = (
+                choose_best_result(
+                    results,
+                    sample,
+                )
             )
 
             if candidate:
-                best_result = candidate
+                best = candidate
                 best_query = query
                 break
 
-        if not best_result:
+        if not best:
+            failed += 1
+
             print(
                 "  Ingen säker träff"
             )
 
-            failed += 1
             continue
 
         lat = float(
-            best_result["lat"]
+            best["lat"]
         )
 
         lon = float(
-            best_result["lon"]
+            best["lon"]
         )
 
         display_name = (
-            best_result.get(
+            best.get(
                 "display_name",
                 "",
             )
@@ -737,25 +686,20 @@ def geocode_events(events):
         "searched": searched,
         "cached": cached,
         "failed": failed,
-        "unique_arenas": len(
-            arena_groups
-        ),
     }
 
 
 # ============================================================
-# DATAKVALITET
+# RAPPORT
 # ============================================================
 
 def quality_report(events):
     total = 0
     with_arena = 0
     with_coordinates = 0
-    ssl_total = 0
-    ssl_with_coordinates = 0
 
     unique_arenas = set()
-    geocoded_arenas = set()
+    arenas_with_coordinates = set()
 
     for event in events:
         if event.get(
@@ -765,9 +709,7 @@ def quality_report(events):
 
         total += 1
 
-        arena = get_arena(
-            event
-        )
+        arena = get_arena(event)
 
         if arena:
             with_arena += 1
@@ -775,29 +717,16 @@ def quality_report(events):
                 arena
             )
 
-        has_coordinates = (
-            event.get("lat")
-            is not None
-            and event.get("lon")
-            is not None
-        )
-
-        if has_coordinates:
+        if (
+            event.get("lat") is not None
+            and event.get("lon") is not None
+        ):
             with_coordinates += 1
 
             if arena:
-                geocoded_arenas.add(
+                arenas_with_coordinates.add(
                     arena
                 )
-
-        if event.get("serie") in (
-            "SSL Herr",
-            "SSL Dam",
-        ):
-            ssl_total += 1
-
-            if has_coordinates:
-                ssl_with_coordinates += 1
 
     print()
     print("Datakvalitet")
@@ -825,24 +754,9 @@ def quality_report(events):
 
     print(
         f"Arenor med koordinater: "
-        f"{len(geocoded_arenas)}"
+        f"{len(arenas_with_coordinates)}"
     )
 
-    print()
-    print(
-        f"SSL-matcher totalt: "
-        f"{ssl_total}"
-    )
-
-    print(
-        f"SSL-matcher med koordinater: "
-        f"{ssl_with_coordinates}"
-    )
-
-
-# ============================================================
-# VISA ARENOR SOM SAKNAS
-# ============================================================
 
 def print_missing_arenas(events):
     missing = {}
@@ -853,18 +767,14 @@ def print_missing_arenas(events):
         ) != "Innebandy":
             continue
 
-        arena = get_arena(
-            event
-        )
+        arena = get_arena(event)
 
         if not arena:
             continue
 
         if (
-            event.get("lat")
-            is not None
-            and event.get("lon")
-            is not None
+            event.get("lat") is not None
+            and event.get("lon") is not None
         ):
             continue
 
@@ -876,21 +786,19 @@ def print_missing_arenas(events):
             + 1
         )
 
+    print()
+    print(
+        "Arenor utan koordinater"
+    )
+    print(
+        "-----------------------"
+    )
+
     if not missing:
-        print()
         print(
             "Alla kända arenor har koordinater."
         )
         return
-
-    print()
-    print(
-        "Arenor som fortfarande saknar koordinater"
-    )
-
-    print(
-        "-----------------------------------------"
-    )
 
     for arena, count in sorted(
         missing.items(),
@@ -928,7 +836,6 @@ def main():
         f"Laddade {len(events)} event."
     )
 
-    # Säkerhetskopia innan ändring.
     backup_events()
 
     result = geocode_events(
@@ -940,8 +847,12 @@ def main():
     )
 
     print()
-    print("Geokodning klar")
-    print("---------------")
+    print(
+        "Geokodning klar"
+    )
+    print(
+        "---------------"
+    )
 
     print(
         f"Event uppdaterade: "
@@ -949,7 +860,7 @@ def main():
     )
 
     print(
-        f"Direkta manuella koordinater: "
+        f"Direkta verifierade: "
         f"{result['manual']}"
     )
 
@@ -978,13 +889,11 @@ def main():
 
     print()
     print(
-        f"Backup: "
-        f"{BACKUP_FILE}"
+        f"Backup: {BACKUP_FILE}"
     )
 
     print(
-        f"Cache: "
-        f"{CACHE_FILE}"
+        f"Cache: {CACHE_FILE}"
     )
 
     print(
