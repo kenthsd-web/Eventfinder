@@ -32,13 +32,33 @@ def load_events():
 
 
 def map_events(events):
-    return [
-        event
-        for event in events
-        if event.get("lat") is not None
-        and event.get("lon") is not None
-        and event.get("datum")
-    ]
+    placeholder_terms = (
+        "uppflyttat lag",
+        "urdraget lag",
+        "vinnare semifinal",
+    )
+
+    output = []
+
+    for event in events:
+        if (
+            event.get("lat") is None
+            or event.get("lon") is None
+            or not event.get("datum")
+        ):
+            continue
+
+        text = " ".join([
+            str(event.get("hemmalag") or ""),
+            str(event.get("bortalag") or ""),
+        ]).lower()
+
+        if any(term in text for term in placeholder_terms):
+            continue
+
+        output.append(event)
+
+    return output
 
 
 def popup_html(event):
