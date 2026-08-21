@@ -112,6 +112,7 @@ def build_js_events(events):
                 "lon": event["lon"],
                 "namn": event.get("namn", ""),
                 "sport": event.get("sport", ""),
+                "typ": event.get("typ", ""),
                 "serie": event.get("serie", ""),
                 "datum": event.get("datum", ""),
                 "tid": event.get("tid", ""),
@@ -514,6 +515,12 @@ header p {{
         placeholder="Sök lag, arena eller kommun..."
     >
 
+    <select id="typeFilter">
+        <option value="">
+            Alla eventtyper
+        </option>
+    </select>
+
     <select id="seriesFilter">
 
         <option value="">
@@ -729,6 +736,11 @@ let selectedLocation = null;
 const searchInput =
     document.getElementById(
         "search"
+    );
+
+const typeFilter =
+    document.getElementById(
+        "typeFilter"
     );
 
 const seriesFilter =
@@ -1026,6 +1038,38 @@ function applyPeriod(period) {{
 
 function populateFilters() {{
 
+    const types = [
+        ...new Set(
+            events
+                .map(
+                    event =>
+                        event.sport
+                        || event.typ
+                )
+                .filter(Boolean)
+        )
+    ].sort();
+
+    types.forEach(
+        type => {{
+
+            const option =
+                document.createElement(
+                    "option"
+                );
+
+            option.value =
+                type;
+
+            option.textContent =
+                type;
+
+            typeFilter.appendChild(
+                option
+            );
+        }}
+    );
+
     const series = [
         ...new Set(
             events
@@ -1103,6 +1147,10 @@ function filteredEvents() {{
         .toLowerCase();
 
 
+    const type =
+        typeFilter.value
+        || "";
+
     const serie =
         seriesFilter.value
         || "";
@@ -1136,6 +1184,18 @@ function filteredEvents() {{
                     ).includes(
                         search
                     )
+                ) {{
+                    return false;
+                }}
+
+                if (
+                    type
+                    &&
+                    (
+                        event.sport
+                        || event.typ
+                    )
+                    !== type
                 ) {{
                     return false;
                 }}
@@ -2067,6 +2127,11 @@ searchInput.addEventListener(
     render
 );
 
+
+typeFilter.addEventListener(
+    "change",
+    render
+);
 
 seriesFilter.addEventListener(
     "change",
