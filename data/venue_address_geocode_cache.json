@@ -532,5 +532,179 @@
     "lon": 12.8023362,
     "query": "Östra Läraregatan 1 253 73 Gantofta, Sweden",
     "display_name": "1, Östra Läraregatan, Gantofta, Helsingborgs kommun, Skåne län, 253 73, Sverige"
+  },
+  "Ankdammsgatan 46 171 67 Solna": {
+    "lat": 59.3574684,
+    "lon": 17.9887619,
+    "query": "Ankdammsgatan 46 171 67 Solna, Sweden",
+    "display_name": "Ankdammsgatan, Skytteholm, Solna, Solna kommun, Stockholms län, 171 67, Sverige"
+  },
+  "Anneforsvägen 22 571 32 Nässjö": {
+    "lat": 57.6584785,
+    "lon": 14.6988871,
+    "query": "Anneforsvägen 22 571 32 Nässjö, Sweden",
+    "display_name": "Anneforsvägen, Norrboda, Nässjö, Nässjö kommun, Jönköpings län, 571 32, Sverige"
+  },
+  "Arenavägen 1 811 61 Sandviken": {
+    "lat": 60.6095541,
+    "lon": 16.7726165,
+    "query": "Arenavägen 1 811 61 Sandviken, Sweden",
+    "display_name": "Ferrum Arena, 1, Arenavägen, Nya Bruket, Sandviken, Sandvikens kommun, Gävleborgs län, 811 61, Sverige"
+  },
+  "Badvägen 1 731 50 Köping": {
+    "lat": 59.5072552,
+    "lon": 15.9856934,
+    "query": "Badvägen 1 731 50 Köping, Sweden",
+    "display_name": "Badvägen, Köping, Köpings kommun, Västmanlands län, 731 36, Sverige"
+  },
+  "Eyragatan 1 70225 Örebro": {
+    "lat": 59.2645108,
+    "lon": 15.2130492,
+    "query": "Eyragatan 1 70225 Örebro, Sweden",
+    "display_name": "Eyragatan, Eklunda, Örebro, Örebro kommun, Örebro län, 702 24, Sverige"
+  },
+  "Folkungavägen 4 237 34 Bjärred": {
+    "lat": 55.7217139,
+    "lon": 13.0256579,
+    "query": "Folkungavägen 4 237 34 Bjärred, Sweden",
+    "display_name": "Folkungavägen, Bjärred, Lomma kommun, Skåne län, 237 31, Sverige"
+  },
+  "Gärdesvägen 5 43651 Hovås": {
+    "lat": 57.6182955,
+    "lon": 11.9405316,
+    "query": "Gärdesvägen 5 43651 Hovås, Sweden",
+    "display_name": "Askims Sim- och Sporthall, 5, Gärdesvägen, Hovås, Sydväst, Göteborg, Göteborgs Stad, Västra Götalands län, 436 50, Sverige"
+  },
+  "Gåvsta, Rasbo 75596 UPPSALA": {
+    "lat": 59.9440563,
+    "lon": 17.8723854,
+    "query": "Gåvsta, Rasbo 75596 UPPSALA, Sweden",
+    "display_name": "Lill-Gåvsta, Rasbo, Gåvsta, Uppsala kommun, Uppsala län, 741 78, Sverige"
+  },
+  "Hackstav. 43 18435 Åkersberga": {
+    "lat": 59.4868151,
+    "lon": 18.3006553,
+    "query": "Hackstav. 43 18435 Åkersberga, Sweden",
+    "display_name": "Hackstavägen, Berga, Skonaren, Åkersberga, Österåkers kommun, Stockholms län, 184 36, Sverige"
+  },
+  "Hallgatan 1 53152 Lidköping": {
+    "lat": 58.4982243,
+    "lon": 13.1419315,
+    "query": "Hallgatan 1 53152 Lidköping, Sweden",
+    "display_name": "Hallgatan, Ågårdsområdet, Lidköping distrikt, Lidköping, Lidköpings kommun, Västra Götalands län, 531 51, Sverige"
+  },
+  "Harvaregatan 67 56633 Habo": {
+    "lat": null,
+    "lon": null,
+    "query": "Harvaregatan 67 56633 Habo, Sweden",
+    "display_name": ""
+  },
+  "Kristian den II:s väg 262 44 ÄNGELHOLM": {
+    "lat": null,
+    "lon": null,
+    "query": "Kristian den II:s väg 262 44 ÄNGELHOLM, Sweden",
+    "display_name": ""
+  },
+  "Köpingsvägen 22 165 72 Hässelby": {
+    "lat": 59.3790119,
+    "lon": 17.8114088,
+    "query": "Köpingsvägen 22 165 72 Hässelby, Sweden",
+    "display_name": "Köpingsvägen, Hässelby Villastad, Hässelby-Vällingby stadsdelsområde, Stockholm, Stockholms kommun, Stockholms län, 165 75, Sverige"
+  },
+  "Mellersta Stenbocksgatan 10 254 37 Helsingborg": {
+    "lat": 56.0518042,
+    "lon": 12.7058555,
+    "query": "Mellersta Stenbocksgatan 10 254 37 Helsingborg, Sweden",
+    "display_name": "Idrottens hus, 10, Mellersta Stenbocksgatan, Olympia, Helsingborg, Helsingborgs kommun, Skåne län, 254 37, Sverige"
+  },
+  "Nyborgsvägen 195 04 Rosersberg": {
+    "lat": 59.5808737,
+    "lon": 17.8877549,
+    "query": "Nyborgsvägen 195 04 Rosersberg, Sweden",
+    "display_name": "Nyborgsvägen, Centrum, Rosersbergs Villastad, Rosersberg, Sigtuna kommun, Stockholms län, 195 71, Sverige"
+  },
+  "Personnevägen 90 12949 Hägersten": {
+    "lat": 59.2929068,
+    "lon": 17.9777847,
+    "query": "Personnevägen 90 12949 Hägersten, Sweden",
+    "display_name": "Västertorps sim- och idrottshall, 90, Personnevägen, Västertorp, Hägersten-Älvsjö stadsdelsområde, Stockholm, Stockholms kommun, Stockholms län, 129 49, Sverige"
+  },
+  "Regementsvägen 1 97442 Luleå": {
+    "lat": 65.5939728,
+    "lon": 22.193574,
+    "query": "Regementsvägen 1 97442 Luleå, Sweden",
+    "display_name": "Tallkronanskolan, 1, Regementsvägen, Kulturbyn, Kronandalen, Kronan, Luleå, Luleå kommun, Norrbottens län, 974 42, Sverige"
+  },
+  "Ringvägen 70 11861 Stockholm": {
+    "lat": 59.3078602,
+    "lon": 18.0659563,
+    "query": "Ringvägen 70 11861 Stockholm, Sweden",
+    "display_name": "70, Ringvägen, Skanstull, Södermalm, Södermalms stadsdelsområde, Stockholm, Stockholms kommun, Stockholms län, 118 57, Sverige"
+  },
+  "Skolvägen 5 74731 ALUNDA": {
+    "lat": 60.0682443,
+    "lon": 18.0848882,
+    "query": "Skolvägen 5 74731 ALUNDA, Sweden",
+    "display_name": "Skolvägen, Skuggan, Alunda, Östhammars kommun, Uppsala län, 747 31, Sverige"
+  },
+  "Snickaregatan 35 Linköping": {
+    "lat": 58.4074707,
+    "lon": 15.6310325,
+    "query": "Snickaregatan 35 Linköping, Sweden",
+    "display_name": "Sporthallen, 35, Snickaregatan, Innerstaden, Linköpings Sankt Lars, Linköping, Linköpings kommun, Östergötlands län, 582 41, Sverige"
+  },
+  "Spportvägen 1 860 30 SÖRBERGE": {
+    "lat": null,
+    "lon": null,
+    "query": "Spportvägen 1 860 30 SÖRBERGE, Sweden",
+    "display_name": ""
+  },
+  "Sångargatan 1 72220 Västerås": {
+    "lat": 59.6219615,
+    "lon": 16.5375375,
+    "query": "Sångargatan 1 72220 Västerås, Sweden",
+    "display_name": "Sångargatan, Iggebygärdet, Västerås, Västerås kommun, Västmanlands län, 722 18, Sverige"
+  },
+  "Trädgårdsgatan 59 265 36 Åstorp": {
+    "lat": 56.1368893,
+    "lon": 12.9342134,
+    "query": "Trädgårdsgatan 59 265 36 Åstorp, Sweden",
+    "display_name": "Trädgårdsgatan, Åstorp, Åstorps kommun, Skåne län, 265 35, Sverige"
+  },
+  "Universitetsallén 11 852 34 SUNDSVALL": {
+    "lat": 62.3944425,
+    "lon": 17.2907695,
+    "query": "Universitetsallén 11 852 34 SUNDSVALL, Sweden",
+    "display_name": "11, Universitetsallén, Alliero, Norrmalm, Sundsvall, Sundsvalls kommun, Västernorrlands län, 852 34, Sverige"
+  },
+  "Valhallavägen 20 891 37 ÖRNSKÖLDSVIK": {
+    "lat": 63.2952831,
+    "lon": 18.7347457,
+    "query": "Valhallavägen 20 891 37 ÖRNSKÖLDSVIK, Sweden",
+    "display_name": "Örnsköldsviks curlinghall, 20, Valhallavägen, Lungvik, Örnsköldsvik, Örnsköldsviks kommun, Västernorrlands län, 891 37, Sverige"
+  },
+  "Älgvägen 31 44834 Floda": {
+    "lat": 57.8060116,
+    "lon": 12.3736557,
+    "query": "Älgvägen 31 44834 Floda, Sweden",
+    "display_name": "Novahallen, 31, Älgvägen, Hyltorna, Skallsjö distrikt, Floda, Lerums kommun, Västra Götalands län, 448 34, Sverige"
+  },
+  "Ådalsvägen 293 00 Olofström": {
+    "lat": 56.277229,
+    "lon": 14.5319272,
+    "query": "Ådalsvägen 293 00 Olofström, Sweden",
+    "display_name": "Ådalsvägen, Olofström, Olofströms kommun, Blekinge län, 293 32, Sverige"
+  },
+  "Örkelljungavägen 46 26693 Munka-Ljungby": {
+    "lat": 56.2571792,
+    "lon": 12.9883173,
+    "query": "Örkelljungavägen 46 26693 Munka-Ljungby, Sweden",
+    "display_name": "Örkelljungavägen, Stättehus, Munka-Ljungby, Ängelholms kommun, Skåne län, 266 34, Sverige"
+  },
+  "Östra Fäladsgatan 60 21224 Malmö": {
+    "lat": 55.6108217,
+    "lon": 13.0531179,
+    "query": "Östra Fäladsgatan 60 21224 Malmö, Sweden",
+    "display_name": "Östra Fäladsgatan, Kirsebergsstaden, Bulltofta, Norr, Malmö, Malmö kommun, Skåne län, 212 24, Sverige"
   }
 }

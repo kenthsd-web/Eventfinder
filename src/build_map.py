@@ -1079,7 +1079,34 @@ function populateFilters() {{
                 )
                 .filter(Boolean)
         )
-    ].sort();
+    ].sort(
+        (a, b) => {{
+            const priority = name => {{
+                if (name === "SSL Dam") return 1;
+                if (name === "SSL Herr") return 2;
+                if (name.startsWith("Allsvenskan")) return 3;
+                if (
+                    name.startsWith("Division 1 Herr")
+                    || name === "Division 1 Damer"
+                    || name === "Damer Division 1"
+                ) return 4;
+
+                return 10;
+            }};
+
+            const pa = priority(a);
+            const pb = priority(b);
+
+            if (pa !== pb) {{
+                return pa - pb;
+            }}
+
+            return a.localeCompare(
+                b,
+                "sv"
+            );
+        }}
+    );
 
 
     series.forEach(

@@ -14,6 +14,8 @@ BACKUP_FILE = (
 SEASON_ID = 44
 
 SERIES = {
+    "SSL Dam": 44030,
+    "SSL Herr": 44033,
     "Allsvenskan Dam Norra": 44031,
     "Allsvenskan Dam Södra": 44032,
     "Allsvenskan Herr": 44034,
@@ -225,7 +227,12 @@ def main():
 
             time_part = time_part[:5]
 
-            if date_part:
+            valid_date = (
+                date_part
+                and date_part != "0001-01-01"
+            )
+
+            if valid_date:
                 event["datum"] = date_part
                 event["datum_start"] = date_part
                 event["datum_slut"] = date_part
@@ -233,10 +240,14 @@ def main():
                 event["status"] = "schemalagd"
                 changed = True
 
-            if time_part and event.get("tid") != time_part:
-                event["tid"] = time_part
-                time_updated += 1
-                changed = True
+                if (
+                    time_part
+                    and time_part != "00:00"
+                    and event.get("tid") != time_part
+                ):
+                    event["tid"] = time_part
+                    time_updated += 1
+                    changed = True
 
         venue = (
             match.get("Venue")
