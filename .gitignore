@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Eventfinder - temporära filer och backup
+data/events_before_enrich.json
+data/events_before_geocode.json
+data/innebandy_cache.html
+data/ssl_rendered_text.txt
+data/ssl_schedule_cache.html
+
+# Nedladdade PDF-filer
+data/innebandy_pdfs/
+
+# Operativsystem / editor
+.DS_Store
+*.swp
+*~
