@@ -425,5 +425,123 @@
     "lon": 19.8783,
     "source_url": "https://www.jokkmokk.se/kultur-och-fritid/idrott-och-motion/bad-och-idrottsanlaeggningar/",
     "source_kind": "manual_verified_official_and_osm_coordinates"
+  },
+  "Borås Ishall B-hall": {
+    "matched_name": "Borås Ishall",
+    "address_line": "Armbågavägen 6",
+    "postcode": "50630",
+    "city": "Borås",
+    "full_address": "Armbågavägen 6, 506 30 Borås",
+    "source_url": "https://www.boras.se/upplevaochgora/idrottsanlaggningar/inomhusanlaggningar/borasishall.4.3cc917c815870110c12a225d.html",
+    "source_kind": "manual_verified_official_alias"
+  },
+  "HLL Arena": {
+    "matched_name": "HLL Arena",
+    "address_line": "Kvarnängsvägen 20",
+    "postcode": "",
+    "city": "Nynäshamn",
+    "full_address": "Kvarnängsvägen 20, Nynäshamn",
+    "source_url": "https://nynashamn.se/service/kultur--fritid/fritid/ishallen-hll-arena",
+    "source_kind": "manual_verified_official"
+  },
+  "Salems Ishall": {
+    "matched_name": "Salems Ishall",
+    "address_line": "Säbyhallsvägen 20 B",
+    "postcode": "14430",
+    "city": "Rönninge",
+    "full_address": "Säbyhallsvägen 20 B, 144 30 Rönninge",
+    "source_url": "https://www.salem.se/fritidochkultur/idrott/ovrigaidrottsanlaggningar.4.40db0dec1936a329c813dc96.html",
+    "source_kind": "manual_verified_official"
+  },
+  "Valhallarinken": {
+    "matched_name": "Valhallarinken",
+    "address_line": "Valhallagatan 3",
+    "postcode": "",
+    "city": "Göteborg",
+    "full_address": "Valhallagatan 3, Göteborg",
+    "source_url": "https://goteborg.se/",
+    "source_kind": "manual_verified_official"
+  },
+  "Åkers Ishall": {
+    "matched_name": "Bruksvallens ishall",
+    "address_line": "Bruksvallen",
+    "postcode": "",
+    "city": "Åkers Styckebruk",
+    "full_address": "Bruksvallen, Åkers Styckebruk",
+    "lat": 59.25525,
+    "lon": 17.10812,
+    "source_url": "https://www.strangnas.se/uppleva-och-gora/idrott-motion-och-friluftsliv/hallar-och-idrottsanlaggningar/ovriga-hallar/ishallar/bruksvallens-ishall",
+    "source_kind": "manual_verified_official_identity_and_crosschecked_coordinates"
+  },
+  "Fridhemshallen": {
+    "matched_name": "Fridhemshallen",
+    "address_line": "Svanevägen 2",
+    "postcode": "",
+    "city": "Uddevalla",
+    "full_address": "Svanevägen 2, Uddevalla",
+    "source_url": "https://www.uddevalla.se/uppleva-och-gora/idrott-motion-och-friluftsliv/hallar-och-idrottsanlaggningar/ishall.html",
+    "source_kind": "manual_verified_official"
+  },
+  "Tibro Ishall": {
+    "matched_name": "Tibro Ishall",
+    "address_line": "Gymnasiegatan 31",
+    "postcode": "54332",
+    "city": "Tibro",
+    "full_address": "Gymnasiegatan 31, 543 32 Tibro",
+    "source_url": "https://tibro.se/Kultur-fritid-och-idrott/friluftsliv-och-motion/anlaggningar/Ishall1/",
+    "source_kind": "manual_verified_official"
+  },
+  "Ulriksdals IP Hall 2": {
+    "matched_name": "Ulriksdals IP Hall 2",
+    "address_line": "Kolonnvägen 24B",
+    "postcode": "16970",
+    "city": "Solna",
+    "full_address": "Kolonnvägen 24B, 169 70 Solna",
+    "lat": 59.3639579,
+    "lon": 18.0159143,
+    "source_url": "https://www.solna.se/uppleva--gora/idrott-och-anlaggningar/hallar-och-idrottsanlaggningar/ulriksdals-ip",
+    "source_kind": "manual_verified_official_same_site_coordinates"
+  },
+  "Craftor Arena": {
+    "matched_name": "Craftor Arena",
+    "address_line": "Forsparksvägen 15",
+    "postcode": "82231",
+    "city": "Alfta",
+    "full_address": "Forsparksvägen 15, 822 31 Alfta",
+    "source_url": "https://www.ovanaker.se/",
+    "source_kind": "manual_verified_official"
+  },
+  "Hitachi Arena": {
+    "matched_name": "Hitachi Arena",
+    "address_line": "Hillängens Idrottsplats",
+    "postcode": "77154",
+    "city": "Ludvika",
+    "full_address": "Hillängens Idrottsplats, 771 54 Ludvika",
+    "lat": 60.15059,
+    "lon": 15.20956,
+    "source_url": "https://stats.swehockey.se/",
+    "source_kind": "manual_verified_swehockey_and_crosschecked_site_coordinates"
+  },
+  "Islandia Mariehamn": {
+    "matched_name": "Islandia",
+    "address_line": "Idrottsgatan 2",
+    "postcode": "22100",
+    "city": "Mariehamn",
+    "full_address": "Idrottsgatan 2, 22100 Mariehamn, Åland",
+    "lat": 60.10369,
+    "lon": 19.93247,
+    "source_url": "https://www.mariehamn.ax/",
+    "source_kind": "manual_verified_official_and_osm_coordinates"
+  },
+  "Kringdata Ungdomsarena": {
+    "matched_name": "Kringdata Ungdomsarena",
+    "address_line": "Skepphusvägen 6",
+    "postcode": "79231",
+    "city": "Mora",
+    "full_address": "Skepphusvägen 6, 792 31 Mora",
+    "lat": 61.0076,
+    "lon": 14.52166,
+    "source_url": "https://morakommun.se/",
+    "source_kind": "manual_verified_official_site_and_crosschecked_coordinates"
   }
 }
