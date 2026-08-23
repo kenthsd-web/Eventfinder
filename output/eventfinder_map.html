@@ -268,6 +268,10 @@ header p {
     background: #2e7d32;
 }
 
+.arena-marker.hockey {
+    background: #c62828;
+}
+
 .location-marker {
     width: 18px;
     height: 18px;
@@ -1499,13 +1503,19 @@ function renderMarkers(visible) {
                     )
                 );
 
-            const markerClass =
-                (
-                    sports.size === 1
-                    && sports.has("Fotboll")
-                )
-                    ? "arena-marker football"
-                    : "arena-marker";
+            let markerClass = "arena-marker";
+
+            if (
+                sports.size === 1
+                && sports.has("Fotboll")
+            ) {
+                markerClass = "arena-marker football";
+            } else if (
+                sports.size === 1
+                && sports.has("Ishockey")
+            ) {
+                markerClass = "arena-marker hockey";
+            }
 
 
             const icon =
