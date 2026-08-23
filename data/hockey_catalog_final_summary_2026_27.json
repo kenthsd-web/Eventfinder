@@ -1,0 +1,14 @@
+{
+  "sport": "ishockey",
+  "season": "2026/27",
+  "finalized": "2026-08-23",
+  "hockey_venues": 213,
+  "missing_address": 0,
+  "missing_city": 0,
+  "missing_postcode": 0,
+  "missing_municipality": 0,
+  "missing_coordinates": 0,
+  "unverified": 0,
+  "duplicate_aliases": 0,
+  "total_qc_errors": 0
+}

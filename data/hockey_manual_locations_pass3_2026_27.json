@@ -1,0 +1,429 @@
+{
+  "Gyllene Balken Arena": {
+    "matched_name": "Gyllene Balken Arena",
+    "address_line": "Vallgatan 7",
+    "postcode": "73230",
+    "city": "Arboga",
+    "full_address": "Vallgatan 7, 732 30 Arboga",
+    "source_url": "https://www.arbogahockey.se/sida/?ID=60510",
+    "source_kind": "manual_verified_official"
+  },
+  "Kvibergs Parks is- och sporthall": {
+    "matched_name": "Kvibergs Parks is- och sporthall",
+    "address_line": "Kvibergs Port 6",
+    "postcode": "41527",
+    "city": "Göteborg",
+    "full_address": "Kvibergs Port 6, 415 27 Göteborg",
+    "source_url": "https://goteborg.se/",
+    "source_kind": "manual_verified_official"
+  },
+  "Landskrona Ishall A": {
+    "matched_name": "Landskrona Ishall A",
+    "address_line": "Idrottstorget 3",
+    "postcode": "26142",
+    "city": "Landskrona",
+    "full_address": "Idrottstorget 3, 261 42 Landskrona",
+    "source_url": "https://www.iflejonet.se/kontakt",
+    "source_kind": "manual_verified_club",
+    "lat": 55.89113,
+    "lon": 12.8368
+  },
+  "Mimerhallen (Rocklunda B)": {
+    "matched_name": "Mimerhallen (Rocklunda B)",
+    "address_line": "Pontus Widéns väg 16",
+    "postcode": "72223",
+    "city": "Västerås",
+    "full_address": "Pontus Widéns väg 16, 722 23 Västerås",
+    "source_url": "https://www.vasteras.se/uppleva-och-gora/hallar-idrottsanlaggningar/hallar-och-idrottsanlaggningar/mimerhallen.html",
+    "source_kind": "manual_verified_official"
+  },
+  "NEH Hallen": {
+    "matched_name": "NEH Hallen",
+    "address_line": "Trängkårsvägen 12",
+    "postcode": "71330",
+    "city": "Nora",
+    "full_address": "Trängkårsvägen 12, 713 30 Nora",
+    "source_url": "https://www.laget.se/NORAHOCKEY/Page/231768",
+    "source_kind": "manual_verified_official"
+  },
+  "Nolhaga Ishall": {
+    "matched_name": "Nolhaga Ishall",
+    "address_line": "Nolhaga allé 10 B",
+    "postcode": "",
+    "city": "Alingsås",
+    "full_address": "Nolhaga allé 10 B, Alingsås",
+    "source_url": "https://www.alingsashem.se/vara-omraden/vara-lokaler/kultur-och-fritid/nolhaga-ishall.html",
+    "source_kind": "manual_verified_official"
+  },
+  "Skellefteå Kraft Arena C-hallen": {
+    "matched_name": "Skellefteå Kraft Arena C-hallen",
+    "address_line": "Mossgatan 27",
+    "postcode": "93170",
+    "city": "Skellefteå",
+    "full_address": "Mossgatan 27, 931 70 Skellefteå",
+    "source_url": "https://skelleftea.se/skellefteakraftarena",
+    "source_kind": "manual_verified_official"
+  },
+  "Tingvalla Isstadion Rink 1": {
+    "matched_name": "Tingvalla Isstadion Rink 1",
+    "address_line": "Stadionvägen 4",
+    "postcode": "65339",
+    "city": "Karlstad",
+    "full_address": "Stadionvägen 4, 653 39 Karlstad",
+    "source_url": "https://karlstad.se/uppleva-och-gora/idrott/idrottsanlaggningar-och-hallar/tingvalla-isstadion",
+    "source_kind": "manual_verified_official"
+  },
+  "Trollarinkens Ishall": {
+    "matched_name": "Trollarinkens Ishall",
+    "address_line": "Trollavägen 1",
+    "postcode": "28946",
+    "city": "Glimåkra",
+    "full_address": "Trollavägen 1, 289 46 Glimåkra",
+    "source_url": "https://www.glimmahockey.se/sida/?ID=559986",
+    "source_kind": "manual_verified_official"
+  },
+  "Askims Ishall": {
+    "matched_name": "Askims Ishall",
+    "address_line": "Kruniusvägen 1",
+    "postcode": "42736",
+    "city": "Billdal",
+    "full_address": "Kruniusvägen 1, 427 36 Billdal",
+    "source_url": "https://goteborg.se/",
+    "source_kind": "manual_official_plus_geocode"
+  },
+  "Be-Ge Hockey Center": {
+    "matched_name": "Be-Ge Hockey Center",
+    "address_line": "Döderhultsvägen 5",
+    "postcode": "57231",
+    "city": "Oskarshamn",
+    "full_address": "Döderhultsvägen 5, 572 31 Oskarshamn",
+    "source_url": "https://www.oskarshamn.se/",
+    "source_kind": "manual_verified_official"
+  },
+  "Björknäs Ishall": {
+    "matched_name": "Björknäs Ishall",
+    "address_line": "Björknäs skolväg 5",
+    "postcode": "13244",
+    "city": "Saltsjö-Boo",
+    "full_address": "Björknäs skolväg 5, 132 44 Saltsjö-Boo",
+    "source_url": "https://www.nacka.se/",
+    "source_kind": "manual_official_plus_geocode"
+  },
+  "FD Maskin Arena": {
+    "matched_name": "FD Maskin Arena",
+    "address_line": "Lövsätt 101",
+    "postcode": "85561",
+    "city": "Kovland",
+    "full_address": "Lövsätt 101, 855 61 Kovland",
+    "source_url": "https://www.svenskalag.se/kovlandhockey/sida/2951/fd-maskin-arena",
+    "source_kind": "manual_verified_club"
+  },
+  "Kristinehovs ishall": {
+    "matched_name": "Kristinehovs ishall",
+    "address_line": "Idrottsvägen 5",
+    "postcode": "78334",
+    "city": "Säter",
+    "full_address": "Idrottsvägen 5, 783 34 Säter",
+    "source_url": "https://etjanster.sater.se/oversikt/overview/59",
+    "source_kind": "manual_official_plus_geocode"
+  },
+  "Marconihallen": {
+    "matched_name": "Marconihallen",
+    "address_line": "Transistorgatan 5",
+    "postcode": "42145",
+    "city": "Göteborg",
+    "full_address": "Transistorgatan 5, 421 45 Göteborg",
+    "source_url": "https://goteborg.se/",
+    "source_kind": "manual_official_plus_geocode"
+  },
+  "Axelent Arena": {
+    "matched_name": "Axelent Arena",
+    "address_line": "Ouchterlonygatan 9",
+    "postcode": "33131",
+    "city": "Värnamo",
+    "full_address": "Ouchterlonygatan 9, 331 31 Värnamo",
+    "source_url": "https://kommun.varnamo.se/kultur-och-fritid/idrott-motion-och-friluftsliv/ishallar.html",
+    "source_kind": "manual_verified_official"
+  },
+  "Clas Ohlson Foundation Arena": {
+    "matched_name": "Clas Ohlson Foundation Arena",
+    "address_line": "Arenavägen 9",
+    "postcode": "79331",
+    "city": "Leksand",
+    "full_address": "Arenavägen 9, 793 31 Leksand",
+    "source_url": "https://www.leksandsif.se/arena",
+    "source_kind": "manual_verified_official"
+  },
+  "ELITFÖNSTER ARENA": {
+    "matched_name": "ELITFÖNSTER ARENA",
+    "address_line": "Sjögatan 1",
+    "postcode": "36073",
+    "city": "Lenhovda",
+    "full_address": "Sjögatan 1, 360 73 Lenhovda",
+    "source_url": "https://stats.swehockey.se/Teams/Info/Contacts/16081",
+    "source_kind": "manual_verified_swehockey"
+  },
+  "Frölundaborg Isstadion": {
+    "matched_name": "Frölundaborg",
+    "address_line": "Mikael Ljungbergs Väg 11",
+    "postcode": "41476",
+    "city": "Göteborg",
+    "full_address": "Mikael Ljungbergs Väg 11, 414 76 Göteborg",
+    "source_url": "https://gotevent.se/en/contact/",
+    "source_kind": "manual_verified_official"
+  },
+  "Furudals Hockeycenter": {
+    "matched_name": "Furudals Hockeycenter",
+    "address_line": "Ishallsvägen 8",
+    "postcode": "",
+    "city": "Furudal",
+    "full_address": "Ishallsvägen 8, Furudal",
+    "source_url": "https://www.rattvik.se/",
+    "source_kind": "manual_verified_official"
+  },
+  "Höglandsrinken": {
+    "matched_name": "Höglandsrinken",
+    "address_line": "Skogsvallen 3",
+    "postcode": "57141",
+    "city": "Nässjö",
+    "full_address": "Skogsvallen 3, 571 41 Nässjö",
+    "source_url": "https://www.nassjohc.se/sida/?ID=497985",
+    "source_kind": "manual_verified_official_address_and_crosschecked_coordinates",
+    "lat": 57.64081,
+    "lon": 14.6798
+  },
+  "Industriplast Arena": {
+    "matched_name": "Järvsö Industriplast Arena",
+    "address_line": "Strandvägen 31",
+    "postcode": "82751",
+    "city": "Järvsö",
+    "full_address": "Strandvägen 31, 827 51 Järvsö",
+    "source_url": "https://www.svenskalag.se/jarvsoik/kontakt",
+    "source_kind": "manual_verified_club"
+  },
+  "KFK Mekan Arena": {
+    "matched_name": "KFK Mekan Arena",
+    "address_line": "Sävsjövägen 27",
+    "postcode": "57012",
+    "city": "Landsbro",
+    "full_address": "Sävsjövägen 27, 570 12 Landsbro",
+    "source_url": "https://vetlanda.se/uppleva-och-gora/aktorer/kfk-mekan-arena",
+    "source_kind": "manual_verified_official"
+  },
+  "Kungsbacka Ishall (A)": {
+    "matched_name": "Kungsbacka Ishall (A)",
+    "address_line": "Kungsbacka Sportcenter 8",
+    "postcode": "43450",
+    "city": "Kungsbacka",
+    "full_address": "Kungsbacka Sportcenter 8, 434 50 Kungsbacka",
+    "source_url": "https://visitkungsbacka.se/se--gora/aktiviteter--aventyr/kungsbacka-ishall",
+    "source_kind": "manual_verified_official",
+    "lat": 57.4802,
+    "lon": 12.07512
+  },
+  "Jössarinken A-hall": {
+    "matched_name": "Jössarinken A-hall",
+    "address_line": "Jössastigen 10",
+    "postcode": "37532",
+    "city": "Mörrum",
+    "full_address": "Jössastigen 10, 375 32 Mörrum",
+    "source_url": "https://stats.swehockey.se/Teams/Info/Contacts/16208",
+    "source_kind": "manual_verified_swehockey"
+  },
+  "Rosenbergs ishall": {
+    "matched_name": "Rosenbergs ishall",
+    "address_line": "Malmhultsvägen 1",
+    "postcode": "52237",
+    "city": "Tidaholm",
+    "full_address": "Malmhultsvägen 1, 522 37 Tidaholm",
+    "source_url": "https://www.tidaholmhf.se/sida/?ID=165938",
+    "source_kind": "manual_verified_club"
+  },
+  "Skyttishallen": {
+    "matched_name": "Skyttishallen",
+    "address_line": "Vallhallaväg 31",
+    "postcode": "89137",
+    "city": "Örnsköldsvik",
+    "full_address": "Vallhallaväg 31, 891 37 Örnsköldsvik",
+    "lat": 63.2974,
+    "lon": 18.7319,
+    "source_url": "https://stats.swehockey.se/Teams/Info/Contacts/13453",
+    "source_kind": "manual_verified_swehockey_and_crosschecked_coordinates"
+  },
+  "Slottskogens Ishall": {
+    "matched_name": "Slottskogens Ishall",
+    "address_line": "Friidrottens väg 4",
+    "postcode": "41676",
+    "city": "Göteborg",
+    "full_address": "Friidrottens väg 4, 416 76 Göteborg",
+    "source_url": "https://www.skatesweden.se/goteborgs-konstakningsforbund/nyheter/nyheter/2026-07-07-instruktorutbildning---steg-1b-i-goteborg",
+    "source_kind": "manual_verified_official"
+  },
+  "SP Arena": {
+    "matched_name": "SP Arena",
+    "address_line": "Fritidsvägen 5",
+    "postcode": "34140",
+    "city": "Ljungby",
+    "full_address": "Fritidsvägen 5, 341 40 Ljungby",
+    "source_url": "https://www.troja-ljungby.com/hitta-hit",
+    "source_kind": "manual_verified_club"
+  },
+  "Tranås Åkeri Arena": {
+    "matched_name": "Tranås Åkeri Arena",
+    "address_line": "Sportvägen 1",
+    "postcode": "57382",
+    "city": "Tranås",
+    "full_address": "Sportvägen 1, 573 82 Tranås",
+    "source_url": "https://stats.swehockey.se/Teams/Info/Contacts/19515",
+    "source_kind": "manual_verified_swehockey"
+  },
+  "VBO Arena": {
+    "matched_name": "VBO Arena",
+    "address_line": "Kungsgatan 52",
+    "postcode": "59835",
+    "city": "Vimmerby",
+    "full_address": "Kungsgatan 52, 598 35 Vimmerby",
+    "source_url": "https://www.svenskalag.se/vimmerbyhc/kontakt",
+    "source_kind": "manual_verified_club"
+  },
+  "Virdavallens Ishall": {
+    "matched_name": "Virdavallens Ishall",
+    "address_line": "Bengt Klangs väg 1B",
+    "postcode": "34236",
+    "city": "Alvesta",
+    "full_address": "Bengt Klangs väg 1B, 342 36 Alvesta",
+    "source_url": "https://www.alvesta.se/uppleva-och-gora/idrott-motion-och-friluftsliv/hallar-och-idrottsanlaggningar/ishall/",
+    "source_kind": "manual_verified_official"
+  },
+  "Visättra Ishall": {
+    "matched_name": "Visättra Ishall",
+    "address_line": "Kvarnängsvägen 1",
+    "postcode": "",
+    "city": "Huddinge",
+    "full_address": "Kvarnängsvägen 1, Huddinge",
+    "lat": 59.2166,
+    "lon": 17.9633,
+    "source_url": "https://www.huddinge.se/",
+    "source_kind": "manual_verified_official_location_and_crosschecked_coordinates"
+  },
+  "Wibe Arena": {
+    "matched_name": "Wibe Arena",
+    "address_line": "Hantverkaregatan 29-31",
+    "postcode": "79231",
+    "city": "Mora",
+    "full_address": "Hantverkaregatan 29-31, 792 31 Mora",
+    "lat": 61.0073,
+    "lon": 14.531,
+    "source_url": "https://www.svenskalag.se/moraik/kontakt",
+    "source_kind": "manual_verified_club_and_crosschecked_coordinates"
+  },
+  "Kinnarp Hall-D": {
+    "matched_name": "Kinnarp Hall-D",
+    "address_line": "Elmiavägen 18",
+    "postcode": "55454",
+    "city": "Jönköping",
+    "full_address": "Elmiavägen 18, 554 54 Jönköping",
+    "source_url": "https://www.jonkoping.se/upplevagora/sportochfritidsanlaggningar/ishallarochisbanor/husqvarnagarden.4.2b883c071776204f49763d.html",
+    "source_kind": "manual_verified_official"
+  },
+  "PROLYMPIAHALLEN": {
+    "matched_name": "PROLYMPIAHALLEN",
+    "address_line": "Elmiavägen 18",
+    "postcode": "55454",
+    "city": "Jönköping",
+    "full_address": "Elmiavägen 18, 554 54 Jönköping",
+    "source_url": "https://www.jonkoping.se/upplevagora/sportochfritidsanlaggningar/ishallarochisbanor/husqvarnagarden.4.2b883c071776204f49763d.html",
+    "source_kind": "manual_verified_official"
+  },
+  "Lassalyckans Ishall A-hall": {
+    "matched_name": "Lassalyckans Ishall A-hall",
+    "address_line": "Idrottsgatan 9",
+    "postcode": "52333",
+    "city": "Ulricehamn",
+    "full_address": "Idrottsgatan 9, 523 33 Ulricehamn",
+    "source_url": "https://www.ulricehamn.se/uppleva-och-gora/bad-idrott-och-friluftsliv/hallar-och-idrottsanlaggningar/lassalyckan---centrum-for-idrott-och-friluftsliv/ishallen",
+    "source_kind": "manual_official_identity_plus_crosschecked_address"
+  },
+  "Lillstrimma hallen": {
+    "matched_name": "Lill-Strimmahallen",
+    "address_line": "Lill-strimmas väg 1",
+    "postcode": "86141",
+    "city": "Sörberge",
+    "full_address": "Lill-strimmas väg 1, 861 41 Sörberge",
+    "lat": 62.50673,
+    "lon": 17.34823,
+    "source_url": "https://www.timra.se/upplevagora/bokalokalochtorgplats/anlaggningar.4.592ec6a218bfe46bb6e281.html",
+    "source_kind": "manual_verified_official_address_and_crosschecked_coordinates"
+  },
+  "Olympiarinken B-Hall": {
+    "matched_name": "Olympiarinken B-Hall",
+    "address_line": "Mellersta Stenbocksgatan 18",
+    "postcode": "25437",
+    "city": "Helsingborg",
+    "full_address": "Mellersta Stenbocksgatan 18, 254 37 Helsingborg",
+    "source_url": "https://helsingborg.se/uppleva-och-gora/anlaggningar-och-sporthallar/ishallar-och-isbanor/",
+    "source_kind": "manual_verified_official"
+  },
+  "Trängens IP Hall A": {
+    "matched_name": "Trängens IP Hall A",
+    "address_line": "Karlsgatan 62",
+    "postcode": "70347",
+    "city": "Örebro",
+    "full_address": "Karlsgatan 62, 703 47 Örebro",
+    "source_url": "https://www.orebro.se/kultur--fritid/motion--idrott/idrottsanlaggningar/trangens-ip.html",
+    "source_kind": "manual_verified_official"
+  },
+  "Avestahallen": {
+    "matched_name": "Avestahallen",
+    "address_line": "Vallgatan 8",
+    "postcode": "77434",
+    "city": "Avesta",
+    "full_address": "Vallgatan 8, 774 34 Avesta",
+    "source_url": "https://swehockeymap.se/arena/avestahallen",
+    "source_kind": "manual_verified_swehockeymap"
+  },
+  "Team Sportia Arena": {
+    "matched_name": "Team Sportia Arena",
+    "address_line": "Idrottsvägen 11",
+    "postcode": "81432",
+    "city": "Skutskär",
+    "full_address": "Idrottsvägen 11, 814 32 Skutskär",
+    "lat": 60.6392,
+    "lon": 17.42067,
+    "source_url": "https://www.alvkarleby.se/",
+    "source_kind": "manual_verified_official_address_and_site_coordinates"
+  },
+  "Internetport Arena": {
+    "matched_name": "Internetport Arena",
+    "address_line": "Tallmon, Lindefallet",
+    "postcode": "82596",
+    "city": "Enånger",
+    "full_address": "Tallmon, Lindefallet, 825 96 Enånger",
+    "lat": 61.49093,
+    "lon": 16.94109,
+    "source_url": "https://stats.swehockey.se/Teams/Info/Contacts/18886",
+    "source_kind": "manual_verified_swehockey_club_and_address_coordinates"
+  },
+  "MerElArena": {
+    "matched_name": "Mer-El Arena",
+    "address_line": "Idrottsvägen 5",
+    "postcode": "71234",
+    "city": "Hällefors",
+    "full_address": "Idrottsvägen 5, 712 34 Hällefors",
+    "lat": 59.78654,
+    "lon": 14.51867,
+    "source_url": "https://www.hellefors.se/idrottsanlaggningar_och_hallar.html",
+    "source_kind": "manual_verified_official_and_osm_coordinates"
+  },
+  "Norrskenets Ishall": {
+    "matched_name": "Norrskenets Ishall",
+    "address_line": "Jokkmokks IP",
+    "postcode": "96285",
+    "city": "Jokkmokk",
+    "full_address": "Jokkmokks IP, 962 85 Jokkmokk",
+    "lat": 66.60459,
+    "lon": 19.8783,
+    "source_url": "https://www.jokkmokk.se/kultur-och-fritid/idrott-och-motion/bad-och-idrottsanlaeggningar/",
+    "source_kind": "manual_verified_official_and_osm_coordinates"
+  }
+}
