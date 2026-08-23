@@ -442,6 +442,10 @@ header p {{
         0 1px 5px rgba(0, 0, 0, 0.35);
 }}
 
+.arena-marker.football {{
+    background: #2e7d32;
+}}
+
 .location-marker {{
     width: 18px;
     height: 18px;
@@ -1090,9 +1094,28 @@ function populateFilters() {{
         }}
     );
 
+    updateSeriesFilter();
+}}
+
+
+function updateSeriesFilter() {{
+    const selectedSport =
+        typeFilter.value;
+
+    const previousSeries =
+        seriesFilter.value;
+
+    const relevantEvents =
+        selectedSport
+            ? events.filter(
+                event =>
+                    event.sport === selectedSport
+            )
+            : events;
+
     const series = [
         ...new Set(
-            events
+            relevantEvents
                 .map(
                     event =>
                         event.serie
@@ -1100,38 +1123,18 @@ function populateFilters() {{
                 .filter(Boolean)
         )
     ].sort(
-        (a, b) => {{
-            const priority = name => {{
-                if (name === "SSL Dam") return 1;
-                if (name === "SSL Herr") return 2;
-                if (name.startsWith("Allsvenskan")) return 3;
-                if (
-                    name.startsWith("Division 1 Herr")
-                    || name === "Division 1 Damer"
-                    || name === "Damer Division 1"
-                ) return 4;
-
-                return 10;
-            }};
-
-            const pa = priority(a);
-            const pb = priority(b);
-
-            if (pa !== pb) {{
-                return pa - pb;
-            }}
-
-            return a.localeCompare(
+        (a, b) =>
+            a.localeCompare(
                 b,
                 "sv"
-            );
-        }}
+            )
     );
 
+    seriesFilter.innerHTML =
+        '<option value="">Alla serier</option>';
 
     series.forEach(
         serie => {{
-
             const option =
                 document.createElement(
                     "option"
@@ -1146,9 +1149,19 @@ function populateFilters() {{
             seriesFilter.appendChild(
                 option
             );
-
         }}
     );
+
+    if (
+        series.includes(
+            previousSeries
+        )
+    ) {{
+        seriesFilter.value =
+            previousSeries;
+    }} else {{
+        seriesFilter.value = "";
+    }}
 }}
 
 
@@ -1657,13 +1670,29 @@ function renderMarkers(visible) {{
                 eventsAtLocation.length;
 
 
+            const sports =
+                new Set(
+                    eventsAtLocation.map(
+                        event => event.sport
+                    )
+                );
+
+            const markerClass =
+                (
+                    sports.size === 1
+                    && sports.has("Fotboll")
+                )
+                    ? "arena-marker football"
+                    : "arena-marker";
+
+
             const icon =
                 L.divIcon(
                     {{
                         className: "",
 
                         html:
-                            `<div class="arena-marker">${{count}}</div>`,
+                            `<div class="${{markerClass}}">${{count}}</div>`,
 
                         iconSize: [
                             36,
@@ -2177,7 +2206,10 @@ searchInput.addEventListener(
 
 typeFilter.addEventListener(
     "change",
-    render
+    () => {{
+        updateSeriesFilter();
+        render();
+    }}
 );
 
 seriesFilter.addEventListener(

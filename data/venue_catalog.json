@@ -18733,7 +18733,9 @@
     "arena": "Hovet, Johanneshov",
     "canonical": "Hovet, Johanneshov",
     "canonical_name": "Hovet, Johanneshov",
-    "aliases": [],
+    "aliases": [
+      "Hovet"
+    ],
     "address": "Arenavägen 35, 121 77 Johanneshov",
     "city": "Johanneshov",
     "ort": "Johanneshov",
