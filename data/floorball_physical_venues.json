@@ -1537,16 +1537,17 @@
   },
   {
     "physical_venue_id": "floorball:1331",
-    "canonical_name": "Täby IP / Vikingavallen",
+    "canonical_name": "Bollhallen, Täby IP",
     "latitude": 59.491945,
     "longitude": 18.073453,
-    "address": "Vaskanvägen 10 187 77 Täby",
+    "address": "Vaskanvägen 10, 187 77 Täby",
     "cities": [
       "Täby"
     ],
     "aliases": [
       "Vikingavallen",
-      "Täby IP / Vikingavallen"
+      "Täby IP / Vikingavallen",
+      "Bollhallen, Täby IP"
     ],
     "source_venue_ids": [
       1331
@@ -1563,10 +1564,12 @@
     ],
     "event_count": 8,
     "verification": [
-      "STRONG"
+      "STRONG",
+      "OFFICIAL_IDENTITY_EXISTING_FACILITY_POINT"
     ],
     "coordinate_sources": [
-      "PLACE_URL"
+      "PLACE_URL",
+      "OFFICIAL_IDENTITY_EXISTING_FACILITY_POINT"
     ],
     "subvenues": [
       {
@@ -1747,17 +1750,18 @@
   },
   {
     "physical_venue_id": "floorball:1362",
-    "canonical_name": "Stora Mossens IP",
-    "latitude": 59.329974,
-    "longitude": 17.96089,
-    "address": "Mosskroken 167 55 BROMMA",
+    "canonical_name": "Stora Mossens idrottshall",
+    "latitude": 59.3302348,
+    "longitude": 17.9610616,
+    "address": "Stora Mossen, 167 56 Bromma",
     "cities": [
-      "BROMMA"
+      "Bromma"
     ],
     "aliases": [
       "Stora Mossen 1",
       "Stora Mossens IP",
-      "Stora Mossen 2"
+      "Stora Mossen 2",
+      "Stora Mossens idrottshall"
     ],
     "source_venue_ids": [
       1362,
@@ -1780,11 +1784,13 @@
     ],
     "event_count": 34,
     "verification": [
-      "STRONG"
+      "STRONG",
+      "GOOGLE_EXACT_HALL_PLUS_OFFICIAL_IDENTITY"
     ],
     "coordinate_sources": [
       "PLACE_URL",
-      "SHARE_URL"
+      "SHARE_URL",
+      "GOOGLE_EXACT_HALL_PLUS_OFFICIAL_IDENTITY"
     ],
     "subvenues": [
       {
@@ -1925,16 +1931,16 @@
   },
   {
     "physical_venue_id": "floorball:1398",
-    "canonical_name": "Hammarens Idrottsplats",
-    "latitude": 59.268509,
-    "longitude": 17.219368,
-    "address": "Stallarholmsvägen 11 64731 Mariefred",
+    "canonical_name": "Hammarens sporthall",
+    "latitude": 59.2686697,
+    "longitude": 17.2187311,
+    "address": "Stallarholmsvägen 11, 647 31 Mariefred",
     "cities": [
       "Mariefred"
     ],
     "aliases": [
       "Hammarens IP",
-      "Hammarens Idrottsplats"
+      "Hammarens sporthall"
     ],
     "source_venue_ids": [
       1398
@@ -1943,8 +1949,7 @@
       557
     ],
     "source_names": [
-      "Hammarens IP",
-      "Hammarens Idrottsplats"
+      "Hammarens IP"
     ],
     "home_teams": [
       "IFK Mariefred",
@@ -1952,10 +1957,12 @@
     ],
     "event_count": 18,
     "verification": [
-      "STRONG"
+      "STRONG",
+      "OFFICIAL_SPORT_HALL_PLUS_GOOGLE"
     ],
     "coordinate_sources": [
-      "PLACE_URL"
+      "PLACE_URL",
+      "OFFICIAL_SPORT_HALL_PLUS_GOOGLE"
     ],
     "subvenues": [
       {
@@ -3825,43 +3832,58 @@
   },
   {
     "physical_venue_id": "floorball:1625",
-    "canonical_name": "Bökensved",
-    "latitude": 57.750179,
-    "longitude": 16.644826,
-    "address": "Bökensved 59354 Västervik",
+    "canonical_name": "Bökensved Sporthall",
+    "latitude": 57.7500724,
+    "longitude": 16.6433951,
+    "address": "Idrottsgatan 4, 593 50 Västervik",
     "cities": [
       "Västervik"
     ],
     "aliases": [
       "Bökensved Sporthall",
-      "Bökensved"
+      "Bökensved",
+      "Bökensved Sporthall 3-manna",
+      "Bökensveds sportcenter Kultur & fritid",
+      "Bökensveds Sportcenter"
     ],
     "source_venue_ids": [
-      1625
+      1625,
+      3481
     ],
     "main_venue_ids": [
       271
     ],
     "source_names": [
       "Bökensved Sporthall",
-      "Bökensved"
+      "Bökensved",
+      "Bökensved Sporthall 3-manna",
+      "Bökensveds sportcenter Kultur & fritid",
+      "Bökensveds Sportcenter"
     ],
     "home_teams": [
       "Westerviks IBK",
       "Westerviks IBK B",
       "Westerviks IBK C"
     ],
-    "event_count": 35,
+    "event_count": 36,
     "verification": [
-      "STRONG"
+      "STRONG",
+      "SAME_MAIN_VENUE_PLUS_OFFICIAL_FACILITY"
     ],
     "coordinate_sources": [
-      "PLACE_URL"
+      "PLACE_URL",
+      "SHARE_URL",
+      "OFFICIAL_BOKENSVED_SPORTCENTER_PLUS_GOOGLE"
     ],
     "subvenues": [
       {
         "venue_id": 1625,
         "name": "Bökensved Sporthall",
+        "main_venue_id": 271
+      },
+      {
+        "venue_id": 3481,
+        "name": "Bökensved Sporthall 3-manna",
         "main_venue_id": 271
       }
     ]
@@ -4202,8 +4224,7 @@
     "longitude": 16.478889,
     "address": "Stengatan 2 38634 Färjestaden",
     "cities": [
-      "Färjestaden",
-      "Kalmar"
+      "Färjestaden"
     ],
     "aliases": [
       "Ölands Bank Center A",
@@ -4541,16 +4562,15 @@
   },
   {
     "physical_venue_id": "floorball:1670",
-    "canonical_name": "Jämjö Idrottsplats",
-    "latitude": 56.190443,
-    "longitude": 15.849231,
-    "address": "Jämjö",
+    "canonical_name": "Jämjö Sporthall",
+    "latitude": 56.1874886,
+    "longitude": 15.8278479,
+    "address": "Torhamnsvägen 28, 373 72 Jämjö",
     "cities": [
       "Jämjö"
     ],
     "aliases": [
-      "Jämjö Sporthall",
-      "Jämjö Idrottsplats"
+      "Jämjö Sporthall"
     ],
     "source_venue_ids": [
       1670
@@ -4559,8 +4579,7 @@
       283
     ],
     "source_names": [
-      "Jämjö Sporthall",
-      "Jämjö Idrottsplats"
+      "Jämjö Sporthall"
     ],
     "home_teams": [
       "Jämjö IBK",
@@ -4568,10 +4587,12 @@
     ],
     "event_count": 17,
     "verification": [
-      "STRONG"
+      "STRONG",
+      "OFFICIAL_ADDRESS_PLUS_NAMED_VENUE_POINT"
     ],
     "coordinate_sources": [
-      "PLACE_URL"
+      "PLACE_URL",
+      "OFFICIAL_ADDRESS_PLUS_NAMED_VENUE_POINT"
     ],
     "subvenues": [
       {
@@ -5334,16 +5355,15 @@
   },
   {
     "physical_venue_id": "floorball:1737",
-    "canonical_name": "Sävsjö Ishall",
-    "latitude": 57.392824,
-    "longitude": 14.677619,
-    "address": "Hägnevägen 576 33 Sävsjö",
+    "canonical_name": "Sävsjö Sporthall",
+    "latitude": 57.3938063,
+    "longitude": 14.6777121,
+    "address": "Hägnevägen, 576 33 Sävsjö",
     "cities": [
       "Sävsjö"
     ],
     "aliases": [
-      "Sävsjö Sporthall",
-      "Sävsjö Ishall"
+      "Sävsjö Sporthall"
     ],
     "source_venue_ids": [
       1737
@@ -5352,8 +5372,7 @@
       310
     ],
     "source_names": [
-      "Sävsjö Sporthall",
-      "Sävsjö Ishall"
+      "Sävsjö Sporthall"
     ],
     "home_teams": [
       "Sävsjö IBK",
@@ -5361,10 +5380,12 @@
     ],
     "event_count": 29,
     "verification": [
-      "STRONG"
+      "STRONG",
+      "OFFICIAL_SPORT_HALL_PLUS_GOOGLE"
     ],
     "coordinate_sources": [
-      "PLACE_URL"
+      "PLACE_URL",
+      "OFFICIAL_SPORT_HALL_PLUS_GOOGLE"
     ],
     "subvenues": [
       {
@@ -6687,16 +6708,16 @@
   },
   {
     "physical_venue_id": "floorball:1848",
-    "canonical_name": "Lönsboda simhall",
-    "latitude": 56.402845,
-    "longitude": 14.326236,
-    "address": "280 70 Lönsboda",
+    "canonical_name": "Örkenedsskolans sporthall",
+    "latitude": 56.4030713,
+    "longitude": 14.3260669,
+    "address": "Tosthultsvägen 19, 280 70 Lönsboda",
     "cities": [
       "Lönsboda"
     ],
     "aliases": [
       "Lönsboda Sporthall",
-      "Lönsboda simhall"
+      "Örkenedsskolans sporthall"
     ],
     "source_venue_ids": [
       1848
@@ -6705,18 +6726,19 @@
       177
     ],
     "source_names": [
-      "Lönsboda Sporthall",
-      "Lönsboda simhall"
+      "Lönsboda Sporthall"
     ],
     "home_teams": [
       "Lönsboda IBK"
     ],
     "event_count": 22,
     "verification": [
-      "STRONG"
+      "STRONG",
+      "OFFICIAL_MUNICIPALITY_PLUS_GOOGLE"
     ],
     "coordinate_sources": [
-      "PLACE_URL"
+      "PLACE_URL",
+      "OFFICIAL_MUNICIPALITY_PLUS_GOOGLE"
     ],
     "subvenues": [
       {
@@ -9042,40 +9064,56 @@
   },
   {
     "physical_venue_id": "floorball:2123",
-    "canonical_name": "Warberg IC Innebandy Center",
-    "latitude": 57.1168,
-    "longitude": 12.289236,
+    "canonical_name": "Sparbanken Wictory Center",
+    "latitude": 57.116932,
+    "longitude": 12.289152,
     "address": "Stenåsavägen 1, 432 32 Varberg",
     "cities": [
       "Varberg"
     ],
     "aliases": [
       "Sparbanken Wictory Center, Unihocplanen",
-      "Warberg IC Innebandy Center"
+      "Warberg IC Innebandy Center",
+      "Sparbanken Wictory Center"
     ],
     "source_venue_ids": [
-      2123
+      2123,
+      2322
     ],
-    "main_venue_ids": [],
+    "main_venue_ids": [
+      1148
+    ],
     "source_names": [
       "Sparbanken Wictory Center, Unihocplanen",
-      "Warberg IC Innebandy Center"
+      "Warberg IC Innebandy Center",
+      "Sparbanken Wictory Center"
     ],
     "home_teams": [
-      "Warberg IC"
+      "Warberg IC",
+      "Warberg IBF Herr",
+      "Warberg IBF Herr ungdom Div 3"
     ],
-    "event_count": 24,
+    "event_count": 40,
     "verification": [
-      "OFFICIAL_IDENTITY_PLUS_GOOGLE"
+      "OFFICIAL_IDENTITY_PLUS_GOOGLE",
+      "STRONG",
+      "OFFICIAL_SAME_PHYSICAL_FACILITY_MERGE"
     ],
     "coordinate_sources": [
-      "SHARE_URL"
+      "SHARE_URL",
+      "PLACE_URL",
+      "VERIFIED_SPAREBANKEN_WICTORY_CENTER"
     ],
     "subvenues": [
       {
         "venue_id": 2123,
         "name": "Sparbanken Wictory Center, Unihocplanen",
         "main_venue_id": null
+      },
+      {
+        "venue_id": 2322,
+        "name": "Sparbanken Wictory Center, Unihocplanen",
+        "main_venue_id": 1148
       }
     ]
   },
@@ -10329,48 +10367,6 @@
     ]
   },
   {
-    "physical_venue_id": "floorball:2322",
-    "canonical_name": "Sparbanken Wictory Center",
-    "latitude": 57.116932,
-    "longitude": 12.289152,
-    "address": "Stenåsavägen 1 432 32 Varberg",
-    "cities": [
-      "Varberg"
-    ],
-    "aliases": [
-      "Sparbanken Wictory Center, Unihocplanen",
-      "Sparbanken Wictory Center"
-    ],
-    "source_venue_ids": [
-      2322
-    ],
-    "main_venue_ids": [
-      1148
-    ],
-    "source_names": [
-      "Sparbanken Wictory Center, Unihocplanen",
-      "Sparbanken Wictory Center"
-    ],
-    "home_teams": [
-      "Warberg IBF Herr",
-      "Warberg IBF Herr ungdom Div 3"
-    ],
-    "event_count": 16,
-    "verification": [
-      "STRONG"
-    ],
-    "coordinate_sources": [
-      "PLACE_URL"
-    ],
-    "subvenues": [
-      {
-        "venue_id": 2322,
-        "name": "Sparbanken Wictory Center, Unihocplanen",
-        "main_venue_id": 1148
-      }
-    ]
-  },
-  {
     "physical_venue_id": "floorball:2333",
     "canonical_name": "Arena Varberg",
     "latitude": 57.100004,
@@ -11531,16 +11527,17 @@
   },
   {
     "physical_venue_id": "floorball:2562",
-    "canonical_name": "SportCity Sport- & simhall",
-    "latitude": 65.850278,
-    "longitude": 23.162778,
-    "address": "Kalix",
+    "canonical_name": "SportCity Kalix",
+    "latitude": 65.8502778,
+    "longitude": 23.1627778,
+    "address": "Centrumvägen 74, 952 32 Kalix",
     "cities": [
       "Kalix"
     ],
     "aliases": [
       "Sportcity Kalix",
-      "SportCity Sport- & simhall"
+      "SportCity Sport- & simhall",
+      "SportCity Kalix"
     ],
     "source_venue_ids": [
       2562
@@ -11557,10 +11554,12 @@
     ],
     "event_count": 18,
     "verification": [
-      "STRONG"
+      "STRONG",
+      "OFFICIAL_SHARED_SPORT_AND_SWIM_FACILITY"
     ],
     "coordinate_sources": [
-      "SHARE_URL"
+      "SHARE_URL",
+      "OFFICIAL_SHARED_SPORT_AND_SWIM_FACILITY"
     ],
     "subvenues": [
       {
@@ -12456,8 +12455,7 @@
     "longitude": 17.656109,
     "address": "UPPSALA",
     "cities": [
-      "UPPSALA",
-      "Mölnlycke"
+      "Uppsala"
     ],
     "aliases": [
       "IFU Arena A",
@@ -13318,47 +13316,6 @@
         "venue_id": 3479,
         "name": "Aggarpshallen",
         "main_venue_id": 3478
-      }
-    ]
-  },
-  {
-    "physical_venue_id": "floorball:3481",
-    "canonical_name": "Bökensveds sportcenter Kultur & fritid",
-    "latitude": 57.750072,
-    "longitude": 16.643395,
-    "address": "Bökensved 59354 Västervik",
-    "cities": [
-      "Västervik"
-    ],
-    "aliases": [
-      "Bökensved Sporthall 3-manna",
-      "Bökensveds sportcenter Kultur & fritid"
-    ],
-    "source_venue_ids": [
-      3481
-    ],
-    "main_venue_ids": [
-      271
-    ],
-    "source_names": [
-      "Bökensved Sporthall 3-manna",
-      "Bökensveds sportcenter Kultur & fritid"
-    ],
-    "home_teams": [
-      "Westerviks IBK C"
-    ],
-    "event_count": 1,
-    "verification": [
-      "STRONG"
-    ],
-    "coordinate_sources": [
-      "SHARE_URL"
-    ],
-    "subvenues": [
-      {
-        "venue_id": 3481,
-        "name": "Bökensved Sporthall 3-manna",
-        "main_venue_id": 271
       }
     ]
   },
@@ -14505,8 +14462,7 @@
     "longitude": 16.531256,
     "address": "Vasagatan 75 72187 Västerås",
     "cities": [
-      "Västerås",
-      "Mariestad"
+      "Västerås"
     ],
     "aliases": [
       "Mälarenergi Arena (Västerås)",
@@ -14694,16 +14650,16 @@
   },
   {
     "physical_venue_id": "floorball:4021",
-    "canonical_name": "Idrottsplats Harlyckan",
-    "latitude": 56.031946,
-    "longitude": 12.727114,
-    "address": "Gärdesgatan 6 Helsingborg",
+    "canonical_name": "Harlyckehallen",
+    "latitude": 56.0318626,
+    "longitude": 12.7272379,
+    "address": "Gärdesgatan 6, 256 56 Helsingborg",
     "cities": [
       "Helsingborg"
     ],
     "aliases": [
       "Harlyckans Sporthall",
-      "Idrottsplats Harlyckan"
+      "Harlyckehallen"
     ],
     "source_venue_ids": [
       4021
@@ -14712,18 +14668,19 @@
       4020
     ],
     "source_names": [
-      "Harlyckans Sporthall",
-      "Idrottsplats Harlyckan"
+      "Harlyckans Sporthall"
     ],
     "home_teams": [
       "SS Sofiero"
     ],
     "event_count": 4,
     "verification": [
-      "STRONG"
+      "STRONG",
+      "OFFICIAL_MUNICIPALITY_PLUS_GOOGLE"
     ],
     "coordinate_sources": [
-      "PLACE_URL"
+      "PLACE_URL",
+      "OFFICIAL_MUNICIPALITY_PLUS_GOOGLE"
     ],
     "subvenues": [
       {
@@ -16618,16 +16575,15 @@
   },
   {
     "physical_venue_id": "floorball:4813",
-    "canonical_name": "Larslunda simhall",
-    "latitude": 59.356988,
-    "longitude": 17.026454,
-    "address": "Arenavägen 10, 645 45 Strängnäs",
+    "canonical_name": "Larslunda Arena A",
+    "latitude": 59.3538878,
+    "longitude": 17.0285968,
+    "address": "Arenavägen 8, Strängnäs",
     "cities": [
       "Strängnäs"
     ],
     "aliases": [
-      "Larslunda Arena A",
-      "Larslunda simhall"
+      "Larslunda Arena A"
     ],
     "source_venue_ids": [
       4813
@@ -16636,8 +16592,7 @@
       4812
     ],
     "source_names": [
-      "Larslunda Arena A",
-      "Larslunda simhall"
+      "Larslunda Arena A"
     ],
     "home_teams": [
       "Strängnäs IBK",
@@ -16648,10 +16603,12 @@
     ],
     "event_count": 37,
     "verification": [
-      "STRONG"
+      "STRONG",
+      "OFFICIAL_ARENA_IDENTITY_PLUS_EXISTING_NAMED_POINT"
     ],
     "coordinate_sources": [
-      "PLACE_URL"
+      "PLACE_URL",
+      "OFFICIAL_ARENA_IDENTITY_PLUS_EXISTING_NAMED_POINT"
     ],
     "subvenues": [
       {
@@ -17332,19 +17289,17 @@
   },
   {
     "physical_venue_id": "floorball:5014",
-    "canonical_name": "Sanda Sporthall",
+    "canonical_name": "Sanda Sporthall 1",
     "latitude": 57.783831,
     "longitude": 14.260452,
-    "address": "Birkagatan 42-44, Huskvarna",
+    "address": "Birkagatan, 561 33 Huskvarna",
     "cities": [
       "Huskvarna"
     ],
     "aliases": [
       "Sanda Sporthall 1",
       "Sanda Sporthall",
-      "Öxnehaga Sporthall",
-      "Sanda Sporthall 1, 3-manna",
-      "Huskvarna Sportcenter"
+      "Sanda Sporthall 1, 3-manna"
     ],
     "source_venue_ids": [
       5014,
@@ -17356,9 +17311,7 @@
     "source_names": [
       "Sanda Sporthall 1",
       "Sanda Sporthall",
-      "Öxnehaga Sporthall",
-      "Sanda Sporthall 1, 3-manna",
-      "Huskvarna Sportcenter"
+      "Sanda Sporthall 1, 3-manna"
     ],
     "home_teams": [
       "Husqvarna IK B",
@@ -17369,7 +17322,8 @@
       "OFFICIAL_IDENTITY_PLUS_LM"
     ],
     "coordinate_sources": [
-      "LM_SPORT_BUILDING"
+      "LM_SPORT_BUILDING",
+      "OFFICIAL_IDENTITY_PLUS_LM"
     ],
     "subvenues": [
       {
