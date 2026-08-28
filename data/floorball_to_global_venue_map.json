@@ -1,0 +1,7085 @@
+[
+  {
+    "physical_venue_id": "floorball:1240",
+    "global_venue_key": "Björkebyhallen",
+    "canonical_name": "Idrottshall Björkebyskolan",
+    "source_venue_ids": [
+      1240
+    ],
+    "match_score": 180,
+    "previous_distance_m": 128.04330590161194,
+    "matched_names": [
+      "björkebyhallen"
+    ],
+    "old_latitude": 59.3975396,
+    "old_longitude": 17.8519063,
+    "new_latitude": 59.398041,
+    "new_longitude": 17.84987
+  },
+  {
+    "physical_venue_id": "floorball:1241",
+    "global_venue_key": "Åkersberga Sporthall A",
+    "canonical_name": "Åkersberga Sporthall",
+    "source_venue_ids": [
+      1241
+    ],
+    "match_score": 180,
+    "previous_distance_m": 229.1877553994266,
+    "matched_names": [
+      "åkersberga sporthall a"
+    ],
+    "old_latitude": 59.4868151,
+    "old_longitude": 18.3006553,
+    "new_latitude": 59.488337,
+    "new_longitude": 18.303393
+  },
+  {
+    "physical_venue_id": "floorball:1243",
+    "global_venue_key": "Västertorpshallen",
+    "canonical_name": "Västertorps sim- & idrottshall",
+    "source_venue_ids": [
+      1243
+    ],
+    "match_score": 195,
+    "previous_distance_m": 57.85925812296827,
+    "matched_names": [
+      "västertorpshallen"
+    ],
+    "old_latitude": 59.2929068,
+    "old_longitude": 17.9777847,
+    "new_latitude": 59.293351,
+    "new_longitude": 17.977254
+  },
+  {
+    "physical_venue_id": "floorball:1246",
+    "global_venue_key": "Viksjö Sporthall",
+    "canonical_name": "Viksjö sporthall",
+    "source_venue_ids": [
+      1246
+    ],
+    "match_score": 415,
+    "previous_distance_m": 86.58529517710056,
+    "matched_names": [
+      "viksjö sporthall"
+    ],
+    "old_latitude": 59.4124789,
+    "old_longitude": 17.8040854,
+    "new_latitude": 59.412048,
+    "new_longitude": 17.80536
+  },
+  {
+    "physical_venue_id": "floorball:1248",
+    "global_venue_key": "Jakobsbergs Sporthall",
+    "canonical_name": "Jakobsbergs sporthall",
+    "source_venue_ids": [
+      1248
+    ],
+    "match_score": 415,
+    "previous_distance_m": 64.60761458648089,
+    "matched_names": [
+      "jakobsbergs sporthall"
+    ],
+    "old_latitude": 59.4195511,
+    "old_longitude": 17.8269051,
+    "new_latitude": 59.419373,
+    "new_longitude": 17.825818
+  },
+  {
+    "physical_venue_id": "floorball:1250",
+    "global_venue_key": "Bro Sporthall",
+    "canonical_name": "Bro Sporthall",
+    "source_venue_ids": [
+      1250
+    ],
+    "match_score": 370,
+    "previous_distance_m": 41.85115862048678,
+    "matched_names": [
+      "bro sporthall"
+    ],
+    "old_latitude": 59.5163589,
+    "old_longitude": 17.6443777,
+    "new_latitude": 59.516629,
+    "new_longitude": 17.643861
+  },
+  {
+    "physical_venue_id": "floorball:1253",
+    "global_venue_key": "Högdalshallen",
+    "canonical_name": "Högdalshallen Stora salen",
+    "source_venue_ids": [
+      1253
+    ],
+    "match_score": 195,
+    "previous_distance_m": 34.596977016107445,
+    "matched_names": [
+      "högdalshallen"
+    ],
+    "old_latitude": 59.2645771,
+    "old_longitude": 18.0408402,
+    "new_latitude": 59.264858,
+    "new_longitude": 18.041102
+  },
+  {
+    "physical_venue_id": "floorball:1254",
+    "global_venue_key": "Ingarö Sporthall",
+    "canonical_name": "Ingarö sporthall",
+    "source_venue_ids": [
+      1254
+    ],
+    "match_score": 380,
+    "previous_distance_m": 511.8741326136943,
+    "matched_names": [
+      "ingarö sporthall"
+    ],
+    "old_latitude": 59.2839,
+    "old_longitude": 18.4242,
+    "new_latitude": 59.280344,
+    "new_longitude": 18.429923
+  },
+  {
+    "physical_venue_id": "floorball:1256",
+    "global_venue_key": "Farstahallen 1",
+    "canonical_name": "Farsta Sim- & Idrottshall",
+    "source_venue_ids": [
+      1256
+    ],
+    "match_score": 210,
+    "previous_distance_m": 18.349500546079717,
+    "matched_names": [
+      "farstahallen 1"
+    ],
+    "old_latitude": 59.2392046,
+    "old_longitude": 18.0851304,
+    "new_latitude": 59.239318,
+    "new_longitude": 18.084896
+  },
+  {
+    "physical_venue_id": "floorball:1258",
+    "global_venue_key": "Farstahallen 3",
+    "canonical_name": "Farstahallen 3 & 4",
+    "source_venue_ids": [
+      1258
+    ],
+    "match_score": 180,
+    "previous_distance_m": 229.95428644852439,
+    "matched_names": [
+      "farstahallen 3"
+    ],
+    "old_latitude": 59.2392046,
+    "old_longitude": 18.0851304,
+    "new_latitude": 59.239898,
+    "new_longitude": 18.081321
+  },
+  {
+    "physical_venue_id": "floorball:1262",
+    "global_venue_key": "Mörbyhallen",
+    "canonical_name": "Mörbyhallen",
+    "source_venue_ids": [
+      1262
+    ],
+    "match_score": 430,
+    "previous_distance_m": 4.702635750251122,
+    "matched_names": [
+      "mörbyhallen"
+    ],
+    "old_latitude": 59.3937463,
+    "old_longitude": 18.0456595,
+    "new_latitude": 59.393785,
+    "new_longitude": 18.045626
+  },
+  {
+    "physical_venue_id": "floorball:1264",
+    "global_venue_key": "Ormingehallen",
+    "canonical_name": "Ormingehallen",
+    "source_venue_ids": [
+      1264
+    ],
+    "match_score": 365,
+    "previous_distance_m": 4996.856535785326,
+    "matched_names": [
+      "ormingehallen"
+    ],
+    "old_latitude": 59.33298,
+    "old_longitude": 18.17054,
+    "new_latitude": 59.329778,
+    "new_longitude": 18.258417
+  },
+  {
+    "physical_venue_id": "floorball:1265",
+    "global_venue_key": "Botkyrkahallen",
+    "canonical_name": "Botkyrkahallen",
+    "source_venue_ids": [
+      1265
+    ],
+    "match_score": 430,
+    "previous_distance_m": 22.844068762428922,
+    "matched_names": [
+      "botkyrkahallen"
+    ],
+    "old_latitude": 59.2471784,
+    "old_longitude": 17.8381116,
+    "new_latitude": 59.246997,
+    "new_longitude": 17.837923
+  },
+  {
+    "physical_venue_id": "floorball:1268",
+    "global_venue_key": "Smedsgärdshallen",
+    "canonical_name": "Smedsgärdshallen",
+    "source_venue_ids": [
+      1268
+    ],
+    "match_score": 400,
+    "previous_distance_m": 267.03760686851655,
+    "matched_names": [
+      "smedsgärdshallen"
+    ],
+    "old_latitude": 59.5247869,
+    "old_longitude": 17.9189515,
+    "new_latitude": 59.522606,
+    "new_longitude": 17.916969
+  },
+  {
+    "physical_venue_id": "floorball:1273",
+    "global_venue_key": "Värmdö sporthall",
+    "canonical_name": "Värmdö Sporthall",
+    "source_venue_ids": [
+      1273
+    ],
+    "match_score": 430,
+    "previous_distance_m": 29.11651632228601,
+    "matched_names": [
+      "värmdö sporthall"
+    ],
+    "old_latitude": 59.3191714,
+    "old_longitude": 18.4885063,
+    "new_latitude": 59.319258,
+    "new_longitude": 18.488022
+  },
+  {
+    "physical_venue_id": "floorball:1274",
+    "global_venue_key": "Trädgårdsstadshallen (Tullinge)",
+    "canonical_name": "Trädgårdstadshallen (fd. Tullingehallen)",
+    "source_venue_ids": [
+      1274
+    ],
+    "match_score": 160,
+    "previous_distance_m": 317.9017630262336,
+    "matched_names": [
+      "trädgårdsstadshallen tullinge"
+    ],
+    "old_latitude": 59.2225834,
+    "old_longitude": 17.9158578,
+    "new_latitude": 59.220397,
+    "new_longitude": 17.912258
+  },
+  {
+    "physical_venue_id": "floorball:1275",
+    "global_venue_key": "Storvretens Sporthall",
+    "canonical_name": "Storvretshallen",
+    "source_venue_ids": [
+      1275
+    ],
+    "match_score": 210,
+    "previous_distance_m": 4.044725396460882,
+    "matched_names": [
+      "storvretens sporthall"
+    ],
+    "old_latitude": 59.1913258,
+    "old_longitude": 17.8455218,
+    "new_latitude": 59.191307,
+    "new_longitude": 17.845461
+  },
+  {
+    "physical_venue_id": "floorball:1276",
+    "global_venue_key": "Råstaparkhallen",
+    "canonical_name": "Råstaparkhallen",
+    "source_venue_ids": [
+      1276
+    ],
+    "match_score": 430,
+    "previous_distance_m": 21.581572029225864,
+    "matched_names": [
+      "råstaparkhallen"
+    ],
+    "old_latitude": 59.3761817,
+    "old_longitude": 17.9866219,
+    "new_latitude": 59.376121,
+    "new_longitude": 17.98626
+  },
+  {
+    "physical_venue_id": "floorball:1280",
+    "global_venue_key": "Tyresöhallen",
+    "canonical_name": "Tyresöhallen",
+    "source_venue_ids": [
+      1280
+    ],
+    "match_score": 365,
+    "previous_distance_m": 3839.1536095166985,
+    "matched_names": [
+      "tyresöhallen"
+    ],
+    "old_latitude": 59.2409368,
+    "old_longitude": 18.2947446,
+    "new_latitude": 59.240771,
+    "new_longitude": 18.227236
+  },
+  {
+    "physical_venue_id": "floorball:1281",
+    "global_venue_key": "Strandhallen - Tyresö",
+    "canonical_name": "Strandhallen",
+    "source_venue_ids": [
+      1281
+    ],
+    "match_score": 210,
+    "previous_distance_m": 1.724656125445736,
+    "matched_names": [
+      "strandhallen tyresö"
+    ],
+    "old_latitude": 59.2421865,
+    "old_longitude": 18.2858159,
+    "new_latitude": 59.242171,
+    "new_longitude": 18.285817
+  },
+  {
+    "physical_venue_id": "floorball:1283",
+    "global_venue_key": "Eriksdalshallen",
+    "canonical_name": "Eriksdalshallen",
+    "source_venue_ids": [
+      1283
+    ],
+    "match_score": 430,
+    "previous_distance_m": 29.12091958374323,
+    "matched_names": [
+      "eriksdalshallen"
+    ],
+    "old_latitude": 59.307765,
+    "old_longitude": 18.0652388,
+    "new_latitude": 59.307938,
+    "new_longitude": 18.065624
+  },
+  {
+    "physical_venue_id": "floorball:1291",
+    "global_venue_key": "Sköndalshallen",
+    "canonical_name": "Sköndalshallen",
+    "source_venue_ids": [
+      1291
+    ],
+    "match_score": 430,
+    "previous_distance_m": 15.81172033491421,
+    "matched_names": [
+      "sköndalshallen"
+    ],
+    "old_latitude": 59.2554882,
+    "old_longitude": 18.1084799,
+    "new_latitude": 59.255418,
+    "new_longitude": 18.108238
+  },
+  {
+    "physical_venue_id": "floorball:1292",
+    "global_venue_key": "Sjöstadshallen",
+    "canonical_name": "Sjöstadshallen",
+    "source_venue_ids": [
+      1292
+    ],
+    "match_score": 430,
+    "previous_distance_m": 14.543506990290258,
+    "matched_names": [
+      "sjöstadshallen"
+    ],
+    "old_latitude": 59.3040072,
+    "old_longitude": 18.113495,
+    "new_latitude": 59.303897,
+    "new_longitude": 18.113357
+  },
+  {
+    "physical_venue_id": "floorball:1293",
+    "global_venue_key": "Hässelbyhallen",
+    "canonical_name": "Hässelbyhallen",
+    "source_venue_ids": [
+      1293
+    ],
+    "match_score": 430,
+    "previous_distance_m": 20.707972693270623,
+    "matched_names": [
+      "hässelbyhallen"
+    ],
+    "old_latitude": 59.3782868,
+    "old_longitude": 17.8138813,
+    "new_latitude": 59.378473,
+    "new_longitude": 17.813888
+  },
+  {
+    "physical_venue_id": "floorball:1295",
+    "global_venue_key": "Skogåshallen",
+    "canonical_name": "Södertörns Skogåshallen",
+    "source_venue_ids": [
+      1295
+    ],
+    "match_score": 210,
+    "previous_distance_m": 20.809377606891218,
+    "matched_names": [
+      "skogåshallen"
+    ],
+    "old_latitude": 59.2179478,
+    "old_longitude": 18.1481065,
+    "new_latitude": 59.217942,
+    "new_longitude": 18.147741
+  },
+  {
+    "physical_venue_id": "floorball:1296",
+    "global_venue_key": "Tomtbergahallen",
+    "canonical_name": "Tomtbergahallen",
+    "source_venue_ids": [
+      1296
+    ],
+    "match_score": 430,
+    "previous_distance_m": 8.131812263203154,
+    "matched_names": [
+      "tomtbergahallen"
+    ],
+    "old_latitude": 59.2408764,
+    "old_longitude": 17.992202,
+    "new_latitude": 59.240909,
+    "new_longitude": 17.99233
+  },
+  {
+    "physical_venue_id": "floorball:1302",
+    "global_venue_key": "Myrsjöskolan",
+    "canonical_name": "Myrsjöskolan",
+    "source_venue_ids": [
+      1302
+    ],
+    "match_score": 355,
+    "previous_distance_m": 134.49089694433997,
+    "matched_names": [
+      "myrsjöskolan"
+    ],
+    "old_latitude": 59.3323343,
+    "old_longitude": 18.2669408,
+    "new_latitude": 59.333271,
+    "new_longitude": 18.268441
+  },
+  {
+    "physical_venue_id": "floorball:1313",
+    "global_venue_key": "Kvarnängshallen",
+    "canonical_name": "Kvarnängshallen",
+    "source_venue_ids": [
+      1313
+    ],
+    "match_score": 400,
+    "previous_distance_m": 173.8206150358946,
+    "matched_names": [
+      "kvarnängshallen"
+    ],
+    "old_latitude": 58.9241754,
+    "old_longitude": 17.9225028,
+    "new_latitude": 58.925097,
+    "new_longitude": 17.924949
+  },
+  {
+    "physical_venue_id": "floorball:1314",
+    "global_venue_key": "Gröndalshallen",
+    "canonical_name": "Gröndalshallen",
+    "source_venue_ids": [
+      1314
+    ],
+    "match_score": 430,
+    "previous_distance_m": 28.469121256660205,
+    "matched_names": [
+      "gröndalshallen"
+    ],
+    "old_latitude": 58.9000922,
+    "old_longitude": 17.9351277,
+    "new_latitude": 58.900115,
+    "new_longitude": 17.934634
+  },
+  {
+    "physical_venue_id": "floorball:1315",
+    "global_venue_key": "Skogsängshallen",
+    "canonical_name": "Skogsängshallen",
+    "source_venue_ids": [
+      1315
+    ],
+    "match_score": 400,
+    "previous_distance_m": 238.54926450515453,
+    "matched_names": [
+      "skogsängshallen"
+    ],
+    "old_latitude": 59.1951771,
+    "old_longitude": 17.7556377,
+    "new_latitude": 59.196906,
+    "new_longitude": 17.758118
+  },
+  {
+    "physical_venue_id": "floorball:1317",
+    "global_venue_key": "Prästängshallen",
+    "canonical_name": "Prästängshallen",
+    "source_venue_ids": [
+      1317
+    ],
+    "match_score": 415,
+    "previous_distance_m": 34.43691601627228,
+    "matched_names": [
+      "prästängshallen"
+    ],
+    "old_latitude": 59.6178981,
+    "old_longitude": 17.6993104,
+    "new_latitude": 59.618184,
+    "new_longitude": 17.699075
+  },
+  {
+    "physical_venue_id": "floorball:1318",
+    "global_venue_key": "Rosershallen",
+    "canonical_name": "Rosershallen",
+    "source_venue_ids": [
+      1318
+    ],
+    "match_score": 430,
+    "previous_distance_m": 19.41532849100358,
+    "matched_names": [
+      "rosershallen"
+    ],
+    "old_latitude": 59.5781936,
+    "old_longitude": 17.8894202,
+    "new_latitude": 59.578111,
+    "new_longitude": 17.889724
+  },
+  {
+    "physical_venue_id": "floorball:1319",
+    "global_venue_key": "Hallonbergshallen",
+    "canonical_name": "Hallonbergens Sporthall",
+    "source_venue_ids": [
+      1319
+    ],
+    "match_score": 195,
+    "previous_distance_m": 83.06364830086324,
+    "matched_names": [
+      "hallonbergshallen"
+    ],
+    "old_latitude": 59.375959,
+    "old_longitude": 17.9683825,
+    "new_latitude": 59.375459,
+    "new_longitude": 17.969472
+  },
+  {
+    "physical_venue_id": "floorball:1320",
+    "global_venue_key": "Löthallen",
+    "canonical_name": "Löthallen",
+    "source_venue_ids": [
+      1320
+    ],
+    "match_score": 430,
+    "previous_distance_m": 6.867980516566742,
+    "matched_names": [
+      "löthallen"
+    ],
+    "old_latitude": 59.3691439,
+    "old_longitude": 17.9646819,
+    "new_latitude": 59.369194,
+    "new_longitude": 17.964611
+  },
+  {
+    "physical_venue_id": "floorball:1321",
+    "global_venue_key": "Rosendalsskolan Norra Sporthall",
+    "canonical_name": "Rosendalsskolan norra sporthall",
+    "source_venue_ids": [
+      1321
+    ],
+    "match_score": 380,
+    "previous_distance_m": 850.9143322782315,
+    "matched_names": [
+      "rosendalsskolan norra sporthall"
+    ],
+    "old_latitude": 59.5484094,
+    "old_longitude": 18.0624412,
+    "new_latitude": 59.541333,
+    "new_longitude": 18.068188
+  },
+  {
+    "physical_venue_id": "floorball:1322",
+    "global_venue_key": "Vaxholm innebandyhallen",
+    "canonical_name": "Innebandyhallen, Vaxholm",
+    "source_venue_ids": [
+      1322
+    ],
+    "match_score": 195,
+    "previous_distance_m": 65.07919170953457,
+    "matched_names": [
+      "vaxholm innebandyhallen"
+    ],
+    "old_latitude": 59.4044707,
+    "old_longitude": 18.3291507,
+    "new_latitude": 59.404379,
+    "new_longitude": 18.328015
+  },
+  {
+    "physical_venue_id": "floorball:1323",
+    "global_venue_key": "Solnahallen",
+    "canonical_name": "Solnahallen",
+    "source_venue_ids": [
+      1323
+    ],
+    "match_score": 415,
+    "previous_distance_m": 36.085386656219384,
+    "matched_names": [
+      "solnahallen"
+    ],
+    "old_latitude": 59.358656,
+    "old_longitude": 17.9885621,
+    "new_latitude": 59.358967,
+    "new_longitude": 17.988744
+  },
+  {
+    "physical_venue_id": "floorball:1331",
+    "global_venue_key": "LM_FOTBOLLSPLAN_caebb060-71ce-429c-bc23-2fef532cd650",
+    "canonical_name": "Täby IP / Vikingavallen",
+    "source_venue_ids": [
+      1331
+    ],
+    "match_score": 65,
+    "previous_distance_m": 13.122389202722436,
+    "matched_names": [
+      "vikingavallen"
+    ],
+    "old_latitude": 59.49184706,
+    "old_longitude": 18.07332331,
+    "new_latitude": 59.491945,
+    "new_longitude": 18.073453
+  },
+  {
+    "physical_venue_id": "floorball:1342",
+    "global_venue_key": "Tungelsta Sporthall",
+    "canonical_name": "Tungelstahallen",
+    "source_venue_ids": [
+      1342
+    ],
+    "match_score": 160,
+    "previous_distance_m": 484.914459624489,
+    "matched_names": [
+      "tungelsta sporthall"
+    ],
+    "old_latitude": 59.1099429,
+    "old_longitude": 18.0485025,
+    "new_latitude": 59.105908,
+    "new_longitude": 18.04528
+  },
+  {
+    "physical_venue_id": "floorball:1344",
+    "global_venue_key": "Stavsborgs sporthall",
+    "canonical_name": "Stavsborgshallen",
+    "source_venue_ids": [
+      1344
+    ],
+    "match_score": 195,
+    "previous_distance_m": 99.42634918077935,
+    "matched_names": [
+      "stavsborgs sporthall"
+    ],
+    "old_latitude": 59.2578662,
+    "old_longitude": 18.181607,
+    "new_latitude": 59.257785,
+    "new_longitude": 18.179865
+  },
+  {
+    "physical_venue_id": "floorball:1350",
+    "global_venue_key": "Djurö Sporthall",
+    "canonical_name": "Djurö Sporthall",
+    "source_venue_ids": [
+      1350
+    ],
+    "match_score": 430,
+    "previous_distance_m": 3.3143034248027363,
+    "matched_names": [
+      "djurö sporthall"
+    ],
+    "old_latitude": 59.3123755,
+    "old_longitude": 18.6973339,
+    "new_latitude": 59.312404,
+    "new_longitude": 18.697351
+  },
+  {
+    "physical_venue_id": "floorball:1356",
+    "global_venue_key": "Hagnäshallen",
+    "canonical_name": "Hagnäshallen",
+    "source_venue_ids": [
+      1356
+    ],
+    "match_score": 430,
+    "previous_distance_m": 24.544369177435655,
+    "matched_names": [
+      "hagnäshallen"
+    ],
+    "old_latitude": 59.5021532,
+    "old_longitude": 17.7534204,
+    "new_latitude": 59.50233,
+    "new_longitude": 17.75316
+  },
+  {
+    "physical_venue_id": "floorball:1362",
+    "global_venue_key": "Stora Mossen 1",
+    "canonical_name": "Stora Mossens IP",
+    "source_venue_ids": [
+      1362,
+      1363
+    ],
+    "match_score": 180,
+    "previous_distance_m": 280.31533276997214,
+    "matched_names": [
+      "stora mossen 1"
+    ],
+    "old_latitude": 59.3314252,
+    "old_longitude": 17.9568488,
+    "new_latitude": 59.329974,
+    "new_longitude": 17.96089
+  },
+  {
+    "physical_venue_id": "floorball:1367",
+    "global_venue_key": "Idrottens hus i Lidköping",
+    "canonical_name": "Idrottens hus",
+    "source_venue_ids": [
+      1367
+    ],
+    "match_score": 160,
+    "previous_distance_m": 431.27630442881195,
+    "matched_names": [
+      "idrottens hus i lidköping"
+    ],
+    "old_latitude": 58.4982243,
+    "old_longitude": 13.1419315,
+    "new_latitude": 58.495432,
+    "new_longitude": 13.147083
+  },
+  {
+    "physical_venue_id": "floorball:1387",
+    "global_venue_key": "Björkestahallen",
+    "canonical_name": "Björkestahallen",
+    "source_venue_ids": [
+      1387
+    ],
+    "match_score": 430,
+    "previous_distance_m": 5.25034704406369,
+    "matched_names": [
+      "björkestahallen"
+    ],
+    "old_latitude": 59.172118,
+    "old_longitude": 17.4348991,
+    "new_latitude": 59.172085,
+    "new_longitude": 17.434965
+  },
+  {
+    "physical_venue_id": "floorball:1389",
+    "global_venue_key": "Duveholmshallen A",
+    "canonical_name": "Duveholmshallen",
+    "source_venue_ids": [
+      1389
+    ],
+    "match_score": 160,
+    "previous_distance_m": 374.94658404954833,
+    "matched_names": [
+      "duveholmshallen a"
+    ],
+    "old_latitude": 58.9824584,
+    "old_longitude": 16.1924353,
+    "new_latitude": 58.979897,
+    "new_longitude": 16.196691
+  },
+  {
+    "physical_venue_id": "floorball:1398",
+    "global_venue_key": "LM_FOTBOLLSPLAN_65f5d758-2759-4872-8143-f5368b27ae8e",
+    "canonical_name": "Hammarens Idrottsplats",
+    "source_venue_ids": [
+      1398
+    ],
+    "match_score": 35,
+    "previous_distance_m": 203.0091643096538,
+    "matched_names": [
+      "hammarens ip"
+    ],
+    "old_latitude": 59.26672005,
+    "old_longitude": 17.22008126,
+    "new_latitude": 59.268509,
+    "new_longitude": 17.219368
+  },
+  {
+    "physical_venue_id": "floorball:1399",
+    "global_venue_key": "LM_FOTBOLLSPLAN_eda293cd-cde2-4762-8694-15971191a88d",
+    "canonical_name": "Hammarvallen",
+    "source_venue_ids": [
+      1399
+    ],
+    "match_score": 135,
+    "previous_distance_m": 187.76955318926085,
+    "matched_names": [
+      "hammarvallen"
+    ],
+    "old_latitude": 59.05474483,
+    "old_longitude": 16.5661601,
+    "new_latitude": 59.055573,
+    "new_longitude": 16.569022
+  },
+  {
+    "physical_venue_id": "floorball:1400",
+    "global_venue_key": "Hedebyhallen",
+    "canonical_name": "Hedebyhallen",
+    "source_venue_ids": [
+      1400
+    ],
+    "match_score": 365,
+    "previous_distance_m": 1223.9798412243172,
+    "matched_names": [
+      "hedebyhallen"
+    ],
+    "old_latitude": 58.9400056,
+    "old_longitude": 17.4672991,
+    "new_latitude": 58.945841,
+    "new_longitude": 17.485391
+  },
+  {
+    "physical_venue_id": "floorball:1410",
+    "global_venue_key": "Nyköpings Sporthall",
+    "canonical_name": "Sporthallen Nyköping",
+    "source_venue_ids": [
+      1410
+    ],
+    "match_score": 210,
+    "previous_distance_m": 14.15607635026009,
+    "matched_names": [
+      "nyköpings sporthall"
+    ],
+    "old_latitude": 58.7553555,
+    "old_longitude": 17.0213638,
+    "new_latitude": 58.755465,
+    "new_longitude": 17.021489
+  },
+  {
+    "physical_venue_id": "floorball:1411",
+    "global_venue_key": "Ramdalens Sportcenter",
+    "canonical_name": "Medley Ramdalen sportcenter",
+    "source_venue_ids": [
+      1411
+    ],
+    "match_score": 210,
+    "previous_distance_m": 5.697415131250162,
+    "matched_names": [
+      "ramdalens sportcenter"
+    ],
+    "old_latitude": 58.6737531,
+    "old_longitude": 17.0808732,
+    "new_latitude": 58.673706,
+    "new_longitude": 17.080912
+  },
+  {
+    "physical_venue_id": "floorball:1435",
+    "global_venue_key": "Boxholm Sporthall",
+    "canonical_name": "Boxholm Sporthall",
+    "source_venue_ids": [
+      1435
+    ],
+    "match_score": 400,
+    "previous_distance_m": 176.5325183501279,
+    "matched_names": [
+      "boxholm sporthall"
+    ],
+    "old_latitude": 58.2031262,
+    "old_longitude": 15.0500427,
+    "new_latitude": 58.201548,
+    "new_longitude": 15.05037
+  },
+  {
+    "physical_venue_id": "floorball:1439",
+    "global_venue_key": "Överums Sporthall",
+    "canonical_name": "Överum sporthall",
+    "source_venue_ids": [
+      1439
+    ],
+    "match_score": 180,
+    "previous_distance_m": 260.10248264757917,
+    "matched_names": [
+      "överums sporthall"
+    ],
+    "old_latitude": 57.9839376,
+    "old_longitude": 16.3093038,
+    "new_latitude": 57.986055,
+    "new_longitude": 16.311179
+  },
+  {
+    "physical_venue_id": "floorball:1455",
+    "global_venue_key": "Sporthallen Vikingen",
+    "canonical_name": "Sporthallen Vikingen",
+    "source_venue_ids": [
+      1455
+    ],
+    "match_score": 430,
+    "previous_distance_m": 15.031749091399881,
+    "matched_names": [
+      "sporthallen vikingen"
+    ],
+    "old_latitude": 58.4741181,
+    "old_longitude": 16.3277199,
+    "new_latitude": 58.473983,
+    "new_longitude": 16.327729
+  },
+  {
+    "physical_venue_id": "floorball:1459",
+    "global_venue_key": "Skärblacka Sporthall",
+    "canonical_name": "Skärblacka sporthall",
+    "source_venue_ids": [
+      1459
+    ],
+    "match_score": 380,
+    "previous_distance_m": 418.3118646385598,
+    "matched_names": [
+      "skärblacka sporthall"
+    ],
+    "old_latitude": 58.5835795,
+    "old_longitude": 15.9140349,
+    "new_latitude": 58.581919,
+    "new_longitude": 15.907559
+  },
+  {
+    "physical_venue_id": "floorball:1463",
+    "global_venue_key": "Råsslahallen",
+    "canonical_name": "Råssla Fritidsgård",
+    "source_venue_ids": [
+      1463
+    ],
+    "match_score": 210,
+    "previous_distance_m": 14.660995404025961,
+    "matched_names": [
+      "råsslahallen"
+    ],
+    "old_latitude": 58.6644081,
+    "old_longitude": 16.3766733,
+    "new_latitude": 58.664534,
+    "new_longitude": 16.376598
+  },
+  {
+    "physical_venue_id": "floorball:1467",
+    "global_venue_key": "Motala Sporthall",
+    "canonical_name": "Motala Sporthall",
+    "source_venue_ids": [
+      1467
+    ],
+    "match_score": 400,
+    "previous_distance_m": 272.89774229706364,
+    "matched_names": [
+      "motala sporthall"
+    ],
+    "old_latitude": 58.5406525,
+    "old_longitude": 15.0496394,
+    "new_latitude": 58.542431,
+    "new_longitude": 15.05288
+  },
+  {
+    "physical_venue_id": "floorball:1479",
+    "global_venue_key": "Bråvallahallen",
+    "canonical_name": "Bråvalla",
+    "source_venue_ids": [
+      1479
+    ],
+    "match_score": 195,
+    "previous_distance_m": 41.58735534092536,
+    "matched_names": [
+      "bråvallahallen"
+    ],
+    "old_latitude": 58.6081563,
+    "old_longitude": 16.1212293,
+    "new_latitude": 58.607866,
+    "new_longitude": 16.121682
+  },
+  {
+    "physical_venue_id": "floorball:1483",
+    "global_venue_key": "Ljungsbro Sporthall",
+    "canonical_name": "Ljungsbro Sporthall",
+    "source_venue_ids": [
+      1483
+    ],
+    "match_score": 380,
+    "previous_distance_m": 685.2158086699258,
+    "matched_names": [
+      "ljungsbro sporthall"
+    ],
+    "old_latitude": 58.5056063,
+    "old_longitude": 15.4919643,
+    "new_latitude": 58.506301,
+    "new_longitude": 15.503685
+  },
+  {
+    "physical_venue_id": "floorball:1487",
+    "global_venue_key": "Lagmanshallen",
+    "canonical_name": "Lagmanshallen",
+    "source_venue_ids": [
+      1487
+    ],
+    "match_score": 400,
+    "previous_distance_m": 117.91553592114998,
+    "matched_names": [
+      "lagmanshallen"
+    ],
+    "old_latitude": 58.3203831,
+    "old_longitude": 15.1353561,
+    "new_latitude": 58.319339,
+    "new_longitude": 15.135003
+  },
+  {
+    "physical_venue_id": "floorball:1491",
+    "global_venue_key": "Klämmetorpshallen",
+    "canonical_name": "Klämmestorpshallen",
+    "source_venue_ids": [
+      1491
+    ],
+    "match_score": 160,
+    "previous_distance_m": 398.4344792924883,
+    "matched_names": [
+      "klämmetorpshallen"
+    ],
+    "old_latitude": 58.3572128,
+    "old_longitude": 15.2839179,
+    "new_latitude": 58.354878,
+    "new_longitude": 15.278737
+  },
+  {
+    "physical_venue_id": "floorball:1495",
+    "global_venue_key": "Hällaskolan",
+    "canonical_name": "Hällaskolan",
+    "source_venue_ids": [
+      1495
+    ],
+    "match_score": 415,
+    "previous_distance_m": 68.23313273372902,
+    "matched_names": [
+      "hällaskolan"
+    ],
+    "old_latitude": 58.5673758,
+    "old_longitude": 15.2865628,
+    "new_latitude": 58.567345,
+    "new_longitude": 15.287738
+  },
+  {
+    "physical_venue_id": "floorball:1511",
+    "global_venue_key": "Folkungahallen",
+    "canonical_name": "Folkungahallen",
+    "source_venue_ids": [
+      1511
+    ],
+    "match_score": 415,
+    "previous_distance_m": 64.71379767681884,
+    "matched_names": [
+      "folkungahallen"
+    ],
+    "old_latitude": 58.4105585,
+    "old_longitude": 15.6038317,
+    "new_latitude": 58.410084,
+    "new_longitude": 15.604475
+  },
+  {
+    "physical_venue_id": "floorball:1519",
+    "global_venue_key": "Kärnahallen",
+    "canonical_name": "Kärnahallen",
+    "source_venue_ids": [
+      1519
+    ],
+    "match_score": 430,
+    "previous_distance_m": 12.64653375550687,
+    "matched_names": [
+      "kärnahallen"
+    ],
+    "old_latitude": 58.4181405,
+    "old_longitude": 15.514092,
+    "new_latitude": 58.418054,
+    "new_longitude": 15.514233
+  },
+  {
+    "physical_venue_id": "floorball:1523",
+    "global_venue_key": "Linköpings Sporthall",
+    "canonical_name": "Linköpings Sporthall",
+    "source_venue_ids": [
+      1523
+    ],
+    "match_score": 415,
+    "previous_distance_m": 32.58433260135257,
+    "matched_names": [
+      "linköpings sporthall"
+    ],
+    "old_latitude": 58.4074707,
+    "old_longitude": 15.6310325,
+    "new_latitude": 58.407264,
+    "new_longitude": 15.630636
+  },
+  {
+    "physical_venue_id": "floorball:1535",
+    "global_venue_key": "Mässhallen A",
+    "canonical_name": "Mässhallen",
+    "source_venue_ids": [
+      1535
+    ],
+    "match_score": 210,
+    "previous_distance_m": 6.460858304049826,
+    "matched_names": [
+      "mässhallen a"
+    ],
+    "old_latitude": 58.5868336,
+    "old_longitude": 16.1469781,
+    "new_latitude": 58.58688,
+    "new_longitude": 16.146911
+  },
+  {
+    "physical_venue_id": "floorball:1544",
+    "global_venue_key": "Arena Grosvad",
+    "canonical_name": "Arena Grosvad",
+    "source_venue_ids": [
+      1544
+    ],
+    "match_score": 380,
+    "previous_distance_m": 327.540103302503,
+    "matched_names": [
+      "arena grosvad"
+    ],
+    "old_latitude": 58.715953219504506,
+    "old_longitude": 15.801872483079604,
+    "new_latitude": 58.71422,
+    "new_longitude": 15.806459
+  },
+  {
+    "physical_venue_id": "floorball:1548",
+    "global_venue_key": "Arvika Sporthall",
+    "canonical_name": "Arvika Sim- & Sporthall",
+    "source_venue_ids": [
+      1548
+    ],
+    "match_score": 195,
+    "previous_distance_m": 71.35496413330185,
+    "matched_names": [
+      "arvika sporthall"
+    ],
+    "old_latitude": 59.6568452,
+    "old_longitude": 12.5931844,
+    "new_latitude": 59.657288,
+    "new_longitude": 12.592265
+  },
+  {
+    "physical_venue_id": "floorball:1550",
+    "global_venue_key": "Brogårdshallen",
+    "canonical_name": "Brogårdshallen",
+    "source_venue_ids": [
+      1550
+    ],
+    "match_score": 430,
+    "previous_distance_m": 8.767250791833863,
+    "matched_names": [
+      "brogårdshallen"
+    ],
+    "old_latitude": 59.3108031,
+    "old_longitude": 14.1128254,
+    "new_latitude": 59.310875,
+    "new_longitude": 14.112762
+  },
+  {
+    "physical_venue_id": "floorball:1551",
+    "global_venue_key": "Klubbhuset Arena",
+    "canonical_name": "Karlstad innebandyarena",
+    "source_venue_ids": [
+      1551,
+      1587
+    ],
+    "match_score": 195,
+    "previous_distance_m": 97.11031608362345,
+    "matched_names": [
+      "klubbhuset arena"
+    ],
+    "old_latitude": 59.385,
+    "old_longitude": 13.483,
+    "new_latitude": 59.385849,
+    "new_longitude": 13.483402
+  },
+  {
+    "physical_venue_id": "floorball:1552",
+    "global_venue_key": "AllOffice Arena",
+    "canonical_name": "AllOffice Karlstad",
+    "source_venue_ids": [
+      1552
+    ],
+    "match_score": 145,
+    "previous_distance_m": 4272.671537093105,
+    "matched_names": [
+      "alloffice arena"
+    ],
+    "old_latitude": 59.3886941,
+    "old_longitude": 13.4829983,
+    "new_latitude": 59.373115,
+    "new_longitude": 13.551962
+  },
+  {
+    "physical_venue_id": "floorball:1554",
+    "global_venue_key": "Deje Sporthall A",
+    "canonical_name": "Deje sporthall",
+    "source_venue_ids": [
+      1554
+    ],
+    "match_score": 210,
+    "previous_distance_m": 20.71757629495034,
+    "matched_names": [
+      "deje sporthall a"
+    ],
+    "old_latitude": 59.6104151,
+    "old_longitude": 13.4691384,
+    "new_latitude": 59.610278,
+    "new_longitude": 13.468889
+  },
+  {
+    "physical_venue_id": "floorball:1557",
+    "global_venue_key": "Ekshärads Sporthall",
+    "canonical_name": "Ekshärads sporthall",
+    "source_venue_ids": [
+      1557
+    ],
+    "match_score": 365,
+    "previous_distance_m": 1289.323976687511,
+    "matched_names": [
+      "ekshärads sporthall"
+    ],
+    "old_latitude": 60.1696444,
+    "old_longitude": 13.5058575,
+    "new_latitude": 60.173422,
+    "new_longitude": 13.483818
+  },
+  {
+    "physical_venue_id": "floorball:1559",
+    "global_venue_key": "Forshaga Sporthall",
+    "canonical_name": "Forshaga sporthall",
+    "source_venue_ids": [
+      1559
+    ],
+    "match_score": 430,
+    "previous_distance_m": 6.931667044980757,
+    "matched_names": [
+      "forshaga sporthall"
+    ],
+    "old_latitude": 59.5284701,
+    "old_longitude": 13.4816566,
+    "new_latitude": 59.528414,
+    "new_longitude": 13.481603
+  },
+  {
+    "physical_venue_id": "floorball:1566",
+    "global_venue_key": "Grossbolshallen",
+    "canonical_name": "Grossbolshallen",
+    "source_venue_ids": [
+      1566
+    ],
+    "match_score": 430,
+    "previous_distance_m": 25.21754326790574,
+    "matched_names": [
+      "grossbolshallen"
+    ],
+    "old_latitude": 59.5363864,
+    "old_longitude": 13.4789062,
+    "new_latitude": 59.536546,
+    "new_longitude": 13.479224
+  },
+  {
+    "physical_venue_id": "floorball:1567",
+    "global_venue_key": "Grums Sporthall",
+    "canonical_name": "Grums bad- & sporthall",
+    "source_venue_ids": [
+      1567
+    ],
+    "match_score": 180,
+    "previous_distance_m": 214.94708826725798,
+    "matched_names": [
+      "grums sporthall"
+    ],
+    "old_latitude": 59.3530372,
+    "old_longitude": 13.1091145,
+    "new_latitude": 59.354043,
+    "new_longitude": 13.105876
+  },
+  {
+    "physical_venue_id": "floorball:1569",
+    "global_venue_key": "Gärdeshallen",
+    "canonical_name": "Gärdeshallen",
+    "source_venue_ids": [
+      1569
+    ],
+    "match_score": 430,
+    "previous_distance_m": 6.484777453042601,
+    "matched_names": [
+      "gärdeshallen"
+    ],
+    "old_latitude": 59.7676423,
+    "old_longitude": 12.3565446,
+    "new_latitude": 59.767692,
+    "new_longitude": 12.356484
+  },
+  {
+    "physical_venue_id": "floorball:1571",
+    "global_venue_key": "Hammarö Arena",
+    "canonical_name": "Hammarö Arena",
+    "source_venue_ids": [
+      1571,
+      1572
+    ],
+    "match_score": 415,
+    "previous_distance_m": 43.95657959716826,
+    "matched_names": [
+      "hammarö arena"
+    ],
+    "old_latitude": 59.331874,
+    "old_longitude": 13.4772587,
+    "new_latitude": 59.331542,
+    "new_longitude": 13.476838
+  },
+  {
+    "physical_venue_id": "floorball:1578",
+    "global_venue_key": "Molkoms Sporthall",
+    "canonical_name": "Molkoms sporthall",
+    "source_venue_ids": [
+      1578
+    ],
+    "match_score": 430,
+    "previous_distance_m": 10.244995499205134,
+    "matched_names": [
+      "molkoms sporthall"
+    ],
+    "old_latitude": 59.5991227,
+    "old_longitude": 13.7253457,
+    "new_latitude": 59.599083,
+    "new_longitude": 13.72551
+  },
+  {
+    "physical_venue_id": "floorball:1579",
+    "global_venue_key": "Nykroppahallen",
+    "canonical_name": "Bergslagsvägen, Nykroppa",
+    "source_venue_ids": [
+      1579
+    ],
+    "match_score": 180,
+    "previous_distance_m": 267.3442185616827,
+    "matched_names": [
+      "nykroppahallen"
+    ],
+    "old_latitude": 59.6233625,
+    "old_longitude": 14.2901676,
+    "new_latitude": 59.622462,
+    "new_longitude": 14.294576
+  },
+  {
+    "physical_venue_id": "floorball:1581",
+    "global_venue_key": "Lesjöforshallen",
+    "canonical_name": "Lesjöfors Folkets Hus",
+    "source_venue_ids": [
+      1581
+    ],
+    "match_score": 160,
+    "previous_distance_m": 677.315738117919,
+    "matched_names": [
+      "lesjöforshallen"
+    ],
+    "old_latitude": 59.9852101,
+    "old_longitude": 14.1730791,
+    "new_latitude": 59.980764,
+    "new_longitude": 14.181402
+  },
+  {
+    "physical_venue_id": "floorball:1584",
+    "global_venue_key": "Valdemarsviks Ishall",
+    "canonical_name": "Sparbankshallen",
+    "source_venue_ids": [
+      1584
+    ],
+    "match_score": 165,
+    "previous_distance_m": 266917.22757665254,
+    "matched_names": [
+      "sparbankshallen"
+    ],
+    "old_latitude": 58.21523299560161,
+    "old_longitude": 16.594748893729353,
+    "new_latitude": 59.842017,
+    "new_longitude": 13.163248
+  },
+  {
+    "physical_venue_id": "floorball:1589",
+    "global_venue_key": "Stora Vallahallen",
+    "canonical_name": "Stora Vallahallen",
+    "source_venue_ids": [
+      1589
+    ],
+    "match_score": 365,
+    "previous_distance_m": 2961.804655920011,
+    "matched_names": [
+      "stora vallahallen"
+    ],
+    "old_latitude": 59.266667,
+    "old_longitude": 14.433333,
+    "new_latitude": 59.240833,
+    "new_longitude": 14.446023
+  },
+  {
+    "physical_venue_id": "floorball:1590",
+    "global_venue_key": "Storfors Sporthall",
+    "canonical_name": "Storfors Sporthall",
+    "source_venue_ids": [
+      1590
+    ],
+    "match_score": 415,
+    "previous_distance_m": 30.088581038737285,
+    "matched_names": [
+      "storfors sporthall"
+    ],
+    "old_latitude": 59.5433258,
+    "old_longitude": 14.2794441,
+    "new_latitude": 59.543595,
+    "new_longitude": 14.27939
+  },
+  {
+    "physical_venue_id": "floorball:1591",
+    "global_venue_key": "Strandhallen Arvika",
+    "canonical_name": "Strandhallen",
+    "source_venue_ids": [
+      1591
+    ],
+    "match_score": 180,
+    "previous_distance_m": 262.71799631283284,
+    "matched_names": [
+      "strandhallen arvika"
+    ],
+    "old_latitude": 59.6541826,
+    "old_longitude": 12.5771523,
+    "new_latitude": 59.654922,
+    "new_longitude": 12.581594
+  },
+  {
+    "physical_venue_id": "floorball:1596",
+    "global_venue_key": "Tegnérhallen",
+    "canonical_name": "Tegnérhallen",
+    "source_venue_ids": [
+      1596
+    ],
+    "match_score": 415,
+    "previous_distance_m": 59.70975138241841,
+    "matched_names": [
+      "tegn rhallen"
+    ],
+    "old_latitude": 59.1289561,
+    "old_longitude": 12.9423045,
+    "new_latitude": 59.128727,
+    "new_longitude": 12.941358
+  },
+  {
+    "physical_venue_id": "floorball:1599",
+    "global_venue_key": "Väse Sporthall",
+    "canonical_name": "Väse sporthall",
+    "source_venue_ids": [
+      1599
+    ],
+    "match_score": 430,
+    "previous_distance_m": 17.63167767598293,
+    "matched_names": [
+      "väse sporthall"
+    ],
+    "old_latitude": 59.3854269,
+    "old_longitude": 13.855222,
+    "new_latitude": 59.385548,
+    "new_longitude": 13.855021
+  },
+  {
+    "physical_venue_id": "floorball:1600",
+    "global_venue_key": "Årjängs Sporthall A",
+    "canonical_name": "Årjängs sporthallar",
+    "source_venue_ids": [
+      1600
+    ],
+    "match_score": 180,
+    "previous_distance_m": 160.67289107081552,
+    "matched_names": [
+      "årjängs sporthall a"
+    ],
+    "old_latitude": 59.3847919,
+    "old_longitude": 12.1208675,
+    "new_latitude": 59.386138,
+    "new_longitude": 12.119836
+  },
+  {
+    "physical_venue_id": "floorball:1606",
+    "global_venue_key": "Allhallen",
+    "canonical_name": "Allhallen",
+    "source_venue_ids": [
+      1606
+    ],
+    "match_score": 285,
+    "previous_distance_m": 320647.1182853528,
+    "matched_names": [
+      "allhallen"
+    ],
+    "old_latitude": 59.323705,
+    "old_longitude": 17.7402169,
+    "new_latitude": 56.788339,
+    "new_longitude": 15.141657
+  },
+  {
+    "physical_venue_id": "floorball:1614",
+    "global_venue_key": "Jönköpings Idrottshus A-hall",
+    "canonical_name": "Jönköpings Idrottshus",
+    "source_venue_ids": [
+      1614,
+      1672,
+      1673
+    ],
+    "match_score": 210,
+    "previous_distance_m": 22.610449068210638,
+    "matched_names": [
+      "jönköpings idrottshus a hall"
+    ],
+    "old_latitude": 57.7816766,
+    "old_longitude": 14.1544663,
+    "new_latitude": 57.7816,
+    "new_longitude": 14.154113
+  },
+  {
+    "physical_venue_id": "floorball:1621",
+    "global_venue_key": "Bodafors Sporthall",
+    "canonical_name": "Bodafors sporthall",
+    "source_venue_ids": [
+      1621
+    ],
+    "match_score": 400,
+    "previous_distance_m": 180.91756065539985,
+    "matched_names": [
+      "bodafors sporthall"
+    ],
+    "old_latitude": 57.5052622,
+    "old_longitude": 14.7033794,
+    "new_latitude": 57.5067,
+    "new_longitude": 14.704797
+  },
+  {
+    "physical_venue_id": "floorball:1625",
+    "global_venue_key": "Bökensved Sporthall",
+    "canonical_name": "Bökensved",
+    "source_venue_ids": [
+      1625
+    ],
+    "match_score": 180,
+    "previous_distance_m": 164.99544201066365,
+    "matched_names": [
+      "bökensved sporthall"
+    ],
+    "old_latitude": 57.7505725,
+    "old_longitude": 16.6421448,
+    "new_latitude": 57.750179,
+    "new_longitude": 16.644826
+  },
+  {
+    "physical_venue_id": "floorball:1627",
+    "global_venue_key": "Emmaboda Sporthall",
+    "canonical_name": "Emmaboda sporthall",
+    "source_venue_ids": [
+      1627
+    ],
+    "match_score": 430,
+    "previous_distance_m": 11.37174073234579,
+    "matched_names": [
+      "emmaboda sporthall"
+    ],
+    "old_latitude": 56.634015,
+    "old_longitude": 15.5371971,
+    "new_latitude": 56.633919,
+    "new_longitude": 15.537133
+  },
+  {
+    "physical_venue_id": "floorball:1630",
+    "global_venue_key": "Falkenbergshallen",
+    "canonical_name": "Falkenbergshallen",
+    "source_venue_ids": [
+      1630
+    ],
+    "match_score": 400,
+    "previous_distance_m": 136.97323817131306,
+    "matched_names": [
+      "falkenbergshallen"
+    ],
+    "old_latitude": 56.6631545,
+    "old_longitude": 16.3279008,
+    "new_latitude": 56.662759,
+    "new_longitude": 16.325778
+  },
+  {
+    "physical_venue_id": "floorball:1631",
+    "global_venue_key": "FB-hallen",
+    "canonical_name": "FB-hallen",
+    "source_venue_ids": [
+      1631
+    ],
+    "match_score": 400,
+    "previous_distance_m": 170.81440408479654,
+    "matched_names": [
+      "fb hallen"
+    ],
+    "old_latitude": 57.840364,
+    "old_longitude": 14.7972638,
+    "new_latitude": 57.84145,
+    "new_longitude": 14.799305
+  },
+  {
+    "physical_venue_id": "floorball:1632",
+    "global_venue_key": "Fliseryds Sporthall",
+    "canonical_name": "Fliseryds Sporthall",
+    "source_venue_ids": [
+      1632
+    ],
+    "match_score": 415,
+    "previous_distance_m": 76.28863662574682,
+    "matched_names": [
+      "fliseryds sporthall"
+    ],
+    "old_latitude": 57.1245802,
+    "old_longitude": 16.2655527,
+    "new_latitude": 57.125173,
+    "new_longitude": 16.266189
+  },
+  {
+    "physical_venue_id": "floorball:1633",
+    "global_venue_key": "Forserums Sporthall",
+    "canonical_name": "Forserums Sporthall",
+    "source_venue_ids": [
+      1633
+    ],
+    "match_score": 400,
+    "previous_distance_m": 192.07849820401046,
+    "matched_names": [
+      "forserums sporthall"
+    ],
+    "old_latitude": 57.7014538,
+    "old_longitude": 14.4621665,
+    "new_latitude": 57.701915,
+    "new_longitude": 14.465282
+  },
+  {
+    "physical_venue_id": "floorball:1634",
+    "global_venue_key": "Forsheda Sporthall",
+    "canonical_name": "Forsheda Sporthall",
+    "source_venue_ids": [
+      1634
+    ],
+    "match_score": 380,
+    "previous_distance_m": 864.4575266758577,
+    "matched_names": [
+      "forsheda sporthall"
+    ],
+    "old_latitude": 57.1654978,
+    "old_longitude": 13.8250074,
+    "new_latitude": 57.157784,
+    "new_longitude": 13.823223
+  },
+  {
+    "physical_venue_id": "floorball:1635",
+    "global_venue_key": "Fortnox Arena A-hall",
+    "canonical_name": "Fortnox Arena",
+    "source_venue_ids": [
+      1635,
+      1636
+    ],
+    "match_score": 160,
+    "previous_distance_m": 881.4554348610633,
+    "matched_names": [
+      "fortnox arena a hall"
+    ],
+    "old_latitude": 56.8842495,
+    "old_longitude": 14.7618519,
+    "new_latitude": 56.882528,
+    "new_longitude": 14.776015
+  },
+  {
+    "physical_venue_id": "floorball:1639",
+    "global_venue_key": "Furulundshallen",
+    "canonical_name": "Mariannelund Furulundsskolan",
+    "source_venue_ids": [
+      1639
+    ],
+    "match_score": 180,
+    "previous_distance_m": 101.5656703131067,
+    "matched_names": [
+      "furulundshallen"
+    ],
+    "old_latitude": 57.6153318,
+    "old_longitude": 15.573928,
+    "new_latitude": 57.615163,
+    "new_longitude": 15.572252
+  },
+  {
+    "physical_venue_id": "floorball:1642",
+    "global_venue_key": "Ölands Bank Center A",
+    "canonical_name": "Mörbylånga Kommun Färjehallen",
+    "source_venue_ids": [
+      1642,
+      4113
+    ],
+    "match_score": 210,
+    "previous_distance_m": 28.559830826742832,
+    "matched_names": [
+      "ölands bank center a"
+    ],
+    "old_latitude": 56.6393686,
+    "old_longitude": 16.4785996,
+    "new_latitude": 56.639167,
+    "new_longitude": 16.478889
+  },
+  {
+    "physical_venue_id": "floorball:1643",
+    "global_venue_key": "Gemla Sporthall",
+    "canonical_name": "Gemla sporthall",
+    "source_venue_ids": [
+      1643
+    ],
+    "match_score": 430,
+    "previous_distance_m": 14.484061890033352,
+    "matched_names": [
+      "gemla sporthall"
+    ],
+    "old_latitude": 56.8657,
+    "old_longitude": 14.63876,
+    "new_latitude": 56.86583,
+    "new_longitude": 14.638745
+  },
+  {
+    "physical_venue_id": "floorball:1644",
+    "global_venue_key": "Gislaveds Sporthall A/B-hall",
+    "canonical_name": "Gisle sportcenter",
+    "source_venue_ids": [
+      1644
+    ],
+    "match_score": 180,
+    "previous_distance_m": 186.39523443339655,
+    "matched_names": [
+      "gislaveds sporthall a b hall"
+    ],
+    "old_latitude": 57.2952952,
+    "old_longitude": 13.5297433,
+    "new_latitude": 57.294268,
+    "new_longitude": 13.532195
+  },
+  {
+    "physical_venue_id": "floorball:1648",
+    "global_venue_key": "Gårdby Sporthall",
+    "canonical_name": "Gårdbyhallen",
+    "source_venue_ids": [
+      1648
+    ],
+    "match_score": 195,
+    "previous_distance_m": 75.50982695200618,
+    "matched_names": [
+      "gårdby sporthall"
+    ],
+    "old_latitude": 56.594303,
+    "old_longitude": 16.634064,
+    "new_latitude": 56.59491,
+    "new_longitude": 16.634617
+  },
+  {
+    "physical_venue_id": "floorball:1654",
+    "global_venue_key": "Hovshaga Sporthall",
+    "canonical_name": "Hovshaga AIF",
+    "source_venue_ids": [
+      1654
+    ],
+    "match_score": 180,
+    "previous_distance_m": 116.96302937366426,
+    "matched_names": [
+      "hovshaga sporthall"
+    ],
+    "old_latitude": 56.915492,
+    "old_longitude": 14.7921794,
+    "new_latitude": 56.916333,
+    "new_longitude": 14.791022
+  },
+  {
+    "physical_venue_id": "floorball:1658",
+    "global_venue_key": "Hestra Sporthall",
+    "canonical_name": "Sporthall Hestra",
+    "source_venue_ids": [
+      1658
+    ],
+    "match_score": 160,
+    "previous_distance_m": 546.3836382560143,
+    "matched_names": [
+      "hestra sporthall"
+    ],
+    "old_latitude": 57.448918,
+    "old_longitude": 13.5965005,
+    "new_latitude": 57.4538,
+    "new_longitude": 13.597537
+  },
+  {
+    "physical_venue_id": "floorball:1661",
+    "global_venue_key": "Huskvarna Sportcenter Sporthall",
+    "canonical_name": "Huskvarna Sportcenter",
+    "source_venue_ids": [
+      1661
+    ],
+    "match_score": 195,
+    "previous_distance_m": 47.90449527282098,
+    "matched_names": [
+      "huskvarna sportcenter sporthall"
+    ],
+    "old_latitude": 57.7885142,
+    "old_longitude": 14.2740051,
+    "new_latitude": 57.788928,
+    "new_longitude": 14.27423
+  },
+  {
+    "physical_venue_id": "floorball:1667",
+    "global_venue_key": "Ingelstads Sporthall",
+    "canonical_name": "Ingelstad sporthall",
+    "source_venue_ids": [
+      1667
+    ],
+    "match_score": 195,
+    "previous_distance_m": 89.73433025724904,
+    "matched_names": [
+      "ingelstads sporthall"
+    ],
+    "old_latitude": 56.7397568,
+    "old_longitude": 14.9292674,
+    "new_latitude": 56.73984,
+    "new_longitude": 14.930731
+  },
+  {
+    "physical_venue_id": "floorball:1670",
+    "global_venue_key": "LM_FOTBOLLSPLAN_37700bea-be1d-463e-8bde-c9bc7e804bf7",
+    "canonical_name": "Jämjö Idrottsplats",
+    "source_venue_ids": [
+      1670
+    ],
+    "match_score": 195,
+    "previous_distance_m": 65.01892902003189,
+    "matched_names": [
+      "jämjö idrottsplats"
+    ],
+    "old_latitude": 56.18989086,
+    "old_longitude": 15.84957692,
+    "new_latitude": 56.190443,
+    "new_longitude": 15.849231
+  },
+  {
+    "physical_venue_id": "floorball:1676",
+    "global_venue_key": "Kallinge Sporthall",
+    "canonical_name": "Actic Sporthall Kallinge",
+    "source_venue_ids": [
+      1676
+    ],
+    "match_score": 210,
+    "previous_distance_m": 16.06840835587221,
+    "matched_names": [
+      "kallinge sporthall"
+    ],
+    "old_latitude": 56.245386,
+    "old_longitude": 15.2801003,
+    "new_latitude": 56.245519,
+    "new_longitude": 15.280202
+  },
+  {
+    "physical_venue_id": "floorball:1681",
+    "global_venue_key": "KFUM Sporthall, Jönköping",
+    "canonical_name": "KFUM Jönköping Ungdomens Hus",
+    "source_venue_ids": [
+      1681
+    ],
+    "match_score": 160,
+    "previous_distance_m": 671.1643116247982,
+    "matched_names": [
+      "kfum sporthall jönköping"
+    ],
+    "old_latitude": 57.7849793,
+    "old_longitude": 14.2278214,
+    "new_latitude": 57.782226,
+    "new_longitude": 14.217746
+  },
+  {
+    "physical_venue_id": "floorball:1683",
+    "global_venue_key": "Kristdala Sporthall",
+    "canonical_name": "Kristdala sporthall",
+    "source_venue_ids": [
+      1683,
+      4480
+    ],
+    "match_score": 400,
+    "previous_distance_m": 151.32246225949098,
+    "matched_names": [
+      "kristdala sporthall"
+    ],
+    "old_latitude": 57.4013137,
+    "old_longitude": 16.1957666,
+    "new_latitude": 57.401766,
+    "new_longitude": 16.198149
+  },
+  {
+    "physical_venue_id": "floorball:1685",
+    "global_venue_key": "Krungårdshallen",
+    "canonical_name": "Blomstermåla Krungårdsskolan",
+    "source_venue_ids": [
+      1685
+    ],
+    "match_score": 160,
+    "previous_distance_m": 793.0351978165852,
+    "matched_names": [
+      "krungårdshallen"
+    ],
+    "old_latitude": 56.9845703,
+    "old_longitude": 16.3286835,
+    "new_latitude": 56.980611,
+    "new_longitude": 16.33957
+  },
+  {
+    "physical_venue_id": "floorball:1690",
+    "global_venue_key": "Lessebo Sporthall",
+    "canonical_name": "Lessebo Sporthall",
+    "source_venue_ids": [
+      1690
+    ],
+    "match_score": 430,
+    "previous_distance_m": 1.267076765574318,
+    "matched_names": [
+      "lessebo sporthall"
+    ],
+    "old_latitude": 56.7574271,
+    "old_longitude": 15.2799707,
+    "new_latitude": 56.757416,
+    "new_longitude": 15.279966
+  },
+  {
+    "physical_venue_id": "floorball:1693",
+    "global_venue_key": "Malmbäcks Sporthall",
+    "canonical_name": "Malmbäck Sporthall",
+    "source_venue_ids": [
+      1693
+    ],
+    "match_score": 195,
+    "previous_distance_m": 71.7325330462915,
+    "matched_names": [
+      "malmbäcks sporthall"
+    ],
+    "old_latitude": 57.5816512,
+    "old_longitude": 14.4665454,
+    "new_latitude": 57.581074,
+    "new_longitude": 14.466008
+  },
+  {
+    "physical_venue_id": "floorball:1699",
+    "global_venue_key": "Mörlunda Sporthall",
+    "canonical_name": "Mörlunda sporthall",
+    "source_venue_ids": [
+      1699
+    ],
+    "match_score": 380,
+    "previous_distance_m": 754.814587038329,
+    "matched_names": [
+      "mörlunda sporthall"
+    ],
+    "old_latitude": 57.3162253,
+    "old_longitude": 15.8576108,
+    "new_latitude": 57.322972,
+    "new_longitude": 15.858999
+  },
+  {
+    "physical_venue_id": "floorball:1700",
+    "global_venue_key": "Norrahammars Sporthall",
+    "canonical_name": "Norrahammars NIK",
+    "source_venue_ids": [
+      1700
+    ],
+    "match_score": 145,
+    "previous_distance_m": 1661.699344464424,
+    "matched_names": [
+      "norrahammars sporthall"
+    ],
+    "old_latitude": 57.7025277,
+    "old_longitude": 14.1189881,
+    "new_latitude": 57.697318,
+    "new_longitude": 14.092776
+  },
+  {
+    "physical_venue_id": "floorball:1706",
+    "global_venue_key": "Nässjö Sporthall",
+    "canonical_name": "Nässjö Sporthall",
+    "source_venue_ids": [
+      1706
+    ],
+    "match_score": 430,
+    "previous_distance_m": 15.313500668579115,
+    "matched_names": [
+      "nässjö sporthall"
+    ],
+    "old_latitude": 57.6585825,
+    "old_longitude": 14.6996458,
+    "new_latitude": 57.658704,
+    "new_longitude": 14.699767
+  },
+  {
+    "physical_venue_id": "floorball:1707",
+    "global_venue_key": "Olofströms Sporthall",
+    "canonical_name": "Olofströms IBK",
+    "source_venue_ids": [
+      1707
+    ],
+    "match_score": 160,
+    "previous_distance_m": 437.16378863958744,
+    "matched_names": [
+      "olofströms sporthall"
+    ],
+    "old_latitude": 56.2737351,
+    "old_longitude": 14.528116,
+    "new_latitude": 56.277592,
+    "new_longitude": 14.529489
+  },
+  {
+    "physical_venue_id": "floorball:1708",
+    "global_venue_key": "Olsbergs Arena",
+    "canonical_name": "Olsbergs Arena",
+    "source_venue_ids": [
+      1708
+    ],
+    "match_score": 430,
+    "previous_distance_m": 10.349807165748937,
+    "matched_names": [
+      "olsbergs arena"
+    ],
+    "old_latitude": 57.6675298,
+    "old_longitude": 14.978627,
+    "new_latitude": 57.667528,
+    "new_longitude": 14.978453
+  },
+  {
+    "physical_venue_id": "floorball:1710",
+    "global_venue_key": "Oskarshamns Sporthall A-hall",
+    "canonical_name": "Oskarshamns Sporthall",
+    "source_venue_ids": [
+      1710,
+      1711
+    ],
+    "match_score": 160,
+    "previous_distance_m": 943.2604982117679,
+    "matched_names": [
+      "oskarshamns sporthall a hall"
+    ],
+    "old_latitude": 57.2639895,
+    "old_longitude": 16.435398,
+    "new_latitude": 57.257321,
+    "new_longitude": 16.445093
+  },
+  {
+    "physical_venue_id": "floorball:1715",
+    "global_venue_key": "OG-Hallen",
+    "canonical_name": "OG-Hallen",
+    "source_venue_ids": [
+      1715
+    ],
+    "match_score": 400,
+    "previous_distance_m": 133.48344656139292,
+    "matched_names": [
+      "og hallen"
+    ],
+    "old_latitude": 56.7411946,
+    "old_longitude": 15.8965343,
+    "new_latitude": 56.741607,
+    "new_longitude": 15.89859
+  },
+  {
+    "physical_venue_id": "floorball:1716",
+    "global_venue_key": "Ribbahallen A-hall",
+    "canonical_name": "Ribbahallen",
+    "source_venue_ids": [
+      1716
+    ],
+    "match_score": 210,
+    "previous_distance_m": 13.165833271371548,
+    "matched_names": [
+      "ribbahallen a hall"
+    ],
+    "old_latitude": 58.0242499,
+    "old_longitude": 14.4611328,
+    "new_latitude": 58.024278,
+    "new_longitude": 14.46135
+  },
+  {
+    "physical_venue_id": "floorball:1719",
+    "global_venue_key": "Rottne Sporthall",
+    "canonical_name": "Rottne sporthall",
+    "source_venue_ids": [
+      1719
+    ],
+    "match_score": 430,
+    "previous_distance_m": 2.452373188664441,
+    "matched_names": [
+      "rottne sporthall"
+    ],
+    "old_latitude": 57.0246654,
+    "old_longitude": 14.8864738,
+    "new_latitude": 57.024644,
+    "new_longitude": 14.886464
+  },
+  {
+    "physical_venue_id": "floorball:1720",
+    "global_venue_key": "Ryds Sporthall",
+    "canonical_name": "Ryds Sporthallen",
+    "source_venue_ids": [
+      1720
+    ],
+    "match_score": 65,
+    "previous_distance_m": 222431.1452525902,
+    "matched_names": [
+      "ryds sporthall"
+    ],
+    "old_latitude": 58.4113269,
+    "old_longitude": 15.5649771,
+    "new_latitude": 56.467062,
+    "new_longitude": 14.690501
+  },
+  {
+    "physical_venue_id": "floorball:1724",
+    "global_venue_key": "Skillingaryds Arena",
+    "canonical_name": "Skillingaryds Arena",
+    "source_venue_ids": [
+      1724
+    ],
+    "match_score": 415,
+    "previous_distance_m": 92.3756337947002,
+    "matched_names": [
+      "skillingaryds arena"
+    ],
+    "old_latitude": 57.4337377,
+    "old_longitude": 14.0918735,
+    "new_latitude": 57.434195,
+    "new_longitude": 14.093162
+  },
+  {
+    "physical_venue_id": "floorball:1736",
+    "global_venue_key": "Sunnerbohallen",
+    "canonical_name": "Idrottsanläggning Sunnerbohallen",
+    "source_venue_ids": [
+      1736
+    ],
+    "match_score": 195,
+    "previous_distance_m": 97.83387720039363,
+    "matched_names": [
+      "sunnerbohallen"
+    ],
+    "old_latitude": 56.8412864,
+    "old_longitude": 13.950406,
+    "new_latitude": 56.842142,
+    "new_longitude": 13.950781
+  },
+  {
+    "physical_venue_id": "floorball:1737",
+    "global_venue_key": "Sävsjö Ishall",
+    "canonical_name": "Sävsjö Ishall",
+    "source_venue_ids": [
+      1737
+    ],
+    "match_score": 430,
+    "previous_distance_m": 10.776159773918819,
+    "matched_names": [
+      "sävsjö ishall"
+    ],
+    "old_latitude": 57.39279245442137,
+    "old_longitude": 14.677789047254675,
+    "new_latitude": 57.392824,
+    "new_longitude": 14.677619
+  },
+  {
+    "physical_venue_id": "floorball:1742",
+    "global_venue_key": "Tenhults Sporthall",
+    "canonical_name": "Tenhults Sporthall",
+    "source_venue_ids": [
+      1742
+    ],
+    "match_score": 400,
+    "previous_distance_m": 213.13776842505817,
+    "matched_names": [
+      "tenhults sporthall"
+    ],
+    "old_latitude": 57.7064518,
+    "old_longitude": 14.3202626,
+    "new_latitude": 57.705352,
+    "new_longitude": 14.323201
+  },
+  {
+    "physical_venue_id": "floorball:1746",
+    "global_venue_key": "Torsås Sporthall",
+    "canonical_name": "Sporthallen Torsås",
+    "source_venue_ids": [
+      1746
+    ],
+    "match_score": 145,
+    "previous_distance_m": 1723.934281092423,
+    "matched_names": [
+      "torsås sporthall"
+    ],
+    "old_latitude": 56.408231,
+    "old_longitude": 15.9682329,
+    "new_latitude": 56.411787,
+    "new_longitude": 15.995509
+  },
+  {
+    "physical_venue_id": "floorball:1748",
+    "global_venue_key": "Tranås Idrottshall",
+    "canonical_name": "Idrottshall",
+    "source_venue_ids": [
+      1748
+    ],
+    "match_score": 180,
+    "previous_distance_m": 106.42231774247847,
+    "matched_names": [
+      "tranås idrottshall"
+    ],
+    "old_latitude": 58.0319423,
+    "old_longitude": 14.989422,
+    "new_latitude": 58.032211,
+    "new_longitude": 14.987687
+  },
+  {
+    "physical_venue_id": "floorball:1752",
+    "global_venue_key": "Töllstorpshallen",
+    "canonical_name": "Töllstorpshallen",
+    "source_venue_ids": [
+      1752
+    ],
+    "match_score": 430,
+    "previous_distance_m": 17.313903146033194,
+    "matched_names": [
+      "töllstorpshallen"
+    ],
+    "old_latitude": 57.3607255,
+    "old_longitude": 13.7534531,
+    "new_latitude": 57.36075,
+    "new_longitude": 13.753168
+  },
+  {
+    "physical_venue_id": "floorball:1758",
+    "global_venue_key": "Vedeby Sporthall A",
+    "canonical_name": "Vedebyhallen",
+    "source_venue_ids": [
+      1758
+    ],
+    "match_score": 165,
+    "previous_distance_m": 8.061483904041264,
+    "matched_names": [
+      "vedeby sporthall a"
+    ],
+    "old_latitude": 56.2016053,
+    "old_longitude": 15.6434421,
+    "new_latitude": 56.201601,
+    "new_longitude": 15.643312
+  },
+  {
+    "physical_venue_id": "floorball:1761",
+    "global_venue_key": "Vimmerby Idrottshall",
+    "canonical_name": "Idrottshallen Vimmerby",
+    "source_venue_ids": [
+      1761
+    ],
+    "match_score": 145,
+    "previous_distance_m": 2731.7310731571656,
+    "matched_names": [
+      "vimmerby idrottshall"
+    ],
+    "old_latitude": 57.683333,
+    "old_longitude": 15.833333,
+    "new_latitude": 57.670485,
+    "new_longitude": 15.872495
+  },
+  {
+    "physical_venue_id": "floorball:1764",
+    "global_venue_key": "Vrigstad Sporthall",
+    "canonical_name": "Sporthallen",
+    "source_venue_ids": [
+      1764
+    ],
+    "match_score": 210,
+    "previous_distance_m": 2.049559116123427,
+    "matched_names": [
+      "vrigstad sporthall"
+    ],
+    "old_latitude": 57.3571388,
+    "old_longitude": 14.4726783,
+    "new_latitude": 57.357155,
+    "new_longitude": 14.472662
+  },
+  {
+    "physical_venue_id": "floorball:1765",
+    "global_venue_key": "Väckelsångs Idrottshall",
+    "canonical_name": "Valhall - Väckelsångs idrottshall",
+    "source_venue_ids": [
+      1765
+    ],
+    "match_score": 210,
+    "previous_distance_m": 25.867253160337064,
+    "matched_names": [
+      "väckelsångs idrottshall"
+    ],
+    "old_latitude": 56.640851,
+    "old_longitude": 14.9182792,
+    "new_latitude": 56.64103,
+    "new_longitude": 14.918009
+  },
+  {
+    "physical_venue_id": "floorball:1766",
+    "global_venue_key": "Värnamo Sporthall",
+    "canonical_name": "Värnamo sporthall",
+    "source_venue_ids": [
+      1766
+    ],
+    "match_score": 430,
+    "previous_distance_m": 12.72199062210422,
+    "matched_names": [
+      "värnamo sporthall"
+    ],
+    "old_latitude": 57.1812969,
+    "old_longitude": 14.0470263,
+    "new_latitude": 57.18139,
+    "new_longitude": 14.047149
+  },
+  {
+    "physical_venue_id": "floorball:1767",
+    "global_venue_key": "Väggahallen",
+    "canonical_name": "Väggahallen",
+    "source_venue_ids": [
+      1767
+    ],
+    "match_score": 415,
+    "previous_distance_m": 41.57366401766864,
+    "matched_names": [
+      "väggahallen"
+    ],
+    "old_latitude": 56.1640356,
+    "old_longitude": 14.8788962,
+    "new_latitude": 56.163949,
+    "new_longitude": 14.878243
+  },
+  {
+    "physical_venue_id": "floorball:1778",
+    "global_venue_key": "Bjärehovhallen",
+    "canonical_name": "Bjärehovhallen",
+    "source_venue_ids": [
+      1778
+    ],
+    "match_score": 430,
+    "previous_distance_m": 3.332097738930082,
+    "matched_names": [
+      "bjärehovhallen"
+    ],
+    "old_latitude": 55.7218438,
+    "old_longitude": 13.0244708,
+    "new_latitude": 55.721838,
+    "new_longitude": 13.024523
+  },
+  {
+    "physical_venue_id": "floorball:1784",
+    "global_venue_key": "Brogårdaskolan",
+    "canonical_name": "Brogårdaskolan Bjuv",
+    "source_venue_ids": [
+      1784
+    ],
+    "match_score": 180,
+    "previous_distance_m": 116.7713320693356,
+    "matched_names": [
+      "brogårdaskolan"
+    ],
+    "old_latitude": 56.0934605,
+    "old_longitude": 12.9112147,
+    "new_latitude": 56.094069,
+    "new_longitude": 12.912749
+  },
+  {
+    "physical_venue_id": "floorball:1785",
+    "global_venue_key": "Bråhögshallen",
+    "canonical_name": "Bråhögshallen",
+    "source_venue_ids": [
+      1785
+    ],
+    "match_score": 400,
+    "previous_distance_m": 141.43829903045332,
+    "matched_names": [
+      "bråhögshallen"
+    ],
+    "old_latitude": 55.6451879,
+    "old_longitude": 13.2068253,
+    "new_latitude": 55.644039,
+    "new_longitude": 13.205858
+  },
+  {
+    "physical_venue_id": "floorball:1788",
+    "global_venue_key": "Baltiska Hallen",
+    "canonical_name": "Baltiska Hallen",
+    "source_venue_ids": [
+      1788
+    ],
+    "match_score": 415,
+    "previous_distance_m": 72.77284700699066,
+    "matched_names": [
+      "baltiska hallen"
+    ],
+    "old_latitude": 55.58361,
+    "old_longitude": 12.99165,
+    "new_latitude": 55.583294,
+    "new_longitude": 12.990636
+  },
+  {
+    "physical_venue_id": "floorball:1792",
+    "global_venue_key": "Sparbanken Skåne Arena",
+    "canonical_name": "Sparbanken Skåne Arena",
+    "source_venue_ids": [
+      1792
+    ],
+    "match_score": 415,
+    "previous_distance_m": 44.358104771276516,
+    "matched_names": [
+      "sparbanken skåne arena"
+    ],
+    "old_latitude": 55.6975372,
+    "old_longitude": 13.1801333,
+    "new_latitude": 55.69714,
+    "new_longitude": 13.180199
+  },
+  {
+    "physical_venue_id": "floorball:1794",
+    "global_venue_key": "Ljungbyheds Idrottshall",
+    "canonical_name": "Sporthallen i Ljungbyhed",
+    "source_venue_ids": [
+      1794
+    ],
+    "match_score": 195,
+    "previous_distance_m": 42.88665758830604,
+    "matched_names": [
+      "ljungbyheds idrottshall"
+    ],
+    "old_latitude": 56.0761471,
+    "old_longitude": 13.2367668,
+    "new_latitude": 56.076089,
+    "new_longitude": 13.23745
+  },
+  {
+    "physical_venue_id": "floorball:1795",
+    "global_venue_key": "Förslövs Idrottshall",
+    "canonical_name": "Förslövs Idrottshall",
+    "source_venue_ids": [
+      1795
+    ],
+    "match_score": 380,
+    "previous_distance_m": 602.9754083723619,
+    "matched_names": [
+      "förslövs idrottshall"
+    ],
+    "old_latitude": 56.3618818,
+    "old_longitude": 12.8165268,
+    "new_latitude": 56.356777,
+    "new_longitude": 12.819829
+  },
+  {
+    "physical_venue_id": "floorball:1798",
+    "global_venue_key": "Genarps Idrottshall",
+    "canonical_name": "Actic Lund Genarp",
+    "source_venue_ids": [
+      1798
+    ],
+    "match_score": 210,
+    "previous_distance_m": 13.071128133198432,
+    "matched_names": [
+      "genarps idrottshall"
+    ],
+    "old_latitude": 55.5981779,
+    "old_longitude": 13.3964865,
+    "new_latitude": 55.598256,
+    "new_longitude": 13.396642
+  },
+  {
+    "physical_venue_id": "floorball:1799",
+    "global_venue_key": "Häljarps Idrottshall",
+    "canonical_name": "Idrottshall Häljarp",
+    "source_venue_ids": [
+      1799
+    ],
+    "match_score": 210,
+    "previous_distance_m": 2.245547595542386,
+    "matched_names": [
+      "häljarps idrottshall"
+    ],
+    "old_latitude": 55.8505939,
+    "old_longitude": 12.9244871,
+    "new_latitude": 55.850589,
+    "new_longitude": 12.924522
+  },
+  {
+    "physical_venue_id": "floorball:1803",
+    "global_venue_key": "Kulladals Sporthall",
+    "canonical_name": "Kulladals FF",
+    "source_venue_ids": [
+      1803
+    ],
+    "match_score": 160,
+    "previous_distance_m": 327.9839732669221,
+    "matched_names": [
+      "kulladals sporthall"
+    ],
+    "old_latitude": 55.5679489,
+    "old_longitude": 13.0005099,
+    "new_latitude": 55.570873,
+    "new_longitude": 12.999825
+  },
+  {
+    "physical_venue_id": "floorball:1810",
+    "global_venue_key": "Halörhallen",
+    "canonical_name": "Halörhallen",
+    "source_venue_ids": [
+      1810
+    ],
+    "match_score": 415,
+    "previous_distance_m": 47.45815012896353,
+    "matched_names": [
+      "halörhallen"
+    ],
+    "old_latitude": 55.4264182,
+    "old_longitude": 12.9782635,
+    "new_latitude": 55.425995,
+    "new_longitude": 12.978361
+  },
+  {
+    "physical_venue_id": "floorball:1812",
+    "global_venue_key": "Munkahallen",
+    "canonical_name": "Munkahallen",
+    "source_venue_ids": [
+      1812
+    ],
+    "match_score": 415,
+    "previous_distance_m": 99.66085646246893,
+    "matched_names": [
+      "munkahallen"
+    ],
+    "old_latitude": 56.2571792,
+    "old_longitude": 12.9883173,
+    "new_latitude": 56.257907,
+    "new_longitude": 12.989259
+  },
+  {
+    "physical_venue_id": "floorball:1814",
+    "global_venue_key": "Helsingborg Arena B",
+    "canonical_name": "Helsingborg Arena",
+    "source_venue_ids": [
+      1814
+    ],
+    "match_score": 210,
+    "previous_distance_m": 29.321218507342714,
+    "matched_names": [
+      "helsingborg arena b"
+    ],
+    "old_latitude": 56.0529038,
+    "old_longitude": 12.7047386,
+    "new_latitude": 56.052996,
+    "new_longitude": 12.705181
+  },
+  {
+    "physical_venue_id": "floorball:1816",
+    "global_venue_key": "Idrottens Hus A",
+    "canonical_name": "Idrottens Hus",
+    "source_venue_ids": [
+      1816
+    ],
+    "match_score": 195,
+    "previous_distance_m": 34.82089558715693,
+    "matched_names": [
+      "idrottens hus a"
+    ],
+    "old_latitude": 56.0518042,
+    "old_longitude": 12.7058555,
+    "new_latitude": 56.051498,
+    "new_longitude": 12.705738
+  },
+  {
+    "physical_venue_id": "floorball:1821",
+    "global_venue_key": "Höörs Idrottshall",
+    "canonical_name": "Höörs Bad och Sportcentrum",
+    "source_venue_ids": [
+      1821
+    ],
+    "match_score": 195,
+    "previous_distance_m": 99.33406782204878,
+    "matched_names": [
+      "höörs idrottshall"
+    ],
+    "old_latitude": 55.9363825,
+    "old_longitude": 13.5518725,
+    "new_latitude": 55.93612,
+    "new_longitude": 13.550348
+  },
+  {
+    "physical_venue_id": "floorball:1823",
+    "global_venue_key": "Kirsebergs Sporthall",
+    "canonical_name": "Kirsebergs Sporthall",
+    "source_venue_ids": [
+      1823
+    ],
+    "match_score": 430,
+    "previous_distance_m": 1.3167513879829722,
+    "matched_names": [
+      "kirsebergs sporthall"
+    ],
+    "old_latitude": 55.6092848,
+    "old_longitude": 13.0553642,
+    "new_latitude": 55.609294,
+    "new_longitude": 13.055351
+  },
+  {
+    "physical_venue_id": "floorball:1827",
+    "global_venue_key": "Killebäckshallen",
+    "canonical_name": "Killebäckshallen",
+    "source_venue_ids": [
+      1827
+    ],
+    "match_score": 430,
+    "previous_distance_m": 18.60380233935097,
+    "matched_names": [
+      "killebäckshallen"
+    ],
+    "old_latitude": 55.7144803,
+    "old_longitude": 13.3493278,
+    "new_latitude": 55.714638,
+    "new_longitude": 13.349427
+  },
+  {
+    "physical_venue_id": "floorball:1828",
+    "global_venue_key": "Höganäs Sportcenter A",
+    "canonical_name": "Höganäs Sportcenter",
+    "source_venue_ids": [
+      1828,
+      2665
+    ],
+    "match_score": 195,
+    "previous_distance_m": 81.2126592111968,
+    "matched_names": [
+      "höganäs sportcenter a"
+    ],
+    "old_latitude": 56.1847091,
+    "old_longitude": 12.565334,
+    "new_latitude": 56.185373,
+    "new_longitude": 12.565881
+  },
+  {
+    "physical_venue_id": "floorball:1832",
+    "global_venue_key": "Korsbackahallen",
+    "canonical_name": "Korsbackahallen",
+    "source_venue_ids": [
+      1832
+    ],
+    "match_score": 430,
+    "previous_distance_m": 14.483960676323266,
+    "matched_names": [
+      "korsbackahallen"
+    ],
+    "old_latitude": 55.7932642,
+    "old_longitude": 13.1021064,
+    "new_latitude": 55.793394,
+    "new_longitude": 13.102087
+  },
+  {
+    "physical_venue_id": "floorball:1835",
+    "global_venue_key": "Kungsgårdshallen",
+    "canonical_name": "Kungsgårdshallen",
+    "source_venue_ids": [
+      1835
+    ],
+    "match_score": 430,
+    "previous_distance_m": 15.185400128454946,
+    "matched_names": [
+      "kungsgårdshallen"
+    ],
+    "old_latitude": 56.2512807,
+    "old_longitude": 12.8792324,
+    "new_latitude": 56.251314,
+    "new_longitude": 12.878994
+  },
+  {
+    "physical_venue_id": "floorball:1838",
+    "global_venue_key": "Liljeskolan",
+    "canonical_name": "Liljeskolan 6-9",
+    "source_venue_ids": [
+      1838
+    ],
+    "match_score": 195,
+    "previous_distance_m": 43.5294816182471,
+    "matched_names": [
+      "liljeskolan"
+    ],
+    "old_latitude": 55.3790214,
+    "old_longitude": 13.1630998,
+    "new_latitude": 55.379397,
+    "new_longitude": 13.163294
+  },
+  {
+    "physical_venue_id": "floorball:1844",
+    "global_venue_key": "Lunds Idrottshall",
+    "canonical_name": "Idrottshallen",
+    "source_venue_ids": [
+      1844
+    ],
+    "match_score": 160,
+    "previous_distance_m": 724.7566277011041,
+    "matched_names": [
+      "lunds idrottshall"
+    ],
+    "old_latitude": 55.7010749,
+    "old_longitude": 13.1960801,
+    "new_latitude": 55.700643,
+    "new_longitude": 13.184539
+  },
+  {
+    "physical_venue_id": "floorball:1848",
+    "global_venue_key": "Lönsboda Sporthall",
+    "canonical_name": "Lönsboda simhall",
+    "source_venue_ids": [
+      1848
+    ],
+    "match_score": 180,
+    "previous_distance_m": 139.9050465377104,
+    "matched_names": [
+      "lönsboda sporthall"
+    ],
+    "old_latitude": 56.4016166,
+    "old_longitude": 14.3267279,
+    "new_latitude": 56.402845,
+    "new_longitude": 14.326236
+  },
+  {
+    "physical_venue_id": "floorball:1850",
+    "global_venue_key": "Nosabyhallen",
+    "canonical_name": "Nosabyhallen",
+    "source_venue_ids": [
+      1850
+    ],
+    "match_score": 415,
+    "previous_distance_m": 89.60527196746972,
+    "matched_names": [
+      "nosabyhallen"
+    ],
+    "old_latitude": 56.0526547,
+    "old_longitude": 14.197686,
+    "new_latitude": 56.05336,
+    "new_longitude": 14.196988
+  },
+  {
+    "physical_venue_id": "floorball:1851",
+    "global_venue_key": "Tyrs Hovs Sportcentra",
+    "canonical_name": "Tyrs hov",
+    "source_venue_ids": [
+      1851
+    ],
+    "match_score": 180,
+    "previous_distance_m": 178.03520267617193,
+    "matched_names": [
+      "tyrs hovs sportcentra"
+    ],
+    "old_latitude": 56.1542327,
+    "old_longitude": 13.6023336,
+    "new_latitude": 56.154862,
+    "new_longitude": 13.604977
+  },
+  {
+    "physical_venue_id": "floorball:1868",
+    "global_venue_key": "Rörteamet Arena",
+    "canonical_name": "RÖRTEAMET ARENA",
+    "source_venue_ids": [
+      1868
+    ],
+    "match_score": 400,
+    "previous_distance_m": 274.8375698585013,
+    "matched_names": [
+      "rörteamet arena"
+    ],
+    "old_latitude": 63.8063149,
+    "old_longitude": 20.187932,
+    "new_latitude": 63.803971,
+    "new_longitude": 20.189709
+  },
+  {
+    "physical_venue_id": "floorball:1869",
+    "global_venue_key": "Sjöfruhallen",
+    "canonical_name": "Sjöfruhallen",
+    "source_venue_ids": [
+      1869
+    ],
+    "match_score": 430,
+    "previous_distance_m": 0.8463465626940518,
+    "matched_names": [
+      "sjöfruhallen"
+    ],
+    "old_latitude": 63.804139,
+    "old_longitude": 20.342375,
+    "new_latitude": 63.804134,
+    "new_longitude": 20.342388
+  },
+  {
+    "physical_venue_id": "floorball:1870",
+    "global_venue_key": "Vildmannahallen",
+    "canonical_name": "Vildmannahallen",
+    "source_venue_ids": [
+      1870
+    ],
+    "match_score": 430,
+    "previous_distance_m": 23.709575302738887,
+    "matched_names": [
+      "vildmannahallen"
+    ],
+    "old_latitude": 63.8382725,
+    "old_longitude": 20.2629197,
+    "new_latitude": 63.838462,
+    "new_longitude": 20.262698
+  },
+  {
+    "physical_venue_id": "floorball:1871",
+    "global_venue_key": "Bråvallahallen, Hörnefors",
+    "canonical_name": "Bråvallahallen, Hörnefors",
+    "source_venue_ids": [
+      1871
+    ],
+    "match_score": 0,
+    "previous_distance_m": null,
+    "matched_names": [],
+    "old_latitude": null,
+    "old_longitude": null,
+    "new_latitude": 63.61961,
+    "new_longitude": 19.909687
+  },
+  {
+    "physical_venue_id": "floorball:1872",
+    "global_venue_key": "Ersängshallen",
+    "canonical_name": "Umecupen Ersängshallen",
+    "source_venue_ids": [
+      1872
+    ],
+    "match_score": 210,
+    "previous_distance_m": 25.47299818054351,
+    "matched_names": [
+      "ersängshallen"
+    ],
+    "old_latitude": 63.860469,
+    "old_longitude": 20.320112,
+    "new_latitude": 63.860449,
+    "new_longitude": 20.319594
+  },
+  {
+    "physical_venue_id": "floorball:1873",
+    "global_venue_key": "Umeå Energi Arena Väst",
+    "canonical_name": "Umeå Energi Arena Vind",
+    "source_venue_ids": [
+      1873,
+      1874
+    ],
+    "match_score": 180,
+    "previous_distance_m": 219.19266545806178,
+    "matched_names": [
+      "umeå energi arena väst"
+    ],
+    "old_latitude": 63.8279569,
+    "old_longitude": 20.2887541,
+    "new_latitude": 63.82921,
+    "new_longitude": 20.285304
+  },
+  {
+    "physical_venue_id": "floorball:1876",
+    "global_venue_key": "FC Vindeln",
+    "canonical_name": "FC Vindeln",
+    "source_venue_ids": [
+      1876
+    ],
+    "match_score": 380,
+    "previous_distance_m": 639.7732424199165,
+    "matched_names": [
+      "fc vindeln"
+    ],
+    "old_latitude": 64.2021768,
+    "old_longitude": 19.7197398,
+    "new_latitude": 64.207687,
+    "new_longitude": 19.723545
+  },
+  {
+    "physical_venue_id": "floorball:1884",
+    "global_venue_key": "Musköten 1",
+    "canonical_name": "Musköten",
+    "source_venue_ids": [
+      1884
+    ],
+    "match_score": 195,
+    "previous_distance_m": 34.41932673861923,
+    "matched_names": [
+      "musköten 1"
+    ],
+    "old_latitude": 63.8371106,
+    "old_longitude": 20.1707765,
+    "new_latitude": 63.837252,
+    "new_longitude": 20.171401
+  },
+  {
+    "physical_venue_id": "floorball:1888",
+    "global_venue_key": "Umeå Energi Arena Vatten",
+    "canonical_name": "Umeå Energi Arena Vatten",
+    "source_venue_ids": [
+      1888
+    ],
+    "match_score": 400,
+    "previous_distance_m": 149.65434274845856,
+    "matched_names": [
+      "umeå energi arena vatten"
+    ],
+    "old_latitude": 63.8279569,
+    "old_longitude": 20.2887541,
+    "new_latitude": 63.828719,
+    "new_longitude": 20.286239
+  },
+  {
+    "physical_venue_id": "floorball:1894",
+    "global_venue_key": "Skyttis Arena",
+    "canonical_name": "Skyttis",
+    "source_venue_ids": [
+      1894
+    ],
+    "match_score": 210,
+    "previous_distance_m": 1.9419290864233612,
+    "matched_names": [
+      "skyttis arena"
+    ],
+    "old_latitude": 63.2952831,
+    "old_longitude": 18.7347457,
+    "new_latitude": 63.29529,
+    "new_longitude": 18.73471
+  },
+  {
+    "physical_venue_id": "floorball:1896",
+    "global_venue_key": "Hammarhallen Vännäs",
+    "canonical_name": "Hammarhallen",
+    "source_venue_ids": [
+      1896
+    ],
+    "match_score": 210,
+    "previous_distance_m": 9.188816177228821,
+    "matched_names": [
+      "hammarhallen vännäs"
+    ],
+    "old_latitude": 63.9040267,
+    "old_longitude": 19.7457448,
+    "new_latitude": 63.904045,
+    "new_longitude": 19.745928
+  },
+  {
+    "physical_venue_id": "floorball:1907",
+    "global_venue_key": "Sundsvalls Sporthall-A",
+    "canonical_name": "Sundsvalls sporthall",
+    "source_venue_ids": [
+      1907
+    ],
+    "match_score": 145,
+    "previous_distance_m": 3126.882529326985,
+    "matched_names": [
+      "sundsvalls sporthall a"
+    ],
+    "old_latitude": 62.3729479,
+    "old_longitude": 17.3302458,
+    "new_latitude": 62.39427,
+    "new_longitude": 17.290694
+  },
+  {
+    "physical_venue_id": "floorball:1908",
+    "global_venue_key": "Timrå Sporthall",
+    "canonical_name": "Timrå Sporthall",
+    "source_venue_ids": [
+      1908
+    ],
+    "match_score": 415,
+    "previous_distance_m": 54.295282599983885,
+    "matched_names": [
+      "timrå sporthall"
+    ],
+    "old_latitude": 62.5054448,
+    "old_longitude": 17.3480257,
+    "new_latitude": 62.50514,
+    "new_longitude": 17.348852
+  },
+  {
+    "physical_venue_id": "floorball:1918",
+    "global_venue_key": "Storsjöhallen",
+    "canonical_name": "Storsjöhallen",
+    "source_venue_ids": [
+      1918
+    ],
+    "match_score": 415,
+    "previous_distance_m": 54.578688460441064,
+    "matched_names": [
+      "storsjöhallen"
+    ],
+    "old_latitude": 63.702571,
+    "old_longitude": 20.3725864,
+    "new_latitude": 63.702969,
+    "new_longitude": 20.371938
+  },
+  {
+    "physical_venue_id": "floorball:1919",
+    "global_venue_key": "Sävaråhallen",
+    "canonical_name": "Sävaråhallen",
+    "source_venue_ids": [
+      1919
+    ],
+    "match_score": 430,
+    "previous_distance_m": 10.868245067512651,
+    "matched_names": [
+      "sävaråhallen"
+    ],
+    "old_latitude": 63.8984677,
+    "old_longitude": 20.558339,
+    "new_latitude": 63.898564,
+    "new_longitude": 20.558377
+  },
+  {
+    "physical_venue_id": "floorball:1924",
+    "global_venue_key": "Qpoolen",
+    "canonical_name": "Actic Hässleholm - Q-poolen",
+    "source_venue_ids": [
+      1924
+    ],
+    "match_score": 210,
+    "previous_distance_m": 16.86587015071364,
+    "matched_names": [
+      "qpoolen"
+    ],
+    "old_latitude": 56.1552296,
+    "old_longitude": 13.7763527,
+    "new_latitude": 56.155207,
+    "new_longitude": 13.776622
+  },
+  {
+    "physical_venue_id": "floorball:1930",
+    "global_venue_key": "Sallerupshallen",
+    "canonical_name": "Sallerupshallen",
+    "source_venue_ids": [
+      1930
+    ],
+    "match_score": 415,
+    "previous_distance_m": 44.18794264074733,
+    "matched_names": [
+      "sallerupshallen"
+    ],
+    "old_latitude": 55.8278282,
+    "old_longitude": 13.2866004,
+    "new_latitude": 55.827835,
+    "new_longitude": 13.285893
+  },
+  {
+    "physical_venue_id": "floorball:1933",
+    "global_venue_key": "Skurups Sparbank Arena",
+    "canonical_name": "Skurupshallen",
+    "source_venue_ids": [
+      1933
+    ],
+    "match_score": 180,
+    "previous_distance_m": 251.36105094168278,
+    "matched_names": [
+      "skurups sparbank arena"
+    ],
+    "old_latitude": 55.4782308,
+    "old_longitude": 13.502773,
+    "new_latitude": 55.476013,
+    "new_longitude": 13.503545
+  },
+  {
+    "physical_venue_id": "floorball:1936",
+    "global_venue_key": "Strandängsskolan",
+    "canonical_name": "Strandängsskolan",
+    "source_venue_ids": [
+      1936
+    ],
+    "match_score": 430,
+    "previous_distance_m": 7.598653884643655,
+    "matched_names": [
+      "strandängsskolan"
+    ],
+    "old_latitude": 56.4284619,
+    "old_longitude": 12.8484195,
+    "new_latitude": 56.428516,
+    "new_longitude": 12.848495
+  },
+  {
+    "physical_venue_id": "floorball:1939",
+    "global_venue_key": "Svaleboskolan",
+    "canonical_name": "Svaleboskolan Veberöds Verksamhetsområde",
+    "source_venue_ids": [
+      1939
+    ],
+    "match_score": 180,
+    "previous_distance_m": 227.37875333026412,
+    "matched_names": [
+      "svaleboskolan"
+    ],
+    "old_latitude": 55.6351696,
+    "old_longitude": 13.4847006,
+    "new_latitude": 55.635791,
+    "new_longitude": 13.488152
+  },
+  {
+    "physical_venue_id": "floorball:1943",
+    "global_venue_key": "Söderslättshallen",
+    "canonical_name": "Söderslättshallen",
+    "source_venue_ids": [
+      1943,
+      1944
+    ],
+    "match_score": 430,
+    "previous_distance_m": 19.278149881449366,
+    "matched_names": [
+      "söderslättshallen"
+    ],
+    "old_latitude": 55.386765251259774,
+    "old_longitude": 13.156714305311395,
+    "new_latitude": 55.386672,
+    "new_longitude": 13.156457
+  },
+  {
+    "physical_venue_id": "floorball:1947",
+    "global_venue_key": "Tianshallen",
+    "canonical_name": "Tianshallen",
+    "source_venue_ids": [
+      1947
+    ],
+    "match_score": 365,
+    "previous_distance_m": 1269.7629965494104,
+    "matched_names": [
+      "tianshallen"
+    ],
+    "old_latitude": 56.0904762,
+    "old_longitude": 14.4858776,
+    "new_latitude": 56.081111,
+    "new_longitude": 14.474167
+  },
+  {
+    "physical_venue_id": "floorball:1948",
+    "global_venue_key": "Tollarps Sporthall",
+    "canonical_name": "Tollarps Sporthall",
+    "source_venue_ids": [
+      1948
+    ],
+    "match_score": 400,
+    "previous_distance_m": 193.93902787931876,
+    "matched_names": [
+      "tollarps sporthall"
+    ],
+    "old_latitude": 55.9310172,
+    "old_longitude": 13.9663804,
+    "new_latitude": 55.929371,
+    "new_longitude": 13.967409
+  },
+  {
+    "physical_venue_id": "floorball:1949",
+    "global_venue_key": "Tolvåkershallen A",
+    "canonical_name": "Tolvåkers idrottshall",
+    "source_venue_ids": [
+      1949,
+      4464
+    ],
+    "match_score": 195,
+    "previous_distance_m": 71.7443378609091,
+    "matched_names": [
+      "tolvåkershallen a"
+    ],
+    "old_latitude": 55.7640693,
+    "old_longitude": 13.0178345,
+    "new_latitude": 55.76448,
+    "new_longitude": 13.01695
+  },
+  {
+    "physical_venue_id": "floorball:1960",
+    "global_venue_key": "Ängelholms Idrottshall",
+    "canonical_name": "FBC Engelholm/Ängelholms Idrottshall",
+    "source_venue_ids": [
+      1960
+    ],
+    "match_score": 210,
+    "previous_distance_m": 21.033836598936237,
+    "matched_names": [
+      "ängelholms idrottshall"
+    ],
+    "old_latitude": 56.2506496,
+    "old_longitude": 12.8616896,
+    "new_latitude": 56.250784,
+    "new_longitude": 12.86145
+  },
+  {
+    "physical_venue_id": "floorball:1963",
+    "global_venue_key": "Vittsjö Idrottshall",
+    "canonical_name": "Vittsjö Idrottshall",
+    "source_venue_ids": [
+      1963
+    ],
+    "match_score": 415,
+    "previous_distance_m": 32.64684631209955,
+    "matched_names": [
+      "vittsjö idrottshall"
+    ],
+    "old_latitude": 56.3426717,
+    "old_longitude": 13.6608451,
+    "new_latitude": 56.342946,
+    "new_longitude": 13.661034
+  },
+  {
+    "physical_venue_id": "floorball:1965",
+    "global_venue_key": "Västervånghallen",
+    "canonical_name": "Västervånghallen",
+    "source_venue_ids": [
+      1965
+    ],
+    "match_score": 400,
+    "previous_distance_m": 113.40565097603404,
+    "matched_names": [
+      "västervånghallen"
+    ],
+    "old_latitude": 55.4321149,
+    "old_longitude": 13.8063541,
+    "new_latitude": 55.43239,
+    "new_longitude": 13.808085
+  },
+  {
+    "physical_venue_id": "floorball:1968",
+    "global_venue_key": "Åstorps Sporthall",
+    "canonical_name": "Åstorps Sporthall",
+    "source_venue_ids": [
+      1968
+    ],
+    "match_score": 380,
+    "previous_distance_m": 635.6661990231673,
+    "matched_names": [
+      "åstorps sporthall"
+    ],
+    "old_latitude": 56.1365032,
+    "old_longitude": 12.9421289,
+    "new_latitude": 56.138079,
+    "new_longitude": 12.951991
+  },
+  {
+    "physical_venue_id": "floorball:1986",
+    "global_venue_key": "Aktiviteten A-Hall",
+    "canonical_name": "Mölndal Aktiviteten (Idrott m m)",
+    "source_venue_ids": [
+      1986
+    ],
+    "match_score": 195,
+    "previous_distance_m": 35.93068851830889,
+    "matched_names": [
+      "aktiviteten a hall"
+    ],
+    "old_latitude": 57.65604,
+    "old_longitude": 12.00529,
+    "new_latitude": 57.655991,
+    "new_longitude": 12.005887
+  },
+  {
+    "physical_venue_id": "floorball:2018",
+    "global_venue_key": "Mimershus A-hallen",
+    "canonical_name": "Mimershallen",
+    "source_venue_ids": [
+      2018
+    ],
+    "match_score": 195,
+    "previous_distance_m": 36.131823782379826,
+    "matched_names": [
+      "mimershus a hallen"
+    ],
+    "old_latitude": 57.8764378,
+    "old_longitude": 11.9749715,
+    "new_latitude": 57.876244,
+    "new_longitude": 11.974481
+  },
+  {
+    "physical_venue_id": "floorball:2025",
+    "global_venue_key": "Partillebohallen",
+    "canonical_name": "Partillebohallen",
+    "source_venue_ids": [
+      2025
+    ],
+    "match_score": 430,
+    "previous_distance_m": 5.234094307549194,
+    "matched_names": [
+      "partillebohallen"
+    ],
+    "old_latitude": 57.7412613,
+    "old_longitude": 12.1135031,
+    "new_latitude": 57.741215,
+    "new_longitude": 12.113519
+  },
+  {
+    "physical_venue_id": "floorball:2027",
+    "global_venue_key": "Nova Floda Sportcenter A-hall",
+    "canonical_name": "Floda Nova Sportcenter AB",
+    "source_venue_ids": [
+      2027
+    ],
+    "match_score": 210,
+    "previous_distance_m": 8.44090664812489,
+    "matched_names": [
+      "nova floda sportcenter a hall"
+    ],
+    "old_latitude": 57.8060116,
+    "old_longitude": 12.3736557,
+    "new_latitude": 57.806033,
+    "new_longitude": 12.373519
+  },
+  {
+    "physical_venue_id": "floorball:2048",
+    "global_venue_key": "Lindås Waves Arena",
+    "canonical_name": "Lindås Waves Arena (ex Salming) - Floorball Arena / Innebandyhall",
+    "source_venue_ids": [
+      2048
+    ],
+    "match_score": 195,
+    "previous_distance_m": 53.16312826639512,
+    "matched_names": [
+      "lindås waves arena"
+    ],
+    "old_latitude": 57.6182955,
+    "old_longitude": 11.9405316,
+    "new_latitude": 57.618731,
+    "new_longitude": 11.9409
+  },
+  {
+    "physical_venue_id": "floorball:2049",
+    "global_venue_key": "Wallenstam Arena A",
+    "canonical_name": "Wallenstam Arena",
+    "source_venue_ids": [
+      2049
+    ],
+    "match_score": 160,
+    "previous_distance_m": 860.0469773297548,
+    "matched_names": [
+      "wallenstam arena a"
+    ],
+    "old_latitude": 57.6583613,
+    "old_longitude": 12.1135762,
+    "new_latitude": 57.660834,
+    "new_longitude": 12.127276
+  },
+  {
+    "physical_venue_id": "floorball:2051",
+    "global_venue_key": "Eddahallen",
+    "canonical_name": "Eddahallen Skellefteå",
+    "source_venue_ids": [
+      2051
+    ],
+    "match_score": 195,
+    "previous_distance_m": 30.396041427943732,
+    "matched_names": [
+      "eddahallen"
+    ],
+    "old_latitude": 64.75487,
+    "old_longitude": 20.9698399,
+    "new_latitude": 64.754729,
+    "new_longitude": 20.970389
+  },
+  {
+    "physical_venue_id": "floorball:2067",
+    "global_venue_key": "Ulriksdalshallen",
+    "canonical_name": "Ulriksdalshallen",
+    "source_venue_ids": [
+      2067
+    ],
+    "match_score": 430,
+    "previous_distance_m": 14.342636261479294,
+    "matched_names": [
+      "ulriksdalshallen"
+    ],
+    "old_latitude": 59.3807666,
+    "old_longitude": 18.0042527,
+    "new_latitude": 59.380859,
+    "new_longitude": 18.004076
+  },
+  {
+    "physical_venue_id": "floorball:2069",
+    "global_venue_key": "Carlforska gymnasiet",
+    "canonical_name": "Praktiska Gymnasiet Västerås",
+    "source_venue_ids": [
+      2069
+    ],
+    "match_score": 145,
+    "previous_distance_m": 2076.8157753492746,
+    "matched_names": [
+      "carlforska gymnasiet"
+    ],
+    "old_latitude": 59.6219615,
+    "old_longitude": 16.5375375,
+    "new_latitude": 59.610874,
+    "new_longitude": 16.567254
+  },
+  {
+    "physical_venue_id": "floorball:2070",
+    "global_venue_key": "Fagerstahallen",
+    "canonical_name": "Fagerstahallen",
+    "source_venue_ids": [
+      2070
+    ],
+    "match_score": 400,
+    "previous_distance_m": 108.53345336874024,
+    "matched_names": [
+      "fagerstahallen"
+    ],
+    "old_latitude": 59.9995785,
+    "old_longitude": 15.8080234,
+    "new_latitude": 60.000554,
+    "new_longitude": 15.807957
+  },
+  {
+    "physical_venue_id": "floorball:2080",
+    "global_venue_key": "Kristiansborgshallen",
+    "canonical_name": "Kristiansborgshallen",
+    "source_venue_ids": [
+      2080
+    ],
+    "match_score": 430,
+    "previous_distance_m": 2.997535144670801,
+    "matched_names": [
+      "kristiansborgshallen"
+    ],
+    "old_latitude": 59.6209236,
+    "old_longitude": 16.539431,
+    "new_latitude": 59.620907,
+    "new_longitude": 16.539473
+  },
+  {
+    "physical_venue_id": "floorball:2081",
+    "global_venue_key": "Kättinghallen",
+    "canonical_name": "Kättinghallen",
+    "source_venue_ids": [
+      2081
+    ],
+    "match_score": 430,
+    "previous_distance_m": 18.459709727629214,
+    "matched_names": [
+      "kättinghallen"
+    ],
+    "old_latitude": 59.7746263,
+    "old_longitude": 16.1983445,
+    "new_latitude": 59.774539,
+    "new_longitude": 16.198064
+  },
+  {
+    "physical_venue_id": "floorball:2084",
+    "global_venue_key": "GF Arena Surahammar",
+    "canonical_name": "GF Arena",
+    "source_venue_ids": [
+      2084
+    ],
+    "match_score": 210,
+    "previous_distance_m": 25.330114400439,
+    "matched_names": [
+      "gf arena surahammar"
+    ],
+    "old_latitude": 59.7018041,
+    "old_longitude": 16.2206734,
+    "new_latitude": 59.701667,
+    "new_longitude": 16.221034
+  },
+  {
+    "physical_venue_id": "floorball:2085",
+    "global_venue_key": "Nibblehallen",
+    "canonical_name": "Nibblehallen",
+    "source_venue_ids": [
+      2085
+    ],
+    "match_score": 415,
+    "previous_distance_m": 76.54950926325077,
+    "matched_names": [
+      "nibblehallen"
+    ],
+    "old_latitude": 59.6142347,
+    "old_longitude": 16.2499395,
+    "new_latitude": 59.613547,
+    "new_longitude": 16.249877
+  },
+  {
+    "physical_venue_id": "floorball:2087",
+    "global_venue_key": "Pettersbergsskolan (S:T Ilian Skolan)",
+    "canonical_name": "Pettersbergsskolan",
+    "source_venue_ids": [
+      2087
+    ],
+    "match_score": 160,
+    "previous_distance_m": 449.37906264670914,
+    "matched_names": [
+      "pettersbergsskolan s t ilian skolan"
+    ],
+    "old_latitude": 59.6169199,
+    "old_longitude": 16.5152094,
+    "new_latitude": 59.612907,
+    "new_longitude": 16.516156
+  },
+  {
+    "physical_venue_id": "floorball:2088",
+    "global_venue_key": "Sala Idrottshall",
+    "canonical_name": "Sala idrottshall",
+    "source_venue_ids": [
+      2088
+    ],
+    "match_score": 400,
+    "previous_distance_m": 187.95834144191338,
+    "matched_names": [
+      "sala idrottshall"
+    ],
+    "old_latitude": 59.9181805,
+    "old_longitude": 16.6063098,
+    "new_latitude": 59.918475,
+    "new_longitude": 16.602989
+  },
+  {
+    "physical_venue_id": "floorball:2089",
+    "global_venue_key": "Skinnskattebergs Sporthall",
+    "canonical_name": "Skinnskattebergs sporthall",
+    "source_venue_ids": [
+      2089
+    ],
+    "match_score": 380,
+    "previous_distance_m": 586.902174040881,
+    "matched_names": [
+      "skinnskattebergs sporthall"
+    ],
+    "old_latitude": 59.8248324,
+    "old_longitude": 15.69522,
+    "new_latitude": 59.828783,
+    "new_longitude": 15.688256
+  },
+  {
+    "physical_venue_id": "floorball:2091",
+    "global_venue_key": "Sporthallen Kungsör A",
+    "canonical_name": "Sporthallen",
+    "source_venue_ids": [
+      2091
+    ],
+    "match_score": 180,
+    "previous_distance_m": 182.68816990754084,
+    "matched_names": [
+      "sporthallen kungsör a"
+    ],
+    "old_latitude": 59.4221519,
+    "old_longitude": 16.0936973,
+    "new_latitude": 59.420624,
+    "new_longitude": 16.09251
+  },
+  {
+    "physical_venue_id": "floorball:2098",
+    "global_venue_key": "Vasahallen",
+    "canonical_name": "Vasahallen",
+    "source_venue_ids": [
+      2098
+    ],
+    "match_score": 285,
+    "previous_distance_m": 207860.97544027312,
+    "matched_names": [
+      "vasahallen"
+    ],
+    "old_latitude": 58.4161891,
+    "old_longitude": 15.6129891,
+    "new_latitude": 60.275828,
+    "new_longitude": 15.986165
+  },
+  {
+    "physical_venue_id": "floorball:2109",
+    "global_venue_key": "Bilkompaniet Arena",
+    "canonical_name": "Bilkompaniet Arena, Mora",
+    "source_venue_ids": [
+      2109
+    ],
+    "match_score": 180,
+    "previous_distance_m": 133.56923419282873,
+    "matched_names": [
+      "bilkompaniet arena"
+    ],
+    "old_latitude": 61.0066994,
+    "old_longitude": 14.5094401,
+    "new_latitude": 61.005899,
+    "new_longitude": 14.511288
+  },
+  {
+    "physical_venue_id": "floorball:2110",
+    "global_venue_key": "Uw-Tech Arena",
+    "canonical_name": "UW-Tech Arena",
+    "source_venue_ids": [
+      2110
+    ],
+    "match_score": 400,
+    "previous_distance_m": 195.634026119111,
+    "matched_names": [
+      "uw tech arena"
+    ],
+    "old_latitude": 60.6192554,
+    "old_longitude": 15.652956,
+    "new_latitude": 60.617962,
+    "new_longitude": 15.655387
+  },
+  {
+    "physical_venue_id": "floorball:2111",
+    "global_venue_key": "Träffen Arena",
+    "canonical_name": "Arena Träffen",
+    "source_venue_ids": [
+      2111
+    ],
+    "match_score": 210,
+    "previous_distance_m": 6.894931971780275,
+    "matched_names": [
+      "träffen arena"
+    ],
+    "old_latitude": 60.69,
+    "old_longitude": 17.115,
+    "new_latitude": 60.690052,
+    "new_longitude": 17.114931
+  },
+  {
+    "physical_venue_id": "floorball:2112",
+    "global_venue_key": "A-hallen Jernvallen Plan 1",
+    "canonical_name": "A-hallen",
+    "source_venue_ids": [
+      2112
+    ],
+    "match_score": 210,
+    "previous_distance_m": 2.9075594914727776,
+    "matched_names": [
+      "a hallen jernvallen plan 1"
+    ],
+    "old_latitude": 60.60871,
+    "old_longitude": 16.77302,
+    "new_latitude": 60.608724,
+    "new_longitude": 16.773065
+  },
+  {
+    "physical_venue_id": "floorball:2114",
+    "global_venue_key": "Norrmalmia Sph",
+    "canonical_name": "Norrmalmia sporthall",
+    "source_venue_ids": [
+      2114
+    ],
+    "match_score": 210,
+    "previous_distance_m": 22.71563084377627,
+    "matched_names": [
+      "norrmalmia sph"
+    ],
+    "old_latitude": 65.3192434,
+    "old_longitude": 21.4882037,
+    "new_latitude": 65.319368,
+    "new_longitude": 21.487816
+  },
+  {
+    "physical_venue_id": "floorball:2118",
+    "global_venue_key": "Testebo Arena",
+    "canonical_name": "Testebo Arena",
+    "source_venue_ids": [
+      2118
+    ],
+    "match_score": 415,
+    "previous_distance_m": 98.4171727150448,
+    "matched_names": [
+      "testebo arena"
+    ],
+    "old_latitude": 60.70823994206326,
+    "old_longitude": 17.164429189167677,
+    "new_latitude": 60.707969,
+    "new_longitude": 17.162707
+  },
+  {
+    "physical_venue_id": "floorball:2119",
+    "global_venue_key": "Kumlahallen Viahallen (Stora)",
+    "canonical_name": "Kumlahallen",
+    "source_venue_ids": [
+      2119
+    ],
+    "match_score": 210,
+    "previous_distance_m": 17.124919116472864,
+    "matched_names": [
+      "kumlahallen viahallen stora"
+    ],
+    "old_latitude": 59.1220468,
+    "old_longitude": 15.1327081,
+    "new_latitude": 59.121994,
+    "new_longitude": 15.13299
+  },
+  {
+    "physical_venue_id": "floorball:2123",
+    "global_venue_key": "Sparbanken Wictory Center, Unihocplanen",
+    "canonical_name": "Warberg IC Innebandy Center",
+    "source_venue_ids": [
+      2123
+    ],
+    "match_score": 195,
+    "previous_distance_m": 41.924317365350795,
+    "matched_names": [
+      "sparbanken wictory center unihocplanen"
+    ],
+    "old_latitude": 57.1169457,
+    "old_longitude": 12.2885955,
+    "new_latitude": 57.1168,
+    "new_longitude": 12.289236
+  },
+  {
+    "physical_venue_id": "floorball:2125",
+    "global_venue_key": "Nyhemshallen - Mullsjö",
+    "canonical_name": "Nyhemshallen",
+    "source_venue_ids": [
+      2125
+    ],
+    "match_score": 210,
+    "previous_distance_m": 7.105709745602844,
+    "matched_names": [
+      "nyhemshallen mullsjö"
+    ],
+    "old_latitude": 57.8928139,
+    "old_longitude": 13.8445432,
+    "new_latitude": 57.89275,
+    "new_longitude": 13.844542
+  },
+  {
+    "physical_venue_id": "floorball:2126",
+    "global_venue_key": "Karlbergshallen Åmål",
+    "canonical_name": "Karlbergshallen Bowling",
+    "source_venue_ids": [
+      2126
+    ],
+    "match_score": 180,
+    "previous_distance_m": 112.47505030890376,
+    "matched_names": [
+      "karlbergshallen åmål"
+    ],
+    "old_latitude": 59.0422377,
+    "old_longitude": 12.7100286,
+    "new_latitude": 59.042826,
+    "new_longitude": 12.708429
+  },
+  {
+    "physical_venue_id": "floorball:2127",
+    "global_venue_key": "Olandshallen",
+    "canonical_name": "Olandshallen",
+    "source_venue_ids": [
+      2127
+    ],
+    "match_score": 415,
+    "previous_distance_m": 57.027668290205234,
+    "matched_names": [
+      "olandshallen"
+    ],
+    "old_latitude": 60.0677622,
+    "old_longitude": 18.087388,
+    "new_latitude": 60.068275,
+    "new_longitude": 18.087404
+  },
+  {
+    "physical_venue_id": "floorball:2130",
+    "global_venue_key": "Hall 2000",
+    "canonical_name": "Hall 2000",
+    "source_venue_ids": [
+      2130
+    ],
+    "match_score": 380,
+    "previous_distance_m": 345.44537224156727,
+    "matched_names": [
+      "hall 2000"
+    ],
+    "old_latitude": 59.9440563,
+    "old_longitude": 17.8723854,
+    "new_latitude": 59.946339,
+    "new_longitude": 17.876593
+  },
+  {
+    "physical_venue_id": "floorball:2131",
+    "global_venue_key": "Maserhallen",
+    "canonical_name": "Actic Borlänge - Maserhallen",
+    "source_venue_ids": [
+      2131
+    ],
+    "match_score": 210,
+    "previous_distance_m": 26.12779929877098,
+    "matched_names": [
+      "maserhallen"
+    ],
+    "old_latitude": 60.4921188,
+    "old_longitude": 15.4116083,
+    "new_latitude": 60.491884,
+    "new_longitude": 15.41159
+  },
+  {
+    "physical_venue_id": "floorball:2134",
+    "global_venue_key": "Stadsskogshallen, Alingsås",
+    "canonical_name": "Stadsskogshallen",
+    "source_venue_ids": [
+      2134
+    ],
+    "match_score": 180,
+    "previous_distance_m": 116.98117065577627,
+    "matched_names": [
+      "stadsskogshallen alingsås"
+    ],
+    "old_latitude": 57.9215949,
+    "old_longitude": 12.5085344,
+    "new_latitude": 57.922069,
+    "new_longitude": 12.506766
+  },
+  {
+    "physical_venue_id": "floorball:2136",
+    "global_venue_key": "Brotorpshallen",
+    "canonical_name": "Brotorpshallen",
+    "source_venue_ids": [
+      2136
+    ],
+    "match_score": 415,
+    "previous_distance_m": 42.71145384766853,
+    "matched_names": [
+      "brotorpshallen"
+    ],
+    "old_latitude": 59.3816175,
+    "old_longitude": 17.9718339,
+    "new_latitude": 59.381517,
+    "new_longitude": 17.971106
+  },
+  {
+    "physical_venue_id": "floorball:2139",
+    "global_venue_key": "OilQuick Arena",
+    "canonical_name": "Oilquick Arena",
+    "source_venue_ids": [
+      2139
+    ],
+    "match_score": 430,
+    "previous_distance_m": 11.64570256054554,
+    "matched_names": [
+      "oilquick arena"
+    ],
+    "old_latitude": 61.7175158,
+    "old_longitude": 17.107472,
+    "new_latitude": 61.717415,
+    "new_longitude": 17.107532
+  },
+  {
+    "physical_venue_id": "floorball:2141",
+    "global_venue_key": "Halmstad Arena",
+    "canonical_name": "Halmstad Arena",
+    "source_venue_ids": [
+      2141,
+      2217,
+      2218
+    ],
+    "match_score": 415,
+    "previous_distance_m": 66.70377517586499,
+    "matched_names": [
+      "halmstad arena"
+    ],
+    "old_latitude": 56.67464543770619,
+    "old_longitude": 12.888287803173244,
+    "new_latitude": 56.674174,
+    "new_longitude": 12.888963
+  },
+  {
+    "physical_venue_id": "floorball:2146",
+    "global_venue_key": "Alléhallen, Hallsberg",
+    "canonical_name": "Alléhallen Gym och Bad",
+    "source_venue_ids": [
+      2146
+    ],
+    "match_score": 195,
+    "previous_distance_m": 71.61489850277984,
+    "matched_names": [
+      "all hallen hallsberg"
+    ],
+    "old_latitude": 59.06391,
+    "old_longitude": 15.104216,
+    "new_latitude": 59.063808,
+    "new_longitude": 15.105453
+  },
+  {
+    "physical_venue_id": "floorball:2151",
+    "global_venue_key": "Lekebergs Sporthall (Fjugesta Bollhall)",
+    "canonical_name": "Lekebergs Idrottshus",
+    "source_venue_ids": [
+      2151
+    ],
+    "match_score": 160,
+    "previous_distance_m": 340.2276174295505,
+    "matched_names": [
+      "lekebergs sporthall fjugesta bollhall"
+    ],
+    "old_latitude": 59.1702891,
+    "old_longitude": 14.8820687,
+    "new_latitude": 59.171661,
+    "new_longitude": 14.876732
+  },
+  {
+    "physical_venue_id": "floorball:2157",
+    "global_venue_key": "Mellringehallen - Örebro",
+    "canonical_name": "Mellringehallen",
+    "source_venue_ids": [
+      2157
+    ],
+    "match_score": 140,
+    "previous_distance_m": 5139.931115422613,
+    "matched_names": [
+      "mellringehallen örebro"
+    ],
+    "old_latitude": 59.26624,
+    "old_longitude": 15.22,
+    "new_latitude": 59.298354,
+    "new_longitude": 15.154912
+  },
+  {
+    "physical_venue_id": "floorball:2162",
+    "global_venue_key": "Skogstorpskolan",
+    "canonical_name": "Skogstorpsskolan",
+    "source_venue_ids": [
+      2162
+    ],
+    "match_score": 195,
+    "previous_distance_m": 40.561199966473254,
+    "matched_names": [
+      "skogstorpskolan"
+    ],
+    "old_latitude": 59.1438199,
+    "old_longitude": 15.1342816,
+    "new_latitude": 59.143459,
+    "new_longitude": 15.134385
+  },
+  {
+    "physical_venue_id": "floorball:2165",
+    "global_venue_key": "Tegelbruket",
+    "canonical_name": "Tegelbruket Ideell förening",
+    "source_venue_ids": [
+      2165
+    ],
+    "match_score": 210,
+    "previous_distance_m": 15.44652518022017,
+    "matched_names": [
+      "tegelbruket"
+    ],
+    "old_latitude": 59.2813926,
+    "old_longitude": 15.1910388,
+    "new_latitude": 59.281349,
+    "new_longitude": 15.191297
+  },
+  {
+    "physical_venue_id": "floorball:2166",
+    "global_venue_key": "Åsbrohallen",
+    "canonical_name": "Åsbrohallen",
+    "source_venue_ids": [
+      2166
+    ],
+    "match_score": 400,
+    "previous_distance_m": 278.43100560053887,
+    "matched_names": [
+      "åsbrohallen"
+    ],
+    "old_latitude": 58.998518,
+    "old_longitude": 15.0295864,
+    "new_latitude": 59.000307,
+    "new_longitude": 15.032988
+  },
+  {
+    "physical_venue_id": "floorball:2171",
+    "global_venue_key": "Åby Arena",
+    "canonical_name": "Åby Arena",
+    "source_venue_ids": [
+      2171
+    ],
+    "match_score": 285,
+    "previous_distance_m": 269405.77684914594,
+    "matched_names": [
+      "åby arena"
+    ],
+    "old_latitude": 57.6495719,
+    "old_longitude": 12.0033327,
+    "new_latitude": 58.662198,
+    "new_longitude": 16.176231
+  },
+  {
+    "physical_venue_id": "floorball:2172",
+    "global_venue_key": "Ankarhallen",
+    "canonical_name": "Ankarhallen",
+    "source_venue_ids": [
+      2172
+    ],
+    "match_score": 430,
+    "previous_distance_m": 27.310755897346347,
+    "matched_names": [
+      "ankarhallen"
+    ],
+    "old_latitude": 57.0578043,
+    "old_longitude": 12.2889565,
+    "new_latitude": 57.057606,
+    "new_longitude": 12.28869
+  },
+  {
+    "physical_venue_id": "floorball:2182",
+    "global_venue_key": "Brearedshallen",
+    "canonical_name": "Brearedshallen",
+    "source_venue_ids": [
+      2182
+    ],
+    "match_score": 430,
+    "previous_distance_m": 12.05970444935868,
+    "matched_names": [
+      "brearedshallen"
+    ],
+    "old_latitude": 57.08944,
+    "old_longitude": 12.2766042,
+    "new_latitude": 57.089481,
+    "new_longitude": 12.276789
+  },
+  {
+    "physical_venue_id": "floorball:2185",
+    "global_venue_key": "Bua Idrottshall",
+    "canonical_name": "Bua Idrottshall",
+    "source_venue_ids": [
+      2185
+    ],
+    "match_score": 370,
+    "previous_distance_m": 65.22008172172947,
+    "matched_names": [
+      "bua idrottshall"
+    ],
+    "old_latitude": 57.2376927,
+    "old_longitude": 12.1254272,
+    "new_latitude": 57.237481,
+    "new_longitude": 12.126438
+  },
+  {
+    "physical_venue_id": "floorball:2213",
+    "global_venue_key": "Hallägrahallen",
+    "canonical_name": "Hallägrahallen",
+    "source_venue_ids": [
+      2213
+    ],
+    "match_score": 430,
+    "previous_distance_m": 4.479372969117917,
+    "matched_names": [
+      "hallägrahallen"
+    ],
+    "old_latitude": 56.66964,
+    "old_longitude": 12.79865,
+    "new_latitude": 56.669614,
+    "new_longitude": 12.798594
+  },
+  {
+    "physical_venue_id": "floorball:2221",
+    "global_venue_key": "Haverdalshallen",
+    "canonical_name": "Haverdalshallen",
+    "source_venue_ids": [
+      2221
+    ],
+    "match_score": 430,
+    "previous_distance_m": 4.687368858266311,
+    "matched_names": [
+      "haverdalshallen"
+    ],
+    "old_latitude": 56.7298658,
+    "old_longitude": 12.6691894,
+    "new_latitude": 56.729891,
+    "new_longitude": 12.669251
+  },
+  {
+    "physical_venue_id": "floorball:2225",
+    "global_venue_key": "Horredshallen",
+    "canonical_name": "Horredshallen",
+    "source_venue_ids": [
+      2225
+    ],
+    "match_score": 430,
+    "previous_distance_m": 21.14717536319551,
+    "matched_names": [
+      "horredshallen"
+    ],
+    "old_latitude": 57.3608755,
+    "old_longitude": 12.473203,
+    "new_latitude": 57.360688,
+    "new_longitude": 12.473262
+  },
+  {
+    "physical_venue_id": "floorball:2236",
+    "global_venue_key": "Kattegatthallen",
+    "canonical_name": "Kattegatthallen",
+    "source_venue_ids": [
+      2236
+    ],
+    "match_score": 430,
+    "previous_distance_m": 25.574282686497984,
+    "matched_names": [
+      "kattegatthallen"
+    ],
+    "old_latitude": 56.8875072,
+    "old_longitude": 12.4816764,
+    "new_latitude": 56.887597,
+    "new_longitude": 12.482064
+  },
+  {
+    "physical_venue_id": "floorball:2242",
+    "global_venue_key": "Kullavikshallen",
+    "canonical_name": "Kullavikshallen",
+    "source_venue_ids": [
+      2242
+    ],
+    "match_score": 430,
+    "previous_distance_m": 12.665757740831964,
+    "matched_names": [
+      "kullavikshallen"
+    ],
+    "old_latitude": 57.54577,
+    "old_longitude": 11.939763,
+    "new_latitude": 57.545836,
+    "new_longitude": 11.939936
+  },
+  {
+    "physical_venue_id": "floorball:2250",
+    "global_venue_key": "Lindälvshallen",
+    "canonical_name": "Lindälvshallen",
+    "source_venue_ids": [
+      2250
+    ],
+    "match_score": 430,
+    "previous_distance_m": 1.9431471954617203,
+    "matched_names": [
+      "lindälvshallen"
+    ],
+    "old_latitude": 57.4944578,
+    "old_longitude": 12.0736569,
+    "new_latitude": 57.49445,
+    "new_longitude": 12.073686
+  },
+  {
+    "physical_venue_id": "floorball:2276",
+    "global_venue_key": "Ekilla Sporthall",
+    "canonical_name": "Ekilla sporthall",
+    "source_venue_ids": [
+      2276
+    ],
+    "match_score": 380,
+    "previous_distance_m": 445.8690577256619,
+    "matched_names": [
+      "ekilla sporthall"
+    ],
+    "old_latitude": 59.6252383,
+    "old_longitude": 17.8515672,
+    "new_latitude": 59.625624,
+    "new_longitude": 17.843674
+  },
+  {
+    "physical_venue_id": "floorball:2282",
+    "global_venue_key": "Hallstaviks Sporthall",
+    "canonical_name": "Hallstaviks sporthall",
+    "source_venue_ids": [
+      2282
+    ],
+    "match_score": 415,
+    "previous_distance_m": 89.79480777308406,
+    "matched_names": [
+      "hallstaviks sporthall"
+    ],
+    "old_latitude": 60.0533795,
+    "old_longitude": 18.5994875,
+    "new_latitude": 60.054002,
+    "new_longitude": 18.598457
+  },
+  {
+    "physical_venue_id": "floorball:2297",
+    "global_venue_key": "Rotskärsskolans Sporthall",
+    "canonical_name": "Rotskärsskolan Älvkarleby",
+    "source_venue_ids": [
+      2297
+    ],
+    "match_score": 115,
+    "previous_distance_m": 379.9208778394874,
+    "matched_names": [
+      "rotskärsskolans sporthall"
+    ],
+    "old_latitude": 60.6273001,
+    "old_longitude": 17.4265932,
+    "new_latitude": 60.629785,
+    "new_longitude": 17.421812
+  },
+  {
+    "physical_venue_id": "floorball:2305",
+    "global_venue_key": "Presse Idrottshall",
+    "canonical_name": "Presse Idrottshall",
+    "source_venue_ids": [
+      2305
+    ],
+    "match_score": 380,
+    "previous_distance_m": 780.4963821134497,
+    "matched_names": [
+      "presse idrottshall"
+    ],
+    "old_latitude": 57.4272188,
+    "old_longitude": 12.0302702,
+    "new_latitude": 57.433781,
+    "new_longitude": 12.034898
+  },
+  {
+    "physical_venue_id": "floorball:2309",
+    "global_venue_key": "Rydets Idrottshall",
+    "canonical_name": "Rydetsvallen (Onsala BK)",
+    "source_venue_ids": [
+      2309
+    ],
+    "match_score": 160,
+    "previous_distance_m": 889.8947093953295,
+    "matched_names": [
+      "rydets idrottshall"
+    ],
+    "old_latitude": 57.402249,
+    "old_longitude": 11.9903777,
+    "new_latitude": 57.396011,
+    "new_longitude": 11.999683
+  },
+  {
+    "physical_venue_id": "floorball:2322",
+    "global_venue_key": "Sparbanken Wictory Center",
+    "canonical_name": "Sparbanken Wictory Center",
+    "source_venue_ids": [
+      2322
+    ],
+    "match_score": 0,
+    "previous_distance_m": null,
+    "matched_names": [],
+    "old_latitude": null,
+    "old_longitude": null,
+    "new_latitude": 57.116932,
+    "new_longitude": 12.289152
+  },
+  {
+    "physical_venue_id": "floorball:2333",
+    "global_venue_key": "Arena Varberg",
+    "canonical_name": "Arena Varberg",
+    "source_venue_ids": [
+      2333
+    ],
+    "match_score": 415,
+    "previous_distance_m": 43.561196640858654,
+    "matched_names": [
+      "arena varberg"
+    ],
+    "old_latitude": 57.099634,
+    "old_longitude": 12.263271,
+    "new_latitude": 57.100004,
+    "new_longitude": 12.263034
+  },
+  {
+    "physical_venue_id": "floorball:2345",
+    "global_venue_key": "Tvååkers Idrottshall",
+    "canonical_name": "Tvååkers Idrottshall",
+    "source_venue_ids": [
+      2345
+    ],
+    "match_score": 400,
+    "previous_distance_m": 281.7750125256172,
+    "matched_names": [
+      "tvååkers idrottshall"
+    ],
+    "old_latitude": 57.0475486,
+    "old_longitude": 12.4055092,
+    "new_latitude": 57.045391,
+    "new_longitude": 12.403066
+  },
+  {
+    "physical_venue_id": "floorball:2353",
+    "global_venue_key": "Vallda Idrottshall",
+    "canonical_name": "Vallda Idrottshall",
+    "source_venue_ids": [
+      2353
+    ],
+    "match_score": 430,
+    "previous_distance_m": 12.022976458955275,
+    "matched_names": [
+      "vallda idrottshall"
+    ],
+    "old_latitude": 57.4748,
+    "old_longitude": 11.99961,
+    "new_latitude": 57.474695,
+    "new_longitude": 11.999658
+  },
+  {
+    "physical_venue_id": "floorball:2357",
+    "global_venue_key": "Billingsfors Bollhall",
+    "canonical_name": "Billingsfors Bollhall",
+    "source_venue_ids": [
+      2357
+    ],
+    "match_score": 380,
+    "previous_distance_m": 584.4534835803775,
+    "matched_names": [
+      "billingsfors bollhall"
+    ],
+    "old_latitude": 58.97996,
+    "old_longitude": 12.24026,
+    "new_latitude": 58.984736,
+    "new_longitude": 12.244519
+  },
+  {
+    "physical_venue_id": "floorball:2372",
+    "global_venue_key": "Vidhögehallen",
+    "canonical_name": "Vidhögehallen",
+    "source_venue_ids": [
+      2372
+    ],
+    "match_score": 430,
+    "previous_distance_m": 3.3522671602599337,
+    "matched_names": [
+      "vidhögehallen"
+    ],
+    "old_latitude": 57.26433,
+    "old_longitude": 12.325,
+    "new_latitude": 57.264309,
+    "new_longitude": 12.32504
+  },
+  {
+    "physical_venue_id": "floorball:2376",
+    "global_venue_key": "Vinbergs Idrottshall",
+    "canonical_name": "Vinbergs Idrottshall",
+    "source_venue_ids": [
+      2376
+    ],
+    "match_score": 415,
+    "previous_distance_m": 58.90349325426529,
+    "matched_names": [
+      "vinbergs idrottshall"
+    ],
+    "old_latitude": 56.9474186,
+    "old_longitude": 12.5460075,
+    "new_latitude": 56.947136,
+    "new_longitude": 12.545186
+  },
+  {
+    "physical_venue_id": "floorball:2380",
+    "global_venue_key": "Våxtorpshallen",
+    "canonical_name": "Våxtorpshallen",
+    "source_venue_ids": [
+      2380
+    ],
+    "match_score": 400,
+    "previous_distance_m": 200.29395365095377,
+    "matched_names": [
+      "våxtorpshallen"
+    ],
+    "old_latitude": 56.418347,
+    "old_longitude": 13.1164094,
+    "new_latitude": 56.417437,
+    "new_longitude": 13.113599
+  },
+  {
+    "physical_venue_id": "floorball:2400",
+    "global_venue_key": "Örjanshallen",
+    "canonical_name": "Örjanhallen",
+    "source_venue_ids": [
+      2400
+    ],
+    "match_score": 180,
+    "previous_distance_m": 251.46849306951717,
+    "matched_names": [
+      "örjanshallen"
+    ],
+    "old_latitude": 56.6843001,
+    "old_longitude": 12.8637628,
+    "new_latitude": 56.682728,
+    "new_longitude": 12.860803
+  },
+  {
+    "physical_venue_id": "floorball:2425",
+    "global_venue_key": "Centrumhuset",
+    "canonical_name": "Centrumhuset",
+    "source_venue_ids": [
+      2425
+    ],
+    "match_score": 380,
+    "previous_distance_m": 429.3379068720996,
+    "matched_names": [
+      "centrumhuset"
+    ],
+    "old_latitude": 60.8868411,
+    "old_longitude": 16.7150853,
+    "new_latitude": 60.890612,
+    "new_longitude": 16.716791
+  },
+  {
+    "physical_venue_id": "floorball:2431",
+    "global_venue_key": "Parkhallen",
+    "canonical_name": "Storviksbadet",
+    "source_venue_ids": [
+      2431
+    ],
+    "match_score": 210,
+    "previous_distance_m": 2.879855135531242,
+    "matched_names": [
+      "parkhallen"
+    ],
+    "old_latitude": 60.5879924,
+    "old_longitude": 16.5243061,
+    "new_latitude": 60.587997,
+    "new_longitude": 16.524358
+  },
+  {
+    "physical_venue_id": "floorball:2435",
+    "global_venue_key": "Valbo Sportcentrum",
+    "canonical_name": "Valbo sportcentrum",
+    "source_venue_ids": [
+      2435
+    ],
+    "match_score": 430,
+    "previous_distance_m": 1.378135113717003,
+    "matched_names": [
+      "valbo sportcentrum"
+    ],
+    "old_latitude": 60.6375392,
+    "old_longitude": 17.0075024,
+    "new_latitude": 60.63755,
+    "new_longitude": 17.00749
+  },
+  {
+    "physical_venue_id": "floorball:2438",
+    "global_venue_key": "Alfta Sporthall",
+    "canonical_name": "Alfta sim- & sporthall",
+    "source_venue_ids": [
+      2438
+    ],
+    "match_score": 210,
+    "previous_distance_m": 13.868773770446673,
+    "matched_names": [
+      "alfta sporthall"
+    ],
+    "old_latitude": 61.34389,
+    "old_longitude": 16.06333,
+    "new_latitude": 61.344014,
+    "new_longitude": 16.063302
+  },
+  {
+    "physical_venue_id": "floorball:2439",
+    "global_venue_key": "Bollnäs Sporthall A",
+    "canonical_name": "Bollnäs Sporthall",
+    "source_venue_ids": [
+      2439
+    ],
+    "match_score": 180,
+    "previous_distance_m": 270.90317096376987,
+    "matched_names": [
+      "bollnäs sporthall a"
+    ],
+    "old_latitude": 61.3512067,
+    "old_longitude": 16.3770271,
+    "new_latitude": 61.350511,
+    "new_longitude": 16.381897
+  },
+  {
+    "physical_venue_id": "floorball:2458",
+    "global_venue_key": "Giganten",
+    "canonical_name": "Giganten Arena",
+    "source_venue_ids": [
+      2458
+    ],
+    "match_score": 210,
+    "previous_distance_m": 6.221377290376309,
+    "matched_names": [
+      "giganten"
+    ],
+    "old_latitude": 61.8313472,
+    "old_longitude": 16.0860094,
+    "new_latitude": 61.831314,
+    "new_longitude": 16.085914
+  },
+  {
+    "physical_venue_id": "floorball:2459",
+    "global_venue_key": "Idrottshallen, Söderhamn",
+    "canonical_name": "Söderhamns Idrottshall",
+    "source_venue_ids": [
+      2459
+    ],
+    "match_score": 180,
+    "previous_distance_m": 219.10538528049068,
+    "matched_names": [
+      "idrottshallen söderhamn"
+    ],
+    "old_latitude": 61.305533,
+    "old_longitude": 17.0528312,
+    "new_latitude": 61.306281,
+    "new_longitude": 17.056628
+  },
+  {
+    "physical_venue_id": "floorball:2462",
+    "global_venue_key": "Blå Hallen",
+    "canonical_name": "Blå Hallen",
+    "source_venue_ids": [
+      2462
+    ],
+    "match_score": 400,
+    "previous_distance_m": 283.83677404756787,
+    "matched_names": [
+      "blå hallen"
+    ],
+    "old_latitude": 60.6830876,
+    "old_longitude": 13.7249621,
+    "new_latitude": 60.681,
+    "new_longitude": 13.727962
+  },
+  {
+    "physical_venue_id": "floorball:2468",
+    "global_venue_key": "Gyllehallen",
+    "canonical_name": "Gylle sporthall",
+    "source_venue_ids": [
+      2468
+    ],
+    "match_score": 180,
+    "previous_distance_m": 109.13404473977354,
+    "matched_names": [
+      "gyllehallen"
+    ],
+    "old_latitude": 60.4667204,
+    "old_longitude": 15.4462293,
+    "new_latitude": 60.467585,
+    "new_longitude": 15.445287
+  },
+  {
+    "physical_venue_id": "floorball:2482",
+    "global_venue_key": "Mockfjärds Sporthall",
+    "canonical_name": "Sporthallen i Mockfjärd",
+    "source_venue_ids": [
+      2482
+    ],
+    "match_score": 210,
+    "previous_distance_m": 3.633733092117276,
+    "matched_names": [
+      "mockfjärds sporthall"
+    ],
+    "old_latitude": 60.5096135,
+    "old_longitude": 14.9680403,
+    "new_latitude": 60.509597,
+    "new_longitude": 14.967983
+  },
+  {
+    "physical_venue_id": "floorball:2483",
+    "global_venue_key": "Långshyttans Sporthall",
+    "canonical_name": "Långshyttans Sporthall",
+    "source_venue_ids": [
+      2483
+    ],
+    "match_score": 380,
+    "previous_distance_m": 630.8009769421185,
+    "matched_names": [
+      "långshyttans sporthall"
+    ],
+    "old_latitude": 60.4517825,
+    "old_longitude": 16.0324008,
+    "new_latitude": 60.457339,
+    "new_longitude": 16.030082
+  },
+  {
+    "physical_venue_id": "floorball:2494",
+    "global_venue_key": "Orsa Sporthall",
+    "canonical_name": "Orsa Sporthall",
+    "source_venue_ids": [
+      2494
+    ],
+    "match_score": 430,
+    "previous_distance_m": 8.946413607447246,
+    "matched_names": [
+      "orsa sporthall"
+    ],
+    "old_latitude": 61.1267143,
+    "old_longitude": 14.6248478,
+    "new_latitude": 61.126643,
+    "new_longitude": 14.624925
+  },
+  {
+    "physical_venue_id": "floorball:2497",
+    "global_venue_key": "Skönvikshallen",
+    "canonical_name": "Skönvikshallen",
+    "source_venue_ids": [
+      2497
+    ],
+    "match_score": 430,
+    "previous_distance_m": 4.090481098688313,
+    "matched_names": [
+      "skönvikshallen"
+    ],
+    "old_latitude": 60.3442933,
+    "old_longitude": 15.7195925,
+    "new_latitude": 60.344265,
+    "new_longitude": 15.719545
+  },
+  {
+    "physical_venue_id": "floorball:2508",
+    "global_venue_key": "LM_FOTBOLLSPLAN_97a4905a-5761-4f08-a53d-9f37d307b8b7",
+    "canonical_name": "Movallen",
+    "source_venue_ids": [
+      2508
+    ],
+    "match_score": 65,
+    "previous_distance_m": 185545.3577500171,
+    "matched_names": [
+      "movallen"
+    ],
+    "old_latitude": 60.00069284,
+    "old_longitude": 17.50967468,
+    "new_latitude": 61.656234,
+    "new_longitude": 17.081255
+  },
+  {
+    "physical_venue_id": "floorball:2521",
+    "global_venue_key": "Uddeholm Arena",
+    "canonical_name": "Uddeholm Arena",
+    "source_venue_ids": [
+      2521
+    ],
+    "match_score": 415,
+    "previous_distance_m": 40.85290071077907,
+    "matched_names": [
+      "uddeholm arena"
+    ],
+    "old_latitude": 60.0375844,
+    "old_longitude": 13.7014802,
+    "new_latitude": 60.03722,
+    "new_longitude": 13.701574
+  },
+  {
+    "physical_venue_id": "floorball:2524",
+    "global_venue_key": "Rosvalla Arena A",
+    "canonical_name": "Nyköpings Arenor Rosvalla",
+    "source_venue_ids": [
+      2524,
+      2525,
+      2526
+    ],
+    "match_score": 160,
+    "previous_distance_m": 442.5063200056679,
+    "matched_names": [
+      "rosvalla arena a"
+    ],
+    "old_latitude": 58.7532175,
+    "old_longitude": 17.0433766,
+    "new_latitude": 58.749347,
+    "new_longitude": 17.041593
+  },
+  {
+    "physical_venue_id": "floorball:2528",
+    "global_venue_key": "Smålandsstenars Sporthall",
+    "canonical_name": "Nordin Sportcenter",
+    "source_venue_ids": [
+      2528
+    ],
+    "match_score": 180,
+    "previous_distance_m": 169.63679409706643,
+    "matched_names": [
+      "smålandsstenars sporthall"
+    ],
+    "old_latitude": 57.1605405,
+    "old_longitude": 13.407413,
+    "new_latitude": 57.160969,
+    "new_longitude": 13.404713
+  },
+  {
+    "physical_venue_id": "floorball:2544",
+    "global_venue_key": "Arjeplog Sporthall",
+    "canonical_name": "Move Well Arjeplog",
+    "source_venue_ids": [
+      2544
+    ],
+    "match_score": 160,
+    "previous_distance_m": 552.4656333954975,
+    "matched_names": [
+      "arjeplog sporthall"
+    ],
+    "old_latitude": 66.0480923,
+    "old_longitude": 17.8813541,
+    "new_latitude": 66.051956,
+    "new_longitude": 17.889049
+  },
+  {
+    "physical_venue_id": "floorball:2551",
+    "global_venue_key": "LM_FOTBOLLSPLAN_33abf83d-fdf7-44dc-8bef-e24b965a24f3",
+    "canonical_name": "Bodens Energi Arena",
+    "source_venue_ids": [
+      2551
+    ],
+    "match_score": 50,
+    "previous_distance_m": 97.20896723297042,
+    "matched_names": [
+      "boden arena"
+    ],
+    "old_latitude": 65.80907483,
+    "old_longitude": 21.7000815,
+    "new_latitude": 65.80973,
+    "new_longitude": 21.698669
+  },
+  {
+    "physical_venue_id": "floorball:2554",
+    "global_venue_key": "Gammelstad Sp",
+    "canonical_name": "Gammelstad Sp",
+    "source_venue_ids": [
+      2554
+    ],
+    "match_score": 400,
+    "previous_distance_m": 195.17396754421287,
+    "matched_names": [
+      "gammelstad sp"
+    ],
+    "old_latitude": 65.6430286,
+    "old_longitude": 22.0101804,
+    "new_latitude": 65.641372,
+    "new_longitude": 22.011587
+  },
+  {
+    "physical_venue_id": "floorball:2562",
+    "global_venue_key": "Sportcity Kalix",
+    "canonical_name": "SportCity Sport- & simhall",
+    "source_venue_ids": [
+      2562
+    ],
+    "match_score": 210,
+    "previous_distance_m": 7.503044662435716,
+    "matched_names": [
+      "sportcity kalix"
+    ],
+    "old_latitude": 65.8502261,
+    "old_longitude": 23.1628834,
+    "new_latitude": 65.850278,
+    "new_longitude": 23.162778
+  },
+  {
+    "physical_venue_id": "floorball:2566",
+    "global_venue_key": "Pajala Sp",
+    "canonical_name": "Pajala Airport",
+    "source_venue_ids": [
+      2566
+    ],
+    "match_score": 140,
+    "previous_distance_m": 12655.507015963854,
+    "matched_names": [
+      "pajala sp"
+    ],
+    "old_latitude": 67.2121703,
+    "old_longitude": 23.367351,
+    "new_latitude": 67.244729,
+    "new_longitude": 23.085591
+  },
+  {
+    "physical_venue_id": "floorball:2567",
+    "global_venue_key": "Porsöhallen",
+    "canonical_name": "Porsöhallen",
+    "source_venue_ids": [
+      2567
+    ],
+    "match_score": 415,
+    "previous_distance_m": 30.91474020911996,
+    "matched_names": [
+      "porsöhallen"
+    ],
+    "old_latitude": 65.6171014,
+    "old_longitude": 22.1447125,
+    "new_latitude": 65.617144,
+    "new_longitude": 22.145378
+  },
+  {
+    "physical_venue_id": "floorball:2574",
+    "global_venue_key": "Älvsby Sp",
+    "canonical_name": "Älvsby IF Hockey",
+    "source_venue_ids": [
+      2574
+    ],
+    "match_score": 180,
+    "previous_distance_m": 283.99609387656835,
+    "matched_names": [
+      "älvsby sp"
+    ],
+    "old_latitude": 65.6750174,
+    "old_longitude": 20.9945078,
+    "new_latitude": 65.67276,
+    "new_longitude": 20.997408
+  },
+  {
+    "physical_venue_id": "floorball:2652",
+    "global_venue_key": "ICA-kvantum hallen, Mariestad",
+    "canonical_name": "ICA Kvantum Mariestad",
+    "source_venue_ids": [
+      2652
+    ],
+    "match_score": 145,
+    "previous_distance_m": 1214.0117140972275,
+    "matched_names": [
+      "ica kvantum hallen mariestad"
+    ],
+    "old_latitude": 58.7043125,
+    "old_longitude": 13.8098631,
+    "new_latitude": 58.709961,
+    "new_longitude": 13.827851
+  },
+  {
+    "physical_venue_id": "floorball:2677",
+    "global_venue_key": "Pershagens Sporthall",
+    "canonical_name": "Pershagenhallen",
+    "source_venue_ids": [
+      2677
+    ],
+    "match_score": 210,
+    "previous_distance_m": 14.153244715044499,
+    "matched_names": [
+      "pershagens sporthall"
+    ],
+    "old_latitude": 59.1472393,
+    "old_longitude": 17.6544566,
+    "new_latitude": 59.147168,
+    "new_longitude": 17.654251
+  },
+  {
+    "physical_venue_id": "floorball:2682",
+    "global_venue_key": "Rakethallen Kiruna",
+    "canonical_name": "Rakethallen",
+    "source_venue_ids": [
+      2682
+    ],
+    "match_score": 195,
+    "previous_distance_m": 31.847750112738442,
+    "matched_names": [
+      "rakethallen kiruna"
+    ],
+    "old_latitude": 67.8381257,
+    "old_longitude": 20.2875664,
+    "new_latitude": 67.838356,
+    "new_longitude": 20.287115
+  },
+  {
+    "physical_venue_id": "floorball:2729",
+    "global_venue_key": "Vilundahallen",
+    "canonical_name": "Vilundavallen",
+    "source_venue_ids": [
+      2729
+    ],
+    "match_score": 160,
+    "previous_distance_m": 321.3719417714601,
+    "matched_names": [
+      "vilundahallen"
+    ],
+    "old_latitude": 59.5189175,
+    "old_longitude": 17.9179271,
+    "new_latitude": 59.516231,
+    "new_longitude": 17.920028
+  },
+  {
+    "physical_venue_id": "floorball:2735",
+    "global_venue_key": "Scandinavium",
+    "canonical_name": "Scandinavium",
+    "source_venue_ids": [
+      2735
+    ],
+    "match_score": 430,
+    "previous_distance_m": 11.298061580362415,
+    "matched_names": [
+      "scandinavium"
+    ],
+    "old_latitude": 57.69919073084682,
+    "old_longitude": 11.98764892517211,
+    "new_latitude": 57.699188,
+    "new_longitude": 11.987839
+  },
+  {
+    "physical_venue_id": "floorball:2737",
+    "global_venue_key": "Torslundahallen",
+    "canonical_name": "Torslundahallen",
+    "source_venue_ids": [
+      2737
+    ],
+    "match_score": 430,
+    "previous_distance_m": 23.38151863838117,
+    "matched_names": [
+      "torslundahallen"
+    ],
+    "old_latitude": 56.6368859,
+    "old_longitude": 16.5176768,
+    "new_latitude": 56.636742,
+    "new_longitude": 16.517398
+  },
+  {
+    "physical_venue_id": "floorball:2781",
+    "global_venue_key": "Örnäsets Sp",
+    "canonical_name": "Örnäsets Sporthall",
+    "source_venue_ids": [
+      2781
+    ],
+    "match_score": 180,
+    "previous_distance_m": 295.75210095427326,
+    "matched_names": [
+      "örnäsets sp"
+    ],
+    "old_latitude": 65.5786524,
+    "old_longitude": 22.1994716,
+    "new_latitude": 65.580631,
+    "new_longitude": 22.203771
+  },
+  {
+    "physical_venue_id": "floorball:2857",
+    "global_venue_key": "Falkhallen",
+    "canonical_name": "Falkhallen",
+    "source_venue_ids": [
+      2857
+    ],
+    "match_score": 430,
+    "previous_distance_m": 26.927241950568558,
+    "matched_names": [
+      "falkhallen"
+    ],
+    "old_latitude": 56.9075553,
+    "old_longitude": 12.4921859,
+    "new_latitude": 56.907317,
+    "new_longitude": 12.492107
+  },
+  {
+    "physical_venue_id": "floorball:2913",
+    "global_venue_key": "Rotebrohallen",
+    "canonical_name": "Nya Rotebrohallen",
+    "source_venue_ids": [
+      2913
+    ],
+    "match_score": 210,
+    "previous_distance_m": 20.01039146588593,
+    "matched_names": [
+      "rotebrohallen"
+    ],
+    "old_latitude": 59.477723,
+    "old_longitude": 17.9110123,
+    "new_latitude": 59.477588,
+    "new_longitude": 17.910778
+  },
+  {
+    "physical_venue_id": "floorball:2920",
+    "global_venue_key": "Slättängshallen",
+    "canonical_name": "Slättängshallen.",
+    "source_venue_ids": [
+      2920
+    ],
+    "match_score": 430,
+    "previous_distance_m": 20.495548837372795,
+    "matched_names": [
+      "slättängshallen"
+    ],
+    "old_latitude": 55.6789371,
+    "old_longitude": 13.073435,
+    "new_latitude": 55.678753,
+    "new_longitude": 13.073451
+  },
+  {
+    "physical_venue_id": "floorball:2921",
+    "global_venue_key": "Västergård Arena A",
+    "canonical_name": "Västergård Arena",
+    "source_venue_ids": [
+      2921
+    ],
+    "match_score": 160,
+    "previous_distance_m": 310.41954464417626,
+    "matched_names": [
+      "västergård arena a"
+    ],
+    "old_latitude": 59.1922409,
+    "old_longitude": 17.6121241,
+    "new_latitude": 59.191059,
+    "new_longitude": 17.607186
+  },
+  {
+    "physical_venue_id": "floorball:2924",
+    "global_venue_key": "Grindtorpshallen",
+    "canonical_name": "Grindtorpshallen",
+    "source_venue_ids": [
+      2924
+    ],
+    "match_score": 430,
+    "previous_distance_m": 4.835869026284472,
+    "matched_names": [
+      "grindtorpshallen"
+    ],
+    "old_latitude": 59.4369354,
+    "old_longitude": 18.0683595,
+    "new_latitude": 59.436892,
+    "new_longitude": 18.068365
+  },
+  {
+    "physical_venue_id": "floorball:2937",
+    "global_venue_key": "Destination Gotland Arena",
+    "canonical_name": "Destination Gotland Arena",
+    "source_venue_ids": [
+      2937
+    ],
+    "match_score": 430,
+    "previous_distance_m": 17.09684281114248,
+    "matched_names": [
+      "destination gotland arena"
+    ],
+    "old_latitude": 57.606667,
+    "old_longitude": 18.281444,
+    "new_latitude": 57.606623,
+    "new_longitude": 18.281719
+  },
+  {
+    "physical_venue_id": "floorball:2946",
+    "global_venue_key": "Ljungbyholms Sporthall",
+    "canonical_name": "Ljungbyholms GoIF",
+    "source_venue_ids": [
+      2946
+    ],
+    "match_score": 180,
+    "previous_distance_m": 259.07046556057367,
+    "matched_names": [
+      "ljungbyholms sporthall"
+    ],
+    "old_latitude": 56.6341538,
+    "old_longitude": 16.1683541,
+    "new_latitude": 56.636104,
+    "new_longitude": 16.170672
+  },
+  {
+    "physical_venue_id": "floorball:2958",
+    "global_venue_key": "Skjulstahallen A",
+    "canonical_name": "Skjulstahallen (Eskilstuna Innebandy Center)",
+    "source_venue_ids": [
+      2958
+    ],
+    "match_score": 180,
+    "previous_distance_m": 104.42640309825359,
+    "matched_names": [
+      "skjulstahallen a"
+    ],
+    "old_latitude": 59.3429426,
+    "old_longitude": 16.4851371,
+    "new_latitude": 59.3429,
+    "new_longitude": 16.486977
+  },
+  {
+    "physical_venue_id": "floorball:2986",
+    "global_venue_key": "Söderbärke Sporthall",
+    "canonical_name": "Aktivitetshallen Söderbärke",
+    "source_venue_ids": [
+      2986
+    ],
+    "match_score": 210,
+    "previous_distance_m": 25.51610416113487,
+    "matched_names": [
+      "söderbärke sporthall"
+    ],
+    "old_latitude": 60.071959420414764,
+    "old_longitude": 15.556375069720099,
+    "new_latitude": 60.071736,
+    "new_longitude": 15.55648
+  },
+  {
+    "physical_venue_id": "floorball:3002",
+    "global_venue_key": "Torpshallen",
+    "canonical_name": "Torpshallen",
+    "source_venue_ids": [
+      3002
+    ],
+    "match_score": 415,
+    "previous_distance_m": 51.02784805076964,
+    "matched_names": [
+      "torpshallen"
+    ],
+    "old_latitude": 57.844136,
+    "old_longitude": 14.1362947,
+    "new_latitude": 57.8443,
+    "new_longitude": 14.1371
+  },
+  {
+    "physical_venue_id": "floorball:3010",
+    "global_venue_key": "Hasses Sportcenter LF-planen",
+    "canonical_name": "Hasses Sportcenter",
+    "source_venue_ids": [
+      3010,
+      3012
+    ],
+    "match_score": 180,
+    "previous_distance_m": 294.9340198429278,
+    "matched_names": [
+      "hasses sportcenter lf planen"
+    ],
+    "old_latitude": 57.4309707,
+    "old_longitude": 15.0847247,
+    "new_latitude": 57.433606,
+    "new_longitude": 15.084166
+  },
+  {
+    "physical_venue_id": "floorball:3076",
+    "global_venue_key": "IFU Arena A",
+    "canonical_name": "IFU Arena",
+    "source_venue_ids": [
+      3076,
+      3089,
+      3091,
+      3093
+    ],
+    "match_score": 180,
+    "previous_distance_m": 131.66047235048939,
+    "matched_names": [
+      "ifu arena a"
+    ],
+    "old_latitude": 59.8823663,
+    "old_longitude": 17.6574412,
+    "new_latitude": 59.881389,
+    "new_longitude": 17.656109
+  },
+  {
+    "physical_venue_id": "floorball:3080",
+    "global_venue_key": "Mälaröhallen 1",
+    "canonical_name": "Mälaröhallen",
+    "source_venue_ids": [
+      3080
+    ],
+    "match_score": 195,
+    "previous_distance_m": 32.76114608174474,
+    "matched_names": [
+      "mälaröhallen 1"
+    ],
+    "old_latitude": 59.2822914,
+    "old_longitude": 17.8063388,
+    "new_latitude": 59.281999,
+    "new_longitude": 17.806268
+  },
+  {
+    "physical_venue_id": "floorball:3085",
+    "global_venue_key": "Nybro Sporthall",
+    "canonical_name": "Nybro Sporthallen",
+    "source_venue_ids": [
+      3085
+    ],
+    "match_score": 195,
+    "previous_distance_m": 83.7442920540192,
+    "matched_names": [
+      "nybro sporthall"
+    ],
+    "old_latitude": 56.7420586,
+    "old_longitude": 15.9116417,
+    "new_latitude": 56.742058,
+    "new_longitude": 15.913015
+  },
+  {
+    "physical_venue_id": "floorball:3097",
+    "global_venue_key": "Balderhallen A",
+    "canonical_name": "Balderhallen",
+    "source_venue_ids": [
+      3097
+    ],
+    "match_score": 195,
+    "previous_distance_m": 80.88538019535751,
+    "matched_names": [
+      "balderhallen a"
+    ],
+    "old_latitude": 64.7528888,
+    "old_longitude": 20.9407429,
+    "new_latitude": 64.752256,
+    "new_longitude": 20.941584
+  },
+  {
+    "physical_venue_id": "floorball:3107",
+    "global_venue_key": "FORUM Örkelljunga",
+    "canonical_name": "Forum Örkelljunga",
+    "source_venue_ids": [
+      3107
+    ],
+    "match_score": 430,
+    "previous_distance_m": 5.12835812617014,
+    "matched_names": [
+      "forum örkelljunga"
+    ],
+    "old_latitude": 56.27994,
+    "old_longitude": 13.26812,
+    "new_latitude": 56.279986,
+    "new_longitude": 13.268114
+  },
+  {
+    "physical_venue_id": "floorball:3149",
+    "global_venue_key": "Burlövs Sporthall",
+    "canonical_name": "Burlövshallen",
+    "source_venue_ids": [
+      3149
+    ],
+    "match_score": 160,
+    "previous_distance_m": 522.8428852247877,
+    "matched_names": [
+      "burlövs sporthall"
+    ],
+    "old_latitude": 55.6378013,
+    "old_longitude": 13.0777501,
+    "new_latitude": 55.636185,
+    "new_longitude": 13.085573
+  },
+  {
+    "physical_venue_id": "floorball:3227",
+    "global_venue_key": "Kvarnbergshallen",
+    "canonical_name": "Kvarnbergshallen",
+    "source_venue_ids": [
+      3227
+    ],
+    "match_score": 415,
+    "previous_distance_m": 99.02391725972265,
+    "matched_names": [
+      "kvarnbergshallen"
+    ],
+    "old_latitude": 59.240312,
+    "old_longitude": 18.0025873,
+    "new_latitude": 59.241068,
+    "new_longitude": 18.001667
+  },
+  {
+    "physical_venue_id": "floorball:3238",
+    "global_venue_key": "Alfahallen - Gavlehov",
+    "canonical_name": "Gavlehovshallen",
+    "source_venue_ids": [
+      3238,
+      3239
+    ],
+    "match_score": 195,
+    "previous_distance_m": 71.79762962842838,
+    "matched_names": [
+      "alfahallen gavlehov"
+    ],
+    "old_latitude": 60.69271,
+    "old_longitude": 17.13675,
+    "new_latitude": 60.693348,
+    "new_longitude": 17.136953
+  },
+  {
+    "physical_venue_id": "floorball:3241",
+    "global_venue_key": "Fleminghallen A",
+    "canonical_name": "Fleminghallen",
+    "source_venue_ids": [
+      3241
+    ],
+    "match_score": 195,
+    "previous_distance_m": 70.94146571297169,
+    "matched_names": [
+      "fleminghallen a"
+    ],
+    "old_latitude": 59.2189231,
+    "old_longitude": 17.9497146,
+    "new_latitude": 59.218661,
+    "new_longitude": 17.948578
+  },
+  {
+    "physical_venue_id": "floorball:3243",
+    "global_venue_key": "Borstahusens Idrottshall",
+    "canonical_name": "Borstahusen Idrottshall",
+    "source_venue_ids": [
+      3243
+    ],
+    "match_score": 145,
+    "previous_distance_m": 3530.6595234562983,
+    "matched_names": [
+      "borstahusens idrottshall"
+    ],
+    "old_latitude": 55.8698007,
+    "old_longitude": 12.8296734,
+    "new_latitude": 55.899901,
+    "new_longitude": 12.811652
+  },
+  {
+    "physical_venue_id": "floorball:3250",
+    "global_venue_key": "Grimstahallen",
+    "canonical_name": "Grimstahallen (Vällingby)",
+    "source_venue_ids": [
+      3250
+    ],
+    "match_score": 195,
+    "previous_distance_m": 30.75585003068513,
+    "matched_names": [
+      "grimstahallen"
+    ],
+    "old_latitude": 59.3600595,
+    "old_longitude": 17.8666889,
+    "new_latitude": 59.359806,
+    "new_longitude": 17.866906
+  },
+  {
+    "physical_venue_id": "floorball:3253",
+    "global_venue_key": "Midgårdshallen",
+    "canonical_name": "Midgårdshallen",
+    "source_venue_ids": [
+      3253
+    ],
+    "match_score": 430,
+    "previous_distance_m": 14.973440903022686,
+    "matched_names": [
+      "midgårdshallen"
+    ],
+    "old_latitude": 63.8370119,
+    "old_longitude": 20.2584558,
+    "new_latitude": 63.837104,
+    "new_longitude": 20.258233
+  },
+  {
+    "physical_venue_id": "floorball:3262",
+    "global_venue_key": "Gottorpshallen",
+    "canonical_name": "Gottorpshallen",
+    "source_venue_ids": [
+      3262
+    ],
+    "match_score": 380,
+    "previous_distance_m": 805.989813932646,
+    "matched_names": [
+      "gottorpshallen"
+    ],
+    "old_latitude": 55.5462006,
+    "old_longitude": 12.929052,
+    "new_latitude": 55.553366,
+    "new_longitude": 12.930986
+  },
+  {
+    "physical_venue_id": "floorball:3268",
+    "global_venue_key": "Pär Lagerkvistskolan",
+    "canonical_name": "Pär Lagerkvists Skola",
+    "source_venue_ids": [
+      3268
+    ],
+    "match_score": 160,
+    "previous_distance_m": 545.092317294695,
+    "matched_names": [
+      "pär lagerkvistskolan"
+    ],
+    "old_latitude": 56.8765869,
+    "old_longitude": 14.7454643,
+    "new_latitude": 56.871907,
+    "new_longitude": 14.742794
+  },
+  {
+    "physical_venue_id": "floorball:3289",
+    "global_venue_key": "Billbäcks Arena",
+    "canonical_name": "Billbäcks Arena",
+    "source_venue_ids": [
+      3289
+    ],
+    "match_score": 415,
+    "previous_distance_m": 38.772891182109746,
+    "matched_names": [
+      "billbäcks arena"
+    ],
+    "old_latitude": 58.64797,
+    "old_longitude": 16.02433,
+    "new_latitude": 58.648311,
+    "new_longitude": 16.02419
+  },
+  {
+    "physical_venue_id": "floorball:3325",
+    "global_venue_key": "Tresteget",
+    "canonical_name": "Tresteget - Trönninge idrottscentrum",
+    "source_venue_ids": [
+      3325
+    ],
+    "match_score": 210,
+    "previous_distance_m": 3.782552827697804,
+    "matched_names": [
+      "tresteget"
+    ],
+    "old_latitude": 57.13843,
+    "old_longitude": 12.27655,
+    "new_latitude": 57.138396,
+    "new_longitude": 12.276552
+  },
+  {
+    "physical_venue_id": "floorball:3455",
+    "global_venue_key": "Lyckeby Sporthall",
+    "canonical_name": "Lyckeby Sporthall",
+    "source_venue_ids": [
+      3455
+    ],
+    "match_score": 400,
+    "previous_distance_m": 147.99643239445965,
+    "matched_names": [
+      "lyckeby sporthall"
+    ],
+    "old_latitude": 59.1929571,
+    "old_longitude": 18.1927323,
+    "new_latitude": 59.192687,
+    "new_longitude": 18.195277
+  },
+  {
+    "physical_venue_id": "floorball:3465",
+    "global_venue_key": "Lundenhallen",
+    "canonical_name": "Lundenhallen",
+    "source_venue_ids": [
+      3465
+    ],
+    "match_score": 415,
+    "previous_distance_m": 36.5577805060321,
+    "matched_names": [
+      "lundenhallen"
+    ],
+    "old_latitude": 57.7071792,
+    "old_longitude": 12.0102253,
+    "new_latitude": 57.706978,
+    "new_longitude": 12.010712
+  },
+  {
+    "physical_venue_id": "floorball:3467",
+    "global_venue_key": "Kronanhallen",
+    "canonical_name": "Kronanhallen",
+    "source_venue_ids": [
+      3467
+    ],
+    "match_score": 430,
+    "previous_distance_m": 25.579647370769575,
+    "matched_names": [
+      "kronanhallen"
+    ],
+    "old_latitude": 65.5946791,
+    "old_longitude": 22.1921341,
+    "new_latitude": 65.59447,
+    "new_longitude": 22.191902
+  },
+  {
+    "physical_venue_id": "floorball:3479",
+    "global_venue_key": "Aggarpshallen",
+    "canonical_name": "Aggarpshallen",
+    "source_venue_ids": [
+      3479
+    ],
+    "match_score": 365,
+    "previous_distance_m": 1077.9605705736344,
+    "matched_names": [
+      "aggarpshallen"
+    ],
+    "old_latitude": 55.4924481,
+    "old_longitude": 13.2380651,
+    "new_latitude": 55.501986,
+    "new_longitude": 13.235003
+  },
+  {
+    "physical_venue_id": "floorball:3481",
+    "global_venue_key": "Bökensved Sporthall 3-manna",
+    "canonical_name": "Bökensveds sportcenter Kultur & fritid",
+    "source_venue_ids": [
+      3481
+    ],
+    "match_score": 195,
+    "previous_distance_m": 92.73602916132134,
+    "matched_names": [
+      "bökensved sporthall 3 manna"
+    ],
+    "old_latitude": 57.7505725,
+    "old_longitude": 16.6421448,
+    "new_latitude": 57.750072,
+    "new_longitude": 16.643395
+  },
+  {
+    "physical_venue_id": "floorball:3484",
+    "global_venue_key": "Tybblelundsskolan",
+    "canonical_name": "Tybblelundsskolan",
+    "source_venue_ids": [
+      3484
+    ],
+    "match_score": 430,
+    "previous_distance_m": 22.011452185429853,
+    "matched_names": [
+      "tybblelundsskolan"
+    ],
+    "old_latitude": 59.2555427,
+    "old_longitude": 15.2626076,
+    "new_latitude": 59.255345,
+    "new_longitude": 15.262588
+  },
+  {
+    "physical_venue_id": "floorball:3487",
+    "global_venue_key": "Almåshallen A",
+    "canonical_name": "Almåshallen",
+    "source_venue_ids": [
+      3487
+    ],
+    "match_score": 110,
+    "previous_distance_m": 52631.25037884027,
+    "matched_names": [
+      "almåshallen a"
+    ],
+    "old_latitude": 57.5773077,
+    "old_longitude": 12.0863547,
+    "new_latitude": 57.724668,
+    "new_longitude": 12.926993
+  },
+  {
+    "physical_venue_id": "floorball:3512",
+    "global_venue_key": "Skäve Arena",
+    "canonical_name": "Skäve Arena",
+    "source_venue_ids": [
+      3512
+    ],
+    "match_score": 430,
+    "previous_distance_m": 10.346965951979824,
+    "matched_names": [
+      "skäve arena"
+    ],
+    "old_latitude": 60.40594,
+    "old_longitude": 15.81033,
+    "new_latitude": 60.405851,
+    "new_longitude": 15.810385
+  },
+  {
+    "physical_venue_id": "floorball:3515",
+    "global_venue_key": "Volvo CE Arena A",
+    "canonical_name": "Volvo CE Arena",
+    "source_venue_ids": [
+      3515,
+      3586
+    ],
+    "match_score": 195,
+    "previous_distance_m": 76.8354899887285,
+    "matched_names": [
+      "volvo ce arena a"
+    ],
+    "old_latitude": 59.37971,
+    "old_longitude": 16.5074,
+    "new_latitude": 59.379165,
+    "new_longitude": 16.508234
+  },
+  {
+    "physical_venue_id": "floorball:3530",
+    "global_venue_key": "Pinntorps Idrottshall",
+    "canonical_name": "Landvetter Idrottshall",
+    "source_venue_ids": [
+      3530
+    ],
+    "match_score": 145,
+    "previous_distance_m": 1803.9722778576304,
+    "matched_names": [
+      "pinntorps idrottshall"
+    ],
+    "old_latitude": 57.7014796,
+    "old_longitude": 12.2012503,
+    "new_latitude": 57.686531,
+    "new_longitude": 12.213046
+  },
+  {
+    "physical_venue_id": "floorball:3561",
+    "global_venue_key": "Ugglehallen",
+    "canonical_name": "Ugglebadet",
+    "source_venue_ids": [
+      3561
+    ],
+    "match_score": 180,
+    "previous_distance_m": 151.5591438188851,
+    "matched_names": [
+      "ugglehallen"
+    ],
+    "old_latitude": 56.1417104,
+    "old_longitude": 13.4024293,
+    "new_latitude": 56.142745,
+    "new_longitude": 13.404022
+  },
+  {
+    "physical_venue_id": "floorball:3599",
+    "global_venue_key": "Munkfors Arena",
+    "canonical_name": "Munkfors Arena",
+    "source_venue_ids": [
+      3599
+    ],
+    "match_score": 415,
+    "previous_distance_m": 31.813603663989824,
+    "matched_names": [
+      "munkfors arena"
+    ],
+    "old_latitude": 59.84077216828103,
+    "old_longitude": 13.564219175497255,
+    "new_latitude": 59.841049,
+    "new_longitude": 13.564363
+  },
+  {
+    "physical_venue_id": "floorball:3603",
+    "global_venue_key": "Glömstahallen",
+    "canonical_name": "Glömstahallen",
+    "source_venue_ids": [
+      3603
+    ],
+    "match_score": 430,
+    "previous_distance_m": 21.273956259661627,
+    "matched_names": [
+      "glömstahallen"
+    ],
+    "old_latitude": 59.2332112,
+    "old_longitude": 17.932524,
+    "new_latitude": 59.23318,
+    "new_longitude": 17.932893
+  },
+  {
+    "physical_venue_id": "floorball:3604",
+    "global_venue_key": "Åbyhallen - Haninge",
+    "canonical_name": "Åbyhallen",
+    "source_venue_ids": [
+      3604
+    ],
+    "match_score": 195,
+    "previous_distance_m": 55.15034164761933,
+    "matched_names": [
+      "åbyhallen haninge"
+    ],
+    "old_latitude": 59.1249096,
+    "old_longitude": 18.1038421,
+    "new_latitude": 59.125399,
+    "new_longitude": 18.103999
+  },
+  {
+    "physical_venue_id": "floorball:3608",
+    "global_venue_key": "Kämpetorpshallen 1",
+    "canonical_name": "Kämpetorpshallen",
+    "source_venue_ids": [
+      3608,
+      3609
+    ],
+    "match_score": 180,
+    "previous_distance_m": 126.45578635123317,
+    "matched_names": [
+      "kämpetorpshallen 1"
+    ],
+    "old_latitude": 59.2832263,
+    "old_longitude": 17.9980649,
+    "new_latitude": 59.282092,
+    "new_longitude": 17.998225
+  },
+  {
+    "physical_venue_id": "floorball:3611",
+    "global_venue_key": "Hägerneholmshallen",
+    "canonical_name": "Hägerneholmshallen",
+    "source_venue_ids": [
+      3611
+    ],
+    "match_score": 430,
+    "previous_distance_m": 1.6059456170966047,
+    "matched_names": [
+      "hägerneholmshallen"
+    ],
+    "old_latitude": 59.4708371,
+    "old_longitude": 18.1198006,
+    "new_latitude": 59.470832,
+    "new_longitude": 18.119774
+  },
+  {
+    "physical_venue_id": "floorball:3613",
+    "global_venue_key": "Hjorthagshallen",
+    "canonical_name": "Hjorthagshallen",
+    "source_venue_ids": [
+      3613
+    ],
+    "match_score": 430,
+    "previous_distance_m": 1.7486401101944269,
+    "matched_names": [
+      "hjorthagshallen"
+    ],
+    "old_latitude": 59.3570196,
+    "old_longitude": 18.0933406,
+    "new_latitude": 59.357034,
+    "new_longitude": 18.093353
+  },
+  {
+    "physical_venue_id": "floorball:3614",
+    "global_venue_key": "ECG Arena",
+    "canonical_name": "ECG Arena",
+    "source_venue_ids": [
+      3614
+    ],
+    "match_score": 400,
+    "previous_distance_m": 135.70806305569678,
+    "matched_names": [
+      "ecg arena"
+    ],
+    "old_latitude": 59.5065829,
+    "old_longitude": 13.304697,
+    "new_latitude": 59.507231,
+    "new_longitude": 13.306735
+  },
+  {
+    "physical_venue_id": "floorball:3619",
+    "global_venue_key": "TTM hallen",
+    "canonical_name": "TTM hallen",
+    "source_venue_ids": [
+      3619
+    ],
+    "match_score": 365,
+    "previous_distance_m": 1756.9726961990416,
+    "matched_names": [
+      "ttm hallen"
+    ],
+    "old_latitude": 56.6881,
+    "old_longitude": 16.33805,
+    "new_latitude": 56.678127,
+    "new_longitude": 16.315737
+  },
+  {
+    "physical_venue_id": "floorball:3623",
+    "global_venue_key": "Hackelhallen",
+    "canonical_name": "Hackelhallen",
+    "source_venue_ids": [
+      3623
+    ],
+    "match_score": 430,
+    "previous_distance_m": 27.286419675754697,
+    "matched_names": [
+      "hackelhallen"
+    ],
+    "old_latitude": 58.1407723,
+    "old_longitude": 15.6842507,
+    "new_latitude": 58.140563,
+    "new_longitude": 15.684008
+  },
+  {
+    "physical_venue_id": "floorball:3637",
+    "global_venue_key": "Lerum Arena A",
+    "canonical_name": "Lerums Arena",
+    "source_venue_ids": [
+      3637
+    ],
+    "match_score": 210,
+    "previous_distance_m": 10.551598606563065,
+    "matched_names": [
+      "lerum arena a"
+    ],
+    "old_latitude": 57.7747935,
+    "old_longitude": 12.2763479,
+    "new_latitude": 57.774776,
+    "new_longitude": 12.276173
+  },
+  {
+    "physical_venue_id": "floorball:3642",
+    "global_venue_key": "Sporthallen Lärkan",
+    "canonical_name": "Actic Sala Lärkans Sportcenter",
+    "source_venue_ids": [
+      3642
+    ],
+    "match_score": 195,
+    "previous_distance_m": 87.47696001562602,
+    "matched_names": [
+      "sporthallen lärkan"
+    ],
+    "old_latitude": 59.9225498,
+    "old_longitude": 16.581412,
+    "new_latitude": 59.921948,
+    "new_longitude": 16.582423
+  },
+  {
+    "physical_venue_id": "floorball:3646",
+    "global_venue_key": "Idrottshuset Örebro, Arenahallen",
+    "canonical_name": "Idrottshuset",
+    "source_venue_ids": [
+      3646,
+      3649
+    ],
+    "match_score": 160,
+    "previous_distance_m": 470.0099626955498,
+    "matched_names": [
+      "idrottshuset örebro arenahallen"
+    ],
+    "old_latitude": 59.2645108,
+    "old_longitude": 15.2130492,
+    "new_latitude": 59.266163,
+    "new_longitude": 15.220662
+  },
+  {
+    "physical_venue_id": "floorball:3651",
+    "global_venue_key": "Mariahallen",
+    "canonical_name": "Mariahallen",
+    "source_venue_ids": [
+      3651
+    ],
+    "match_score": 415,
+    "previous_distance_m": 51.93449033739645,
+    "matched_names": [
+      "mariahallen"
+    ],
+    "old_latitude": 56.0804,
+    "old_longitude": 12.704,
+    "new_latitude": 56.080315,
+    "new_longitude": 12.703177
+  },
+  {
+    "physical_venue_id": "floorball:3663",
+    "global_venue_key": "Herrestorpshallen",
+    "canonical_name": "Herrestorpskolan",
+    "source_venue_ids": [
+      3663
+    ],
+    "match_score": 195,
+    "previous_distance_m": 37.06055642727813,
+    "matched_names": [
+      "herrestorpshallen"
+    ],
+    "old_latitude": 55.4742444,
+    "old_longitude": 13.0360839,
+    "new_latitude": 55.474309,
+    "new_longitude": 13.035507
+  },
+  {
+    "physical_venue_id": "floorball:3668",
+    "global_venue_key": "Markushallen",
+    "canonical_name": "Markushallen",
+    "source_venue_ids": [
+      3668
+    ],
+    "match_score": 400,
+    "previous_distance_m": 153.6472727653814,
+    "matched_names": [
+      "markushallen"
+    ],
+    "old_latitude": 60.1446018,
+    "old_longitude": 16.1685324,
+    "new_latitude": 60.143224,
+    "new_longitude": 16.168743
+  },
+  {
+    "physical_venue_id": "floorball:3670",
+    "global_venue_key": "Norrbyhallen",
+    "canonical_name": "Norrbyhallen",
+    "source_venue_ids": [
+      3670
+    ],
+    "match_score": 415,
+    "previous_distance_m": 47.1236891255924,
+    "matched_names": [
+      "norrbyhallen"
+    ],
+    "old_latitude": 59.2875873,
+    "old_longitude": 15.2371103,
+    "new_latitude": 59.287232,
+    "new_longitude": 15.236658
+  },
+  {
+    "physical_venue_id": "floorball:3677",
+    "global_venue_key": "CIK A",
+    "canonical_name": "CIK A",
+    "source_venue_ids": [
+      3677
+    ],
+    "match_score": 430,
+    "previous_distance_m": 22.43573632774432,
+    "matched_names": [
+      "cik a"
+    ],
+    "old_latitude": 59.7210086,
+    "old_longitude": 17.791697,
+    "new_latitude": 59.721173,
+    "new_longitude": 17.791465
+  },
+  {
+    "physical_venue_id": "floorball:3733",
+    "global_venue_key": "Lerbäckshallen A",
+    "canonical_name": "Lerbäckshallen",
+    "source_venue_ids": [
+      3733
+    ],
+    "match_score": 195,
+    "previous_distance_m": 40.50796968489973,
+    "matched_names": [
+      "lerbäckshallen a"
+    ],
+    "old_latitude": 55.7126409,
+    "old_longitude": 13.1836447,
+    "new_latitude": 55.712311,
+    "new_longitude": 13.183919
+  },
+  {
+    "physical_venue_id": "floorball:3738",
+    "global_venue_key": "Gnesta Sporthall",
+    "canonical_name": "Gnesta Sporthall",
+    "source_venue_ids": [
+      3738
+    ],
+    "match_score": 400,
+    "previous_distance_m": 139.81957656215806,
+    "matched_names": [
+      "gnesta sporthall"
+    ],
+    "old_latitude": 59.0354696,
+    "old_longitude": 17.3213951,
+    "new_latitude": 59.034317,
+    "new_longitude": 17.322372
+  },
+  {
+    "physical_venue_id": "floorball:3740",
+    "global_venue_key": "Karlbergshallen A Karlskoga",
+    "canonical_name": "Karlbergshallen",
+    "source_venue_ids": [
+      3740
+    ],
+    "match_score": 160,
+    "previous_distance_m": 325.6819764742999,
+    "matched_names": [
+      "karlbergshallen a karlskoga"
+    ],
+    "old_latitude": 59.3313964,
+    "old_longitude": 14.4897079,
+    "new_latitude": 59.331286,
+    "new_longitude": 14.495446
+  },
+  {
+    "physical_venue_id": "floorball:3744",
+    "global_venue_key": "Telefonplanshallen",
+    "canonical_name": "Telefonplanshallen",
+    "source_venue_ids": [
+      3744
+    ],
+    "match_score": 430,
+    "previous_distance_m": 2.859846114876912,
+    "matched_names": [
+      "telefonplanshallen"
+    ],
+    "old_latitude": 59.2952733,
+    "old_longitude": 17.9974108,
+    "new_latitude": 59.295286,
+    "new_longitude": 17.997367
+  },
+  {
+    "physical_venue_id": "floorball:3750",
+    "global_venue_key": "Mälarenergi Arena (Västerås)",
+    "canonical_name": "Mälarenergi Arena",
+    "source_venue_ids": [
+      3750,
+      3751,
+      3752
+    ],
+    "match_score": 195,
+    "previous_distance_m": 43.4728276719876,
+    "matched_names": [
+      "mälarenergi arena västerås"
+    ],
+    "old_latitude": 59.6310788,
+    "old_longitude": 16.5306878,
+    "new_latitude": 59.631344,
+    "new_longitude": 16.531256
+  },
+  {
+    "physical_venue_id": "floorball:3989",
+    "global_venue_key": "ATA-hallen - Moheda",
+    "canonical_name": "ATA Sporthall Moheda",
+    "source_venue_ids": [
+      3989
+    ],
+    "match_score": 160,
+    "previous_distance_m": 866.9883610613133,
+    "matched_names": [
+      "ata hallen moheda"
+    ],
+    "old_latitude": 57.0043559,
+    "old_longitude": 14.572811,
+    "new_latitude": 56.998096,
+    "new_longitude": 14.581346
+  },
+  {
+    "physical_venue_id": "floorball:3995",
+    "global_venue_key": "Kungshallen Sporthallen",
+    "canonical_name": "Kungshallen",
+    "source_venue_ids": [
+      3995
+    ],
+    "match_score": 195,
+    "previous_distance_m": 95.85178205034279,
+    "matched_names": [
+      "kungshallen sporthallen"
+    ],
+    "old_latitude": 59.4808967,
+    "old_longitude": 17.7341975,
+    "new_latitude": 59.481571,
+    "new_longitude": 17.735255
+  },
+  {
+    "physical_venue_id": "floorball:3997",
+    "global_venue_key": "Töjnahallen",
+    "canonical_name": "Töjnahallen",
+    "source_venue_ids": [
+      3997
+    ],
+    "match_score": 380,
+    "previous_distance_m": 490.9087747986235,
+    "matched_names": [
+      "töjnahallen"
+    ],
+    "old_latitude": 59.4201337,
+    "old_longitude": 17.9350007,
+    "new_latitude": 59.423697,
+    "new_longitude": 17.929877
+  },
+  {
+    "physical_venue_id": "floorball:4021",
+    "global_venue_key": "Harlyckans Sporthall",
+    "canonical_name": "Idrottsplats Harlyckan",
+    "source_venue_ids": [
+      4021
+    ],
+    "match_score": 195,
+    "previous_distance_m": 73.44530568071335,
+    "matched_names": [
+      "harlyckans sporthall"
+    ],
+    "old_latitude": 56.032528,
+    "old_longitude": 12.726555,
+    "new_latitude": 56.031946,
+    "new_longitude": 12.727114
+  },
+  {
+    "physical_venue_id": "floorball:4025",
+    "global_venue_key": "Åsa Gårdsskola Idrottshall",
+    "canonical_name": "Åsa gårdskola",
+    "source_venue_ids": [
+      4025
+    ],
+    "match_score": 210,
+    "previous_distance_m": 4.526369253752881,
+    "matched_names": [
+      "åsa gårdsskola idrottshall"
+    ],
+    "old_latitude": 57.35654,
+    "old_longitude": 12.1198,
+    "new_latitude": 57.35658,
+    "new_longitude": 12.119814
+  },
+  {
+    "physical_venue_id": "floorball:4030",
+    "global_venue_key": "Hammarhallen A",
+    "canonical_name": "Hammarhallen",
+    "source_venue_ids": [
+      4030
+    ],
+    "match_score": 160,
+    "previous_distance_m": 621.1310024852029,
+    "matched_names": [
+      "hammarhallen a"
+    ],
+    "old_latitude": 59.3360724,
+    "old_longitude": 13.5091789,
+    "new_latitude": 59.332515,
+    "new_longitude": 13.517623
+  },
+  {
+    "physical_venue_id": "floorball:4038",
+    "global_venue_key": "Campushallen-Ebbepark",
+    "canonical_name": "Campushallen Ebbepark",
+    "source_venue_ids": [
+      4038
+    ],
+    "match_score": 415,
+    "previous_distance_m": 68.40614238952453,
+    "matched_names": [
+      "campushallen ebbepark"
+    ],
+    "old_latitude": 58.4034136,
+    "old_longitude": 15.6026859,
+    "new_latitude": 58.403705,
+    "new_longitude": 15.60372
+  },
+  {
+    "physical_venue_id": "floorball:4066",
+    "global_venue_key": "Köpings Bad & Sport",
+    "canonical_name": "Köpings Bad & Sport",
+    "source_venue_ids": [
+      4066
+    ],
+    "match_score": 415,
+    "previous_distance_m": 58.459815849567924,
+    "matched_names": [
+      "köpings bad sport"
+    ],
+    "old_latitude": 59.5081915,
+    "old_longitude": 15.9825586,
+    "new_latitude": 59.508236,
+    "new_longitude": 15.983591
+  },
+  {
+    "physical_venue_id": "floorball:4073",
+    "global_venue_key": "Nolia Arena",
+    "canonical_name": "Nolia Arena",
+    "source_venue_ids": [
+      4073
+    ],
+    "match_score": 380,
+    "previous_distance_m": 327.73039003218867,
+    "matched_names": [
+      "nolia arena"
+    ],
+    "old_latitude": 63.83291,
+    "old_longitude": 20.24274,
+    "new_latitude": 63.834686,
+    "new_longitude": 20.237406
+  },
+  {
+    "physical_venue_id": "floorball:4074",
+    "global_venue_key": "Jubileumshallen Teg",
+    "canonical_name": "Jubileumshallen TEG",
+    "source_venue_ids": [
+      4074
+    ],
+    "match_score": 430,
+    "previous_distance_m": 6.997277189449358,
+    "matched_names": [
+      "jubileumshallen teg"
+    ],
+    "old_latitude": 63.81898,
+    "old_longitude": 20.24149,
+    "new_latitude": 63.81892,
+    "new_longitude": 20.241533
+  },
+  {
+    "physical_venue_id": "floorball:4083",
+    "global_venue_key": "Rättvik Arena",
+    "canonical_name": "Rättvik Arena",
+    "source_venue_ids": [
+      4083
+    ],
+    "match_score": 415,
+    "previous_distance_m": 46.155263000282375,
+    "matched_names": [
+      "rättvik arena"
+    ],
+    "old_latitude": 60.8972504,
+    "old_longitude": 15.1206066,
+    "new_latitude": 60.897449,
+    "new_longitude": 15.121356
+  },
+  {
+    "physical_venue_id": "floorball:4085",
+    "global_venue_key": "Stadions Sporthall",
+    "canonical_name": "Stadions Sporthall",
+    "source_venue_ids": [
+      4085
+    ],
+    "match_score": 415,
+    "previous_distance_m": 30.32345697066564,
+    "matched_names": [
+      "stadions sporthall"
+    ],
+    "old_latitude": 55.5849499,
+    "old_longitude": 12.9910091,
+    "new_latitude": 55.585151,
+    "new_longitude": 12.991335
+  },
+  {
+    "physical_venue_id": "floorball:4094",
+    "global_venue_key": "Torsviks Idrottshall",
+    "canonical_name": "Torsviks Idrottshall",
+    "source_venue_ids": [
+      4094
+    ],
+    "match_score": 400,
+    "previous_distance_m": 136.70147255638736,
+    "matched_names": [
+      "torsviks idrottshall"
+    ],
+    "old_latitude": 59.365404,
+    "old_longitude": 18.1269402,
+    "new_latitude": 59.366523,
+    "new_longitude": 18.125941
+  },
+  {
+    "physical_venue_id": "floorball:4098",
+    "global_venue_key": "Furuborghallen",
+    "canonical_name": "Furuborghallen",
+    "source_venue_ids": [
+      4098
+    ],
+    "match_score": 380,
+    "previous_distance_m": 467.50344171686646,
+    "matched_names": [
+      "furuborghallen"
+    ],
+    "old_latitude": 59.1820237,
+    "old_longitude": 17.4267041,
+    "new_latitude": 59.185449,
+    "new_longitude": 17.421945
+  },
+  {
+    "physical_venue_id": "floorball:4104",
+    "global_venue_key": "Rostahallen Örebro",
+    "canonical_name": "Rostaskolans Idrottshall (Rostahallarna)",
+    "source_venue_ids": [
+      4104
+    ],
+    "match_score": 195,
+    "previous_distance_m": 49.13113516044543,
+    "matched_names": [
+      "rostahallen örebro"
+    ],
+    "old_latitude": 59.274243,
+    "old_longitude": 15.1823248,
+    "new_latitude": 59.273815,
+    "new_longitude": 15.18211
+  },
+  {
+    "physical_venue_id": "floorball:4107",
+    "global_venue_key": "Paradishallen",
+    "canonical_name": "Paradishallen",
+    "source_venue_ids": [
+      4107
+    ],
+    "match_score": 430,
+    "previous_distance_m": 26.19942810984366,
+    "matched_names": [
+      "paradishallen"
+    ],
+    "old_latitude": 60.4927832,
+    "old_longitude": 15.3950275,
+    "new_latitude": 60.492723,
+    "new_longitude": 15.394565
+  },
+  {
+    "physical_venue_id": "floorball:4109",
+    "global_venue_key": "Glommenhallen",
+    "canonical_name": "Glommens Idrottshall",
+    "source_venue_ids": [
+      4109
+    ],
+    "match_score": 160,
+    "previous_distance_m": 508.00792804147903,
+    "matched_names": [
+      "glommenhallen"
+    ],
+    "old_latitude": 56.936,
+    "old_longitude": 12.383,
+    "new_latitude": 56.935634,
+    "new_longitude": 12.374653
+  },
+  {
+    "physical_venue_id": "floorball:4111",
+    "global_venue_key": "Sandbäckshallen",
+    "canonical_name": "Sandbäckshallen",
+    "source_venue_ids": [
+      4111
+    ],
+    "match_score": 400,
+    "previous_distance_m": 249.12543283560282,
+    "matched_names": [
+      "sandbäckshallen"
+    ],
+    "old_latitude": 58.9903934,
+    "old_longitude": 16.2243928,
+    "new_latitude": 58.992584,
+    "new_longitude": 16.225305
+  },
+  {
+    "physical_venue_id": "floorball:4116",
+    "global_venue_key": "Lindbacka Sporthall",
+    "canonical_name": "Lindbackaskolan",
+    "source_venue_ids": [
+      4116
+    ],
+    "match_score": 210,
+    "previous_distance_m": 28.599239816006648,
+    "matched_names": [
+      "lindbacka sporthall"
+    ],
+    "old_latitude": 59.6017967,
+    "old_longitude": 15.2054402,
+    "new_latitude": 59.601757,
+    "new_longitude": 15.204938
+  },
+  {
+    "physical_venue_id": "floorball:4130",
+    "global_venue_key": "Wahlbeckshallen A",
+    "canonical_name": "Wahlbeckshallen",
+    "source_venue_ids": [
+      4130
+    ],
+    "match_score": 210,
+    "previous_distance_m": 5.199181672367293,
+    "matched_names": [
+      "wahlbeckshallen a"
+    ],
+    "old_latitude": 58.409149,
+    "old_longitude": 15.55355,
+    "new_latitude": 58.409195,
+    "new_longitude": 15.553566
+  },
+  {
+    "physical_venue_id": "floorball:4136",
+    "global_venue_key": "Stureforshallen",
+    "canonical_name": "Stureforshallen",
+    "source_venue_ids": [
+      4136
+    ],
+    "match_score": 380,
+    "previous_distance_m": 369.1054127987443,
+    "matched_names": [
+      "stureforshallen"
+    ],
+    "old_latitude": 58.3325655,
+    "old_longitude": 15.7251711,
+    "new_latitude": 58.329302,
+    "new_longitude": 15.726327
+  },
+  {
+    "physical_venue_id": "floorball:4143",
+    "global_venue_key": "Valkebohallen",
+    "canonical_name": "Valkebohallen",
+    "source_venue_ids": [
+      4143
+    ],
+    "match_score": 400,
+    "previous_distance_m": 134.29201216741083,
+    "matched_names": [
+      "valkebohallen"
+    ],
+    "old_latitude": 58.3832395,
+    "old_longitude": 15.4474357,
+    "new_latitude": 58.383461,
+    "new_longitude": 15.445171
+  },
+  {
+    "physical_venue_id": "floorball:4171",
+    "global_venue_key": "Filipstads Sporthall",
+    "canonical_name": "Filipstads Sporthall",
+    "source_venue_ids": [
+      4171
+    ],
+    "match_score": 415,
+    "previous_distance_m": 62.08822648379551,
+    "matched_names": [
+      "filipstads sporthall"
+    ],
+    "old_latitude": 59.7092106,
+    "old_longitude": 14.1647116,
+    "new_latitude": 59.708737,
+    "new_longitude": 14.165298
+  },
+  {
+    "physical_venue_id": "floorball:4174",
+    "global_venue_key": "Ilandahallen",
+    "canonical_name": "Ilandahallen",
+    "source_venue_ids": [
+      4174
+    ],
+    "match_score": 380,
+    "previous_distance_m": 330.1946013088339,
+    "matched_names": [
+      "ilandahallen"
+    ],
+    "old_latitude": 59.4331712,
+    "old_longitude": 13.4284178,
+    "new_latitude": 59.4316,
+    "new_longitude": 13.423463
+  },
+  {
+    "physical_venue_id": "floorball:4205",
+    "global_venue_key": "Bagartorpshallen",
+    "canonical_name": "Bagartorpshallen",
+    "source_venue_ids": [
+      4205
+    ],
+    "match_score": 430,
+    "previous_distance_m": 17.298939805497245,
+    "matched_names": [
+      "bagartorpshallen"
+    ],
+    "old_latitude": 59.3791095,
+    "old_longitude": 17.9970545,
+    "new_latitude": 59.378984,
+    "new_longitude": 17.996874
+  },
+  {
+    "physical_venue_id": "floorball:4248",
+    "global_venue_key": "Österåkers Multiarena Plan 1 - Ljusterö",
+    "canonical_name": "Österåkers multiarena",
+    "source_venue_ids": [
+      4248,
+      4259
+    ],
+    "match_score": 180,
+    "previous_distance_m": 128.94720543611948,
+    "matched_names": [
+      "österåkers multiarena plan 1 ljusterö"
+    ],
+    "old_latitude": 59.4820424,
+    "old_longitude": 18.2745282,
+    "new_latitude": 59.482522,
+    "new_longitude": 18.272449
+  },
+  {
+    "physical_venue_id": "floorball:4255",
+    "global_venue_key": "Gantoftahallen",
+    "canonical_name": "Gantoftahallen",
+    "source_venue_ids": [
+      4255
+    ],
+    "match_score": 415,
+    "previous_distance_m": 42.36532749524311,
+    "matched_names": [
+      "gantoftahallen"
+    ],
+    "old_latitude": 55.9871929,
+    "old_longitude": 12.8023362,
+    "new_latitude": 55.986911,
+    "new_longitude": 12.801878
+  },
+  {
+    "physical_venue_id": "floorball:4257",
+    "global_venue_key": "Radiomasten Innebandycenter",
+    "canonical_name": "Radiomasten Innebandy Center",
+    "source_venue_ids": [
+      4257
+    ],
+    "match_score": 180,
+    "previous_distance_m": 178.3980590519793,
+    "matched_names": [
+      "radiomasten innebandycenter"
+    ],
+    "old_latitude": 58.5457,
+    "old_longitude": 15.0174,
+    "new_latitude": 58.547135,
+    "new_longitude": 15.016025
+  },
+  {
+    "physical_venue_id": "floorball:4278",
+    "global_venue_key": "Arena Åstorp",
+    "canonical_name": "Arena Åstorp",
+    "source_venue_ids": [
+      4278
+    ],
+    "match_score": 415,
+    "previous_distance_m": 80.76010371388101,
+    "matched_names": [
+      "arena åstorp"
+    ],
+    "old_latitude": 56.1368893,
+    "old_longitude": 12.9342134,
+    "new_latitude": 56.136192,
+    "new_longitude": 12.934578
+  },
+  {
+    "physical_venue_id": "floorball:4356",
+    "global_venue_key": "Nya Fristadshallen",
+    "canonical_name": "Nya Fristadhallen",
+    "source_venue_ids": [
+      4356
+    ],
+    "match_score": 180,
+    "previous_distance_m": 157.54896340318345,
+    "matched_names": [
+      "nya fristadshallen"
+    ],
+    "old_latitude": 57.8181204,
+    "old_longitude": 13.0092097,
+    "new_latitude": 57.817998,
+    "new_longitude": 13.01186
+  },
+  {
+    "physical_venue_id": "floorball:4403",
+    "global_venue_key": "Rödabergshallen",
+    "canonical_name": "Rödabergshallen",
+    "source_venue_ids": [
+      4403
+    ],
+    "match_score": 415,
+    "previous_distance_m": 85.82834841330337,
+    "matched_names": [
+      "rödabergshallen"
+    ],
+    "old_latitude": 59.3479316,
+    "old_longitude": 18.0426836,
+    "new_latitude": 59.348662,
+    "new_longitude": 18.042194
+  },
+  {
+    "physical_venue_id": "floorball:4440",
+    "global_venue_key": "Ektorpshallen",
+    "canonical_name": "Ektorpshallen",
+    "source_venue_ids": [
+      4440
+    ],
+    "match_score": 430,
+    "previous_distance_m": 19.70388513402557,
+    "matched_names": [
+      "ektorpshallen"
+    ],
+    "old_latitude": 58.5759138,
+    "old_longitude": 16.1696413,
+    "new_latitude": 58.576091,
+    "new_longitude": 16.16964
+  },
+  {
+    "physical_venue_id": "floorball:4443",
+    "global_venue_key": "Charlottendalshallen",
+    "canonical_name": "Charlottendalshallen",
+    "source_venue_ids": [
+      4443
+    ],
+    "match_score": 430,
+    "previous_distance_m": 25.239617428918613,
+    "matched_names": [
+      "charlottendalshallen"
+    ],
+    "old_latitude": 59.3136035,
+    "old_longitude": 18.3881895,
+    "new_latitude": 59.313804,
+    "new_longitude": 18.388398
+  },
+  {
+    "physical_venue_id": "floorball:4452",
+    "global_venue_key": "Skårbyhallen",
+    "canonical_name": "Skårbyhallen",
+    "source_venue_ids": [
+      4452
+    ],
+    "match_score": 330,
+    "previous_distance_m": 23705.80870376116,
+    "matched_names": [
+      "skårbyhallen"
+    ],
+    "old_latitude": 57.3134897,
+    "old_longitude": 12.1789288,
+    "new_latitude": 57.52005,
+    "new_longitude": 12.08096
+  },
+  {
+    "physical_venue_id": "floorball:4458",
+    "global_venue_key": "Vega Idrottshall",
+    "canonical_name": "Vega Aktivitetshus & Idrottshall",
+    "source_venue_ids": [
+      4458
+    ],
+    "match_score": 210,
+    "previous_distance_m": 19.75612606460995,
+    "matched_names": [
+      "vega idrottshall"
+    ],
+    "old_latitude": 59.1852368,
+    "old_longitude": 18.1340279,
+    "new_latitude": 59.185062,
+    "new_longitude": 18.13409
+  },
+  {
+    "physical_venue_id": "floorball:4460",
+    "global_venue_key": "Habo Arena",
+    "canonical_name": "Habo Arena",
+    "source_venue_ids": [
+      4460
+    ],
+    "match_score": 415,
+    "previous_distance_m": 78.63052350013734,
+    "matched_names": [
+      "habo arena"
+    ],
+    "old_latitude": 57.8981413,
+    "old_longitude": 14.1000904,
+    "new_latitude": 57.898719,
+    "new_longitude": 14.099323
+  },
+  {
+    "physical_venue_id": "floorball:4470",
+    "global_venue_key": "Hisingstorpshallen",
+    "canonical_name": "Hisingstorpshallen",
+    "source_venue_ids": [
+      4470
+    ],
+    "match_score": 415,
+    "previous_distance_m": 99.02906444460305,
+    "matched_names": [
+      "hisingstorpshallen"
+    ],
+    "old_latitude": 57.7934588,
+    "old_longitude": 14.1315309,
+    "new_latitude": 57.794273,
+    "new_longitude": 14.132208
+  },
+  {
+    "physical_venue_id": "floorball:4530",
+    "global_venue_key": "Park Arena",
+    "canonical_name": "Park Arena",
+    "source_venue_ids": [
+      4530
+    ],
+    "match_score": 430,
+    "previous_distance_m": 11.887871752249364,
+    "matched_names": [
+      "park arena"
+    ],
+    "old_latitude": 57.1847784,
+    "old_longitude": 14.0251795,
+    "new_latitude": 57.18485,
+    "new_longitude": 14.025326
+  },
+  {
+    "physical_venue_id": "floorball:4627",
+    "global_venue_key": "Släbrohallen",
+    "canonical_name": "Släbro sporthall",
+    "source_venue_ids": [
+      4627
+    ],
+    "match_score": 180,
+    "previous_distance_m": 149.17350647317204,
+    "matched_names": [
+      "släbrohallen"
+    ],
+    "old_latitude": 58.7691808,
+    "old_longitude": 16.9737616,
+    "new_latitude": 58.768722,
+    "new_longitude": 16.976193
+  },
+  {
+    "physical_venue_id": "floorball:4644",
+    "global_venue_key": "Carlslundshallen",
+    "canonical_name": "Carlslundshallen",
+    "source_venue_ids": [
+      4644
+    ],
+    "match_score": 430,
+    "previous_distance_m": 4.625374215751977,
+    "matched_names": [
+      "carlslundshallen"
+    ],
+    "old_latitude": 63.803645,
+    "old_longitude": 20.328288,
+    "new_latitude": 63.803662,
+    "new_longitude": 20.328202
+  },
+  {
+    "physical_venue_id": "floorball:4651",
+    "global_venue_key": "XL Bygg Bergqvist Arena",
+    "canonical_name": "XL Bygg Bergqvist Arena",
+    "source_venue_ids": [
+      4651
+    ],
+    "match_score": 415,
+    "previous_distance_m": 89.8427024409902,
+    "matched_names": [
+      "xl bygg bergqvist arena"
+    ],
+    "old_latitude": 58.88827,
+    "old_longitude": 14.9101,
+    "new_latitude": 58.887874,
+    "new_longitude": 14.908737
+  },
+  {
+    "physical_venue_id": "floorball:4664",
+    "global_venue_key": "Vasa Arena",
+    "canonical_name": "Vasa Arena",
+    "source_venue_ids": [
+      4664,
+      4854
+    ],
+    "match_score": 430,
+    "previous_distance_m": 7.678361806565813,
+    "matched_names": [
+      "vasa arena"
+    ],
+    "old_latitude": 58.4169023,
+    "old_longitude": 15.6128343,
+    "new_latitude": 58.416841,
+    "new_longitude": 15.612895
+  },
+  {
+    "physical_venue_id": "floorball:4666",
+    "global_venue_key": "Ferrum Arena",
+    "canonical_name": "Ferrum arena",
+    "source_venue_ids": [
+      4666
+    ],
+    "match_score": 415,
+    "previous_distance_m": 94.92048177445085,
+    "matched_names": [
+      "ferrum arena"
+    ],
+    "old_latitude": 60.6095541,
+    "old_longitude": 16.7726165,
+    "new_latitude": 60.609234,
+    "new_longitude": 16.771004
+  },
+  {
+    "physical_venue_id": "floorball:4678",
+    "global_venue_key": "Tellusborgshallen 1",
+    "canonical_name": "Tellusborgshallen",
+    "source_venue_ids": [
+      4678
+    ],
+    "match_score": 195,
+    "previous_distance_m": 47.43647567089079,
+    "matched_names": [
+      "tellusborgshallen 1"
+    ],
+    "old_latitude": 59.3043742,
+    "old_longitude": 18.0170452,
+    "new_latitude": 59.303982,
+    "new_longitude": 18.017374
+  },
+  {
+    "physical_venue_id": "floorball:4680",
+    "global_venue_key": "Sörby sporthall",
+    "canonical_name": "Sörby Sportcenter",
+    "source_venue_ids": [
+      4680
+    ],
+    "match_score": 210,
+    "previous_distance_m": 23.604602235647995,
+    "matched_names": [
+      "sörby sporthall"
+    ],
+    "old_latitude": 59.1403362,
+    "old_longitude": 15.1272183,
+    "new_latitude": 59.140342,
+    "new_longitude": 15.127632
+  },
+  {
+    "physical_venue_id": "floorball:4682",
+    "global_venue_key": "Kungsängshallen",
+    "canonical_name": "Kungsängshallen",
+    "source_venue_ids": [
+      4682
+    ],
+    "match_score": 400,
+    "previous_distance_m": 104.13637335969106,
+    "matched_names": [
+      "kungsängshallen"
+    ],
+    "old_latitude": 58.5777171,
+    "old_longitude": 16.2418646,
+    "new_latitude": 58.57735,
+    "new_longitude": 16.240212
+  },
+  {
+    "physical_venue_id": "floorball:4692",
+    "global_venue_key": "Ranagårdsskolan",
+    "canonical_name": "Ranagårdsskolan",
+    "source_venue_ids": [
+      4692
+    ],
+    "match_score": 430,
+    "previous_distance_m": 16.02822737817533,
+    "matched_names": [
+      "ranagårdsskolan"
+    ],
+    "old_latitude": 56.660861,
+    "old_longitude": 12.7638831,
+    "new_latitude": 56.660924,
+    "new_longitude": 12.764119
+  },
+  {
+    "physical_venue_id": "floorball:4722",
+    "global_venue_key": "Åkersviks Sporthall",
+    "canonical_name": "Åkersviks idrottshall",
+    "source_venue_ids": [
+      4722,
+      4928
+    ],
+    "match_score": 210,
+    "previous_distance_m": 26.465587573902365,
+    "matched_names": [
+      "åkersviks sporthall"
+    ],
+    "old_latitude": 62.3902882,
+    "old_longitude": 17.2923022,
+    "new_latitude": 62.390338,
+    "new_longitude": 17.2918
+  },
+  {
+    "physical_venue_id": "floorball:4729",
+    "global_venue_key": "Virda Sportcenter Hall 2 - Alvesta",
+    "canonical_name": "Virda bad och sportcenter",
+    "source_venue_ids": [
+      4729
+    ],
+    "match_score": 145,
+    "previous_distance_m": 3108.4210754229753,
+    "matched_names": [
+      "virda sportcenter hall 2 alvesta"
+    ],
+    "old_latitude": 56.9166599,
+    "old_longitude": 14.4998825,
+    "new_latitude": 56.901817,
+    "new_longitude": 14.543271
+  },
+  {
+    "physical_venue_id": "floorball:4813",
+    "global_venue_key": "Larslunda Arena A",
+    "canonical_name": "Larslunda simhall",
+    "source_venue_ids": [
+      4813
+    ],
+    "match_score": 160,
+    "previous_distance_m": 365.49416481515675,
+    "matched_names": [
+      "larslunda arena a"
+    ],
+    "old_latitude": 59.3538878,
+    "old_longitude": 17.0285968,
+    "new_latitude": 59.356988,
+    "new_longitude": 17.026454
+  },
+  {
+    "physical_venue_id": "floorball:4817",
+    "global_venue_key": "CarlGustav Arena",
+    "canonical_name": "CG-Arena",
+    "source_venue_ids": [
+      4817
+    ],
+    "match_score": 110,
+    "previous_distance_m": 40150.28945949772,
+    "matched_names": [
+      "carlgustav arena"
+    ],
+    "old_latitude": 60.5,
+    "old_longitude": 13.083333,
+    "new_latitude": 60.141141,
+    "new_longitude": 13.002569
+  },
+  {
+    "physical_venue_id": "floorball:4820",
+    "global_venue_key": "Brygga idrottshall",
+    "canonical_name": "Bryggahallen",
+    "source_venue_ids": [
+      4820
+    ],
+    "match_score": 210,
+    "previous_distance_m": 19.79136628795142,
+    "matched_names": [
+      "brygga idrottshall"
+    ],
+    "old_latitude": 59.2841562,
+    "old_longitude": 17.8218317,
+    "new_latitude": 59.284176,
+    "new_longitude": 17.822178
+  },
+  {
+    "physical_venue_id": "floorball:4835",
+    "global_venue_key": "Tillsammans Arena Nord",
+    "canonical_name": "Tillsammans Arena Ljungby",
+    "source_venue_ids": [
+      4835,
+      4866
+    ],
+    "match_score": 180,
+    "previous_distance_m": 144.25334283451613,
+    "matched_names": [
+      "tillsammans arena nord"
+    ],
+    "old_latitude": 56.8433684,
+    "old_longitude": 13.9498585,
+    "new_latitude": 56.84211,
+    "new_longitude": 13.949282
+  },
+  {
+    "physical_venue_id": "floorball:4838",
+    "global_venue_key": "Granelundshallen",
+    "canonical_name": "Granelundshallen",
+    "source_venue_ids": [
+      4838
+    ],
+    "match_score": 400,
+    "previous_distance_m": 107.10817718383583,
+    "matched_names": [
+      "granelundshallen"
+    ],
+    "old_latitude": 58.0506676,
+    "old_longitude": 14.9879359,
+    "new_latitude": 58.050283,
+    "new_longitude": 14.986267
+  },
+  {
+    "physical_venue_id": "floorball:4845",
+    "global_venue_key": "Listerby Idrottshall",
+    "canonical_name": "Listerby Idrottshall",
+    "source_venue_ids": [
+      4845
+    ],
+    "match_score": 380,
+    "previous_distance_m": 311.3556366720502,
+    "matched_names": [
+      "listerby idrottshall"
+    ],
+    "old_latitude": 56.1876899,
+    "old_longitude": 15.3929791,
+    "new_latitude": 56.189686,
+    "new_longitude": 15.396508
+  },
+  {
+    "physical_venue_id": "floorball:4858",
+    "global_venue_key": "Slättenskolan Idrottshall",
+    "canonical_name": "Slättenskolans idrottshall",
+    "source_venue_ids": [
+      4858
+    ],
+    "match_score": 145,
+    "previous_distance_m": 1003.0715641246614,
+    "matched_names": [
+      "slättenskolan idrottshall"
+    ],
+    "old_latitude": 57.7181558,
+    "old_longitude": 14.1174739,
+    "new_latitude": 57.709167,
+    "new_longitude": 14.118896
+  },
+  {
+    "physical_venue_id": "floorball:4878",
+    "global_venue_key": "SBB Arena",
+    "canonical_name": "SBB ARENA (Bollnäs bandy)",
+    "source_venue_ids": [
+      4878
+    ],
+    "match_score": 110,
+    "previous_distance_m": 520007.7318360545,
+    "matched_names": [
+      "sbb arena"
+    ],
+    "old_latitude": 56.6778567,
+    "old_longitude": 16.3154985,
+    "new_latitude": 61.354219,
+    "new_longitude": 16.395316
+  },
+  {
+    "physical_venue_id": "floorball:4924",
+    "global_venue_key": "Nya Aspen",
+    "canonical_name": "Aspen",
+    "source_venue_ids": [
+      4924
+    ],
+    "match_score": 195,
+    "previous_distance_m": 36.69990608437207,
+    "matched_names": [
+      "nya aspen"
+    ],
+    "old_latitude": 65.833616,
+    "old_longitude": 24.129367,
+    "new_latitude": 65.833923,
+    "new_longitude": 24.129071
+  },
+  {
+    "physical_venue_id": "floorball:4939",
+    "global_venue_key": "Ölmstadhallen",
+    "canonical_name": "Ölmstadhallen",
+    "source_venue_ids": [
+      4939
+    ],
+    "match_score": 380,
+    "previous_distance_m": 463.41885679684646,
+    "matched_names": [
+      "ölmstadhallen"
+    ],
+    "old_latitude": 57.9267065,
+    "old_longitude": 14.4005638,
+    "new_latitude": 57.922912,
+    "new_longitude": 14.397318
+  },
+  {
+    "physical_venue_id": "floorball:4955",
+    "global_venue_key": "Virahallen",
+    "canonical_name": "Lärande Grundskola Vira",
+    "source_venue_ids": [
+      4955
+    ],
+    "match_score": 210,
+    "previous_distance_m": 2.8637677919356905,
+    "matched_names": [
+      "virahallen"
+    ],
+    "old_latitude": 59.5323943,
+    "old_longitude": 17.9414155,
+    "new_latitude": 59.532369,
+    "new_longitude": 17.941406
+  },
+  {
+    "physical_venue_id": "floorball:4975",
+    "global_venue_key": "Ekdahl Arena",
+    "canonical_name": "Ekdahl Arena",
+    "source_venue_ids": [
+      4975
+    ],
+    "match_score": 400,
+    "previous_distance_m": 124.61570899536974,
+    "matched_names": [
+      "ekdahl arena"
+    ],
+    "old_latitude": 55.475242,
+    "old_longitude": 13.485721,
+    "new_latitude": 55.47551,
+    "new_longitude": 13.483801
+  },
+  {
+    "physical_venue_id": "floorball:4978",
+    "global_venue_key": "Nya Tullingehallen",
+    "canonical_name": "Tullingehallen",
+    "source_venue_ids": [
+      4978
+    ],
+    "match_score": 145,
+    "previous_distance_m": 1250.317577234016,
+    "matched_names": [
+      "nya tullingehallen"
+    ],
+    "old_latitude": 59.2206416,
+    "old_longitude": 17.9116087,
+    "new_latitude": 59.211981,
+    "new_longitude": 17.925621
+  },
+  {
+    "physical_venue_id": "floorball:4983",
+    "global_venue_key": "Ulvsunda 1",
+    "canonical_name": "Ulvsunda 1",
+    "source_venue_ids": [
+      4983,
+      4984,
+      4990
+    ],
+    "match_score": 365,
+    "previous_distance_m": 1449.1426912873242,
+    "matched_names": [
+      "ulvsunda 1"
+    ],
+    "old_latitude": 59.3374223,
+    "old_longitude": 17.9600665,
+    "new_latitude": 59.350018,
+    "new_longitude": 17.966628
+  },
+  {
+    "physical_venue_id": "floorball:4995",
+    "global_venue_key": "Djupadalsskolans Sporthall",
+    "canonical_name": "Djupadalshallen",
+    "source_venue_ids": [
+      4995
+    ],
+    "match_score": 65,
+    "previous_distance_m": 259102.49295829702,
+    "matched_names": [
+      "djupadalsskolans sporthall"
+    ],
+    "old_latitude": 55.575016,
+    "old_longitude": 12.946565,
+    "new_latitude": 57.810088,
+    "new_longitude": 14.147041
+  },
+  {
+    "physical_venue_id": "floorball:5011",
+    "global_venue_key": "Mandahallen",
+    "canonical_name": "Aqua Nova",
+    "source_venue_ids": [
+      5011
+    ],
+    "match_score": 210,
+    "previous_distance_m": 28.626005986878702,
+    "matched_names": [
+      "mandahallen"
+    ],
+    "old_latitude": 60.4927392,
+    "old_longitude": 15.4128603,
+    "new_latitude": 60.492678,
+    "new_longitude": 15.413368
+  },
+  {
+    "physical_venue_id": "floorball:5014",
+    "global_venue_key": "Sanda Sporthall 1",
+    "canonical_name": "Sanda Sporthall",
+    "source_venue_ids": [
+      5014,
+      5015
+    ],
+    "match_score": 145,
+    "previous_distance_m": 1038.9478493352447,
+    "matched_names": [
+      "sanda sporthall 1"
+    ],
+    "old_latitude": 57.7874479,
+    "old_longitude": 14.2442914,
+    "new_latitude": 57.783831,
+    "new_longitude": 14.260452
+  },
+  {
+    "physical_venue_id": "floorball:stockaryds-sporthall",
+    "global_venue_key": "Stockaryds Sporthall",
+    "canonical_name": "Stockaryds Sporthall",
+    "source_venue_ids": [],
+    "match_score": 430,
+    "previous_distance_m": 0.0,
+    "matched_names": [
+      "stockaryds sporthall"
+    ],
+    "old_latitude": 57.3152638,
+    "old_longitude": 14.5935456,
+    "new_latitude": 57.3152638,
+    "new_longitude": 14.5935456
+  }
+]
