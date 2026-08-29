@@ -1,0 +1,322 @@
+{
+  "AIK": {
+    "arena": "Strawberry Arena",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Råsta Strandväg 1, 169 79 Solna",
+    "city": "Solna",
+    "lat": 59.3727265,
+    "lon": 18.0004123,
+    "season_verified": "2026"
+  },
+  "BK Häcken": {
+    "arena": "Nordic Wellness Arena",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Inlandsgatan 48, 417 15 Göteborg",
+    "city": "Göteborg",
+    "lat": 57.7192002,
+    "lon": 11.930688,
+    "season_verified": "2026"
+  },
+  "Degerfors IF": {
+    "arena": "Stora Valla",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Idrottsvägen, 693 31 Degerfors",
+    "city": "Degerfors",
+    "lat": 59.2382876,
+    "lon": 14.4431308,
+    "season_verified": "2026"
+  },
+  "Djurgården": {
+    "arena": "3Arena",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Arenaslingan 14, 121 77 Johanneshov",
+    "city": "Johanneshov",
+    "lat": 59.2911437,
+    "lon": 18.084515,
+    "season_verified": "2026"
+  },
+  "Falkenbergs FF": {
+    "arena": "Falcon Alkoholfri Arena",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Kristineslättsallén 1, 311 40 Falkenberg",
+    "city": "Falkenberg",
+    "lat": 56.8939657,
+    "lon": 12.5115395,
+    "season_verified": "2026"
+  },
+  "GAIS": {
+    "arena": "Gamla Ullevi",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Ullevigatan 5, 411 39 Göteborg",
+    "city": "Göteborg",
+    "lat": 57.7062618,
+    "lon": 11.980133,
+    "season_verified": "2026"
+  },
+  "GIF Sundsvall": {
+    "arena": "NP3 Arena",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Universitetsallén 6, 852 34 Sundsvall",
+    "city": "Sundsvall",
+    "lat": 62.3941718,
+    "lon": 17.3010557,
+    "season_verified": "2026"
+  },
+  "Halmstad": {
+    "arena": "Örjans vall",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Laxövägen 3, 302 31 Halmstad",
+    "city": "Halmstad",
+    "lat": 56.6842876,
+    "lon": 12.8674135,
+    "season_verified": "2026"
+  },
+  "Hammarby": {
+    "arena": "3Arena",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Arenaslingan 14, 121 77 Johanneshov",
+    "city": "Johanneshov",
+    "lat": 59.2911437,
+    "lon": 18.084515,
+    "season_verified": "2026"
+  },
+  "Helsingborgs IF": {
+    "arena": "Olympia",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Mellersta Stenbocksgatan, 254 37 Helsingborg",
+    "city": "Helsingborg",
+    "lat": 56.0499352,
+    "lon": 12.7062769,
+    "season_verified": "2026"
+  },
+  "IF Brommapojkarna": {
+    "arena": "Grimsta IP",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Gulddragargränd 100, 162 58 Vällingby",
+    "city": "Vällingby",
+    "lat": 59.362311,
+    "lon": 17.8517792,
+    "season_verified": "2026"
+  },
+  "IF Elfsborg": {
+    "arena": "Borås Arena",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Ålgårdsvägen 16, 506 30 Borås",
+    "city": "Borås",
+    "lat": 57.7342939,
+    "lon": 12.9347527,
+    "season_verified": "2026"
+  },
+  "IFK Göteborg": {
+    "arena": "Gamla Ullevi",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Ullevigatan 5, 411 39 Göteborg",
+    "city": "Göteborg",
+    "lat": 57.7062618,
+    "lon": 11.980133,
+    "season_verified": "2026"
+  },
+  "IFK Norrköping FK": {
+    "arena": "Idrottsparken",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Ektorpsgatan 1, 602 37 Norrköping",
+    "city": "Norrköping",
+    "lat": 58.5844826,
+    "lon": 16.1733083,
+    "season_verified": "2026"
+  },
+  "IFK Värnamo": {
+    "arena": "Finnvedsvallen",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "NORRGATAN 6, 331 34 Värnamo",
+    "city": "Värnamo",
+    "lat": 57.1958657,
+    "lon": 14.0427682,
+    "season_verified": "2026"
+  },
+  "IK Brage": {
+    "arena": "Borlänge Energi Arena",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Utanforsvägen 10, 784 44 Borlänge",
+    "city": "Borlänge",
+    "lat": 60.4949226,
+    "lon": 15.4340982,
+    "season_verified": "2026"
+  },
+  "IK Oddevold": {
+    "arena": "Rimnersvallen",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Rimnersgatan 11, 451 52 Uddevalla",
+    "city": "Uddevalla",
+    "lat": 58.35712,
+    "lon": 11.94915,
+    "season_verified": "2026"
+  },
+  "IK Sirius FK": {
+    "arena": "Studenternas",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Sjukhusvägen 12, 753 09 Uppsala",
+    "city": "Uppsala",
+    "lat": 59.8494522,
+    "lon": 17.6455877,
+    "season_verified": "2026"
+  },
+  "Kalmar FF": {
+    "arena": "Guldfågeln Arena",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Trångsundsvägen 40, 393 56 Kalmar",
+    "city": "Kalmar",
+    "lat": 56.6913058,
+    "lon": 16.3148777,
+    "season_verified": "2026"
+  },
+  "Landskrona BoIS": {
+    "arena": "Landskrona IP",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Idrottsvägen 11, 261 42 Landskrona",
+    "city": "Landskrona",
+    "lat": 55.8891765,
+    "lon": 12.8387882,
+    "season_verified": "2026"
+  },
+  "Ljungskile SK Herrfotboll": {
+    "arena": "Skarsjövallen",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Skarsjövägen, 459 91 Ljungskile",
+    "city": "Ljungskile",
+    "lat": 58.2167666,
+    "lon": 11.9438087,
+    "season_verified": "2026"
+  },
+  "Malmö FF": {
+    "arena": "Eleda Stadion",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Eric Perssons väg 31, 217 62 Malmö",
+    "city": "Malmö",
+    "lat": 55.5838731,
+    "lon": 12.9872887,
+    "season_verified": "2026"
+  },
+  "Mjällby AIF": {
+    "arena": "Strandvallen",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Campingvägen 44, 294 95 Sölvesborg",
+    "city": "Sölvesborg",
+    "lat": 56.0119625,
+    "lon": 14.7162401,
+    "season_verified": "2026"
+  },
+  "Nordic United FC": {
+    "arena": "Södertälje fotbollsarena",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Genetaleden 3, 151 59 Södertälje",
+    "city": "Södertälje",
+    "lat": 59.187559,
+    "lon": 17.5704351,
+    "season_verified": "2026"
+  },
+  "Norrby IF": {
+    "arena": "Borås Arena",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Ålgårdsvägen 16, 506 30 Borås",
+    "city": "Borås",
+    "lat": 57.7342939,
+    "lon": 12.9347527,
+    "season_verified": "2026"
+  },
+  "Sandvikens IF": {
+    "arena": "Jernvallen",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Arenavägen 3, 811 61 Sandviken",
+    "city": "Sandviken",
+    "lat": 60.6064602,
+    "lon": 16.7713135,
+    "season_verified": "2026"
+  },
+  "Varbergs BoIS FC": {
+    "arena": "Påskbergsvallen",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Kattegattsvägen 50, 432 50 Varberg",
+    "city": "Varberg",
+    "lat": 57.096944,
+    "lon": 12.263889,
+    "season_verified": "2026"
+  },
+  "Västerås SK FK": {
+    "arena": "Hitachi Energy Arena",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Pontus Widéns väg 5, 722 23 Västerås",
+    "city": "Västerås",
+    "lat": 59.6273781,
+    "lon": 16.5307281,
+    "season_verified": "2026"
+  },
+  "Örebro": {
+    "arena": "Behrn Arena Fotboll",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Rudbecksgatan 52E, 702 23 Örebro",
+    "city": "Örebro",
+    "lat": 59.2662634,
+    "lon": 15.2233497,
+    "season_verified": "2026"
+  },
+  "Örgryte IS Fotboll": {
+    "arena": "Gamla Ullevi",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Ullevigatan 5, 411 39 Göteborg",
+    "city": "Göteborg",
+    "lat": 57.7062618,
+    "lon": 11.980133,
+    "season_verified": "2026"
+  },
+  "Östers IF": {
+    "arena": "Spiris Arena",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Bollgatan 1, 352 27 Växjö",
+    "city": "Växjö",
+    "lat": 56.8800859,
+    "lon": 14.7768945,
+    "season_verified": "2026"
+  },
+  "Östersund": {
+    "arena": "Jämtkraft Arena",
+    "status": "verified",
+    "method": "football_top2_verified_physical_venue",
+    "address": "Arenavägen 23, 831 32 Östersund",
+    "city": "Östersund",
+    "lat": 63.194871,
+    "lon": 14.6558338,
+    "season_verified": "2026"
+  }
+}

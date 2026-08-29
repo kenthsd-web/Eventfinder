@@ -1,0 +1,734 @@
+[
+  {
+    "team": "AIK",
+    "count": 4,
+    "events": [
+      {
+        "match_id": "6529973",
+        "namn": "AIK - Hammarby",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-30"
+      },
+      {
+        "match_id": "6529989",
+        "namn": "AIK - Västerås SK FK",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-12"
+      },
+      {
+        "match_id": "6529965",
+        "namn": "AIK - Mjällby AIF",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-16"
+      },
+      {
+        "match_id": "6530005",
+        "namn": "AIK - IF Brommapojkarna",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "team": "BK Häcken",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6529977",
+        "namn": "BK Häcken - Västerås SK FK",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-29"
+      },
+      {
+        "match_id": "6529993",
+        "namn": "BK Häcken - Mjällby AIF",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-11"
+      },
+      {
+        "match_id": "6530009",
+        "namn": "BK Häcken - Örgryte IS Fotboll",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "team": "Degerfors IF",
+    "count": 2,
+    "events": [
+      {
+        "match_id": "6529986",
+        "namn": "Degerfors IF - Halmstad",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6530001",
+        "namn": "Degerfors IF - Hammarby",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-20"
+      }
+    ]
+  },
+  {
+    "team": "Djurgården",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6529974",
+        "namn": "Djurgården - Mjällby AIF",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-31"
+      },
+      {
+        "match_id": "6529990",
+        "namn": "Djurgården - GAIS",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-14"
+      },
+      {
+        "match_id": "6529997",
+        "namn": "Djurgården - IF Elfsborg",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-20"
+      }
+    ]
+  },
+  {
+    "team": "Falkenbergs FF",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6536118",
+        "namn": "Falkenbergs FF - IK Brage",
+        "serie": "Superettan",
+        "datum": "2026-08-29"
+      },
+      {
+        "match_id": "6536134",
+        "namn": "Falkenbergs FF - Östers IF",
+        "serie": "Superettan",
+        "datum": "2026-09-10"
+      },
+      {
+        "match_id": "6536150",
+        "namn": "Falkenbergs FF - Östersund",
+        "serie": "Superettan",
+        "datum": "2026-09-18"
+      }
+    ]
+  },
+  {
+    "team": "GAIS",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6529976",
+        "namn": "GAIS - IF Brommapojkarna",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-31"
+      },
+      {
+        "match_id": "6529981",
+        "namn": "GAIS - BK Häcken",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6530008",
+        "namn": "GAIS - IK Sirius FK",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "team": "GIF Sundsvall",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6536115",
+        "namn": "GIF Sundsvall - Norrby IF",
+        "serie": "Superettan",
+        "datum": "2026-08-31"
+      },
+      {
+        "match_id": "6536131",
+        "namn": "GIF Sundsvall - Örebro",
+        "serie": "Superettan",
+        "datum": "2026-09-10"
+      },
+      {
+        "match_id": "6536147",
+        "namn": "GIF Sundsvall - Ljungskile SK Herrfotboll",
+        "serie": "Superettan",
+        "datum": "2026-09-20"
+      }
+    ]
+  },
+  {
+    "team": "Halmstad",
+    "count": 2,
+    "events": [
+      {
+        "match_id": "6529980",
+        "namn": "Halmstad - Kalmar FF",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-29"
+      },
+      {
+        "match_id": "6530004",
+        "namn": "Halmstad - AIK",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-20"
+      }
+    ]
+  },
+  {
+    "team": "Hammarby",
+    "count": 2,
+    "events": [
+      {
+        "match_id": "6529991",
+        "namn": "Hammarby - IF Brommapojkarna",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-13"
+      },
+      {
+        "match_id": "6530006",
+        "namn": "Hammarby - Djurgården",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "team": "Helsingborgs IF",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6536113",
+        "namn": "Helsingborgs IF - Örebro",
+        "serie": "Superettan",
+        "datum": "2026-09-01"
+      },
+      {
+        "match_id": "6536120",
+        "namn": "Helsingborgs IF - Sandvikens IF",
+        "serie": "Superettan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6536144",
+        "namn": "Helsingborgs IF - Norrby IF",
+        "serie": "Superettan",
+        "datum": "2026-09-20"
+      }
+    ]
+  },
+  {
+    "team": "IF Brommapojkarna",
+    "count": 2,
+    "events": [
+      {
+        "match_id": "6529985",
+        "namn": "IF Brommapojkarna - IF Elfsborg",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-06"
+      },
+      {
+        "match_id": "6530000",
+        "namn": "IF Brommapojkarna - IFK Göteborg",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-19"
+      }
+    ]
+  },
+  {
+    "team": "IF Elfsborg",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6529978",
+        "namn": "IF Elfsborg - Degerfors IF",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-29"
+      },
+      {
+        "match_id": "6529995",
+        "namn": "IF Elfsborg - Kalmar FF",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-13"
+      },
+      {
+        "match_id": "6530012",
+        "namn": "IF Elfsborg - Halmstad",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-12"
+      }
+    ]
+  },
+  {
+    "team": "IFK Göteborg",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6529975",
+        "namn": "IFK Göteborg - Örgryte IS Fotboll",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-30"
+      },
+      {
+        "match_id": "6529992",
+        "namn": "IFK Göteborg - Halmstad",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-12"
+      },
+      {
+        "match_id": "6530007",
+        "namn": "IFK Göteborg - Västerås SK FK",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-09"
+      }
+    ]
+  },
+  {
+    "team": "IFK Norrköping FK",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6536121",
+        "namn": "IFK Norrköping FK - Ljungskile SK Herrfotboll",
+        "serie": "Superettan",
+        "datum": "2026-09-04"
+      },
+      {
+        "match_id": "6536137",
+        "namn": "IFK Norrköping FK - IK Oddevold",
+        "serie": "Superettan",
+        "datum": "2026-09-13"
+      },
+      {
+        "match_id": "6536153",
+        "namn": "IFK Norrköping FK - GIF Sundsvall",
+        "serie": "Superettan",
+        "datum": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "team": "IFK Värnamo",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6536122",
+        "namn": "IFK Värnamo - Varbergs BoIS FC",
+        "serie": "Superettan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6536138",
+        "namn": "IFK Värnamo - Östers IF",
+        "serie": "Superettan",
+        "datum": "2026-09-15"
+      },
+      {
+        "match_id": "6536154",
+        "namn": "IFK Värnamo - Falkenbergs FF",
+        "serie": "Superettan",
+        "datum": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "team": "IK Brage",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6536127",
+        "namn": "IK Brage - GIF Sundsvall",
+        "serie": "Superettan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6536143",
+        "namn": "IK Brage - Sandvikens IF",
+        "serie": "Superettan",
+        "datum": "2026-09-15"
+      },
+      {
+        "match_id": "6536159",
+        "namn": "IK Brage - Helsingborgs IF",
+        "serie": "Superettan",
+        "datum": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "team": "IK Oddevold",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6536125",
+        "namn": "IK Oddevold - Falkenbergs FF",
+        "serie": "Superettan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6536146",
+        "namn": "IK Oddevold - IFK Värnamo",
+        "serie": "Superettan",
+        "datum": "2026-09-19"
+      },
+      {
+        "match_id": "6536156",
+        "namn": "IK Oddevold - Nordic United FC",
+        "serie": "Superettan",
+        "datum": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "team": "IK Sirius FK",
+    "count": 2,
+    "events": [
+      {
+        "match_id": "6529979",
+        "namn": "IK Sirius FK - Malmö FF",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-31"
+      },
+      {
+        "match_id": "6529996",
+        "namn": "IK Sirius FK - Degerfors IF",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "team": "Kalmar FF",
+    "count": 2,
+    "events": [
+      {
+        "match_id": "6529988",
+        "namn": "Kalmar FF - Djurgården",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-07"
+      },
+      {
+        "match_id": "6530003",
+        "namn": "Kalmar FF - BK Häcken",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-20"
+      }
+    ]
+  },
+  {
+    "team": "Landskrona BoIS",
+    "count": 4,
+    "events": [
+      {
+        "match_id": "6536112",
+        "namn": "Landskrona BoIS - Östersund",
+        "serie": "Superettan",
+        "datum": "2026-08-29"
+      },
+      {
+        "match_id": "6536128",
+        "namn": "Landskrona BoIS - Helsingborgs IF",
+        "serie": "Superettan",
+        "datum": "2026-09-09"
+      },
+      {
+        "match_id": "6536136",
+        "namn": "Landskrona BoIS - GIF Sundsvall",
+        "serie": "Superettan",
+        "datum": "2026-09-15"
+      },
+      {
+        "match_id": "6536152",
+        "namn": "Landskrona BoIS - Sandvikens IF",
+        "serie": "Superettan",
+        "datum": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "team": "Ljungskile SK Herrfotboll",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6536114",
+        "namn": "Ljungskile SK Herrfotboll - IFK Värnamo",
+        "serie": "Superettan",
+        "datum": "2026-08-29"
+      },
+      {
+        "match_id": "6536129",
+        "namn": "Ljungskile SK Herrfotboll - Norrby IF",
+        "serie": "Superettan",
+        "datum": "2026-09-09"
+      },
+      {
+        "match_id": "6536140",
+        "namn": "Ljungskile SK Herrfotboll - Falkenbergs FF",
+        "serie": "Superettan",
+        "datum": "2026-09-13"
+      }
+    ]
+  },
+  {
+    "team": "Malmö FF",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6529984",
+        "namn": "Malmö FF - AIK",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-07"
+      },
+      {
+        "match_id": "6529994",
+        "namn": "Malmö FF - Örgryte IS Fotboll",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-13"
+      },
+      {
+        "match_id": "6530011",
+        "namn": "Malmö FF - Kalmar FF",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-12"
+      }
+    ]
+  },
+  {
+    "team": "Mjällby AIF",
+    "count": 4,
+    "events": [
+      {
+        "match_id": "6529905",
+        "namn": "Mjällby AIF - Djurgården",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-03"
+      },
+      {
+        "match_id": "6529983",
+        "namn": "Mjällby AIF - IFK Göteborg",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-07"
+      },
+      {
+        "match_id": "6529999",
+        "namn": "Mjällby AIF - GAIS",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-20"
+      },
+      {
+        "match_id": "6530010",
+        "namn": "Mjällby AIF - Degerfors IF",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "team": "Nordic United FC",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6536119",
+        "namn": "Nordic United FC - IFK Norrköping FK",
+        "serie": "Superettan",
+        "datum": "2026-08-29"
+      },
+      {
+        "match_id": "6536135",
+        "namn": "Nordic United FC - IFK Värnamo",
+        "serie": "Superettan",
+        "datum": "2026-09-09"
+      },
+      {
+        "match_id": "6536151",
+        "namn": "Nordic United FC - Landskrona BoIS",
+        "serie": "Superettan",
+        "datum": "2026-09-19"
+      }
+    ]
+  },
+  {
+    "team": "Norrby IF",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6536126",
+        "namn": "Norrby IF - Landskrona BoIS",
+        "serie": "Superettan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6536142",
+        "namn": "Norrby IF - Varbergs BoIS FC",
+        "serie": "Superettan",
+        "datum": "2026-09-14"
+      },
+      {
+        "match_id": "6536158",
+        "namn": "Norrby IF - Östers IF",
+        "serie": "Superettan",
+        "datum": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "team": "Sandvikens IF",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6536116",
+        "namn": "Sandvikens IF - Östers IF",
+        "serie": "Superettan",
+        "datum": "2026-08-30"
+      },
+      {
+        "match_id": "6536132",
+        "namn": "Sandvikens IF - IK Oddevold",
+        "serie": "Superettan",
+        "datum": "2026-09-09"
+      },
+      {
+        "match_id": "6536148",
+        "namn": "Sandvikens IF - Örebro",
+        "serie": "Superettan",
+        "datum": "2026-09-19"
+      }
+    ]
+  },
+  {
+    "team": "Varbergs BoIS FC",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6536117",
+        "namn": "Varbergs BoIS FC - IK Oddevold",
+        "serie": "Superettan",
+        "datum": "2026-08-30"
+      },
+      {
+        "match_id": "6536133",
+        "namn": "Varbergs BoIS FC - IFK Norrköping FK",
+        "serie": "Superettan",
+        "datum": "2026-09-10"
+      },
+      {
+        "match_id": "6536149",
+        "namn": "Varbergs BoIS FC - IK Brage",
+        "serie": "Superettan",
+        "datum": "2026-09-19"
+      }
+    ]
+  },
+  {
+    "team": "Västerås SK FK",
+    "count": 2,
+    "events": [
+      {
+        "match_id": "6529987",
+        "namn": "Västerås SK FK - IK Sirius FK",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6530002",
+        "namn": "Västerås SK FK - Malmö FF",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-19"
+      }
+    ]
+  },
+  {
+    "team": "Örebro",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6536124",
+        "namn": "Örebro - Östersund",
+        "serie": "Superettan",
+        "datum": "2026-09-07"
+      },
+      {
+        "match_id": "6536139",
+        "namn": "Örebro - Nordic United FC",
+        "serie": "Superettan",
+        "datum": "2026-09-14"
+      },
+      {
+        "match_id": "6536155",
+        "namn": "Örebro - Ljungskile SK Herrfotboll",
+        "serie": "Superettan",
+        "datum": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "team": "Örgryte IS Fotboll",
+    "count": 2,
+    "events": [
+      {
+        "match_id": "6529982",
+        "namn": "Örgryte IS Fotboll - Hammarby",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-06"
+      },
+      {
+        "match_id": "6529998",
+        "namn": "Örgryte IS Fotboll - IK Sirius FK",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-19"
+      }
+    ]
+  },
+  {
+    "team": "Östers IF",
+    "count": 2,
+    "events": [
+      {
+        "match_id": "6536123",
+        "namn": "Östers IF - Nordic United FC",
+        "serie": "Superettan",
+        "datum": "2026-09-04"
+      },
+      {
+        "match_id": "6536145",
+        "namn": "Östers IF - IFK Norrköping FK",
+        "serie": "Superettan",
+        "datum": "2026-09-19"
+      }
+    ]
+  },
+  {
+    "team": "Östersund",
+    "count": 3,
+    "events": [
+      {
+        "match_id": "6536130",
+        "namn": "Östersund - IK Brage",
+        "serie": "Superettan",
+        "datum": "2026-09-10"
+      },
+      {
+        "match_id": "6536141",
+        "namn": "Östersund - Helsingborgs IF",
+        "serie": "Superettan",
+        "datum": "2026-09-14"
+      },
+      {
+        "match_id": "6536157",
+        "namn": "Östersund - Varbergs BoIS FC",
+        "serie": "Superettan",
+        "datum": "2026-10-10"
+      }
+    ]
+  }
+]

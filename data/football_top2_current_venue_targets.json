@@ -1,0 +1,948 @@
+[
+  {
+    "team": "AIK",
+    "matches": 4,
+    "events": [
+      {
+        "match_id": "6529973",
+        "namn": "AIK - Hammarby",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-30"
+      },
+      {
+        "match_id": "6529989",
+        "namn": "AIK - Västerås SK FK",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-12"
+      },
+      {
+        "match_id": "6529965",
+        "namn": "AIK - Mjällby AIF",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-16"
+      },
+      {
+        "match_id": "6530005",
+        "namn": "AIK - IF Brommapojkarna",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-10"
+      }
+    ],
+    "historical_candidate": "Friends Arena",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=384",
+    "needs_current_venue_resolution": true,
+    "source_city": "Solna",
+    "source_municipality": "Solna Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=384"
+  },
+  {
+    "team": "BK Häcken",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6529977",
+        "namn": "BK Häcken - Västerås SK FK",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-29"
+      },
+      {
+        "match_id": "6529993",
+        "namn": "BK Häcken - Mjällby AIF",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-11"
+      },
+      {
+        "match_id": "6530009",
+        "namn": "BK Häcken - Örgryte IS Fotboll",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-11"
+      }
+    ],
+    "historical_candidate": "Rambergsvallen",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=2295",
+    "needs_current_venue_resolution": true,
+    "source_city": "Göteborg",
+    "source_municipality": "Göteborgs Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=2295"
+  },
+  {
+    "team": "Degerfors IF",
+    "matches": 2,
+    "events": [
+      {
+        "match_id": "6529986",
+        "namn": "Degerfors IF - Halmstad",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6530001",
+        "namn": "Degerfors IF - Hammarby",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-20"
+      }
+    ],
+    "historical_candidate": "Stora Valla",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=3702",
+    "needs_current_venue_resolution": true,
+    "source_city": "Degerfors",
+    "source_municipality": "Degerfors Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=3702"
+  },
+  {
+    "team": "Djurgården",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6529974",
+        "namn": "Djurgården - Mjällby AIF",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-31"
+      },
+      {
+        "match_id": "6529990",
+        "namn": "Djurgården - GAIS",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-14"
+      },
+      {
+        "match_id": "6529997",
+        "namn": "Djurgården - IF Elfsborg",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-20"
+      }
+    ],
+    "historical_candidate": null,
+    "historical_source": null,
+    "needs_current_venue_resolution": true,
+    "source_city": "Stockholm",
+    "source_municipality": "Stockholms Kommun",
+    "location_source": "verified_team_location_seed",
+    "official_current_venue": "3Arena",
+    "official_current_source": "https://www.dif.se/nyheter/2026/angaende-kommande-spelschema-i-allsvenskan"
+  },
+  {
+    "team": "Falkenbergs FF",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6536118",
+        "namn": "Falkenbergs FF - IK Brage",
+        "serie": "Superettan",
+        "datum": "2026-08-29"
+      },
+      {
+        "match_id": "6536134",
+        "namn": "Falkenbergs FF - Östers IF",
+        "serie": "Superettan",
+        "datum": "2026-09-10"
+      },
+      {
+        "match_id": "6536150",
+        "namn": "Falkenbergs FF - Östersund",
+        "serie": "Superettan",
+        "datum": "2026-09-18"
+      }
+    ],
+    "historical_candidate": "Falkenbergs IP",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=4353",
+    "needs_current_venue_resolution": true,
+    "source_city": "Falkenberg",
+    "source_municipality": "Falkenbergs Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=4353"
+  },
+  {
+    "team": "GAIS",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6529976",
+        "namn": "GAIS - IF Brommapojkarna",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-31"
+      },
+      {
+        "match_id": "6529981",
+        "namn": "GAIS - BK Häcken",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6530008",
+        "namn": "GAIS - IK Sirius FK",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-10"
+      }
+    ],
+    "historical_candidate": null,
+    "historical_source": null,
+    "needs_current_venue_resolution": true,
+    "source_city": "Göteborg",
+    "source_municipality": "Göteborgs Kommun",
+    "location_source": "verified_team_location_seed"
+  },
+  {
+    "team": "GIF Sundsvall",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6536115",
+        "namn": "GIF Sundsvall - Norrby IF",
+        "serie": "Superettan",
+        "datum": "2026-08-31"
+      },
+      {
+        "match_id": "6536131",
+        "namn": "GIF Sundsvall - Örebro",
+        "serie": "Superettan",
+        "datum": "2026-09-10"
+      },
+      {
+        "match_id": "6536147",
+        "namn": "GIF Sundsvall - Ljungskile SK Herrfotboll",
+        "serie": "Superettan",
+        "datum": "2026-09-20"
+      }
+    ],
+    "historical_candidate": "Sundsvalls Idrottspark 1903-2001/Sundsvalls Park Arena 02-05/Norrporten Arena 06-",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=4477",
+    "needs_current_venue_resolution": true,
+    "source_city": "Sundsvall",
+    "source_municipality": "Sundsvalls Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=4477"
+  },
+  {
+    "team": "Halmstad",
+    "matches": 2,
+    "events": [
+      {
+        "match_id": "6529980",
+        "namn": "Halmstad - Kalmar FF",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-29"
+      },
+      {
+        "match_id": "6530004",
+        "namn": "Halmstad - AIK",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-20"
+      }
+    ],
+    "historical_candidate": null,
+    "historical_source": null,
+    "needs_current_venue_resolution": true,
+    "source_city": "Halmstad",
+    "source_municipality": "Halmstads Kommun",
+    "location_source": "verified_team_location_seed"
+  },
+  {
+    "team": "Hammarby",
+    "matches": 2,
+    "events": [
+      {
+        "match_id": "6529991",
+        "namn": "Hammarby - IF Brommapojkarna",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-13"
+      },
+      {
+        "match_id": "6530006",
+        "namn": "Hammarby - Djurgården",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-11"
+      }
+    ],
+    "historical_candidate": null,
+    "historical_source": null,
+    "needs_current_venue_resolution": true,
+    "source_city": "Stockholm",
+    "source_municipality": "Stockholms Kommun",
+    "location_source": "verified_team_location_seed",
+    "official_current_venue": "3Arena",
+    "official_current_verified": true
+  },
+  {
+    "team": "Helsingborgs IF",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6536113",
+        "namn": "Helsingborgs IF - Örebro",
+        "serie": "Superettan",
+        "datum": "2026-09-01"
+      },
+      {
+        "match_id": "6536120",
+        "namn": "Helsingborgs IF - Sandvikens IF",
+        "serie": "Superettan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6536144",
+        "namn": "Helsingborgs IF - Norrby IF",
+        "serie": "Superettan",
+        "datum": "2026-09-20"
+      }
+    ],
+    "historical_candidate": "Olympia",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=7541",
+    "needs_current_venue_resolution": true,
+    "source_city": "Helsingborg",
+    "source_municipality": "Helsingborgs Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=7541"
+  },
+  {
+    "team": "IF Brommapojkarna",
+    "matches": 2,
+    "events": [
+      {
+        "match_id": "6529985",
+        "namn": "IF Brommapojkarna - IF Elfsborg",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-06"
+      },
+      {
+        "match_id": "6530000",
+        "namn": "IF Brommapojkarna - IFK Göteborg",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-19"
+      }
+    ],
+    "historical_candidate": "Ängby IP/Grimsta IP",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=1019",
+    "needs_current_venue_resolution": true,
+    "source_city": "Stockholm",
+    "source_municipality": "Stockholms Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=1019",
+    "official_current_venue": "Grimsta IP 1",
+    "official_current_source": "https://www.bpungdom.se/match/?ID=409549"
+  },
+  {
+    "team": "IF Elfsborg",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6529978",
+        "namn": "IF Elfsborg - Degerfors IF",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-29"
+      },
+      {
+        "match_id": "6529995",
+        "namn": "IF Elfsborg - Kalmar FF",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-13"
+      },
+      {
+        "match_id": "6530012",
+        "namn": "IF Elfsborg - Halmstad",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-12"
+      }
+    ],
+    "historical_candidate": "Ryavallen -04/Borås Arena 05-",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=3248",
+    "needs_current_venue_resolution": true,
+    "source_city": "Borås",
+    "source_municipality": "Borås Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=3248"
+  },
+  {
+    "team": "IFK Göteborg",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6529975",
+        "namn": "IFK Göteborg - Örgryte IS Fotboll",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-30"
+      },
+      {
+        "match_id": "6529992",
+        "namn": "IFK Göteborg - Halmstad",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-12"
+      },
+      {
+        "match_id": "6530007",
+        "namn": "IFK Göteborg - Västerås SK FK",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-09"
+      }
+    ],
+    "historical_candidate": "Göteborgs IP 1910-11/Walhalla IP 1911-17/Ullevi 1916-30/Slottsskogsvallen 1923-32/Ullevi 1932-59/Nya Ullevi 1958-91, 98-00, 02-08/Gamla Ullevi 1992-06/Gamla Ullevi 2 2009-",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=5692",
+    "needs_current_venue_resolution": true,
+    "source_city": "Göteborg",
+    "source_municipality": "Göteborgs Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=5692"
+  },
+  {
+    "team": "IFK Norrköping FK",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6536121",
+        "namn": "IFK Norrköping FK - Ljungskile SK Herrfotboll",
+        "serie": "Superettan",
+        "datum": "2026-09-04"
+      },
+      {
+        "match_id": "6536137",
+        "namn": "IFK Norrköping FK - IK Oddevold",
+        "serie": "Superettan",
+        "datum": "2026-09-13"
+      },
+      {
+        "match_id": "6536153",
+        "namn": "IFK Norrköping FK - GIF Sundsvall",
+        "serie": "Superettan",
+        "datum": "2026-10-13"
+      }
+    ],
+    "historical_candidate": null,
+    "historical_source": null,
+    "needs_current_venue_resolution": true,
+    "source_city": "Norrköping",
+    "source_municipality": "Norrköpings Kommun",
+    "location_source": "verified_team_location_seed"
+  },
+  {
+    "team": "IFK Värnamo",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6536122",
+        "namn": "IFK Värnamo - Varbergs BoIS FC",
+        "serie": "Superettan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6536138",
+        "namn": "IFK Värnamo - Östers IF",
+        "serie": "Superettan",
+        "datum": "2026-09-15"
+      },
+      {
+        "match_id": "6536154",
+        "namn": "IFK Värnamo - Falkenbergs FF",
+        "serie": "Superettan",
+        "datum": "2026-10-11"
+      }
+    ],
+    "historical_candidate": "Finnvedsvallen",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=8796",
+    "needs_current_venue_resolution": true,
+    "source_city": "Värnamo",
+    "source_municipality": "Värnamo Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=8796",
+    "official_current_venue": "Finnvedsvallen",
+    "official_current_verified": true
+  },
+  {
+    "team": "IK Brage",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6536127",
+        "namn": "IK Brage - GIF Sundsvall",
+        "serie": "Superettan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6536143",
+        "namn": "IK Brage - Sandvikens IF",
+        "serie": "Superettan",
+        "datum": "2026-09-15"
+      },
+      {
+        "match_id": "6536159",
+        "namn": "IK Brage - Helsingborgs IF",
+        "serie": "Superettan",
+        "datum": "2026-10-11"
+      }
+    ],
+    "historical_candidate": "Domnarvsvallen",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=5117",
+    "needs_current_venue_resolution": true,
+    "source_city": "Borlänge",
+    "source_municipality": "Borlänge Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=5117",
+    "official_current_venue": "Borlänge Energi Arena",
+    "official_current_verified": true
+  },
+  {
+    "team": "IK Oddevold",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6536125",
+        "namn": "IK Oddevold - Falkenbergs FF",
+        "serie": "Superettan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6536146",
+        "namn": "IK Oddevold - IFK Värnamo",
+        "serie": "Superettan",
+        "datum": "2026-09-19"
+      },
+      {
+        "match_id": "6536156",
+        "namn": "IK Oddevold - Nordic United FC",
+        "serie": "Superettan",
+        "datum": "2026-10-10"
+      }
+    ],
+    "historical_candidate": "Rimnersvallen",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=4920",
+    "needs_current_venue_resolution": true,
+    "source_city": "Uddevalla",
+    "source_municipality": "Uddevalla Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=4920",
+    "official_current_venue": "Rimnersvallen",
+    "official_current_verified": true
+  },
+  {
+    "team": "IK Sirius FK",
+    "matches": 2,
+    "events": [
+      {
+        "match_id": "6529979",
+        "namn": "IK Sirius FK - Malmö FF",
+        "serie": "Allsvenskan",
+        "datum": "2026-08-31"
+      },
+      {
+        "match_id": "6529996",
+        "namn": "IK Sirius FK - Degerfors IF",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-14"
+      }
+    ],
+    "historical_candidate": null,
+    "historical_source": null,
+    "needs_current_venue_resolution": true,
+    "source_city": "Uppsala",
+    "source_municipality": "Uppsala Kommun",
+    "location_source": "verified_team_location_seed"
+  },
+  {
+    "team": "Kalmar FF",
+    "matches": 2,
+    "events": [
+      {
+        "match_id": "6529988",
+        "namn": "Kalmar FF - Djurgården",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-07"
+      },
+      {
+        "match_id": "6530003",
+        "namn": "Kalmar FF - BK Häcken",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-20"
+      }
+    ],
+    "historical_candidate": "Fredriksskans -2010/Guldfågeln Arena 2011-",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=8516",
+    "needs_current_venue_resolution": true,
+    "source_city": "Kalmar",
+    "source_municipality": "Kalmar Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=8516"
+  },
+  {
+    "team": "Landskrona BoIS",
+    "matches": 4,
+    "events": [
+      {
+        "match_id": "6536112",
+        "namn": "Landskrona BoIS - Östersund",
+        "serie": "Superettan",
+        "datum": "2026-08-29"
+      },
+      {
+        "match_id": "6536128",
+        "namn": "Landskrona BoIS - Helsingborgs IF",
+        "serie": "Superettan",
+        "datum": "2026-09-09"
+      },
+      {
+        "match_id": "6536136",
+        "namn": "Landskrona BoIS - GIF Sundsvall",
+        "serie": "Superettan",
+        "datum": "2026-09-15"
+      },
+      {
+        "match_id": "6536152",
+        "namn": "Landskrona BoIS - Sandvikens IF",
+        "serie": "Superettan",
+        "datum": "2026-10-10"
+      }
+    ],
+    "historical_candidate": "Landskrona IP",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=7837",
+    "needs_current_venue_resolution": true,
+    "source_city": "Landskrona",
+    "source_municipality": "Landskrona Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=7837",
+    "official_current_venue": "Landskrona IP",
+    "official_current_verified": true
+  },
+  {
+    "team": "Ljungskile SK Herrfotboll",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6536114",
+        "namn": "Ljungskile SK Herrfotboll - IFK Värnamo",
+        "serie": "Superettan",
+        "datum": "2026-08-29"
+      },
+      {
+        "match_id": "6536129",
+        "namn": "Ljungskile SK Herrfotboll - Norrby IF",
+        "serie": "Superettan",
+        "datum": "2026-09-09"
+      },
+      {
+        "match_id": "6536140",
+        "namn": "Ljungskile SK Herrfotboll - Falkenbergs FF",
+        "serie": "Superettan",
+        "datum": "2026-09-13"
+      }
+    ],
+    "historical_candidate": null,
+    "historical_source": null,
+    "needs_current_venue_resolution": true,
+    "source_city": "Ljungskile",
+    "source_municipality": "Uddevalla Kommun",
+    "location_source": "verified_team_location_seed"
+  },
+  {
+    "team": "Malmö FF",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6529984",
+        "namn": "Malmö FF - AIK",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-07"
+      },
+      {
+        "match_id": "6529994",
+        "namn": "Malmö FF - Örgryte IS Fotboll",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-13"
+      },
+      {
+        "match_id": "6530011",
+        "namn": "Malmö FF - Kalmar FF",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-12"
+      }
+    ],
+    "historical_candidate": "Malmö IP 1920-58/Malmö Stadion 58-2008/Swedbank Stadion 09-",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=4433",
+    "needs_current_venue_resolution": true,
+    "source_city": "Malmö",
+    "source_municipality": "Malmö Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=4433"
+  },
+  {
+    "team": "Mjällby AIF",
+    "matches": 4,
+    "events": [
+      {
+        "match_id": "6529905",
+        "namn": "Mjällby AIF - Djurgården",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-03"
+      },
+      {
+        "match_id": "6529983",
+        "namn": "Mjällby AIF - IFK Göteborg",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-07"
+      },
+      {
+        "match_id": "6529999",
+        "namn": "Mjällby AIF - GAIS",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-20"
+      },
+      {
+        "match_id": "6530010",
+        "namn": "Mjällby AIF - Degerfors IF",
+        "serie": "Allsvenskan",
+        "datum": "2026-10-10"
+      }
+    ],
+    "historical_candidate": "Strandvallen",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=4828",
+    "needs_current_venue_resolution": true,
+    "source_city": "Hällevik",
+    "source_municipality": "Sölvesborgs Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=4828",
+    "official_current_venue": "Strandvallen",
+    "official_current_source": "https://solvesborg.se/"
+  },
+  {
+    "team": "Nordic United FC",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6536119",
+        "namn": "Nordic United FC - IFK Norrköping FK",
+        "serie": "Superettan",
+        "datum": "2026-08-29"
+      },
+      {
+        "match_id": "6536135",
+        "namn": "Nordic United FC - IFK Värnamo",
+        "serie": "Superettan",
+        "datum": "2026-09-09"
+      },
+      {
+        "match_id": "6536151",
+        "namn": "Nordic United FC - Landskrona BoIS",
+        "serie": "Superettan",
+        "datum": "2026-09-19"
+      }
+    ],
+    "historical_candidate": "Södertälje Fotbollsarena",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=11346",
+    "needs_current_venue_resolution": true,
+    "source_city": "Södertälje",
+    "source_municipality": "Södertälje Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=11346"
+  },
+  {
+    "team": "Norrby IF",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6536126",
+        "namn": "Norrby IF - Landskrona BoIS",
+        "serie": "Superettan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6536142",
+        "namn": "Norrby IF - Varbergs BoIS FC",
+        "serie": "Superettan",
+        "datum": "2026-09-14"
+      },
+      {
+        "match_id": "6536158",
+        "namn": "Norrby IF - Östers IF",
+        "serie": "Superettan",
+        "datum": "2026-10-10"
+      }
+    ],
+    "historical_candidate": "Ryavallen -2004, Borås Arena 2005-",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=3621",
+    "needs_current_venue_resolution": true,
+    "source_city": "Borås",
+    "source_municipality": "Borås Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=3621"
+  },
+  {
+    "team": "Sandvikens IF",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6536116",
+        "namn": "Sandvikens IF - Östers IF",
+        "serie": "Superettan",
+        "datum": "2026-08-30"
+      },
+      {
+        "match_id": "6536132",
+        "namn": "Sandvikens IF - IK Oddevold",
+        "serie": "Superettan",
+        "datum": "2026-09-09"
+      },
+      {
+        "match_id": "6536148",
+        "namn": "Sandvikens IF - Örebro",
+        "serie": "Superettan",
+        "datum": "2026-09-19"
+      }
+    ],
+    "historical_candidate": "Sandvikens IP/Jernvallen",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=5457",
+    "needs_current_venue_resolution": true,
+    "source_city": "Sandviken",
+    "source_municipality": "Sandvikens Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=5457",
+    "official_current_venue": "Jernvallen",
+    "official_current_verified": true
+  },
+  {
+    "team": "Varbergs BoIS FC",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6536117",
+        "namn": "Varbergs BoIS FC - IK Oddevold",
+        "serie": "Superettan",
+        "datum": "2026-08-30"
+      },
+      {
+        "match_id": "6536133",
+        "namn": "Varbergs BoIS FC - IFK Norrköping FK",
+        "serie": "Superettan",
+        "datum": "2026-09-10"
+      },
+      {
+        "match_id": "6536149",
+        "namn": "Varbergs BoIS FC - IK Brage",
+        "serie": "Superettan",
+        "datum": "2026-09-19"
+      }
+    ],
+    "historical_candidate": null,
+    "historical_source": null,
+    "needs_current_venue_resolution": true,
+    "source_city": "Varberg",
+    "source_municipality": "Varbergs Kommun",
+    "location_source": "verified_team_location_seed",
+    "official_current_venue": "Påskbergsvallen",
+    "official_current_verified": true
+  },
+  {
+    "team": "Västerås SK FK",
+    "matches": 2,
+    "events": [
+      {
+        "match_id": "6529987",
+        "namn": "Västerås SK FK - IK Sirius FK",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-05"
+      },
+      {
+        "match_id": "6530002",
+        "namn": "Västerås SK FK - Malmö FF",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-19"
+      }
+    ],
+    "historical_candidate": null,
+    "historical_source": null,
+    "needs_current_venue_resolution": true,
+    "source_city": "Västerås",
+    "source_municipality": "Västerås Kommun",
+    "location_source": "verified_team_location_seed"
+  },
+  {
+    "team": "Örebro",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6536124",
+        "namn": "Örebro - Östersund",
+        "serie": "Superettan",
+        "datum": "2026-09-07"
+      },
+      {
+        "match_id": "6536139",
+        "namn": "Örebro - Nordic United FC",
+        "serie": "Superettan",
+        "datum": "2026-09-14"
+      },
+      {
+        "match_id": "6536155",
+        "namn": "Örebro - Ljungskile SK Herrfotboll",
+        "serie": "Superettan",
+        "datum": "2026-10-11"
+      }
+    ],
+    "historical_candidate": null,
+    "historical_source": null,
+    "needs_current_venue_resolution": true,
+    "source_city": "Örebro",
+    "source_municipality": "Örebro Kommun",
+    "location_source": "verified_team_location_seed"
+  },
+  {
+    "team": "Örgryte IS Fotboll",
+    "matches": 2,
+    "events": [
+      {
+        "match_id": "6529982",
+        "namn": "Örgryte IS Fotboll - Hammarby",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-06"
+      },
+      {
+        "match_id": "6529998",
+        "namn": "Örgryte IS Fotboll - IK Sirius FK",
+        "serie": "Allsvenskan",
+        "datum": "2026-09-19"
+      }
+    ],
+    "historical_candidate": null,
+    "historical_source": null,
+    "needs_current_venue_resolution": true,
+    "source_city": "Göteborg",
+    "source_municipality": "Göteborgs Kommun",
+    "location_source": "verified_team_location_seed"
+  },
+  {
+    "team": "Östers IF",
+    "matches": 2,
+    "events": [
+      {
+        "match_id": "6536123",
+        "namn": "Östers IF - Nordic United FC",
+        "serie": "Superettan",
+        "datum": "2026-09-04"
+      },
+      {
+        "match_id": "6536145",
+        "namn": "Östers IF - IFK Norrköping FK",
+        "serie": "Superettan",
+        "datum": "2026-09-19"
+      }
+    ],
+    "historical_candidate": "Värendsvallen/Visma Arena",
+    "historical_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=8891",
+    "needs_current_venue_resolution": true,
+    "source_city": "Växjö",
+    "source_municipality": "Växjö Kommun",
+    "location_source": "https://www.svenskafotbollsklubbar.se/showclub.php?clubid=8891"
+  },
+  {
+    "team": "Östersund",
+    "matches": 3,
+    "events": [
+      {
+        "match_id": "6536130",
+        "namn": "Östersund - IK Brage",
+        "serie": "Superettan",
+        "datum": "2026-09-10"
+      },
+      {
+        "match_id": "6536141",
+        "namn": "Östersund - Helsingborgs IF",
+        "serie": "Superettan",
+        "datum": "2026-09-14"
+      },
+      {
+        "match_id": "6536157",
+        "namn": "Östersund - Varbergs BoIS FC",
+        "serie": "Superettan",
+        "datum": "2026-10-10"
+      }
+    ],
+    "historical_candidate": null,
+    "historical_source": null,
+    "needs_current_venue_resolution": true,
+    "source_city": "Östersund",
+    "source_municipality": "Östersunds Kommun",
+    "location_source": "verified_team_location_seed",
+    "official_current_venue": "Jämtkraft Arena",
+    "official_current_verified": true
+  }
+]
