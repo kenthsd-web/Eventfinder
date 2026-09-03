@@ -82,6 +82,24 @@ def map_events(events):
         mapped["arena"] = display_venue
         mapped["plats"] = display_venue
 
+        mapped["event_location"] = (
+            event.get("event_location")
+            or event.get("location_area")
+            or event.get("area")
+            or ""
+        )
+
+        mapped["location_type"] = (
+            event.get("location_type")
+            or ""
+        )
+
+        mapped["navigation_ready"] = (
+            event.get("navigation_ready")
+            if event.get("navigation_ready") is not None
+            else True
+        )
+
         mapped["kommun"] = (
             event.get("kommun")
             or event.get("municipality")
@@ -213,6 +231,18 @@ def build_js_events(events):
                 "location_precision": event.get(
                     "location_precision",
                     "",
+                ),
+                "event_location": event.get(
+                    "event_location",
+                    "",
+                ),
+                "location_type": event.get(
+                    "location_type",
+                    "",
+                ),
+                "navigation_ready": event.get(
+                    "navigation_ready",
+                    True,
                 ),
                 "hemmalag": event.get(
                     "hemmalag",
@@ -983,6 +1013,14 @@ header p {{
 
 .arena-popup-source a:hover {{
     text-decoration: underline;
+}}
+
+
+.arena-popup-location-note {{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.35;
 }}
 
 
@@ -3618,6 +3656,69 @@ function groupByLocation(visible) {{
 }}
 
 
+function locationHeading(event) {{
+
+    const area =
+        String(
+            event.event_location
+            || ""
+        ).trim();
+
+    const municipality =
+        String(
+            event.kommun
+            || ""
+        ).trim();
+
+
+    if (area) {{
+
+        if (
+            municipality
+            && area.toLowerCase()
+                !== municipality.toLowerCase()
+        ) {{
+            return `${{area}}, ${{municipality}}`;
+        }}
+
+        return area;
+    }}
+
+
+    return municipality
+        || "Plats";
+}}
+
+
+function isAreaOnlyLocation(event) {{
+
+    const locationType =
+        String(
+            event.location_type
+            || ""
+        )
+        .trim()
+        .toLowerCase();
+
+    const locationPrecision =
+        String(
+            event.location_precision
+            || ""
+        )
+        .trim()
+        .toLowerCase();
+
+
+    return (
+        !event.arena
+        && (
+            locationType === "area"
+            || locationPrecision === "area"
+        )
+    );
+}}
+
+
 function groupPopup(
     eventsAtLocation
 ) {{
@@ -3628,8 +3729,7 @@ function groupPopup(
 
     const arena =
         first.arena
-        || first.kommun
-        || "Plats";
+        || locationHeading(first);
 
 
     const rows =
@@ -3702,11 +3802,34 @@ function groupPopup(
                     : "";
 
 
+                const areaOnlyLocation =
+                    isAreaOnlyLocation(
+                        event
+                    );
+
+
+                const navigationAllowed =
+                    event.navigation_ready !== false
+                    && !areaOnlyLocation;
+
+
                 const directionsUrl =
-                    navigationUrl(
+                    navigationAllowed
+                    ? navigationUrl(
                         event.lat,
                         event.lon
-                    );
+                    )
+                    : "";
+
+
+                const areaLocationNote =
+                    areaOnlyLocation
+                    ? `
+                        <div class="arena-popup-location-note">
+                            Exakt mötesplats: se officiell sida
+                        </div>
+                    `
+                    : "";
 
 
                 const directionsLink =
@@ -3745,6 +3868,8 @@ function groupPopup(
                         ${{distanceText}}
 
                         ${{officialLink}}
+
+                        ${{areaLocationNote}}
 
                         ${{directionsLink}}
 
